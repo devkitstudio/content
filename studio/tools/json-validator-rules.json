@@ -1,0 +1,148 @@
+{
+  "errorTypes": {
+    "comment": {
+      "level": "auto",
+      "title": "Comment Detected",
+      "description": "Comments are not allowed in JSON.",
+      "suggestion": "Remove the comment",
+      "patterns": [
+        { "regex": "//", "type": "single-line" },
+        { "regex": "/*", "type": "multi-line" }
+      ]
+    },
+    "unquoted_key": {
+      "level": "auto",
+      "title": "Unquoted Key",
+      "description": "Property name must be in double quotes.",
+      "suggestion": "Wrap key in double quotes",
+      "pattern": "^\\s*([a-zA-Z_$][a-zA-Z0-9_$]*)\\s*:"
+    },
+    "single_quotes": {
+      "level": "auto",
+      "title": "Single Quotes",
+      "description": "JSON requires double quotes, not single quotes.",
+      "suggestion": "Replace single quotes with double quotes",
+      "pattern": "'([^']*)'"
+    },
+    "trailing_comma": {
+      "level": "auto",
+      "title": "Trailing Comma",
+      "description": "Trailing comma before closing bracket/brace.",
+      "suggestion": "Remove trailing comma",
+      "patterns": [
+        { "regex": ",\\s*[}\\]]", "type": "same-line" },
+        { "regex": ",\\s*$", "type": "cross-line", "nextLine": "^[}\\]]" }
+      ]
+    },
+    "multiple_commas": {
+      "level": "auto",
+      "title": "Multiple Commas",
+      "description": "Consecutive commas are invalid JSON syntax.",
+      "suggestion": "Remove extra commas",
+      "pattern": ",,+"
+    },
+    "missing_comma": {
+      "level": "auto",
+      "title": "Missing Comma",
+      "description": "Missing comma between properties or values.",
+      "suggestion": "Add missing comma"
+    },
+    "boolean_case": {
+      "level": "auto",
+      "title": "Invalid Boolean",
+      "description": "Boolean values must be lowercase in JSON.",
+      "suggestion": "Use \"true\" or \"false\"",
+      "pattern": "\\b(True|False)\\b",
+      "fix": { "True": "true", "False": "false" }
+    },
+    "undefined_value": {
+      "level": "auto",
+      "title": "undefined Value",
+      "description": "\"undefined\" is not a valid JSON value.",
+      "suggestion": "Replace with null",
+      "pattern": "\\bundefined\\b",
+      "replacement": "null"
+    },
+    "nan_value": {
+      "level": "auto",
+      "title": "NaN Value",
+      "description": "\"NaN\" is not a valid JSON value.",
+      "suggestion": "Replace with null",
+      "pattern": "\\bNaN\\b",
+      "replacement": "null"
+    },
+    "infinity_value": {
+      "level": "auto",
+      "title": "Infinity Value",
+      "description": "\"Infinity\" is not a valid JSON value.",
+      "suggestion": "Replace with null",
+      "pattern": "\\b-?Infinity\\b",
+      "replacement": "null"
+    },
+    "unquoted_string": {
+      "level": "auto",
+      "title": "Unquoted String Value",
+      "description": "String values must be in double quotes.",
+      "suggestion": "Wrap value in double quotes",
+      "pattern": ":\\s*([a-zA-Z_][a-zA-Z0-9_]*)\\s*(?:[,}\\]]|$)",
+      "exclude": ["true", "false", "null"]
+    },
+    "boolean_typo": {
+      "level": "choice",
+      "title": "Ambiguous Boolean",
+      "description": "Value looks like a boolean typo. Manual choice required.",
+      "suggestion": "Choose the correct value",
+      "pattern": ":\\s*(True|False|true|false|null)\\.(?!\\w)"
+    },
+    "duplicate_key": {
+      "level": "choice",
+      "title": "Duplicate Key",
+      "description": "JSON doesn't allow duplicate keys. Choose which value to keep.",
+      "suggestion": "Rename or remove one of the duplicate keys"
+    },
+    "structural_issue": {
+      "level": "manual",
+      "title": "Structural Issue",
+      "description": "Unclosed arrays/objects or mismatched brackets.",
+      "suggestion": "Check and fix the JSON structure manually"
+    },
+    "encoding_issue": {
+      "level": "manual",
+      "title": "Encoding Issue",
+      "description": "Invalid or problematic character encoding detected.",
+      "suggestion": "Fix character encoding or escape special characters"
+    },
+    "invalid_unicode": {
+      "level": "manual",
+      "title": "Invalid Unicode Escape",
+      "description": "Invalid Unicode escape sequence found.",
+      "suggestion": "Fix the Unicode escape or remove invalid characters",
+      "pattern": "\\\\u[0-9a-fA-F]{0,3}(?![0-9a-fA-F])"
+    }
+  },
+  "autoFixOrder": [
+    "comment",
+    "unquoted_key",
+    "single_quotes",
+    "trailing_comma",
+    "multiple_commas",
+    "boolean_case",
+    "undefined_value",
+    "nan_value",
+    "infinity_value",
+    "unquoted_string"
+  ],
+  "autoFixReplacements": [
+    { "find": "//.*$", "flags": "gm", "replace": "" },
+    { "find": "/\\*[\\s\\S]*?\\*/", "flags": "g", "replace": "" },
+    { "find": "(\\{|,)\\s*([a-zA-Z_$][a-zA-Z0-9_$]*)\\s*:", "flags": "g", "replace": "$1\"$2\":" },
+    { "find": "'([^'\\\\]*(\\\\.[^'\\\\]*)*)'", "flags": "g", "replace": "\"$1\"" },
+    { "find": ",(\\s*[}\\]])", "flags": "g", "replace": "$1" },
+    { "find": ",,+", "flags": "g", "replace": "," },
+    { "find": "\\bTrue\\b", "flags": "g", "replace": "true" },
+    { "find": "\\bFalse\\b", "flags": "g", "replace": "false" },
+    { "find": "\\bundefined\\b", "flags": "g", "replace": "null" },
+    { "find": "\\bNaN\\b", "flags": "g", "replace": "null" },
+    { "find": "\\b-?Infinity\\b", "flags": "g", "replace": "null" }
+  ]
+}
