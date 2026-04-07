@@ -1,0 +1,4 @@
+- [Docker Image Tagging Best Practices](https://docs.docker.com/build/building/best-practices/)
+- [Kubernetes Image Policies](https://kubernetes.io/docs/concepts/configuration/overview/#api-conventions)
+- [Container Image Immutability](https://kubernetes.io/docs/concepts/configuration/overview/#immutability-of-config)
+- [Semantic Versioning](https://semver.org/)

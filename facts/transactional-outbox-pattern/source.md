@@ -1,0 +1,3 @@
+- [Transactional Outbox Pattern](https://microservices.io/patterns/data/transactional-outbox.html)
+- [Debezium CDC](https://debezium.io/)
+- [Kafka Exactly-Once Semantics](https://kafka.apache.org/documentation/#semantics)

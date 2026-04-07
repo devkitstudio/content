@@ -1,0 +1,4 @@
+- [Patroni Documentation](https://patroni.readthedocs.io/)
+- [PostgreSQL Streaming Replication](https://www.postgresql.org/docs/current/warm-standby.html)
+- [AWS RDS Multi-AZ](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Concepts.MultiAZ.html)
+- [CockroachDB Deployment](https://www.cockroachlabs.com/docs/stable/deploy/)

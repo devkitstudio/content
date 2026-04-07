@@ -1,0 +1,26 @@
+---
+category: DevOps
+tags:
+  - terraform
+  - iac
+  - state
+  - experience
+date: 2026-04-06T00:00:00.000Z
+sections:
+  - id: solution
+    label: Solution
+    icon: Zap
+    order: 1
+  - id: pitfalls
+    label: Common Pitfalls
+    icon: AlertCircle
+    order: 2
+  - id: source
+    label: Sources
+    icon: BookOpen
+    order: 99
+---
+
+# Terraform State Management
+
+Your Terraform state file gets corrupted when two people run terraform apply at the same time. How do you manage Terraform state safely in a team?

@@ -1,0 +1,5 @@
+- [PostgreSQL EXPLAIN Documentation](https://www.postgresql.org/docs/current/sql-explain.html)
+- [Query Planning & Execution](https://www.postgresql.org/docs/current/runtime-config-query.html)
+- [Index Types & Performance](https://www.postgresql.org/docs/current/indexes.html)
+- [ANALYZE Command](https://www.postgresql.org/docs/current/sql-analyze.html)
+- [PostgreSQL Performance Tips](https://wiki.postgresql.org/wiki/Performance_Optimization)

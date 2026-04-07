@@ -1,0 +1,26 @@
+---
+category: Architecture
+tags:
+  - event-driven
+  - messaging
+  - architecture
+  - interview
+date: 2026-04-06T00:00:00.000Z
+sections:
+  - id: solution
+    label: Solution
+    icon: Lightbulb
+    order: 1
+  - id: implementation
+    label: Implementation
+    icon: Code
+    order: 2
+  - id: source
+    label: Sources
+    icon: BookOpen
+    order: 99
+---
+
+# Mixing Event-Driven and Request-Response Patterns
+
+Your event-driven system processes events asynchronously. But sometimes you need a synchronous response. How do you mix request/response with event-driven patterns?

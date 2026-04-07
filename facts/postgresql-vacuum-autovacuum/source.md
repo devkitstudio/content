@@ -1,0 +1,5 @@
+- [PostgreSQL VACUUM Documentation](https://www.postgresql.org/docs/current/sql-vacuum.html)
+- [Autovacuum Configuration](https://www.postgresql.org/docs/current/runtime-config-autovacuum.html)
+- [MVCC Concurrency Model](https://www.postgresql.org/docs/current/mvcc.html)
+- [pg_stat_user_tables View](https://www.postgresql.org/docs/current/monitoring-stats.html)
+- [PostgreSQL Maintenance Best Practices](https://wiki.postgresql.org/wiki/Performance_Optimization)

@@ -1,0 +1,5 @@
+- [SQL Standard Isolation Levels](https://en.wikipedia.org/wiki/Isolation_(database_systems))
+- [PostgreSQL Transaction Isolation](https://www.postgresql.org/docs/current/transaction-iso.html)
+- [Serializable Snapshot Isolation](https://wiki.postgresql.org/wiki/SSI)
+- [ANSI SQL Isolation Levels](https://en.wikipedia.org/wiki/Isolation_(database_systems)#Isolation_levels)
+- [Database Concurrency Control](https://www.postgresql.org/docs/current/mvcc.html)

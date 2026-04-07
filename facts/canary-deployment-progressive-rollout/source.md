@@ -1,0 +1,4 @@
+- [Istio Traffic Management](https://istio.io/latest/docs/tasks/traffic-management/traffic-shifting/)
+- [Argo Rollouts Canary](https://argoproj.github.io/argo-rollouts/)
+- [Kubernetes Deployments](https://kubernetes.io/docs/concepts/workloads/controllers/deployment/)
+- [Progressive Delivery Patterns](https://www.weave.works/blog/progressive-delivery-practices/)

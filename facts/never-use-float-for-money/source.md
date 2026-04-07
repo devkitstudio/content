@@ -1,0 +1,4 @@
+- [IEEE 754 Floating Point](https://en.wikipedia.org/wiki/IEEE_754)
+- [0.1 + 0.2 = ?](https://0.30000000000000004.com/)
+- [decimal.js Library](https://mikemcl.github.io/decimal.js/)
+- [PostgreSQL DECIMAL Type](https://www.postgresql.org/docs/current/datatype-numeric.html)

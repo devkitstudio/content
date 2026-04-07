@@ -1,0 +1,1 @@
+- [Nginx Official Docs: Controlling Nginx](https://nginx.org/en/docs/beginners_guide.html#control)

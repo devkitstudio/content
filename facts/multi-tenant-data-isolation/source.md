@@ -1,0 +1,3 @@
+- [PostgreSQL Row Level Security](https://www.postgresql.org/docs/current/ddl-rowsecurity.html)
+- [Multi-Tenancy Patterns](https://docs.microsoft.com/en-us/azure/sql-database/saas-tenancy-app-design-patterns)
+- [Auth0 Multi-Tenant Architecture](https://auth0.com/docs/get-started/architecture-scenarios/implementation-patterns/multi-tenancy)

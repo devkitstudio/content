@@ -1,0 +1,5 @@
+- [Redis Memory Optimization](https://redis.io/docs/reference/memory-optimization/)
+- [Redis Eviction Policies](https://redis.io/docs/reference/eviction/)
+- [Redis DATA TYPES](https://redis.io/docs/data-types/)
+- [Redis Memory Commands](https://redis.io/commands/memory-usage/)
+- [Redis Compression Techniques](https://redis.io/docs/management/admin-guide/)

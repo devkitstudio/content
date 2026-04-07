@@ -1,0 +1,3 @@
+- [PostgreSQL Partitioning Documentation](https://www.postgresql.org/docs/current/ddl-partitioning.html)
+- [Query Planning with Partitions](https://www.postgresql.org/docs/current/runtime-config-query.html#GUC-CONSTRAINT-EXCLUSION)
+- [Partition Maintenance](https://www.postgresql.org/docs/current/sql-createtable.html)

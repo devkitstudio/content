@@ -1,0 +1,5 @@
+- [PostgreSQL Full-Text Search](https://www.postgresql.org/docs/current/textsearch.html)
+- [pg_trgm Extension](https://www.postgresql.org/docs/current/pgtrgm.html)
+- [GIN and GiST Indexes](https://www.postgresql.org/docs/current/indexes-types.html)
+- [Elasticsearch Full-Text Search](https://www.elastic.co/guide/en/elasticsearch/reference/current/full-text-search.html)
+- [Trigram Distance Matching](https://en.wikipedia.org/wiki/Trigram)

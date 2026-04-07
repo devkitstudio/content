@@ -1,0 +1,3 @@
+- [RFC 7807 Problem Details](https://tools.ietf.org/html/rfc7807)
+- [Express Error Handling](https://expressjs.com/en/guide/error-handling.html)
+- [HTTP Status Codes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status)

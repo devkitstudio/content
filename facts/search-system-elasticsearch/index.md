@@ -1,0 +1,26 @@
+---
+category: Architecture
+tags:
+  - elasticsearch
+  - search
+  - scalability
+  - interview
+date: 2026-04-06T00:00:00.000Z
+sections:
+  - id: solution
+    label: Solution
+    icon: Lightbulb
+    order: 1
+  - id: implementation
+    label: Implementation
+    icon: Code
+    order: 2
+  - id: source
+    label: Sources
+    icon: BookOpen
+    order: 99
+---
+
+# Search System Architecture with Elasticsearch
+
+Your e-commerce search needs to be fast, support filters, facets, and fuzzy matching. The database can't handle it. How do you architect a search system with Elasticsearch?

@@ -1,0 +1,4 @@
+- [Node.js Stream Documentation](https://nodejs.org/api/stream.html)
+- [Node.js Stream Handbook](https://github.com/substack/stream-handbook)
+- [Backpressure Guide](https://nodejs.org/en/docs/guides/backpressuring-in-streams/)
+- [csv-parse Library](https://csv.js.org/parse/)

@@ -1,0 +1,6 @@
+- [PostgreSQL ALTER TABLE Reference](https://www.postgresql.org/docs/current/sql-altertable.html)
+- [CREATE INDEX CONCURRENTLY](https://www.postgresql.org/docs/current/sql-createindex.html#SQL-CREATEINDEX-CONCURRENTLY)
+- [NOT VALID Constraints](https://www.postgresql.org/docs/current/sql-altertable.html#SQL-ALTERTABLE-NOTES)
+- [PostgreSQL 12 Generated Columns](https://www.postgresql.org/docs/release/12.0/)
+- [Liquibase Database Migrations](https://docs.liquibase.com/)
+- [Flyway Database Migrations](https://flywaydb.org/)

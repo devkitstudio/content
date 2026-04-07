@@ -1,0 +1,3 @@
+- [LaunchDarkly Feature Flags](https://launchdarkly.com/blog/what-are-feature-flags/)
+- [Feature Flag Best Practices](https://www.getunleash.io/blog/feature-flags-best-practices)
+- [Canary Deployments with Feature Flags](https://martinfowler.com/articles/feature-toggles.html)

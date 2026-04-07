@@ -1,0 +1,4 @@
+- [WCAG 2.1 Guidelines](https://www.w3.org/WAI/WCAG21/quickref/)
+- [React Accessibility Docs](https://react.dev/learn/accessibility)
+- [axe DevTools](https://www.deque.com/axe/devtools/)
+- [WebAIM Articles](https://webaim.org/)

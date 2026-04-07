@@ -1,0 +1,5 @@
+- [PostgreSQL JSONB Data Type](https://www.postgresql.org/docs/current/datatype-json.html)
+- [JSONB Operators and Functions](https://www.postgresql.org/docs/current/functions-json.html)
+- [GIN Indexes for JSONB](https://www.postgresql.org/docs/current/indexes-types.html#INDEXES-GIN)
+- [Expression Indexes](https://www.postgresql.org/docs/current/indexes-expressional.html)
+- [JSONB Performance Guide](https://www.postgresql.org/docs/current/ddl-constraints.html#DDL-CONSTRAINTS-CHECK-CONSTRAINTS)

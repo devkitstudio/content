@@ -1,0 +1,2415 @@
+---
+title: Facts Content Plan
+description: Master plan for 2000 facts — track progress, assign topics, batch generation
+updated: 2026-04-06
+total_target: 2000
+---
+
+# DONE — 15 facts đã có
+
+---
+- fact: 0001
+- status: DONE
+- category: DevOps
+- slug: restart-nginx-no-downtime
+- question: There is heavy incoming traffic. If I modify the config, is there a way to restart Nginx without dropping connections?
+---
+---
+- fact: 0002
+- status: DONE
+- category: Database
+- slug: n-plus-one-query-problem
+- question: Your ORM loads a list of 100 orders, then fires 100 separate SQL queries to get each order's items. Why is this N+1 pattern devastating at scale, and how do you fix it?
+---
+---
+- fact: 0003
+- status: DONE
+- category: Frontend
+- slug: react-useeffect-infinite-loop
+- question: You write a useEffect that fetches data and sets state, but the component re-renders infinitely. What causes useEffect infinite loops and how do you fix them?
+---
+---
+- fact: 0004
+- status: DONE
+- category: Backend
+- slug: prevent-zombie-queries-on-client-disconnect
+- question: A user hits F5 while your server is running a 30-second database query. The browser disconnects but the query keeps running. How do you prevent zombie queries?
+---
+---
+- fact: 0005
+- status: DONE
+- category: Security
+- slug: jwt-in-localstorage-xss
+- question: Every tutorial says localStorage.setItem('token', jwt). Why is this a critical vulnerability and how should you actually store JWTs?
+---
+---
+- fact: 0006
+- status: DONE
+- category: Database
+- slug: prevent-inventory-overselling-race-condition
+- question: Flash Sale — two users click Buy at the same millisecond when stock = 1. How do you prevent overselling with database race conditions?
+---
+---
+- fact: 0007
+- status: DONE
+- category: Backend
+- slug: circuit-breaker-microservices
+- question: One downstream microservice goes down. Suddenly all upstream services hang waiting for it and crash too. How do you stop cascading failures?
+---
+---
+- fact: 0008
+- status: DONE
+- category: Backend
+- slug: rate-limiting-strategies
+- question: Your public API gets 10x normal traffic. Some users are clearly abusing it. What rate limiting algorithm do you use and why?
+---
+---
+- fact: 0009
+- status: DONE
+- category: Database
+- slug: database-index-anti-patterns
+- question: Your team adds indexes to every slow query but performance gets worse. What are the most common database index anti-patterns?
+---
+---
+- fact: 0010
+- status: DONE
+- category: Frontend
+- slug: spa-memory-leak-debugging
+- question: Your React SPA gets slower the longer users stay on the page. Chrome DevTools shows memory climbing non-stop. How do you find and fix memory leaks?
+---
+---
+- fact: 0011
+- status: DONE
+- category: DevOps
+- slug: docker-container-debugging
+- question: Your container crashes on startup in production but works fine locally. docker logs shows nothing useful. How do you debug a crashing container?
+---
+---
+- fact: 0012
+- status: DONE
+- category: DevOps
+- slug: kubernetes-hpa-autoscaling-pitfalls
+- question: HPA with CPU-based scaling works normally but fails on traffic spikes — pods scale too slowly. What's wrong and how do you fix autoscaling?
+---
+---
+- fact: 0013
+- status: DONE
+- category: Architecture
+- slug: reduce-logging-cost-at-scale
+- question: Your system generates 1TB of logs per day and the bill is exploding. How do you reduce logging cost without losing observability?
+---
+---
+- fact: 0014
+- status: DONE
+- category: Backend
+- slug: idempotency-keys-in-apis
+- question: A payment API request times out. The client retries. Now the customer is charged twice. How do you make APIs idempotent?
+---
+---
+- fact: 0015
+- status: DONE
+- category: Architecture
+- slug: distributed-transactions-saga-pattern
+- question: Your order flow spans 4 microservices. Step 3 fails. How do you rollback steps 1 and 2 without a distributed database transaction?
+---
+
+# TODO — Backend (0016–0115)
+
+---
+- fact: 0016
+- status: DONE
+- category: Backend
+- slug: api-silent-empty-response
+- question: API endpoint returns 200 OK but the response body is empty. The database has data. What are the most common causes of silent empty responses?
+---
+---
+- fact: 0017
+- status: DONE
+- category: Backend
+- slug: parallelize-sequential-api-calls
+- question: Your REST API takes 3 seconds to respond because it calls 5 internal services sequentially. How do you parallelize without breaking dependencies?
+---
+---
+- fact: 0018
+- status: TODO
+- category: Backend
+- question: Two microservices need to share data. Team A wants a shared database, Team B wants API calls. What are the trade-offs of each data sharing pattern?
+---
+---
+- fact: 0019
+- status: DONE
+- category: Backend
+- slug: reliable-webhook-consumer
+- question: Your webhook endpoint receives duplicate events from Stripe/PayPal. Some events arrive out of order. How do you build a reliable webhook consumer?
+---
+---
+- fact: 0020
+- status: DONE
+- category: Backend
+- slug: async-job-processing-at-scale
+- question: You need to send 100,000 emails after a marketing campaign triggers. Doing it synchronously blocks your API for hours. How do you design async job processing?
+---
+---
+- fact: 0021
+- status: TODO
+- category: Backend
+- question: Your API returns nested JSON 10 levels deep. Frontend devs complain about overfetching. Backend devs say "just add another endpoint." Is GraphQL the answer?
+---
+---
+- fact: 0022
+- status: TODO
+- category: Backend
+- question: Two users edit the same document simultaneously. User B saves last and overwrites User A's changes. How do you implement real-time collaborative editing?
+---
+---
+- fact: 0023
+- status: TODO
+- category: Backend
+- question: Your server handles 1000 WebSocket connections fine, but at 50,000 connections memory explodes. How do you scale WebSocket servers?
+---
+---
+- fact: 0024
+- status: DONE
+- category: Backend
+- slug: meaningful-health-checks
+- question: Health check endpoint returns 200 but the service is actually broken — it can't reach the database. How do you design meaningful health checks?
+---
+---
+- fact: 0025
+- status: DONE
+- category: Backend
+- slug: api-versioning-strategies
+- question: You deploy a new API version but mobile apps still use v1. How do you manage API versioning without breaking existing clients?
+---
+---
+- fact: 0026
+- status: DONE
+- category: Backend
+- slug: cursor-based-pagination
+- question: Your REST API pagination uses OFFSET/LIMIT. At page 10,000 it takes 30 seconds. How do you implement efficient cursor-based pagination?
+---
+---
+- fact: 0027
+- status: DONE
+- category: Backend
+- slug: safe-file-upload-handling
+- question: Your file upload endpoint accepts any file up to 10GB. Someone uploads a zip bomb. How do you safely handle file uploads?
+---
+---
+- fact: 0028
+- status: DONE
+- category: Backend
+- slug: sse-vs-websocket-realtime
+- question: You need to notify 10,000 connected clients when a price changes. Polling wastes resources. How do Server-Sent Events (SSE) compare to WebSockets?
+---
+---
+- fact: 0029
+- status: TODO
+- category: Backend
+- question: Your gRPC service is 10x faster than REST internally, but the frontend team can't use it from the browser. How do you expose gRPC to web clients?
+---
+---
+- fact: 0030
+- status: TODO
+- category: Backend
+- question: Two teams deploy at the same time. Service A expects field "userName" but Service B renamed it to "username". How do you prevent breaking API contract changes?
+---
+---
+- fact: 0031
+- status: DONE
+- category: Backend
+- slug: prevent-overlapping-cron-jobs
+- question: Your cron job runs at midnight but sometimes takes 2 hours. The next execution starts before the first one finishes. How do you prevent overlapping cron jobs?
+---
+---
+- fact: 0032
+- status: DONE
+- category: Backend
+- slug: node-stream-large-file-processing
+- question: Your Node.js server processes a huge CSV file and runs out of memory. How do you handle large file processing with streams?
+---
+---
+- fact: 0033
+- status: TODO
+- category: Backend
+- question: You log request/response for debugging but accidentally log credit card numbers and passwords. How do you implement safe structured logging?
+---
+---
+- fact: 0034
+- status: DONE
+- category: Backend
+- slug: standardize-api-error-handling
+- question: Your API returns different error formats — sometimes {error: "..."}, sometimes {message: "..."}, sometimes plain text. How do you standardize API error handling?
+---
+---
+- fact: 0035
+- status: DONE
+- category: Backend
+- slug: multi-tenant-data-isolation
+- question: Your multi-tenant SaaS accidentally shows Company A's data to Company B. How do you implement proper tenant isolation?
+---
+---
+- fact: 0036
+- status: TODO
+- category: Backend
+- question: Your background job fails halfway through processing 10,000 records. When you restart, it processes all 10,000 again. How do you make batch jobs resumable?
+---
+---
+- fact: 0037
+- status: TODO
+- category: Backend
+- question: You need to call an external API that has 99.5% uptime. That 0.5% downtime crashes your entire checkout flow. How do you build resilient external API integrations?
+---
+---
+- fact: 0038
+- status: TODO
+- category: Backend
+- question: Your server handles 500 req/s but the new feature requires calling a slow ML model (2s per request). How do you avoid blocking the event loop?
+---
+---
+- fact: 0039
+- status: TODO
+- category: Backend
+- question: Your API has 200 endpoints and documentation is always out of date. How do you keep API docs in sync with the actual code?
+---
+---
+- fact: 0040
+- status: DONE
+- category: Backend
+- slug: feature-flag-system-design
+- question: Feature flags are scattered across if/else blocks everywhere. Removing old flags is terrifying. How do you implement a clean feature flag system?
+---
+---
+- fact: 0041
+- status: TODO
+- category: Backend
+- question: Your express middleware chain has 15 middlewares and a request takes 200ms just in middleware. How do you optimize middleware performance?
+---
+---
+- fact: 0042
+- status: TODO
+- category: Backend
+- question: Your API needs to support both JSON and XML responses for different clients. How do you implement content negotiation cleanly?
+---
+---
+- fact: 0043
+- status: TODO
+- category: Backend
+- question: Two microservices call each other — A depends on B which depends on A. Deployments are a nightmare. How do you break circular service dependencies?
+---
+---
+- fact: 0044
+- status: DONE
+- category: Backend
+- slug: search-system-elasticsearch
+- question: Your search endpoint searches across 5 different tables and takes 10 seconds. Elasticsearch seems overkill. What are the options for full-text search?
+---
+---
+- fact: 0045
+- status: TODO
+- category: Backend
+- question: Your Node.js app crashes with "EMFILE too many open files" under load. What causes file descriptor exhaustion and how do you fix it?
+---
+---
+- fact: 0046
+- status: TODO
+- category: Backend
+- question: You need to schedule a reminder email "3 days after user signs up." setTimeout won't survive a server restart. How do you implement delayed jobs reliably?
+---
+---
+- fact: 0047
+- status: TODO
+- category: Backend
+- question: Your service needs to process events in order but Kafka partitions deliver them out of sequence after a rebalance. How do you guarantee message ordering?
+---
+---
+- fact: 0048
+- status: DONE
+- category: Backend
+- slug: prevent-cache-stampede
+- question: You cache API responses in Redis but stale data stays forever. Cache invalidation breaks when multiple services write to the same cache. How do you design cache invalidation?
+---
+---
+- fact: 0049
+- status: TODO
+- category: Backend
+- question: Your GraphQL API lets clients request deeply nested queries that crash the server. How do you protect a GraphQL API from abuse?
+---
+---
+- fact: 0050
+- status: TODO
+- category: Backend
+- question: Your monolith has 500,000 lines of code. Management wants microservices. Where do you start decomposing without breaking everything?
+---
+---
+- fact: 0051
+- status: TODO
+- category: Backend
+- question: You store user sessions in memory. Works great on one server. With 3 servers behind a load balancer, users randomly get logged out. How do you manage distributed sessions?
+---
+---
+- fact: 0052
+- status: TODO
+- category: Backend
+- question: Your API returns 504 Gateway Timeout intermittently but only under load. The application logs show nothing. How do you debug timeout issues?
+---
+---
+- fact: 0053
+- status: TODO
+- category: Backend
+- question: You need to process a 50GB database export nightly. Loading it all into memory is impossible. How do you design ETL pipelines that handle massive datasets?
+---
+---
+- fact: 0054
+- status: TODO
+- category: Backend
+- question: Your event-driven system has events that nobody consumes anymore but producers keep sending them. How do you manage event schema evolution?
+---
+---
+- fact: 0055
+- status: TODO
+- category: Backend
+- question: Your microservice needs to talk to 3 other services to handle one request. Latency adds up. How do you implement the API Gateway/BFF pattern correctly?
+---
+---
+- fact: 0056
+- status: TODO
+- category: Backend
+- question: You use UUIDs as primary keys. At 100M rows, INSERT performance drops dramatically. Why do random UUIDs hurt database performance and what are the alternatives?
+---
+---
+- fact: 0057
+- status: TODO
+- category: Backend
+- question: Your team argues about PUT vs PATCH. Some endpoints accept partial updates with PUT, others require full objects. How do you design proper RESTful update semantics?
+---
+---
+- fact: 0058
+- status: DONE
+- category: Backend
+- slug: transactional-outbox-pattern
+- question: Your background workers consume messages from a queue. Sometimes a message gets processed but the ACK fails — now it processes twice. How do you achieve exactly-once processing?
+---
+---
+- fact: 0059
+- status: TODO
+- category: Backend
+- question: You need to send push notifications to 1 million mobile devices. Some tokens are expired, some devices are offline. How do you build a reliable push notification system?
+---
+---
+- fact: 0060
+- status: TODO
+- category: Backend
+- question: Your REST API has 50 different filter combinations on the /products endpoint. Query params become unmanageable. How do you design flexible API filtering?
+---
+---
+- fact: 0061
+- status: DONE
+- category: Backend
+- slug: transactional-outbox-pattern
+- question: Your service publishes events to Kafka but sometimes the database write succeeds and the event publish fails (or vice versa). How does the Transactional Outbox pattern solve this?
+---
+---
+- fact: 0062
+- status: TODO
+- category: Backend
+- question: Your connection pool runs out during traffic spikes. Increasing pool size just moves the bottleneck to the database. How do you properly size and manage connection pools?
+---
+---
+- fact: 0063
+- status: TODO
+- category: Backend
+- question: Your multi-region deployment needs data in US, EU, and Asia. Users expect sub-100ms latency. How do you design a globally distributed backend?
+---
+---
+- fact: 0064
+- status: TODO
+- category: Backend
+- question: You need to generate unique order numbers like ORD-20260406-00001 across distributed servers without collisions. How do you generate distributed sequential IDs?
+---
+---
+- fact: 0065
+- status: TODO
+- category: Backend
+- question: Your Go/Rust backend serves 50,000 RPS but the Node.js BFF in front of it caps at 5,000 RPS. What are the real-world performance differences between backend languages?
+---
+
+# TODO — Frontend (0066–0165)
+
+---
+- fact: 0066
+- status: DONE
+- category: Frontend
+- slug: react-code-splitting-lazy-loading
+- question: Your React app bundle is 2.5MB. First load takes 8 seconds on 3G. How do you implement code splitting and lazy loading effectively?
+---
+---
+- fact: 0067
+- status: TODO
+- category: Frontend
+- question: Users complain that your SPA feels slow when navigating between pages even though API calls are fast. What causes perceived slowness and how do you optimize it?
+---
+---
+- fact: 0068
+- status: DONE
+- category: Frontend
+- slug: fix-unnecessary-react-rerenders
+- question: Your React component re-renders 47 times when you type one character in an input. How do you diagnose and fix unnecessary re-renders?
+---
+---
+- fact: 0069
+- status: DONE
+- category: Frontend
+- slug: react-state-management-choosing
+- question: Your team has 200 React components. Some use Redux, some useState, some Context. State management is chaos. How do you choose the right state management approach?
+---
+---
+- fact: 0070
+- status: DONE
+- category: Frontend
+- slug: loading-states-skeleton-screens
+- question: You fetch data in useEffect, show a loading spinner, then render. But users see content flash and layout shift. How do you implement proper loading states and skeleton screens?
+---
+---
+- fact: 0071
+- status: TODO
+- category: Frontend
+- question: Your app works in Chrome but crashes in Safari. A polyfill fixes it but adds 50KB. How do you handle cross-browser compatibility in modern frontends?
+---
+---
+- fact: 0072
+- status: DONE
+- category: Frontend
+- slug: complex-form-management-react
+- question: You build a form with 20 fields, complex validation, and conditional logic. useState becomes a nightmare. How do you manage complex forms in React?
+---
+---
+- fact: 0073
+- status: DONE
+- category: Frontend
+- slug: css-architecture-large-project
+- question: Your team writes CSS in 5 different ways — global CSS, CSS modules, styled-components, Tailwind, inline styles. How do you choose a CSS architecture for a large project?
+---
+---
+- fact: 0074
+- status: DONE
+- category: Frontend
+- slug: nextjs-rendering-strategies
+- question: Your Next.js app has SSR, SSG, ISR, and client-side rendering mixed together. Pages sometimes show stale data. How do you choose the right rendering strategy?
+---
+---
+- fact: 0075
+- status: DONE
+- category: Frontend
+- slug: mobile-offline-first-sync
+- question: Your app needs to work offline for field workers with intermittent connectivity. How do you implement offline-first with Service Workers and sync?
+---
+---
+- fact: 0076
+- status: DONE
+- category: Frontend
+- slug: virtual-list-large-data
+- question: Your table component renders 10,000 rows and the browser freezes. How do you implement virtualization for large lists and tables?
+---
+---
+- fact: 0077
+- status: DONE
+- category: Frontend
+- slug: optimistic-updates-pattern
+- question: Clicking a button dispatches an action, but sometimes the UI updates before the API confirms, sometimes after. How do you implement optimistic updates correctly?
+---
+---
+- fact: 0078
+- status: DONE
+- category: Frontend
+- slug: image-optimization-core-web-vitals
+- question: Your image-heavy page loads 50 high-res images at once. LCP is 8 seconds. How do you optimize image loading for Core Web Vitals?
+---
+---
+- fact: 0079
+- status: TODO
+- category: Frontend
+- question: TypeScript says the type is correct but at runtime you get "Cannot read property of undefined." How do you handle runtime type safety when data comes from APIs?
+---
+---
+- fact: 0080
+- status: TODO
+- category: Frontend
+- question: Your app has 500 routes. Adding a new page requires touching 4 files. How do you implement file-based routing and why is it becoming the standard?
+---
+---
+- fact: 0081
+- status: TODO
+- category: Frontend
+- question: Your designer gives you a Figma file with 8px spacing, specific colors, and responsive breakpoints. Your code never matches exactly. How do you create a design system that stays in sync?
+---
+---
+- fact: 0082
+- status: TODO
+- category: Frontend
+- question: Users on slow connections see a blank white page for 5 seconds before your JS loads. How does streaming SSR with React Server Components solve this?
+---
+---
+- fact: 0083
+- status: TODO
+- category: Frontend
+- question: Your SPA has 50 API calls scattered across components. Some fire on every render. Some fire duplicate requests. How do you centralize and deduplicate data fetching?
+---
+---
+- fact: 0084
+- status: TODO
+- category: Frontend
+- question: You add a drag-and-drop feature and it works on desktop but is completely broken on mobile. How do you handle touch events and gestures in web apps?
+---
+---
+- fact: 0085
+- status: TODO
+- category: Frontend
+- question: Your test suite has 500 tests but takes 15 minutes to run. Most tests render full components with API mocks. How do you write fast, maintainable frontend tests?
+---
+---
+- fact: 0086
+- status: TODO
+- category: Frontend
+- question: Your React app has 30 context providers nested inside each other. Performance degrades because any context change re-renders everything. How do you fix Context hell?
+---
+---
+- fact: 0087
+- status: TODO
+- category: Frontend
+- question: Users paste rich text from Word into your text editor and the formatting breaks everything. How do you build a reliable rich text editor?
+---
+---
+- fact: 0088
+- status: TODO
+- category: Frontend
+- question: Your dashboard has 20 charts that all fetch data independently. The page makes 20 API calls on load. How do you batch and coordinate data fetching for dashboards?
+---
+---
+- fact: 0089
+- status: TODO
+- category: Frontend
+- question: You need to animate a list where items can be added, removed, and reordered smoothly. CSS transitions aren't enough. How do you implement complex animations in React?
+---
+---
+- fact: 0090
+- status: TODO
+- category: Frontend
+- question: Your app allows users to undo/redo actions. Implementing it with useState is a mess. How do you design an undo/redo system with immutable state?
+---
+---
+- fact: 0091
+- status: DONE
+- category: Frontend
+- slug: web-accessibility-react
+- question: Accessibility audit flags 50 issues — missing alt text, no keyboard navigation, screen readers can't read your custom dropdown. How do you make React components accessible?
+---
+---
+- fact: 0092
+- status: TODO
+- category: Frontend
+- question: Your app needs to support English, Vietnamese, Japanese, and Arabic (RTL). How do you implement internationalization (i18n) properly?
+---
+---
+- fact: 0093
+- status: TODO
+- category: Frontend
+- question: Your webpack build takes 3 minutes. Hot reload takes 10 seconds. Developers are frustrated. How does Vite achieve instant dev server startup?
+---
+---
+- fact: 0094
+- status: TODO
+- category: Frontend
+- question: You need to display real-time stock prices updating every 100ms. React re-renders can't keep up. How do you handle high-frequency UI updates?
+---
+---
+- fact: 0095
+- status: TODO
+- category: Frontend
+- question: Your app stores sensitive data in Redux and it's visible in Redux DevTools. A browser extension could read it. How do you handle sensitive data in frontend state?
+---
+---
+- fact: 0096
+- status: TODO
+- category: Frontend
+- question: You build a micro-frontend architecture. Module A uses React 18, Module B uses React 19. They share components but versions conflict. How do you manage shared dependencies in micro-frontends?
+---
+---
+- fact: 0097
+- status: TODO
+- category: Frontend
+- question: Your e-commerce site needs SEO but it's a pure SPA. Googlebot can't see dynamic content. How do you make SPAs SEO-friendly without full SSR migration?
+---
+---
+- fact: 0098
+- status: TODO
+- category: Frontend
+- question: Your app makes 30 API calls on the dashboard page. The waterfall in DevTools shows they're all sequential. How do you implement parallel data fetching with React Suspense?
+---
+---
+- fact: 0099
+- status: TODO
+- category: Frontend
+- question: You deploy a new version but users still see the old cached version from their Service Worker. How do you implement proper cache busting and update strategies?
+---
+---
+- fact: 0100
+- status: TODO
+- category: Frontend
+- question: Your team debates between client-side state (Zustand/Jotai) and server state (TanStack Query). What's the difference and when should you use each?
+---
+---
+- fact: 0101
+- status: DONE
+- category: Frontend
+- slug: error-boundaries-fault-isolation
+- question: A third-party script you embed crashes and takes your entire React app down. How do you implement Error Boundaries and fault isolation in React?
+---
+---
+- fact: 0102
+- status: DONE
+- category: Frontend
+- slug: frontend-monorepo-turborepo
+- question: Your monorepo has 3 apps and 20 shared packages. Changing a shared component means rebuilding everything. How do you optimize builds in a monorepo with Turborepo?
+---
+---
+- fact: 0103
+- status: TODO
+- category: Frontend
+- question: You need to render 100,000 data points on a scatter chart. The browser freezes. How do you build performant data visualizations with Canvas/WebGL instead of SVG?
+---
+---
+- fact: 0104
+- status: TODO
+- category: Frontend
+- question: Your CLS score is 0.35 (bad). Elements jump around as the page loads — ads, images, dynamic content. How do you fix Cumulative Layout Shift?
+---
+---
+- fact: 0105
+- status: TODO
+- category: Frontend
+- question: Users fill out a long form and accidentally close the tab. All data is lost. How do you implement form persistence and recovery?
+---
+
+# TODO — Database (0106–0195)
+
+---
+- fact: 0106
+- status: DONE
+- category: Database
+- slug: explain-analyze-query-plans
+- question: Your PostgreSQL query was fast with 1M rows but takes 30 seconds with 100M rows. EXPLAIN shows a sequential scan. How do you read and optimize query execution plans?
+---
+---
+- fact: 0107
+- status: DONE
+- category: Database
+- slug: zero-downtime-schema-migration
+- question: Your users table has 50M rows. Adding a NOT NULL column with a default value locks the table for 10 minutes. How do you run schema migrations on large tables without downtime?
+---
+---
+- fact: 0108
+- status: DONE
+- category: Database
+- slug: handle-replication-lag
+- question: Your application writes to a primary and reads from a replica. But read-after-write shows stale data because replication lag is 500ms. How do you handle replication lag?
+---
+---
+- fact: 0109
+- status: DONE
+- category: Database
+- slug: database-table-partitioning
+- question: Your orders table has 500M rows and queries are slow. You need to split it. How do you partition a table and what strategy do you choose?
+---
+---
+- fact: 0110
+- status: DONE
+- category: Database
+- slug: prevent-cache-stampede
+- question: Your Redis cache has a 95% hit rate but during peak traffic, a popular cache key expires and 10,000 requests simultaneously hit the database. How do you prevent cache stampede?
+---
+---
+- fact: 0111
+- status: TODO
+- category: Database
+- question: You need to store user activity feed (who liked what, who followed whom). SQL JOINs across 5 tables are slow. Is this a good use case for a graph database?
+---
+---
+- fact: 0112
+- status: DONE
+- category: Database
+- slug: postgresql-vacuum-autovacuum
+- question: Your PostgreSQL database runs out of disk space because dead tuples from UPDATE/DELETE aren't cleaned up. What is VACUUM and how do you configure autovacuum properly?
+---
+---
+- fact: 0113
+- status: DONE
+- category: Database
+- slug: fulltext-search-postgresql
+- question: You need to search products by name, description, and tags with typo tolerance. PostgreSQL LIKE is too slow. How do you implement full-text search — pg_trgm vs tsvector vs Elasticsearch?
+---
+---
+- fact: 0114
+- status: DONE
+- category: Database
+- slug: soft-delete-performance
+- question: Your application uses soft deletes (deleted_at column). After 2 years, 80% of rows are "deleted" but still scanned by every query. How do you manage soft deletes efficiently?
+---
+---
+- fact: 0115
+- status: TODO
+- category: Database
+- question: Two developers run different migrations on their branches. When merged, the migration order conflicts. How do you manage database migrations in a team?
+---
+---
+- fact: 0116
+- status: DONE
+- category: Database
+- slug: jsonb-indexing-querying
+- question: You store JSON in a PostgreSQL JSONB column for flexibility. Queries that filter on JSON fields are slow. How do you index and query JSONB efficiently?
+---
+---
+- fact: 0117
+- status: DONE
+- category: Database
+- slug: transaction-isolation-levels
+- question: Your transaction isolation level is READ COMMITTED but you're seeing phantom reads in a report query. What are the 4 isolation levels and when do you need SERIALIZABLE?
+---
+---
+- fact: 0118
+- status: DONE
+- category: Database
+- slug: high-availability-database-setup
+- question: Your primary database goes down. Failover to the replica takes 5 minutes and you lose 30 seconds of writes. How do you design a high-availability database setup?
+---
+---
+- fact: 0119
+- status: TODO
+- category: Database
+- question: You need to store time-series data — millions of sensor readings per hour. PostgreSQL works but gets slow after a month. Should you use TimescaleDB, InfluxDB, or ClickHouse?
+---
+---
+- fact: 0120
+- status: TODO
+- category: Database
+- question: Your MongoDB collection has no schema validation. Developers insert whatever fields they want. Some documents have "email", others have "Email" or "e_mail". How do you enforce schema in schemaless databases?
+---
+---
+- fact: 0121
+- status: TODO
+- category: Database
+- question: Your connection pool is set to 20 but you have 50 concurrent requests. 30 requests wait for a connection. Increasing the pool to 100 makes the database slower. What's the right pool size?
+---
+---
+- fact: 0122
+- status: TODO
+- category: Database
+- question: You need to run analytics queries on production data but don't want to impact the OLTP workload. What is CQRS and how do you separate read and write models?
+---
+---
+- fact: 0123
+- status: DONE
+- category: Database
+- slug: never-use-float-for-money
+- question: Your database stores prices as FLOAT and customers see charges like $19.990000000001. Why should you never use floating point for money?
+---
+---
+- fact: 0124
+- status: TODO
+- category: Database
+- question: You need to store hierarchical data — company org chart, category tree, nested comments. How do you model tree structures in SQL? (Adjacency list, nested sets, materialized path, closure table)
+---
+---
+- fact: 0125
+- status: DONE
+- category: Database
+- slug: redis-memory-optimization
+- question: Your Redis instance uses 32GB of memory for 10M keys. Most keys are rarely accessed. How do you optimize Redis memory usage?
+---
+---
+- fact: 0126
+- status: TODO
+- category: Database
+- question: You backup your database daily but a developer runs DELETE FROM users WHERE 1=1 at 3pm. The daily backup was at midnight. How do you implement point-in-time recovery?
+---
+---
+- fact: 0127
+- status: TODO
+- category: Database
+- question: Your application has a multi-step wizard. If the user abandons halfway, orphaned rows stay in 3 tables. How do you handle partial data and cleanup?
+---
+---
+- fact: 0128
+- status: TODO
+- category: Database
+- question: You store audit logs in the same database as application data. After a year, the audit_logs table has 2B rows and slows everything down. How do you design an audit log system?
+---
+---
+- fact: 0129
+- status: TODO
+- category: Database
+- question: Your analytics dashboard queries take 30 seconds because they aggregate millions of rows. How do materialized views and pre-aggregation solve this?
+---
+---
+- fact: 0130
+- status: TODO
+- category: Database
+- question: Your API returns a list of products sorted by relevance, price, and rating. Adding ORDER BY with multiple columns kills performance. How do you design multi-column sorting efficiently?
+---
+
+# TODO — DevOps (0131–0220)
+
+---
+- fact: 0131
+- status: DONE
+- category: DevOps
+- slug: optimize-ci-cd-pipeline-speed
+- question: Your CI/CD pipeline takes 45 minutes. Developers push code and wait. How do you optimize build and test times in CI pipelines?
+---
+---
+- fact: 0132
+- status: DONE
+- category: DevOps
+- slug: optimize-docker-image-size
+- question: Your Docker image is 2.3GB. Pulling it takes 5 minutes on every deploy. How do you optimize Docker image size?
+---
+---
+- fact: 0133
+- status: DONE
+- category: DevOps
+- slug: instant-rollback-strategies
+- question: You deploy to production and the new version has a critical bug. Rolling back takes 20 minutes. How do you implement instant rollback strategies?
+---
+---
+- fact: 0134
+- status: DONE
+- category: DevOps
+- slug: kubernetes-resource-tuning
+- question: Your Kubernetes pod gets OOMKilled randomly. Memory limits are set to 512Mi but the app sometimes spikes to 600Mi. How do you tune resource requests and limits?
+---
+---
+- fact: 0135
+- status: DONE
+- category: DevOps
+- slug: gitops-with-argocd
+- question: Your team pushes to main and it auto-deploys. But nobody reviews the infrastructure changes. How do you implement GitOps with ArgoCD or Flux?
+---
+---
+- fact: 0136
+- status: DONE
+- category: DevOps
+- slug: terraform-state-management
+- question: Your Terraform state file gets corrupted when two people run terraform apply at the same time. How do you manage Terraform state safely in a team?
+---
+---
+- fact: 0137
+- status: DONE
+- category: DevOps
+- slug: environment-config-management
+- question: You need to deploy to 3 environments (dev, staging, prod) with different configs. How do you manage environment-specific configuration without hardcoding?
+---
+---
+- fact: 0138
+- status: DONE
+- category: DevOps
+- slug: centralized-logging-elk-loki
+- question: Your production containers log to stdout but nobody monitors them. An error loop generates 1GB of logs per hour. How do you set up centralized logging with ELK/Loki?
+---
+---
+- fact: 0139
+- status: TODO
+- category: DevOps
+- question: Your Kubernetes cluster runs 50 services but you have no idea which service is causing high latency. How do you implement distributed tracing with Jaeger/Tempo?
+---
+---
+- fact: 0140
+- status: DONE
+- category: DevOps
+- slug: kubernetes-ingress-service-exposure
+- question: You need to expose a Kubernetes service to the internet. Should you use NodePort, LoadBalancer, or Ingress? What are the trade-offs?
+---
+---
+- fact: 0141
+- status: TODO
+- category: DevOps
+- question: Your secrets are stored in environment variables that anyone with server access can read. How do you manage secrets securely with Vault/SOPS/Sealed Secrets?
+---
+---
+- fact: 0142
+- status: DONE
+- category: DevOps
+- slug: canary-deployment-progressive-rollout
+- question: You deploy a new feature to 100% of users and it crashes for 10% of them. How do you implement canary deployments and progressive rollouts?
+---
+---
+- fact: 0143
+- status: TODO
+- category: DevOps
+- question: Your Kubernetes node has 16GB RAM and 30 pods. Each pod requests 256Mi but only uses 50Mi. Is the node overcommitted? How do you right-size pod resources?
+---
+---
+- fact: 0144
+- status: TODO
+- category: DevOps
+- question: Your staging environment costs $3,000/month but is only used during business hours. How do you implement environment scheduling to reduce cloud costs?
+---
+---
+- fact: 0145
+- status: TODO
+- category: DevOps
+- question: A new developer joins and it takes 3 days to set up the local development environment. How do you automate dev environment setup with devcontainers or Nix?
+---
+---
+- fact: 0146
+- status: TODO
+- category: DevOps
+- question: Your monitoring shows CPU at 80%, memory at 60%, but users report slow responses. CPU and memory metrics aren't enough. What are the RED and USE methods for monitoring?
+---
+---
+- fact: 0147
+- status: TODO
+- category: DevOps
+- question: Your database migration runs in CI but the migration script has a bug that deletes a column. How do you implement database migration safety checks in CI/CD?
+---
+---
+- fact: 0148
+- status: TODO
+- category: DevOps
+- question: Your multi-stage Dockerfile builds fine locally but fails in CI with "no space left on device." How do you manage Docker build cache in CI environments?
+---
+---
+- fact: 0149
+- status: TODO
+- category: DevOps
+- question: Your app runs on AWS with 5 services. The monthly bill is $15,000 and growing. How do you identify and reduce cloud infrastructure costs?
+---
+---
+- fact: 0150
+- status: TODO
+- category: DevOps
+- question: Your team has 10 microservices with separate repos. One PR might need changes in 3 repos. Should you use a monorepo or multi-repo? What are the real trade-offs?
+---
+---
+- fact: 0151
+- status: TODO
+- category: DevOps
+- question: Your Prometheus instance runs out of memory storing 30 days of metrics for 50 services. How do you design a scalable metrics pipeline?
+---
+---
+- fact: 0152
+- status: TODO
+- category: DevOps
+- question: Your DNS record TTL is 86400 (24 hours). You need to migrate to a new IP. Users can't access the site for hours. How do you manage DNS changes safely?
+---
+---
+- fact: 0153
+- status: TODO
+- category: DevOps
+- question: Your SSL certificate expires on a Friday night and the site goes down. How do you automate SSL certificate management with cert-manager/Let's Encrypt?
+---
+---
+- fact: 0154
+- status: TODO
+- category: DevOps
+- question: Your production Kubernetes cluster runs with the default namespace and no network policies. Any pod can talk to any other pod. How do you secure inter-service communication?
+---
+---
+- fact: 0155
+- status: TODO
+- category: DevOps
+- question: Your team uses Helm charts but values.yaml files are 500 lines long with deeply nested overrides. How do you manage Helm chart complexity?
+---
+---
+- fact: 0156
+- status: TODO
+- category: DevOps
+- question: You need to run a one-time data migration job in Kubernetes. It should run once, not restart on failure, and send a Slack notification when done. How do you use Kubernetes Jobs and CronJobs?
+---
+---
+- fact: 0157
+- status: TODO
+- category: DevOps
+- question: Your application needs to persist data but Kubernetes pods are ephemeral. How do you manage persistent storage with PersistentVolumes and StorageClasses?
+---
+---
+- fact: 0158
+- status: TODO
+- category: DevOps
+- question: A load test shows your service handles 2,000 RPS but in production it struggles at 500 RPS. The difference is the network. How do you design realistic load tests?
+---
+---
+- fact: 0159
+- status: TODO
+- category: DevOps
+- question: Your Docker container runs as root. A vulnerability in the application gives an attacker root access to the host. How do you harden Docker containers?
+---
+---
+- fact: 0160
+- status: TODO
+- category: DevOps
+- question: Your CI/CD pipeline deploys infrastructure and application code. A failed Terraform apply leaves resources in a broken state. How do you make infrastructure deployments idempotent?
+---
+
+# TODO — Security (0161–0240)
+
+---
+- fact: 0161
+- status: DONE
+- category: Security
+- slug: prevent-automated-account-abuse
+- question: Your user registration endpoint allows unlimited attempts. An attacker creates 1 million fake accounts overnight. How do you prevent automated abuse without blocking real users?
+---
+---
+- fact: 0162
+- status: DONE
+- category: Security
+- slug: prevent-secret-leaks-in-code
+- question: A developer hardcodes an API key in the source code. It gets pushed to GitHub. The key is used to access production data. How do you prevent and detect secret leaks?
+---
+---
+- fact: 0163
+- status: DONE
+- category: Security
+- slug: npm-supply-chain-attacks
+- question: Your Node.js app uses 200 npm packages. One of them gets compromised (event-stream incident). How do you protect against supply chain attacks?
+---
+---
+- fact: 0164
+- status: DONE
+- category: Security
+- slug: sql-injection-beyond-basics
+- question: Your API accepts user input and passes it to a SQL query. Bobby Tables drops your entire database. How do you prevent SQL injection beyond just parameterized queries?
+---
+---
+- fact: 0165
+- status: DONE
+- category: Security
+- slug: cors-configuration-properly
+- question: Your application sets Access-Control-Allow-Origin to * for convenience. Why is this dangerous and how do you configure CORS properly?
+---
+---
+- fact: 0166
+- status: DONE
+- category: Security
+- slug: password-hashing-algorithms
+- question: You implement password hashing with MD5 because it's fast. A security audit flags this as critical. Why is MD5 dangerous and what hashing algorithm should you use?
+---
+---
+- fact: 0167
+- status: DONE
+- category: Security
+- slug: secure-file-serving-signed-urls
+- question: Your S3 bucket is public because the frontend needs to read files. An attacker enumerates all files. How do you serve private files securely with signed URLs?
+---
+---
+- fact: 0168
+- status: TODO
+- category: Security
+- question: Your React app renders user-generated HTML content with dangerouslySetInnerHTML. An attacker injects a script that steals cookies. How do you sanitize HTML safely?
+---
+---
+- fact: 0169
+- status: TODO
+- category: Security
+- question: Your API uses API keys for authentication. Keys are sent in query parameters and show up in server logs and browser history. How do you implement secure API authentication?
+---
+---
+- fact: 0170
+- status: DONE
+- category: Security
+- slug: rbac-implementation-patterns
+- question: Your admin panel is accessible to anyone who knows the URL. There's no role-based access. An intern accidentally deletes production data. How do you implement RBAC properly?
+---
+---
+- fact: 0171
+- status: TODO
+- category: Security
+- question: Your application sends a password reset link. An attacker intercepts it and resets the user's password. How do you design a secure password reset flow?
+---
+---
+- fact: 0172
+- status: TODO
+- category: Security
+- question: Your server returns detailed error messages including stack traces, database queries, and internal IPs. How does information leakage become a security vulnerability?
+---
+---
+- fact: 0173
+- status: TODO
+- category: Security
+- question: Your application doesn't set security headers. An attacker frames your login page in an iframe and tricks users into entering credentials. What security headers should every application set?
+---
+---
+- fact: 0174
+- status: TODO
+- category: Security
+- question: You implement OAuth2 for "Login with Google." But you only check the access token without validating the issuer. How do you implement OAuth2/OIDC securely?
+---
+---
+- fact: 0175
+- status: TODO
+- category: Security
+- question: Your application allows file uploads. An attacker uploads a .php file disguised as a .jpg and executes it on your server. How do you validate and handle file uploads securely?
+---
+---
+- fact: 0176
+- status: TODO
+- category: Security
+- question: An API endpoint returns user data based on the user ID in the URL (/api/users/123). Changing it to /api/users/124 shows another user's data. What is IDOR and how do you prevent it?
+---
+---
+- fact: 0177
+- status: TODO
+- category: Security
+- question: Your application uses third-party cookies for tracking. Chrome blocks them by default in 2024+. How do you adapt to the cookieless future?
+---
+---
+- fact: 0178
+- status: TODO
+- category: Security
+- question: Your CI/CD pipeline has permissions to deploy to production. An attacker compromises a developer's GitHub account. Now they can push malicious code. How do you secure the CI/CD pipeline?
+---
+---
+- fact: 0179
+- status: TODO
+- category: Security
+- question: Your application encrypts data at rest with AES-256. But you store the encryption key in the same database. What's wrong with this approach?
+---
+---
+- fact: 0180
+- status: TODO
+- category: Security
+- question: You implement 2FA with TOTP (Google Authenticator). But users lose their phone and can't log in. How do you design a complete 2FA system with recovery?
+---
+
+# TODO — Architecture (0181–0265)
+
+---
+- fact: 0181
+- status: DONE
+- category: Architecture
+- slug: monolith-vs-microservices-scaling
+- question: Your monolith handles 10,000 users fine. CEO says we're growing to 1M users. Do you really need microservices or can the monolith scale?
+---
+---
+- fact: 0182
+- status: DONE
+- category: Architecture
+- slug: event-driven-vs-request-response
+- question: Your event-driven system processes events asynchronously. But sometimes you need a synchronous response. How do you mix request/response with event-driven patterns?
+---
+---
+- fact: 0183
+- status: DONE
+- category: Architecture
+- slug: design-notification-system
+- question: Your notification system needs to send push, email, SMS, and in-app notifications. Each channel has different delivery guarantees. How do you design a multi-channel notification system?
+---
+---
+- fact: 0184
+- status: DONE
+- category: Architecture
+- slug: search-system-elasticsearch
+- question: Your e-commerce search needs to be fast, support filters, facets, and fuzzy matching. The database can't handle it. How do you architect a search system with Elasticsearch?
+---
+---
+- fact: 0185
+- status: TODO
+- category: Architecture
+- question: Two services need to agree on what an "Order" looks like. One uses protobuf, the other uses JSON. How do you manage shared schemas across microservices?
+---
+---
+- fact: 0186
+- status: TODO
+- category: Architecture
+- question: Your system processes payments, but sometimes a payment succeeds at the gateway but your database update fails. Now the customer is charged but the order shows "unpaid." How do you achieve eventual consistency?
+---
+---
+- fact: 0187
+- status: TODO
+- category: Architecture
+- question: Your real-time dashboard shows data from 10 services. Each service has its own database. How do you build a read-optimized view that aggregates data from multiple services?
+---
+---
+- fact: 0188
+- status: DONE
+- category: Architecture
+- slug: over-engineering-when-harmful
+- question: Your startup has 3 developers. The CTO wants to use Kubernetes, microservices, event sourcing, and CQRS from day one. When is over-engineering actually harmful?
+---
+---
+- fact: 0189
+- status: DONE
+- category: Architecture
+- slug: design-image-processing-pipeline
+- question: Your image upload service receives 1,000 images per minute. Each needs to be resized into 5 formats. How do you design an image processing pipeline?
+---
+---
+- fact: 0190
+- status: TODO
+- category: Architecture
+- question: Your system needs to handle Black Friday traffic (100x normal). But you don't want to pay for 100x servers year-round. How do you design for burst traffic with auto-scaling and serverless?
+---
+---
+- fact: 0191
+- status: TODO
+- category: Architecture
+- question: Your chat application needs to deliver messages in order and handle offline users. How do you design a messaging system like WhatsApp/Slack?
+---
+---
+- fact: 0192
+- status: DONE
+- category: Architecture
+- slug: event-sourcing-when-to-use
+- question: Your system processes user actions and needs to know exactly what happened and when — for compliance, debugging, and analytics. What is Event Sourcing and when should you use it?
+---
+---
+- fact: 0193
+- status: TODO
+- category: Architecture
+- question: You need to count unique visitors, but storing every visitor ID uses too much memory. How do HyperLogLog and probabilistic data structures work?
+---
+---
+- fact: 0194
+- status: TODO
+- category: Architecture
+- question: Your URL shortener needs to generate unique short codes (abc123) that are URL-safe and unpredictable. How do you design the ID generation and redirection system?
+---
+---
+- fact: 0195
+- status: TODO
+- category: Architecture
+- question: Your multi-tenant SaaS serves 1,000 companies. Some want their own database, some are fine sharing. How do you choose between shared database, separate schemas, or separate databases?
+---
+---
+- fact: 0196
+- status: TODO
+- category: Architecture
+- question: You use Kafka for event streaming. One consumer falls behind and the lag grows to 1M messages. How do you design for consumer backpressure?
+---
+---
+- fact: 0197
+- status: TODO
+- category: Architecture
+- question: Your rate limiter, feature flags, and circuit breakers are all in application code. Every service reimplements them differently. How does a service mesh (Istio/Linkerd) centralize cross-cutting concerns?
+---
+---
+- fact: 0198
+- status: TODO
+- category: Architecture
+- question: Your mobile app, web app, and admin panel all call the same monolithic API. But each client needs different data shapes. What is the Backend-for-Frontend (BFF) pattern?
+---
+---
+- fact: 0199
+- status: DONE
+- category: Architecture
+- slug: design-realtime-leaderboard
+- question: You need to build a leaderboard that updates in real-time for 1M users. SQL ORDER BY with LIMIT is too slow. How do you design a real-time leaderboard with Redis Sorted Sets?
+---
+---
+- fact: 0200
+- status: TODO
+- category: Architecture
+- question: Your system stores 10TB of data. 95% is rarely accessed but must be queryable. How do you implement hot/warm/cold data tiering?
+---
+
+# TODO — Backend Advanced (0201–0265)
+
+---
+- fact: 0201
+- status: TODO
+- category: Backend
+- question: Your Lambda function cold starts take 3 seconds. Users see a loading spinner on every first request. How do you minimize serverless cold start latency?
+---
+---
+- fact: 0202
+- status: TODO
+- category: Backend
+- question: Your authentication system uses session cookies. With 3 servers behind a load balancer, how do you handle sticky sessions vs shared session stores?
+---
+---
+- fact: 0203
+- status: TODO
+- category: Backend
+- question: Your API allows users to export their data as CSV. With 1M rows, the server runs out of memory building the response. How do you implement streaming HTTP responses?
+---
+---
+- fact: 0204
+- status: TODO
+- category: Backend
+- question: Your microservice sends events to RabbitMQ. Sometimes the broker is down and events are lost. How do you guarantee message delivery with dead letter queues and retry mechanisms?
+---
+---
+- fact: 0205
+- status: TODO
+- category: Backend
+- question: Two services both update a user's balance. One adds $50 (deposit), the other subtracts $30 (purchase). They run concurrently and the final balance is wrong. How do you solve distributed counter problems?
+---
+---
+- fact: 0206
+- status: TODO
+- category: Backend
+- question: Your API has n+1 problem but with HTTP calls — a list endpoint returns IDs, then the client makes n calls to get details. How does DataLoader pattern work for REST/GraphQL?
+---
+---
+- fact: 0207
+- status: TODO
+- category: Backend
+- question: Your application needs to generate PDFs (invoices, reports) on the server. Some PDFs take 30 seconds to generate. How do you handle slow document generation without blocking?
+---
+---
+- fact: 0208
+- status: TODO
+- category: Backend
+- question: Your email sending sometimes fails silently. Users never receive their verification email. How do you build a reliable email delivery pipeline with retries and bounce handling?
+---
+---
+- fact: 0209
+- status: TODO
+- category: Backend
+- question: Your application uses 3 different third-party APIs (Stripe, Twilio, SendGrid). Each has different auth methods, rate limits, and error formats. How do you build a resilient third-party API integration layer?
+---
+---
+- fact: 0210
+- status: TODO
+- category: Backend
+- question: Your API needs to support long-running operations (video encoding, report generation). How do you design async operations with status polling and webhooks?
+---
+
+# TODO — DevOps Advanced (0211–0265)
+
+---
+- fact: 0211
+- status: TODO
+- category: DevOps
+- question: Your Kubernetes pod can't resolve DNS for other services. kubectl exec + nslookup works from the node but not from the pod. How do you debug Kubernetes DNS issues?
+---
+---
+- fact: 0212
+- status: TODO
+- category: DevOps
+- question: Your application runs on EKS and needs to access S3 and RDS. You use a shared IAM user with full permissions. How do you implement least-privilege with IRSA (IAM Roles for Service Accounts)?
+---
+---
+- fact: 0213
+- status: TODO
+- category: DevOps
+- question: Your team deploys with kubectl apply but nobody knows what's currently running vs what's in Git. How do you implement GitOps to make Git the single source of truth?
+---
+---
+- fact: 0214
+- status: TODO
+- category: DevOps
+- question: Your application performance is fine in load tests but terrible in production. The difference is real user behavior patterns. How do you implement chaos engineering to find real weaknesses?
+---
+---
+- fact: 0215
+- status: TODO
+- category: DevOps
+- question: Your deployment succeeds but the application is broken (bad config, missing env var). The health check passes because it only checks /healthz. How do you design comprehensive readiness and liveness probes?
+---
+---
+- fact: 0216
+- status: TODO
+- category: DevOps
+- question: You need to run stateful applications (databases, message queues) in Kubernetes. Everyone says "don't run databases in K8s." When is it actually appropriate and how do you use StatefulSets?
+---
+---
+- fact: 0217
+- status: TODO
+- category: DevOps
+- question: Your CI pipeline runs 500 tests. 10 of them are flaky — they pass/fail randomly. The team starts ignoring test failures. How do you detect and eliminate flaky tests?
+---
+---
+- fact: 0218
+- status: DONE
+- category: DevOps
+- slug: container-image-tagging-strategy
+- question: Your container image uses latest tag. Production mysteriously breaks even though nobody deployed. How do you implement proper container image tagging and immutable deployments?
+---
+---
+- fact: 0219
+- status: TODO
+- category: DevOps
+- question: Your multi-cluster setup needs to route traffic between clusters for disaster recovery. How do you implement multi-cluster Kubernetes with federation or service mesh?
+---
+---
+- fact: 0220
+- status: TODO
+- category: DevOps
+- question: A developer's commit passes all tests but introduces a regression that only shows up under load. How do you integrate performance testing into CI/CD pipelines?
+---
+
+# TODO — Security Advanced (0221–0265)
+
+---
+- fact: 0221
+- status: TODO
+- category: Security
+- question: Your API is behind Cloudflare but an attacker finds the origin IP through DNS history. How do you properly protect origin servers behind a CDN/WAF?
+---
+---
+- fact: 0222
+- status: TODO
+- category: Security
+- question: You need to comply with GDPR "right to be forgotten." But your data is replicated across 5 services and 3 backups. How do you implement data deletion across distributed systems?
+---
+---
+- fact: 0223
+- status: TODO
+- category: Security
+- question: Your application uses WebSockets for real-time features. But you only authenticate on the initial HTTP handshake. How do you secure WebSocket connections?
+---
+---
+- fact: 0224
+- status: TODO
+- category: Security
+- question: An attacker sends 100 login attempts per second from 10,000 different IPs (distributed brute force). IP-based rate limiting doesn't help. How do you defend against distributed credential attacks?
+---
+---
+- fact: 0225
+- status: TODO
+- category: Security
+- question: Your GraphQL API allows introspection. An attacker maps your entire schema and finds sensitive internal fields. How do you secure a GraphQL API?
+---
+---
+- fact: 0226
+- status: TODO
+- category: Security
+- question: Your application logs everything for debugging. But logs contain PII (emails, IPs, names). GDPR says logs are personal data. How do you implement privacy-compliant logging?
+---
+---
+- fact: 0227
+- status: TODO
+- category: Security
+- question: A dependency update introduces a vulnerability (CVE). You don't know about it for 3 weeks. How do you implement automated vulnerability scanning in CI/CD?
+---
+---
+- fact: 0228
+- status: TODO
+- category: Security
+- question: Your microservices communicate over HTTP internally. An attacker who compromises one service can sniff traffic to all others. How do you implement mutual TLS (mTLS) between services?
+---
+---
+- fact: 0229
+- status: TODO
+- category: Security
+- question: Your single sign-on (SSO) implementation uses SAML. When a user logs out of one app, they're still logged into the others. How do you implement single logout across multiple services?
+---
+---
+- fact: 0230
+- status: TODO
+- category: Security
+- question: You need to store sensitive data (SSN, health records) encrypted at rest AND in transit. But you also need to search and query the encrypted data. How do you implement searchable encryption?
+---
+
+# TODO — Mixed / System Design (0231–0300)
+
+---
+- fact: 0231
+- status: TODO
+- category: Architecture
+- question: Design a URL shortener like bit.ly that handles 1B clicks per month. How do you generate unique short codes and handle redirection at scale?
+---
+---
+- fact: 0232
+- status: TODO
+- category: Architecture
+- question: Design a rate limiter service used by 100 different API services. It needs to be distributed, fast, and accurate. How do you build it as a standalone service?
+---
+---
+- fact: 0233
+- status: TODO
+- category: Architecture
+- question: Design a notification preference center where users can choose which notifications they receive (email vs push vs SMS) and how often. How do you model notification preferences at scale?
+---
+---
+- fact: 0234
+- status: TODO
+- category: Architecture
+- question: Design a file storage service like Google Drive. Users upload, download, and share files. How do you handle large file uploads, deduplication, and sharing permissions?
+---
+---
+- fact: 0235
+- status: TODO
+- category: Database
+- question: Your application needs to support multi-currency. Prices display in local currency but are stored in USD. How do you handle currency conversion, rounding, and exchange rate updates?
+---
+---
+- fact: 0236
+- status: TODO
+- category: Backend
+- question: Your API gateway routes requests to 20 microservices. How do you implement service discovery so services can find each other without hardcoded URLs?
+---
+---
+- fact: 0237
+- status: TODO
+- category: Frontend
+- question: Your app needs to support dark mode, custom themes, and white-label branding for enterprise clients. How do you implement a theming system?
+---
+---
+- fact: 0238
+- status: TODO
+- category: DevOps
+- question: Your production database needs upgrading from PostgreSQL 14 to 16. The database has 500GB of data. How do you upgrade with minimal downtime?
+---
+---
+- fact: 0239
+- status: TODO
+- category: Architecture
+- question: Your e-commerce platform processes orders with inventory, payment, shipping, and notification steps. One step failing should not lose the order. How do you design a reliable order processing pipeline?
+---
+---
+- fact: 0240
+- status: TODO
+- category: Backend
+- question: Your application supports OAuth login (Google, GitHub, Apple). A user registers with Google, then tries to log in with GitHub using the same email. How do you handle account linking?
+---
+---
+- fact: 0241
+- status: TODO
+- category: Frontend
+- question: Your Single Page Application needs deep linking. Users share URLs but the page shows a 404 because the server doesn't know about client-side routes. How do you configure SPA routing with history API?
+---
+---
+- fact: 0242
+- status: TODO
+- category: Database
+- question: Your application needs full-text search in Vietnamese with proper tokenization (word segmentation differs from English). How do you implement localized full-text search?
+---
+---
+- fact: 0243
+- status: TODO
+- category: DevOps
+- question: Your team has 5 microservices and docker-compose for local dev. But running all 5 services on a laptop is slow and uses 8GB RAM. How do you optimize local development for microservices?
+---
+---
+- fact: 0244
+- status: TODO
+- category: Security
+- question: Your application allows users to embed YouTube videos. An attacker crafts a malicious iframe. How do you implement a Content Security Policy (CSP) that balances security and functionality?
+---
+---
+- fact: 0245
+- status: TODO
+- category: Architecture
+- question: Your SaaS needs to serve customers globally with GDPR compliance. EU data must stay in EU, US data in US. How do you implement data residency in a multi-region architecture?
+---
+---
+- fact: 0246
+- status: TODO
+- category: Backend
+- question: Your TypeScript codebase has any everywhere. Changing a type in one service breaks 5 others at runtime. How do you use TypeScript effectively for API contracts?
+---
+---
+- fact: 0247
+- status: TODO
+- category: Frontend
+- question: Your web app needs to handle 2000+ emojis, special characters, and RTL text in user input. Some characters break your layout. How do you handle Unicode properly in frontend apps?
+---
+---
+- fact: 0248
+- status: TODO
+- category: Database
+- question: Your multi-region database uses eventual consistency. A user updates their profile in US-East, then immediately reads from US-West and sees stale data. How do you handle read-your-writes consistency?
+---
+---
+- fact: 0249
+- status: TODO
+- category: DevOps
+- question: Your team uses AWS but wants to avoid vendor lock-in. Should you use abstraction layers (Terraform, Pulumi) or embrace AWS-native services? What's the real cost of each approach?
+---
+---
+- fact: 0250
+- status: TODO
+- category: Architecture
+- question: Your system has 50 microservices. A single user request touches 12 of them. Nobody can explain the full request flow. How do you map and document microservice dependencies?
+---
+---
+- fact: 0251
+- status: TODO
+- category: Backend
+- question: Your API receives timestamps from clients in different timezones. Some are UTC, some local time, some have no timezone info. How do you handle timezones consistently?
+---
+---
+- fact: 0252
+- status: TODO
+- category: Frontend
+- question: You need to build a spreadsheet-like data grid with editing, formulas, sorting, and virtual scrolling for 100K rows. How do you architect a complex data grid component?
+---
+---
+- fact: 0253
+- status: TODO
+- category: Database
+- question: Your PostgreSQL table has 1B rows. SELECT COUNT(*) takes 30 seconds. Why is counting rows slow in PostgreSQL and what are the alternatives?
+---
+---
+- fact: 0254
+- status: TODO
+- category: DevOps
+- question: Your application crashes at 3 AM and the on-call engineer can't reproduce it. Logs show nothing. How do you implement effective alerting and incident response?
+---
+---
+- fact: 0255
+- status: TODO
+- category: Security
+- question: Your application generates temporary download links. An attacker finds the pattern and predicts future URLs. How do you generate unpredictable, time-limited URLs?
+---
+---
+- fact: 0256
+- status: TODO
+- category: Architecture
+- question: You need to process a live video stream, detect objects, and send alerts in under 1 second. Traditional request/response is too slow. How do you design a real-time stream processing pipeline?
+---
+---
+- fact: 0257
+- status: TODO
+- category: Backend
+- question: Your Node.js app uses worker threads but shared state between workers causes race conditions. How do you safely share data between worker threads?
+---
+---
+- fact: 0258
+- status: TODO
+- category: Frontend
+- question: Your app has a complex permission system. Some buttons should be hidden, some disabled, some show different content based on user role. How do you implement permission-based UI rendering?
+---
+---
+- fact: 0259
+- status: TODO
+- category: Database
+- question: You need to track every change to sensitive records for compliance — who changed what, when, and the old/new values. How do you implement database audit trails?
+---
+---
+- fact: 0260
+- status: TODO
+- category: DevOps
+- question: Your container orchestration handles normal deployments well but your database migration runs in a separate init container that sometimes fails and blocks the rollout. How do you handle migrations in containerized deployments?
+---
+---
+- fact: 0261
+- status: TODO
+- category: Architecture
+- question: Your API serves mobile clients on 3G connections. Each request payload is 500KB. How do you design APIs for low-bandwidth/high-latency environments?
+---
+---
+- fact: 0262
+- status: TODO
+- category: Backend
+- question: Your application needs to geocode addresses, calculate distances, and find nearby locations. SQL queries with latitude/longitude are slow. How do you implement geospatial features efficiently?
+---
+---
+- fact: 0263
+- status: TODO
+- category: Frontend
+- question: Your app embeds a map with 50,000 markers. The browser becomes unresponsive. How do you implement map marker clustering and viewport-based loading?
+---
+---
+- fact: 0264
+- status: TODO
+- category: Database
+- question: Your PostgreSQL database has 500 connections from 10 application servers. Each connection uses 10MB of memory. The database server only has 4GB RAM. How do you implement connection pooling with PgBouncer?
+---
+---
+- fact: 0265
+- status: TODO
+- category: Architecture
+- question: Your task queue processes jobs with different priorities — payment callbacks need instant processing, report generation can wait. How do you implement priority queues?
+---
+
+# TODO — Mobile (0266–0315)
+
+---
+- fact: 0266
+- status: TODO
+- category: Mobile
+- question: Your React Native app is slow on Android but smooth on iOS. Profiling shows the JS bridge is the bottleneck. How does the New Architecture (Fabric + TurboModules) solve this?
+---
+---
+- fact: 0267
+- status: TODO
+- category: Mobile
+- question: Your app needs to work offline and sync data when connectivity returns. Conflicts arise when two users edit the same record offline. How do you implement offline-first with conflict resolution?
+---
+---
+- fact: 0268
+- status: TODO
+- category: Mobile
+- question: Users report your app drains their battery. Background tasks run every 5 minutes even when idle. How do you optimize battery usage in mobile apps?
+---
+---
+- fact: 0269
+- status: TODO
+- category: Mobile
+- question: Your app update has a critical bug but it takes 3 days for Apple App Store review. How do you implement over-the-air (OTA) updates for React Native/Flutter?
+---
+---
+- fact: 0270
+- status: TODO
+- category: Mobile
+- question: Your mobile app stores the API key in the source code. Decompiling the APK reveals it in plain text. How do you protect secrets in mobile applications?
+---
+---
+- fact: 0271
+- status: TODO
+- category: Mobile
+- question: Your app list scrolls smoothly with 100 items but stutters at 10,000. FlatList renders all items at once. How do you implement performant infinite scroll in React Native?
+---
+---
+- fact: 0272
+- status: TODO
+- category: Mobile
+- question: Your app needs push notifications that work reliably across iOS and Android. Some users never receive notifications. How do you build a reliable mobile push notification pipeline?
+---
+---
+- fact: 0273
+- status: TODO
+- category: Mobile
+- question: Your app supports biometric login (Face ID, fingerprint). But what if the user changes their fingerprint? How do you implement biometric authentication securely?
+---
+---
+- fact: 0274
+- status: TODO
+- category: Mobile
+- question: Your app crashes 5% of the time on specific Android devices. You can't reproduce it locally. How do you implement crash reporting and remote debugging for mobile?
+---
+---
+- fact: 0275
+- status: TODO
+- category: Mobile
+- question: Your app needs to handle deep links from email, SMS, and social media — each pointing to different screens. How do you implement universal links and deep linking?
+---
+
+# TODO — AI/ML Engineering (0276–0325)
+
+---
+- fact: 0276
+- status: DONE
+- category: AI
+- slug: optimize-llm-api-costs
+- question: Your GPT-based feature costs $5,000/month in API calls for 10,000 users. How do you optimize LLM API costs with caching, prompt compression, and model routing?
+---
+---
+- fact: 0277
+- status: DONE
+- category: AI
+- slug: rag-grounded-llm-responses
+- question: Your chatbot hallucinates facts about your product. Users get wrong information. How do you implement RAG (Retrieval-Augmented Generation) to ground LLM responses?
+---
+---
+- fact: 0278
+- status: TODO
+- category: AI
+- question: You fine-tune a model on your data but it performs worse than the base model on some tasks. What is catastrophic forgetting and how do you prevent it?
+---
+---
+- fact: 0279
+- status: TODO
+- category: AI
+- question: Your ML model works great in testing (99% accuracy) but fails in production. The training data was clean but real data is messy. What is data drift and how do you monitor it?
+---
+---
+- fact: 0280
+- status: TODO
+- category: AI
+- question: Your LLM app needs to call APIs, search databases, and run calculations. Prompt engineering alone isn't enough. How do you build an AI agent with tool use?
+---
+---
+- fact: 0281
+- status: TODO
+- category: AI
+- question: Users paste a 50-page contract and ask your LLM to summarize it. The context window isn't big enough. How do you handle long documents with chunking strategies?
+---
+---
+- fact: 0282
+- status: TODO
+- category: AI
+- question: Your AI feature generates text that needs to stream to the frontend word by word. How do you implement streaming LLM responses with SSE?
+---
+---
+- fact: 0283
+- status: TODO
+- category: AI
+- question: Your LLM sometimes generates unsafe content (profanity, PII, harmful advice). How do you implement content moderation and safety guardrails?
+---
+---
+- fact: 0284
+- status: TODO
+- category: AI
+- question: You build a semantic search that returns results by meaning not keywords. How do you create vector embeddings, store them, and perform similarity search efficiently?
+---
+---
+- fact: 0285
+- status: TODO
+- category: AI
+- question: Your team debates between OpenAI, Anthropic, open-source LLMs (Llama, Mistral). How do you design an LLM abstraction layer that supports multiple providers?
+---
+
+# TODO — Testing & QA (0286–0325)
+
+---
+- fact: 0286
+- status: DONE
+- category: Testing
+- slug: mocks-vs-real-dependencies-testing
+- question: Your test suite mocks everything. Tests pass but bugs still reach production. When should you use real dependencies vs mocks?
+---
+---
+- fact: 0287
+- status: TODO
+- category: Testing
+- question: Your integration tests take 20 minutes because each test sets up a fresh database. How do you speed up database-dependent tests?
+---
+---
+- fact: 0288
+- status: TODO
+- category: Testing
+- question: Your frontend has 80% unit test coverage but users still find UI bugs. Unit tests don't catch visual regressions. How do you implement visual regression testing?
+---
+---
+- fact: 0289
+- status: DONE
+- category: Testing
+- slug: write-maintainable-e2e-tests
+- question: Your E2E tests with Playwright break whenever the UI changes slightly. Tests are brittle and always red. How do you write maintainable E2E tests?
+---
+---
+- fact: 0290
+- status: TODO
+- category: Testing
+- question: Your team has 100% code coverage but the code is still buggy. What does code coverage actually measure and what are its blind spots?
+---
+---
+- fact: 0291
+- status: TODO
+- category: Testing
+- question: Your API has 200 endpoints. Writing tests for every endpoint, status code, and edge case would take months. How do you implement contract testing with Pact?
+---
+---
+- fact: 0292
+- status: TODO
+- category: Testing
+- question: Your load test shows the API handles 5,000 RPS. But in production with real traffic patterns it struggles at 2,000. How do you design realistic performance tests?
+---
+---
+- fact: 0293
+- status: TODO
+- category: Testing
+- question: A bug is reported: "the checkout doesn't work." No reproduction steps. How do you write a bug report and reproduce issues systematically?
+---
+---
+- fact: 0294
+- status: TODO
+- category: Testing
+- question: Your React component has complex conditional rendering. Testing all branches with enzyme/RTL is painful. How do you test React components with Testing Library best practices?
+---
+---
+- fact: 0295
+- status: TODO
+- category: Testing
+- question: Your microservice depends on 3 external services for integration tests. How do you use WireMock/MSW to create reliable test doubles?
+---
+
+# TODO — Data Engineering (0296–0335)
+
+---
+- fact: 0296
+- status: TODO
+- category: Data
+- question: Your analytics team runs queries on the production database and it slows down for users. How do you set up a data warehouse separate from your OLTP database?
+---
+---
+- fact: 0297
+- status: TODO
+- category: Data
+- question: Your ETL pipeline runs nightly but sometimes fails halfway. When you restart, it duplicates data or misses records. How do you make ETL pipelines idempotent?
+---
+---
+- fact: 0298
+- status: TODO
+- category: Data
+- question: Your data team wants real-time dashboards but your data warehouse only refreshes hourly. How do you implement real-time data streaming with Kafka + Flink/Spark Streaming?
+---
+---
+- fact: 0299
+- status: TODO
+- category: Data
+- question: Your CSV import process handles 1,000 rows fine but fails at 10M rows. Memory runs out. How do you process large files in chunks with streaming?
+---
+---
+- fact: 0300
+- status: TODO
+- category: Data
+- question: Your data lake has 50TB of Parquet files. Queries scan everything even when you only need last month's data. How do you implement data partitioning and predicate pushdown?
+---
+---
+- fact: 0301
+- status: TODO
+- category: Data
+- question: Your team uses BigQuery for analytics but the monthly bill is $10K. Most queries scan the full table. How do you optimize BigQuery costs?
+---
+---
+- fact: 0302
+- status: DONE
+- category: Data
+- slug: change-data-capture-debezium
+- question: You need to sync data between PostgreSQL and Elasticsearch in real-time. Manual sync scripts often miss updates. How does Change Data Capture (CDC) with Debezium work?
+---
+---
+- fact: 0303
+- status: TODO
+- category: Data
+- question: Your data pipeline processes events out of order. Event timestamps don't match processing timestamps. How do you handle late-arriving data in stream processing?
+---
+---
+- fact: 0304
+- status: TODO
+- category: Data
+- question: Your company has 200 tables across 5 databases. Nobody knows what each column means. How do you build a data catalog and implement data governance?
+---
+---
+- fact: 0305
+- status: TODO
+- category: Data
+- question: Your dashboard shows different numbers than the analytics team's SQL query. Both are "correct" but use different definitions of "active user." How do you create a single source of truth with a metrics layer?
+---
+
+# TODO — Networking & Protocols (0306–0335)
+
+---
+- fact: 0306
+- status: DONE
+- category: Networking
+- slug: http2-multiplexing-performance
+- question: Your API uses HTTP/1.1 with keep-alive. Under high concurrency, connections queue up. How does HTTP/2 multiplexing solve head-of-line blocking?
+---
+---
+- fact: 0307
+- status: TODO
+- category: Networking
+- question: Users in Asia report 500ms latency to your US-hosted API. A CDN helps for static files but not API calls. How do you reduce API latency for global users?
+---
+---
+- fact: 0308
+- status: TODO
+- category: Networking
+- question: Your microservices use REST. But serializing/deserializing JSON for inter-service calls adds overhead. When should you switch to gRPC or Protocol Buffers?
+---
+---
+- fact: 0309
+- status: TODO
+- category: Networking
+- question: Your WebSocket connections keep dropping on mobile networks. Users have to manually reconnect. How do you implement robust reconnection with exponential backoff?
+---
+---
+- fact: 0310
+- status: TODO
+- category: Networking
+- question: Your DNS resolution takes 200ms for every new connection. That's 200ms added to every first request to a new domain. How do you optimize DNS for web applications?
+---
+---
+- fact: 0311
+- status: DONE
+- category: Networking
+- slug: load-balancing-algorithms
+- question: Your load balancer uses round-robin but some servers have 10x more load than others. Why does this happen and what's a better load balancing algorithm?
+---
+---
+- fact: 0312
+- status: TODO
+- category: Networking
+- question: Your TCP connections take 3 round trips (DNS + TCP + TLS) before any data is sent. How does QUIC/HTTP/3 reduce connection setup time?
+---
+---
+- fact: 0313
+- status: TODO
+- category: Networking
+- question: Your reverse proxy terminates TLS. But internal traffic between proxy and backend is unencrypted. Is this acceptable? How do you design TLS termination properly?
+---
+---
+- fact: 0314
+- status: TODO
+- category: Networking
+- question: Your API sits behind multiple proxies (CDN → Load Balancer → App). X-Forwarded-For header has 5 IPs. Which one is the real client IP?
+---
+---
+- fact: 0315
+- status: TODO
+- category: Networking
+- question: Your server accepts 10,000 concurrent connections but performance drops at 50,000. The CPU is idle. What are C10K/C100K problems and how does epoll/kqueue solve them?
+---
+
+# TODO — Career & Soft Skills (0316–0345)
+
+---
+- fact: 0316
+- status: TODO
+- category: Career
+- question: You're a senior developer but struggle to explain technical decisions to non-technical stakeholders. How do you communicate architecture decisions effectively?
+---
+---
+- fact: 0317
+- status: DONE
+- category: Career
+- slug: software-estimation-techniques
+- question: Your team lead asks you to estimate a feature. You say "2 weeks." It takes 2 months. Why are software estimates always wrong and how do you estimate better?
+---
+---
+- fact: 0318
+- status: TODO
+- category: Career
+- question: You're asked to do a code review for a colleague whose code works but is "ugly." When is code quality feedback subjective vs objective?
+---
+---
+- fact: 0319
+- status: TODO
+- category: Career
+- question: Your team has 8 developers but velocity hasn't increased in 6 months. More people doesn't mean more output. What is Brooks's Law and how do you scale engineering teams?
+---
+---
+- fact: 0320
+- status: TODO
+- category: Career
+- question: You receive a system design interview question you've never seen before. What's the structured approach to tackle any system design problem?
+---
+---
+- fact: 0321
+- status: DONE
+- category: Career
+- slug: junior-to-senior-developer
+- question: You join a new team with a massive legacy codebase and zero documentation. How do you onboard yourself onto an unfamiliar codebase efficiently?
+---
+---
+- fact: 0322
+- status: TODO
+- category: Career
+- question: Your tech debt is growing. Management says "just ship features." How do you advocate for technical debt reduction without losing business trust?
+---
+---
+- fact: 0323
+- status: TODO
+- category: Career
+- question: You're asked to write an Architecture Decision Record (ADR) for choosing PostgreSQL over MongoDB. What should an ADR contain and why do teams need them?
+---
+---
+- fact: 0324
+- status: TODO
+- category: Career
+- question: You mentor a junior developer who keeps making the same mistakes. Code reviews feel like a lecture. How do you give effective technical feedback that actually helps people grow?
+---
+---
+- fact: 0325
+- status: TODO
+- category: Career
+- question: You're a mid-level developer aiming for senior. What concrete skills and behaviors differentiate a senior engineer from a mid-level one?
+---
+
+# TODO — Operating Systems & Linux (0326–0355)
+
+---
+- fact: 0326
+- status: TODO
+- category: OS
+- question: Your Node.js server runs out of file descriptors under load. ulimit shows 1024. What are file descriptors and how do you tune them for production servers?
+---
+---
+- fact: 0327
+- status: TODO
+- category: OS
+- question: Your process uses 4GB of "virtual memory" but only 500MB of "resident memory." What's the difference and which one should you worry about?
+---
+---
+- fact: 0328
+- status: TODO
+- category: OS
+- question: Your server's OOM killer randomly kills your database process. How does Linux OOM killer work and how do you protect critical processes?
+---
+---
+- fact: 0329
+- status: TODO
+- category: OS
+- question: Your application's disk writes are slow even though the SSD benchmarks at 500MB/s. iostat shows high await times. How do you diagnose disk I/O bottlenecks?
+---
+---
+- fact: 0330
+- status: TODO
+- category: OS
+- question: Your container's CPU is throttled even though the host has idle cores. cgroup CPU limits are set to 500m. How do CPU cgroups, requests, and limits work in practice?
+---
+---
+- fact: 0331
+- status: TODO
+- category: OS
+- question: Your application uses too much memory. You need to profile it. What tools (htop, vmstat, /proc, perf) help you diagnose memory issues on Linux?
+---
+---
+- fact: 0332
+- status: TODO
+- category: OS
+- question: Your systemd service crashes and restarts in a loop. journalctl shows no useful output. How do you debug systemd service failures?
+---
+---
+- fact: 0333
+- status: TODO
+- category: OS
+- question: Your server handles 10K connections but TIME_WAIT sockets accumulate and new connections fail. What is TIME_WAIT and how do you tune TCP socket recycling?
+---
+---
+- fact: 0334
+- status: TODO
+- category: OS
+- question: Your Docker container shares the host kernel. A vulnerability in the container could escape to the host. How does container isolation (namespaces, cgroups, seccomp) actually work?
+---
+---
+- fact: 0335
+- status: TODO
+- category: OS
+- question: You need to run multiple versions of Python/Node on the same server. Version conflicts break other apps. How do you use chroot/nix/asdf to manage runtime isolation?
+---
+
+# TODO — Programming Patterns & Clean Code (0336–0365)
+
+---
+- fact: 0336
+- status: TODO
+- category: Patterns
+- question: Your codebase has functions with 15 parameters. Half are boolean flags. How do you refactor "flag argument" anti-pattern with the Builder or Options pattern?
+---
+---
+- fact: 0337
+- status: TODO
+- category: Patterns
+- question: Your payment module supports Stripe, PayPal, and MoMo. Adding a new provider requires changing 10 files. How does the Strategy pattern simplify payment provider integration?
+---
+---
+- fact: 0338
+- status: TODO
+- category: Patterns
+- question: Your code has deeply nested if/else blocks — 6 levels deep. It's unreadable. How do you flatten nested conditionals with early returns and guard clauses?
+---
+---
+- fact: 0339
+- status: TODO
+- category: Patterns
+- question: Your class has 3,000 lines and 50 methods. It handles validation, database queries, email sending, and logging. How do you apply the Single Responsibility Principle?
+---
+---
+- fact: 0340
+- status: TODO
+- category: Patterns
+- question: Your team debates DRY vs readability. Extracting shared code creates abstraction layers that nobody understands. When is code duplication actually better than abstraction?
+---
+---
+- fact: 0341
+- status: TODO
+- category: Patterns
+- question: You inherit a codebase where every class depends on concrete implementations. Changing the database from MySQL to PostgreSQL requires modifying 50 files. What is Dependency Inversion and how do you apply it?
+---
+---
+- fact: 0342
+- status: TODO
+- category: Patterns
+- question: Your event-driven system has 100 event types. Adding a new event requires modifying the event handler switch statement. How does the Observer/Pub-Sub pattern decouple event producers from consumers?
+---
+---
+- fact: 0343
+- status: TODO
+- category: Patterns
+- question: You need to add logging, caching, retry logic, and auth to every API handler. Copying the same code everywhere violates DRY. How does the Decorator/Middleware pattern solve cross-cutting concerns?
+---
+---
+- fact: 0344
+- status: TODO
+- category: Patterns
+- question: Your application creates expensive objects (database connections, HTTP clients) on every request. How does the Object Pool pattern improve performance?
+---
+---
+- fact: 0345
+- status: TODO
+- category: Patterns
+- question: Your code uses try/catch everywhere. Error handling logic is 60% of the codebase. How do you implement the Result/Either pattern for cleaner error handling in TypeScript?
+---
+
+# TODO — Cloud & Infrastructure (0346–0375)
+
+---
+- fact: 0346
+- status: TODO
+- category: Cloud
+- question: Your Lambda function works in dev but times out in production. CloudWatch shows it runs for 15 seconds then dies. How do you debug serverless functions?
+---
+---
+- fact: 0347
+- status: TODO
+- category: Cloud
+- question: Your S3 bucket has 10TB of data. Listing objects takes minutes. How do you organize S3 objects with prefixes for performance and cost optimization?
+---
+---
+- fact: 0348
+- status: TODO
+- category: Cloud
+- question: Your team manually creates infrastructure in the AWS console. Nobody knows what's running. How do you adopt Infrastructure as Code with Terraform from scratch?
+---
+---
+- fact: 0349
+- status: TODO
+- category: Cloud
+- question: Your EC2 instance type was chosen 2 years ago. You're paying $500/month for resources you don't use. How do you right-size cloud resources?
+---
+---
+- fact: 0350
+- status: TODO
+- category: Cloud
+- question: Your application runs on EC2 with auto-scaling. Traffic is predictable — high during business hours, zero at night. How do you use Spot Instances and Reserved Instances to cut costs by 70%?
+---
+---
+- fact: 0351
+- status: TODO
+- category: Cloud
+- question: Your VPC has no private subnets. All instances have public IPs. An attacker scans your IPs and finds an open port. How do you design a secure VPC architecture?
+---
+---
+- fact: 0352
+- status: TODO
+- category: Cloud
+- question: You need to migrate 5TB of data from on-premise to AWS. Network transfer would take a week. What migration strategies exist (Snowball, DMS, replication)?
+---
+---
+- fact: 0353
+- status: TODO
+- category: Cloud
+- question: Your multi-account AWS setup has no guardrails. A developer spins up a p4d.24xlarge GPU instance ($32/hr) by mistake. How do you implement AWS Organizations and cost controls?
+---
+---
+- fact: 0354
+- status: TODO
+- category: Cloud
+- question: Your CloudFormation stack update fails halfway through. Some resources are updated, some aren't. The stack is in UPDATE_ROLLBACK_FAILED state. How do you recover?
+---
+---
+- fact: 0355
+- status: TODO
+- category: Cloud
+- question: Your application needs to process 10,000 images when uploaded to S3. Each takes 5 seconds. How do you design an event-driven processing pipeline with S3 + Lambda + SQS?
+---
+
+# TODO — Observability (0356–0380)
+
+---
+- fact: 0356
+- status: TODO
+- category: Observability
+- question: Your production system is slow but you don't know which service or query is the bottleneck. How do you implement the three pillars of observability (metrics, logs, traces)?
+---
+---
+- fact: 0357
+- status: TODO
+- category: Observability
+- question: Your Grafana dashboard has 200 panels. Nobody looks at it because there's too much information. How do you design actionable dashboards that surface problems quickly?
+---
+---
+- fact: 0358
+- status: TODO
+- category: Observability
+- question: You define an SLO of 99.9% availability. But how do you measure it? What's the difference between SLI, SLO, and SLA in practice?
+---
+---
+- fact: 0359
+- status: TODO
+- category: Observability
+- question: Your alerting fires 50 alerts per day. The team ignores them all. How do you reduce alert fatigue and create meaningful alert rules?
+---
+---
+- fact: 0360
+- status: TODO
+- category: Observability
+- question: A user reports "the app is slow." You need to trace their exact request path through 8 microservices. How does distributed tracing with OpenTelemetry work?
+---
+---
+- fact: 0361
+- status: TODO
+- category: Observability
+- question: Your application has a memory leak that only manifests after 3 days of running. How do you use continuous profiling to catch production performance issues?
+---
+---
+- fact: 0362
+- status: TODO
+- category: Observability
+- question: Your error tracking shows 10,000 errors per day. Most are noise (network timeouts, bot traffic). How do you implement intelligent error grouping and prioritization?
+---
+
+# TODO — Git & Version Control (0363–0380)
+
+---
+- fact: 0363
+- status: DONE
+- category: Git
+- slug: trunk-based-development
+- question: Your team uses long-lived feature branches that diverge for weeks. Merge conflicts are constant. How does trunk-based development reduce integration pain?
+---
+---
+- fact: 0364
+- status: TODO
+- category: Git
+- question: You accidentally commit a secret (API key) to Git. Even after deleting it, it's in the history. How do you remove sensitive data from Git history?
+---
+---
+- fact: 0365
+- status: TODO
+- category: Git
+- question: Your Git repo is 5GB because someone committed node_modules and binary files. Cloning takes 10 minutes. How do you clean up a bloated Git repository?
+---
+---
+- fact: 0366
+- status: TODO
+- category: Git
+- question: Two branches modify the same file. Git shows a merge conflict with <<<< markers. How do you resolve complex merge conflicts systematically?
+---
+---
+- fact: 0367
+- status: TODO
+- category: Git
+- question: Your team debates rebase vs merge. Some developers rebase, creating clean linear history. Others merge, preserving branch history. What are the trade-offs and when to use each?
+---
+---
+- fact: 0368
+- status: TODO
+- category: Git
+- question: Your monorepo has 20 projects. Every commit triggers CI for all 20. How do you implement path-based CI triggering?
+---
+---
+- fact: 0369
+- status: TODO
+- category: Git
+- question: A release has a critical bug. You need to cherry-pick a fix from main to the release branch. How do you manage hotfixes across branches?
+---
+---
+- fact: 0370
+- status: TODO
+- category: Git
+- question: Your team's commit messages are "fix stuff", "wip", "asdf". The git log is useless. How do you enforce Conventional Commits and meaningful commit messages?
+---
+
+# Summary
+
+| Category | Count | Status |
+|----------|-------|--------|
+| Backend | 70 | 22 DONE, 48 TODO |
+| Frontend | 48 | 16 DONE, 32 TODO |
+| Database | 34 | 16 DONE, 18 TODO |
+| DevOps | 48 | 14 DONE, 34 TODO |
+| Security | 33 | 9 DONE, 24 TODO |
+| Architecture | 32 | 10 DONE, 22 TODO |
+| Mobile | 10 | 0 DONE, 10 TODO |
+| AI | 10 | 2 DONE, 8 TODO |
+| Testing | 10 | 2 DONE, 8 TODO |
+| Data | 10 | 1 DONE, 9 TODO |
+| Networking | 10 | 2 DONE, 8 TODO |
+| Career | 10 | 2 DONE, 8 TODO |
+| OS | 10 | 0 DONE, 10 TODO |
+| Patterns | 10 | 0 DONE, 10 TODO |
+| Cloud | 10 | 0 DONE, 10 TODO |
+| Observability | 7 | 0 DONE, 7 TODO |
+| Git | 8 | 1 DONE, 7 TODO |
+| **TOTAL** | **370** | **97 DONE, 273 TODO** |
+
+> Goal: 2000 facts. The remaining ~1630 facts will be added gradually in batches.
+> Categories that can be expanded: Blockchain, GameDev, Embedded, IoT, Compiler, Language Design, Math/CS Theory, UX/UI, Product, Accessibility...

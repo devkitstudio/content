@@ -1,0 +1,23 @@
+---
+category: Architecture
+tags:
+  - observability
+  - logging
+  - cost-optimization
+  - senior
+date: 2026-04-06T00:00:00.000Z
+sections:
+  - id: solution
+    label: Solution
+    icon: Lightbulb
+    order: 1
+  - id: cost-math
+    label: Cost Math
+    icon: Calculator
+    order: 2
+  - id: source
+    label: Sources
+    icon: BookOpen
+    order: 99
+---
+Your centralized logging system ingests 1TB of logs per day. The Elasticsearch/Datadog/Splunk bill is skyrocketing. Management says "cut logging costs by 70%." But engineering says "we need every log line to trace business flows end-to-end." How do you drastically reduce logging volume and cost while still preserving full traceability of business-critical flows?

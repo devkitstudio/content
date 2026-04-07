@@ -1,0 +1,5 @@
+- [PostgreSQL Streaming Replication](https://www.postgresql.org/docs/current/warm-standby.html)
+- [WAL and Replication LSN](https://www.postgresql.org/docs/current/wal-intro.html)
+- [pg_stat_replication View](https://www.postgresql.org/docs/current/monitoring-stats.html#MONITORING-PG-STAT-REPLICATION-VIEW)
+- [Consistency Models in Distributed Systems](https://jepsen.io/consistency)
+- [Strong Consistency at Scale](https://www.cockroachlabs.com/blog/consistency-models/)

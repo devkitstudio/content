@@ -1,0 +1,5 @@
+- [PostgreSQL Partial Indexes](https://www.postgresql.org/docs/current/indexes-partial.html)
+- [Table Partitioning](https://www.postgresql.org/docs/current/ddl-partitioning.html)
+- [Archival Strategies](https://www.postgresql.org/wiki/Performance_Optimization)
+- [Event Sourcing Pattern](https://martinfowler.com/eaaDev/EventSourcing.html)
+- [Temporal Tables in SQL](https://en.wikipedia.org/wiki/Temporal_database)

@@ -1,0 +1,3 @@
+- [TanStack Query Docs](https://tanstack.com/query/latest)
+- [Zustand Documentation](https://github.com/pmndrs/zustand)
+- [Server State vs Client State](https://tanstack.com/query/latest/docs/react/overview)

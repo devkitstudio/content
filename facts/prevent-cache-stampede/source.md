@@ -1,0 +1,5 @@
+- [Redis Commands: SET with NX](https://redis.io/commands/set)
+- [Cache Stampede Prevention Techniques](https://en.wikipedia.org/wiki/Cache_stampede)
+- [Distributed Locking with Redis](https://redis.io/docs/manual/patterns/distributed-locks/)
+- [Probabilistic Early Expiration](https://cseweb.ucsd.edu/~avattani/papers/cache_stampedefinal.pdf)
+- [Redis TTL and Expiration](https://redis.io/docs/manual/keyspace-notifications/)

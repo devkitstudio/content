@@ -1,0 +1,4 @@
+- [Tailwind CSS Documentation](https://tailwindcss.com/docs)
+- [CSS Modules Spec](https://github.com/css-modules/css-modules)
+- [Styled Components Docs](https://styled-components.com/)
+- [Web Vitals Metrics](https://web.dev/vitals/)
