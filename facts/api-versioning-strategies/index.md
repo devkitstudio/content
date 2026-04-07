@@ -13,7 +13,7 @@ sections:
     order: 1
   - id: comparison
     label: Comparison & Trade-offs
-    icon: BarChart3
+    icon: bar-chart-3
     order: 2
   - id: source
     label: Sources

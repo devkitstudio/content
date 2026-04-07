@@ -69,25 +69,25 @@ Below is a **catalog of possible section types**. Pick whichever sections make s
 
 | Section Type | Suggested File | Icon | When to Use |
 |-------------|---------------|------|-------------|
-| Solution / Answer | `solution.md` | `Lightbulb` | The primary answer. Every fact needs this |
-| Why / Root Cause | `why.md` | `HelpCircle` | When understanding the "why" is as important as the fix |
-| How / Step-by-step | `how.md` | `Wrench` | When the solution needs a detailed walkthrough |
-| Implementation | `implementation.md` | `Code2` | Production-ready code with explanation |
-| Alternative Approaches | `alternatives.md` | `GitBranch` | When multiple valid solutions exist (common in interviews) |
-| Common Pitfalls | `pitfalls.md` | `AlertTriangle` | Anti-patterns, mistakes people make |
-| Example | `example.md` | `Box` | Concrete example, demo, sample project |
-| Playground / Interactive | `playground.md` | `Play` | Any fact can have this: live code sandbox, algorithm visualizer, SQL query tester, config simulator, etc. |
-| Debugging | `debugging.md` | `Bug` | How to diagnose in production, DevTools walkthrough |
-| War Stories | `war-stories.md` | `Flame` | Real production incidents, postmortem lessons |
-| Checklist | `checklist.md` | `ListChecks` | Before/after checklist, decision matrix |
-| Comparison | `comparison.md` | `Scale` | Trade-off tables, "X vs Y" analysis |
-| Advanced | `advanced.md` | `Rocket` | Deep dive beyond the basic answer |
-| Patterns | `patterns.md` | `Layers` | Related design patterns, combined strategies |
-| Libraries & Tools | `libraries.md` | `Package` | Production-ready libraries, framework integrations |
-| Config / YAML | `config.md` | `Settings` | Configuration files, infrastructure setup |
-| Cost Analysis | `cost-math.md` | `Calculator` | Real cost calculations, before/after numbers |
-| Prevention | `prevention.md` | `ShieldCheck` | How to prevent the problem from happening again |
-| Source / References | `source.md` | `BookOpen` | Official docs, RFCs, specifications. Always `order: 99` |
+| Solution / Answer | `solution.md` | `lightbulb` | The primary answer. Every fact needs this |
+| Why / Root Cause | `why.md` | `help-circle` | When understanding the "why" is as important as the fix |
+| How / Step-by-step | `how.md` | `wrench` | When the solution needs a detailed walkthrough |
+| Implementation | `implementation.md` | `code-2` | Production-ready code with explanation |
+| Alternative Approaches | `alternatives.md` | `git-branch` | When multiple valid solutions exist (common in interviews) |
+| Common Pitfalls | `pitfalls.md` | `alert-triangle` | Anti-patterns, mistakes people make |
+| Example | `example.md` | `box` | Concrete example, demo, sample project |
+| Playground / Interactive | `playground.md` | `play` | Any fact can have this: live code sandbox, algorithm visualizer, SQL query tester, config simulator, etc. |
+| Debugging | `debugging.md` | `bug` | How to diagnose in production, DevTools walkthrough |
+| War Stories | `war-stories.md` | `flame` | Real production incidents, postmortem lessons |
+| Checklist | `checklist.md` | `list-checks` | Before/after checklist, decision matrix |
+| Comparison | `comparison.md` | `scale` | Trade-off tables, "X vs Y" analysis |
+| Advanced | `advanced.md` | `rocket` | Deep dive beyond the basic answer |
+| Patterns | `patterns.md` | `layers` | Related design patterns, combined strategies |
+| Libraries & Tools | `libraries.md` | `package` | Production-ready libraries, framework integrations |
+| Config / YAML | `config.md` | `settings` | Configuration files, infrastructure setup |
+| Cost Analysis | `cost-math.md` | `calculator` | Real cost calculations, before/after numbers |
+| Prevention | `prevention.md` | `shield-check` | How to prevent the problem from happening again |
+| Source / References | `source.md` | `book-open` | Official docs, RFCs, specifications. Always `order: 99` |
 
 ### Naming Your Own Sections
 You can name sections anything — the filename becomes the internal identifier, the `label` frontmatter becomes the tab title:
