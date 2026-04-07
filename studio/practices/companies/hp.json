@@ -1,0 +1,39 @@
+[
+  {
+    "id": "minimum-recolors-to-get-k-consecutive-black-blocks",
+    "title": "Minimum Recolors to Get K Consecutive Black Blocks",
+    "difficulty": "Easy",
+    "frequency": 100,
+    "acceptance": 0.6842699682132298,
+    "link": "https://leetcode.com/problems/minimum-recolors-to-get-k-consecutive-black-blocks",
+    "topics": [
+      "String",
+      "Sliding Window"
+    ]
+  },
+  {
+    "id": "minimum-cost-homecoming-of-a-robot-in-a-grid",
+    "title": "Minimum Cost Homecoming of a Robot in a Grid",
+    "difficulty": "Medium",
+    "frequency": 91,
+    "acceptance": 0.5116237402015678,
+    "link": "https://leetcode.com/problems/minimum-cost-homecoming-of-a-robot-in-a-grid",
+    "topics": [
+      "Array",
+      "Greedy"
+    ]
+  },
+  {
+    "id": "longest-palindrome",
+    "title": "Longest Palindrome",
+    "difficulty": "Easy",
+    "frequency": 84.5,
+    "acceptance": 0.555674153298964,
+    "link": "https://leetcode.com/problems/longest-palindrome",
+    "topics": [
+      "Hash Table",
+      "String",
+      "Greedy"
+    ]
+  }
+]

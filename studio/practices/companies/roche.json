@@ -1,0 +1,25 @@
+[
+  {
+    "id": "longest-common-prefix",
+    "title": "Longest Common Prefix",
+    "difficulty": "Easy",
+    "frequency": 100,
+    "acceptance": 0.4548730938950001,
+    "link": "https://leetcode.com/problems/longest-common-prefix",
+    "topics": [
+      "String",
+      "Trie"
+    ]
+  },
+  {
+    "id": "palindrome-number",
+    "title": "Palindrome Number",
+    "difficulty": "Easy",
+    "frequency": 100,
+    "acceptance": 0.5922738985051591,
+    "link": "https://leetcode.com/problems/palindrome-number",
+    "topics": [
+      "Math"
+    ]
+  }
+]

@@ -1,0 +1,170 @@
+[
+  {
+    "id": "moving-average-from-data-stream",
+    "title": "Moving Average from Data Stream",
+    "difficulty": "Easy",
+    "frequency": 100,
+    "acceptance": 0.7993788009717444,
+    "link": "https://leetcode.com/problems/moving-average-from-data-stream",
+    "topics": [
+      "Array",
+      "Design",
+      "Queue",
+      "Data Stream"
+    ]
+  },
+  {
+    "id": "leetcodify-friends-recommendations",
+    "title": "Leetcodify Friends Recommendations",
+    "difficulty": "Hard",
+    "frequency": 89.9,
+    "acceptance": 0.27980416156670745,
+    "link": "https://leetcode.com/problems/leetcodify-friends-recommendations",
+    "topics": [
+      "Database"
+    ]
+  },
+  {
+    "id": "leetcodify-similar-friends",
+    "title": "Leetcodify Similar Friends",
+    "difficulty": "Hard",
+    "frequency": 89.9,
+    "acceptance": 0.4264262416148686,
+    "link": "https://leetcode.com/problems/leetcodify-similar-friends",
+    "topics": [
+      "Database"
+    ]
+  },
+  {
+    "id": "two-sum",
+    "title": "Two Sum",
+    "difficulty": "Easy",
+    "frequency": 87.6,
+    "acceptance": 0.5577699999694816,
+    "link": "https://leetcode.com/problems/two-sum",
+    "topics": [
+      "Array",
+      "Hash Table"
+    ]
+  },
+  {
+    "id": "longest-substring-without-repeating-characters",
+    "title": "Longest Substring Without Repeating Characters",
+    "difficulty": "Medium",
+    "frequency": 85.1,
+    "acceptance": 0.36936143087114587,
+    "link": "https://leetcode.com/problems/longest-substring-without-repeating-characters",
+    "topics": [
+      "Hash Table",
+      "String",
+      "Sliding Window"
+    ]
+  },
+  {
+    "id": "analyze-user-website-visit-pattern",
+    "title": "Analyze User Website Visit Pattern",
+    "difficulty": "Medium",
+    "frequency": 85.1,
+    "acceptance": 0.43727202347730587,
+    "link": "https://leetcode.com/problems/analyze-user-website-visit-pattern",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "Sorting"
+    ]
+  },
+  {
+    "id": "valid-parentheses",
+    "title": "Valid Parentheses",
+    "difficulty": "Easy",
+    "frequency": 82.2,
+    "acceptance": 0.4232285927944412,
+    "link": "https://leetcode.com/problems/valid-parentheses",
+    "topics": [
+      "String",
+      "Stack"
+    ]
+  },
+  {
+    "id": "kth-largest-element-in-an-array",
+    "title": "Kth Largest Element in an Array",
+    "difficulty": "Medium",
+    "frequency": 82.2,
+    "acceptance": 0.6797706304551039,
+    "link": "https://leetcode.com/problems/kth-largest-element-in-an-array",
+    "topics": [
+      "Array",
+      "Divide and Conquer",
+      "Sorting",
+      "Heap (Priority Queue)",
+      "Quickselect"
+    ]
+  },
+  {
+    "id": "valid-palindrome",
+    "title": "Valid Palindrome",
+    "difficulty": "Easy",
+    "frequency": 75,
+    "acceptance": 0.5096354883309973,
+    "link": "https://leetcode.com/problems/valid-palindrome",
+    "topics": [
+      "Two Pointers",
+      "String"
+    ]
+  },
+  {
+    "id": "find-median-from-data-stream",
+    "title": "Find Median from Data Stream",
+    "difficulty": "Hard",
+    "frequency": 55.3,
+    "acceptance": 0.5327808081897567,
+    "link": "https://leetcode.com/problems/find-median-from-data-stream",
+    "topics": [
+      "Two Pointers",
+      "Design",
+      "Sorting",
+      "Heap (Priority Queue)",
+      "Data Stream"
+    ]
+  },
+  {
+    "id": "ransom-note",
+    "title": "Ransom Note",
+    "difficulty": "Easy",
+    "frequency": 55.3,
+    "acceptance": 0.645236720828959,
+    "link": "https://leetcode.com/problems/ransom-note",
+    "topics": [
+      "Hash Table",
+      "String",
+      "Counting"
+    ]
+  },
+  {
+    "id": "walls-and-gates",
+    "title": "Walls and Gates",
+    "difficulty": "Medium",
+    "frequency": 55.3,
+    "acceptance": 0.6296793327762211,
+    "link": "https://leetcode.com/problems/walls-and-gates",
+    "topics": [
+      "Array",
+      "Breadth-First Search",
+      "Matrix"
+    ]
+  },
+  {
+    "id": "maximum-depth-of-binary-tree",
+    "title": "Maximum Depth of Binary Tree",
+    "difficulty": "Easy",
+    "frequency": 55.3,
+    "acceptance": 0.7713813413485063,
+    "link": "https://leetcode.com/problems/maximum-depth-of-binary-tree",
+    "topics": [
+      "Tree",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Binary Tree"
+    ]
+  }
+]

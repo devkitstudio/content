@@ -1,0 +1,54 @@
+[
+  {
+    "id": "number-of-islands",
+    "title": "Number of Islands",
+    "difficulty": "Medium",
+    "frequency": 100,
+    "acceptance": 0.6232015436059188,
+    "link": "https://leetcode.com/problems/number-of-islands",
+    "topics": [
+      "Array",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Union Find",
+      "Matrix"
+    ]
+  },
+  {
+    "id": "longest-substring-without-repeating-characters",
+    "title": "Longest Substring Without Repeating Characters",
+    "difficulty": "Medium",
+    "frequency": 100,
+    "acceptance": 0.3693616450497673,
+    "link": "https://leetcode.com/problems/longest-substring-without-repeating-characters",
+    "topics": [
+      "Hash Table",
+      "String",
+      "Sliding Window"
+    ]
+  },
+  {
+    "id": "merge-two-sorted-lists",
+    "title": "Merge Two Sorted Lists",
+    "difficulty": "Easy",
+    "frequency": 100,
+    "acceptance": 0.6684102120005911,
+    "link": "https://leetcode.com/problems/merge-two-sorted-lists",
+    "topics": [
+      "Linked List",
+      "Recursion"
+    ]
+  },
+  {
+    "id": "reverse-words-in-a-string",
+    "title": "Reverse Words in a String",
+    "difficulty": "Medium",
+    "frequency": 100,
+    "acceptance": 0.5191339695928651,
+    "link": "https://leetcode.com/problems/reverse-words-in-a-string",
+    "topics": [
+      "Two Pointers",
+      "String"
+    ]
+  }
+]

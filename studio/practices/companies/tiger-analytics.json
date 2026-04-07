@@ -1,0 +1,54 @@
+[
+  {
+    "id": "find-closest-number-to-zero",
+    "title": "Find Closest Number to Zero",
+    "difficulty": "Easy",
+    "frequency": 100,
+    "acceptance": 0.47175183904795115,
+    "link": "https://leetcode.com/problems/find-closest-number-to-zero",
+    "topics": [
+      "Array"
+    ]
+  },
+  {
+    "id": "best-time-to-buy-and-sell-stock",
+    "title": "Best Time to Buy and Sell Stock",
+    "difficulty": "Easy",
+    "frequency": 85.4,
+    "acceptance": 0.5525969921626629,
+    "link": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock",
+    "topics": [
+      "Array",
+      "Dynamic Programming"
+    ]
+  },
+  {
+    "id": "consecutive-numbers",
+    "title": "Consecutive Numbers",
+    "difficulty": "Medium",
+    "frequency": 74.7,
+    "acceptance": 0.46097156353760627,
+    "link": "https://leetcode.com/problems/consecutive-numbers",
+    "topics": [
+      "Database"
+    ]
+  },
+  {
+    "id": "top-k-frequent-elements",
+    "title": "Top K Frequent Elements",
+    "difficulty": "Medium",
+    "frequency": 66.2,
+    "acceptance": 0.6456604492286534,
+    "link": "https://leetcode.com/problems/top-k-frequent-elements",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "Divide and Conquer",
+      "Sorting",
+      "Heap (Priority Queue)",
+      "Bucket Sort",
+      "Counting",
+      "Quickselect"
+    ]
+  }
+]

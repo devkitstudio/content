@@ -1,0 +1,63 @@
+[
+  {
+    "id": "how-many-apples-can-you-put-into-the-basket",
+    "title": "How Many Apples Can You Put into the Basket",
+    "difficulty": "Easy",
+    "frequency": 100,
+    "acceptance": 0.6704955156282592,
+    "link": "https://leetcode.com/problems/how-many-apples-can-you-put-into-the-basket",
+    "topics": [
+      "Array",
+      "Greedy",
+      "Sorting"
+    ]
+  },
+  {
+    "id": "array-transformation",
+    "title": "Array Transformation",
+    "difficulty": "Easy",
+    "frequency": 98.9,
+    "acceptance": 0.5310772264675846,
+    "link": "https://leetcode.com/problems/array-transformation",
+    "topics": [
+      "Array",
+      "Simulation"
+    ]
+  },
+  {
+    "id": "hexspeak",
+    "title": "Hexspeak",
+    "difficulty": "Easy",
+    "frequency": 97.8,
+    "acceptance": 0.5829381638846738,
+    "link": "https://leetcode.com/problems/hexspeak",
+    "topics": [
+      "Math",
+      "String"
+    ]
+  },
+  {
+    "id": "count-substrings-with-only-one-distinct-letter",
+    "title": "Count Substrings with Only One Distinct Letter",
+    "difficulty": "Easy",
+    "frequency": 96.5,
+    "acceptance": 0.806493436335152,
+    "link": "https://leetcode.com/problems/count-substrings-with-only-one-distinct-letter",
+    "topics": [
+      "Math",
+      "String"
+    ]
+  },
+  {
+    "id": "count-number-of-homogenous-substrings",
+    "title": "Count Number of Homogenous Substrings",
+    "difficulty": "Medium",
+    "frequency": 92.4,
+    "acceptance": 0.5736276720948661,
+    "link": "https://leetcode.com/problems/count-number-of-homogenous-substrings",
+    "topics": [
+      "Math",
+      "String"
+    ]
+  }
+]

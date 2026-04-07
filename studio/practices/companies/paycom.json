@@ -1,0 +1,53 @@
+[
+  {
+    "id": "group-anagrams",
+    "title": "Group Anagrams",
+    "difficulty": "Medium",
+    "frequency": 100,
+    "acceptance": 0.7093189130762656,
+    "link": "https://leetcode.com/problems/group-anagrams",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "String",
+      "Sorting"
+    ]
+  },
+  {
+    "id": "degree-of-an-array",
+    "title": "Degree of an Array",
+    "difficulty": "Easy",
+    "frequency": 100,
+    "acceptance": 0.5741740795164303,
+    "link": "https://leetcode.com/problems/degree-of-an-array",
+    "topics": [
+      "Array",
+      "Hash Table"
+    ]
+  },
+  {
+    "id": "contains-duplicate",
+    "title": "Contains Duplicate",
+    "difficulty": "Easy",
+    "frequency": 89.7,
+    "acceptance": 0.6323866808421809,
+    "link": "https://leetcode.com/problems/contains-duplicate",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "Sorting"
+    ]
+  },
+  {
+    "id": "minimum-absolute-difference",
+    "title": "Minimum Absolute Difference",
+    "difficulty": "Easy",
+    "frequency": 89.7,
+    "acceptance": 0.7065407454857083,
+    "link": "https://leetcode.com/problems/minimum-absolute-difference",
+    "topics": [
+      "Array",
+      "Sorting"
+    ]
+  }
+]

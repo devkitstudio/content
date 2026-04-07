@@ -1,0 +1,509 @@
+[
+  {
+    "id": "restore-ip-addresses",
+    "title": "Restore IP Addresses",
+    "difficulty": "Medium",
+    "frequency": 100,
+    "acceptance": 0.5315843132324689,
+    "link": "https://leetcode.com/problems/restore-ip-addresses",
+    "topics": [
+      "String",
+      "Backtracking"
+    ]
+  },
+  {
+    "id": "construct-string-with-repeat-limit",
+    "title": "Construct String With Repeat Limit",
+    "difficulty": "Medium",
+    "frequency": 100,
+    "acceptance": 0.7087761359183014,
+    "link": "https://leetcode.com/problems/construct-string-with-repeat-limit",
+    "topics": [
+      "Hash Table",
+      "String",
+      "Greedy",
+      "Heap (Priority Queue)",
+      "Counting"
+    ]
+  },
+  {
+    "id": "find-the-town-judge",
+    "title": "Find the Town Judge",
+    "difficulty": "Easy",
+    "frequency": 97.6,
+    "acceptance": 0.500057919960555,
+    "link": "https://leetcode.com/problems/find-the-town-judge",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "Graph"
+    ]
+  },
+  {
+    "id": "reverse-nodes-in-k-group",
+    "title": "Reverse Nodes in k-Group",
+    "difficulty": "Hard",
+    "frequency": 94.9,
+    "acceptance": 0.6304370910860896,
+    "link": "https://leetcode.com/problems/reverse-nodes-in-k-group",
+    "topics": [
+      "Linked List",
+      "Recursion"
+    ]
+  },
+  {
+    "id": "reverse-linked-list-ii",
+    "title": "Reverse Linked List II",
+    "difficulty": "Medium",
+    "frequency": 94.9,
+    "acceptance": 0.4959178278493805,
+    "link": "https://leetcode.com/problems/reverse-linked-list-ii",
+    "topics": [
+      "Linked List"
+    ]
+  },
+  {
+    "id": "reorder-list",
+    "title": "Reorder List",
+    "difficulty": "Medium",
+    "frequency": 88.6,
+    "acceptance": 0.6250484291087256,
+    "link": "https://leetcode.com/problems/reorder-list",
+    "topics": [
+      "Linked List",
+      "Two Pointers",
+      "Stack",
+      "Recursion"
+    ]
+  },
+  {
+    "id": "contains-duplicate-ii",
+    "title": "Contains Duplicate II",
+    "difficulty": "Easy",
+    "frequency": 80.2,
+    "acceptance": 0.49050065100683116,
+    "link": "https://leetcode.com/problems/contains-duplicate-ii",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "Sliding Window"
+    ]
+  },
+  {
+    "id": "inorder-successor-in-bst-ii",
+    "title": "Inorder Successor in BST II",
+    "difficulty": "Medium",
+    "frequency": 80.2,
+    "acceptance": 0.6100172051233034,
+    "link": "https://leetcode.com/problems/inorder-successor-in-bst-ii",
+    "topics": [
+      "Tree",
+      "Binary Search Tree",
+      "Binary Tree"
+    ]
+  },
+  {
+    "id": "rotated-digits",
+    "title": "Rotated Digits",
+    "difficulty": "Medium",
+    "frequency": 80.2,
+    "acceptance": 0.5642771951080989,
+    "link": "https://leetcode.com/problems/rotated-digits",
+    "topics": [
+      "Math",
+      "Dynamic Programming"
+    ]
+  },
+  {
+    "id": "remove-linked-list-elements",
+    "title": "Remove Linked List Elements",
+    "difficulty": "Easy",
+    "frequency": 74.5,
+    "acceptance": 0.5192129307896375,
+    "link": "https://leetcode.com/problems/remove-linked-list-elements",
+    "topics": [
+      "Linked List",
+      "Recursion"
+    ]
+  },
+  {
+    "id": "inorder-successor-in-bst",
+    "title": "Inorder Successor in BST",
+    "difficulty": "Medium",
+    "frequency": 74.5,
+    "acceptance": 0.5066782117122497,
+    "link": "https://leetcode.com/problems/inorder-successor-in-bst",
+    "topics": [
+      "Tree",
+      "Depth-First Search",
+      "Binary Search Tree",
+      "Binary Tree"
+    ]
+  },
+  {
+    "id": "search-in-rotated-sorted-array",
+    "title": "Search in Rotated Sorted Array",
+    "difficulty": "Medium",
+    "frequency": 74.5,
+    "acceptance": 0.4283724679402803,
+    "link": "https://leetcode.com/problems/search-in-rotated-sorted-array",
+    "topics": [
+      "Array",
+      "Binary Search"
+    ]
+  },
+  {
+    "id": "lru-cache",
+    "title": "LRU Cache",
+    "difficulty": "Medium",
+    "frequency": 74.5,
+    "acceptance": 0.45214787213212304,
+    "link": "https://leetcode.com/problems/lru-cache",
+    "topics": [
+      "Hash Table",
+      "Linked List",
+      "Design",
+      "Doubly-Linked List"
+    ]
+  },
+  {
+    "id": "maximum-depth-of-binary-tree",
+    "title": "Maximum Depth of Binary Tree",
+    "difficulty": "Easy",
+    "frequency": 67.3,
+    "acceptance": 0.7713814289513273,
+    "link": "https://leetcode.com/problems/maximum-depth-of-binary-tree",
+    "topics": [
+      "Tree",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Binary Tree"
+    ]
+  },
+  {
+    "id": "binary-tree-maximum-path-sum",
+    "title": "Binary Tree Maximum Path Sum",
+    "difficulty": "Hard",
+    "frequency": 67.3,
+    "acceptance": 0.41224335933035083,
+    "link": "https://leetcode.com/problems/binary-tree-maximum-path-sum",
+    "topics": [
+      "Dynamic Programming",
+      "Tree",
+      "Depth-First Search",
+      "Binary Tree"
+    ]
+  },
+  {
+    "id": "moving-average-from-data-stream",
+    "title": "Moving Average from Data Stream",
+    "difficulty": "Easy",
+    "frequency": 67.3,
+    "acceptance": 0.7993791280727699,
+    "link": "https://leetcode.com/problems/moving-average-from-data-stream",
+    "topics": [
+      "Array",
+      "Design",
+      "Queue",
+      "Data Stream"
+    ]
+  },
+  {
+    "id": "merge-two-sorted-lists",
+    "title": "Merge Two Sorted Lists",
+    "difficulty": "Easy",
+    "frequency": 67.3,
+    "acceptance": 0.6684092096528712,
+    "link": "https://leetcode.com/problems/merge-two-sorted-lists",
+    "topics": [
+      "Linked List",
+      "Recursion"
+    ]
+  },
+  {
+    "id": "missing-element-in-sorted-array",
+    "title": "Missing Element in Sorted Array",
+    "difficulty": "Medium",
+    "frequency": 67.3,
+    "acceptance": 0.587648801207176,
+    "link": "https://leetcode.com/problems/missing-element-in-sorted-array",
+    "topics": [
+      "Array",
+      "Binary Search"
+    ]
+  },
+  {
+    "id": "maximum-units-on-a-truck",
+    "title": "Maximum Units on a Truck",
+    "difficulty": "Easy",
+    "frequency": 67.3,
+    "acceptance": 0.7425030722517598,
+    "link": "https://leetcode.com/problems/maximum-units-on-a-truck",
+    "topics": [
+      "Array",
+      "Greedy",
+      "Sorting"
+    ]
+  },
+  {
+    "id": "course-schedule-ii",
+    "title": "Course Schedule II",
+    "difficulty": "Medium",
+    "frequency": 67.3,
+    "acceptance": 0.5342352813503375,
+    "link": "https://leetcode.com/problems/course-schedule-ii",
+    "topics": [
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Graph",
+      "Topological Sort"
+    ]
+  },
+  {
+    "id": "missing-number",
+    "title": "Missing Number",
+    "difficulty": "Easy",
+    "frequency": 67.3,
+    "acceptance": 0.7006523825461364,
+    "link": "https://leetcode.com/problems/missing-number",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "Math",
+      "Binary Search",
+      "Bit Manipulation",
+      "Sorting"
+    ]
+  },
+  {
+    "id": "search-a-2d-matrix",
+    "title": "Search a 2D Matrix",
+    "difficulty": "Medium",
+    "frequency": 57.2,
+    "acceptance": 0.5228975227583975,
+    "link": "https://leetcode.com/problems/search-a-2d-matrix",
+    "topics": [
+      "Array",
+      "Binary Search",
+      "Matrix"
+    ]
+  },
+  {
+    "id": "path-sum-ii",
+    "title": "Path Sum II",
+    "difficulty": "Medium",
+    "frequency": 57.2,
+    "acceptance": 0.6049805434598319,
+    "link": "https://leetcode.com/problems/path-sum-ii",
+    "topics": [
+      "Backtracking",
+      "Tree",
+      "Depth-First Search",
+      "Binary Tree"
+    ]
+  },
+  {
+    "id": "kth-missing-positive-number",
+    "title": "Kth Missing Positive Number",
+    "difficulty": "Easy",
+    "frequency": 57.2,
+    "acceptance": 0.6228373866165937,
+    "link": "https://leetcode.com/problems/kth-missing-positive-number",
+    "topics": [
+      "Array",
+      "Binary Search"
+    ]
+  },
+  {
+    "id": "integer-to-roman",
+    "title": "Integer to Roman",
+    "difficulty": "Medium",
+    "frequency": 57.2,
+    "acceptance": 0.6861927660217834,
+    "link": "https://leetcode.com/problems/integer-to-roman",
+    "topics": [
+      "Hash Table",
+      "Math",
+      "String"
+    ]
+  },
+  {
+    "id": "top-k-frequent-elements",
+    "title": "Top K Frequent Elements",
+    "difficulty": "Medium",
+    "frequency": 57.2,
+    "acceptance": 0.6456599321322268,
+    "link": "https://leetcode.com/problems/top-k-frequent-elements",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "Divide and Conquer",
+      "Sorting",
+      "Heap (Priority Queue)",
+      "Bucket Sort",
+      "Counting",
+      "Quickselect"
+    ]
+  },
+  {
+    "id": "longest-common-subsequence",
+    "title": "Longest Common Subsequence",
+    "difficulty": "Medium",
+    "frequency": 57.2,
+    "acceptance": 0.5824937084403783,
+    "link": "https://leetcode.com/problems/longest-common-subsequence",
+    "topics": [
+      "String",
+      "Dynamic Programming"
+    ]
+  },
+  {
+    "id": "remove-all-occurrences-of-a-substring",
+    "title": "Remove All Occurrences of a Substring",
+    "difficulty": "Medium",
+    "frequency": 57.2,
+    "acceptance": 0.7806968639516182,
+    "link": "https://leetcode.com/problems/remove-all-occurrences-of-a-substring",
+    "topics": [
+      "String",
+      "Stack",
+      "Simulation"
+    ]
+  },
+  {
+    "id": "merge-in-between-linked-lists",
+    "title": "Merge In Between Linked Lists",
+    "difficulty": "Medium",
+    "frequency": 57.2,
+    "acceptance": 0.8230338483909592,
+    "link": "https://leetcode.com/problems/merge-in-between-linked-lists",
+    "topics": [
+      "Linked List"
+    ]
+  },
+  {
+    "id": "contains-duplicate",
+    "title": "Contains Duplicate",
+    "difficulty": "Easy",
+    "frequency": 57.2,
+    "acceptance": 0.6323638098362575,
+    "link": "https://leetcode.com/problems/contains-duplicate",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "Sorting"
+    ]
+  },
+  {
+    "id": "validate-binary-search-tree",
+    "title": "Validate Binary Search Tree",
+    "difficulty": "Medium",
+    "frequency": 57.2,
+    "acceptance": 0.343804497944244,
+    "link": "https://leetcode.com/problems/validate-binary-search-tree",
+    "topics": [
+      "Tree",
+      "Depth-First Search",
+      "Binary Search Tree",
+      "Binary Tree"
+    ]
+  },
+  {
+    "id": "palindromic-substrings",
+    "title": "Palindromic Substrings",
+    "difficulty": "Medium",
+    "frequency": 57.2,
+    "acceptance": 0.7167833037388524,
+    "link": "https://leetcode.com/problems/palindromic-substrings",
+    "topics": [
+      "Two Pointers",
+      "String",
+      "Dynamic Programming"
+    ]
+  },
+  {
+    "id": "find-the-winner-of-the-circular-game",
+    "title": "Find the Winner of the Circular Game",
+    "difficulty": "Medium",
+    "frequency": 57.2,
+    "acceptance": 0.8206653804804053,
+    "link": "https://leetcode.com/problems/find-the-winner-of-the-circular-game",
+    "topics": [
+      "Array",
+      "Math",
+      "Recursion",
+      "Queue",
+      "Simulation"
+    ]
+  },
+  {
+    "id": "kth-largest-element-in-a-stream",
+    "title": "Kth Largest Element in a Stream",
+    "difficulty": "Easy",
+    "frequency": 57.2,
+    "acceptance": 0.5985310691115552,
+    "link": "https://leetcode.com/problems/kth-largest-element-in-a-stream",
+    "topics": [
+      "Tree",
+      "Design",
+      "Binary Search Tree",
+      "Heap (Priority Queue)",
+      "Binary Tree",
+      "Data Stream"
+    ]
+  },
+  {
+    "id": "flatten-a-multilevel-doubly-linked-list",
+    "title": "Flatten a Multilevel Doubly Linked List",
+    "difficulty": "Medium",
+    "frequency": 57.2,
+    "acceptance": 0.6131219516943955,
+    "link": "https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list",
+    "topics": [
+      "Linked List",
+      "Depth-First Search",
+      "Doubly-Linked List"
+    ]
+  },
+  {
+    "id": "implement-trie-prefix-tree",
+    "title": "Implement Trie (Prefix Tree)",
+    "difficulty": "Medium",
+    "frequency": 57.2,
+    "acceptance": 0.679349409041436,
+    "link": "https://leetcode.com/problems/implement-trie-prefix-tree",
+    "topics": [
+      "Hash Table",
+      "String",
+      "Design",
+      "Trie"
+    ]
+  },
+  {
+    "id": "best-time-to-buy-and-sell-stock",
+    "title": "Best Time to Buy and Sell Stock",
+    "difficulty": "Easy",
+    "frequency": 57.2,
+    "acceptance": 0.5525963982253373,
+    "link": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock",
+    "topics": [
+      "Array",
+      "Dynamic Programming"
+    ]
+  },
+  {
+    "id": "word-search",
+    "title": "Word Search",
+    "difficulty": "Medium",
+    "frequency": 57.2,
+    "acceptance": 0.45267012968401416,
+    "link": "https://leetcode.com/problems/word-search",
+    "topics": [
+      "Array",
+      "String",
+      "Backtracking",
+      "Depth-First Search",
+      "Matrix"
+    ]
+  }
+]

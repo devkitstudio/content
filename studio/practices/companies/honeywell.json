@@ -1,0 +1,52 @@
+[
+  {
+    "id": "minimum-distance-to-the-target-element",
+    "title": "Minimum Distance to the Target Element",
+    "difficulty": "Easy",
+    "frequency": 100,
+    "acceptance": 0.5422827262892175,
+    "link": "https://leetcode.com/problems/minimum-distance-to-the-target-element",
+    "topics": [
+      "Array"
+    ]
+  },
+  {
+    "id": "count-zero-request-servers",
+    "title": "Count Zero Request Servers",
+    "difficulty": "Medium",
+    "frequency": 75.5,
+    "acceptance": 0.3412006497165777,
+    "link": "https://leetcode.com/problems/count-zero-request-servers",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "Sliding Window",
+      "Sorting"
+    ]
+  },
+  {
+    "id": "maximum-matrix-sum",
+    "title": "Maximum Matrix Sum",
+    "difficulty": "Medium",
+    "frequency": 67.3,
+    "acceptance": 0.6590661100173162,
+    "link": "https://leetcode.com/problems/maximum-matrix-sum",
+    "topics": [
+      "Array",
+      "Greedy",
+      "Matrix"
+    ]
+  },
+  {
+    "id": "two-sum",
+    "title": "Two Sum",
+    "difficulty": "Easy",
+    "frequency": 67.3,
+    "acceptance": 0.5577707617765584,
+    "link": "https://leetcode.com/problems/two-sum",
+    "topics": [
+      "Array",
+      "Hash Table"
+    ]
+  }
+]

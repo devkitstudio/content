@@ -1,0 +1,15 @@
+[
+  {
+    "id": "find-if-array-can-be-sorted",
+    "title": "Find if Array Can Be Sorted",
+    "difficulty": "Medium",
+    "frequency": 100,
+    "acceptance": 0.6654164634896618,
+    "link": "https://leetcode.com/problems/find-if-array-can-be-sorted",
+    "topics": [
+      "Array",
+      "Bit Manipulation",
+      "Sorting"
+    ]
+  }
+]

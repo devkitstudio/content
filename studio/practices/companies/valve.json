@@ -1,0 +1,48 @@
+[
+  {
+    "id": "dota2-senate",
+    "title": "Dota2 Senate",
+    "difficulty": "Medium",
+    "frequency": 100,
+    "acceptance": 0.4890672536522696,
+    "link": "https://leetcode.com/problems/dota2-senate",
+    "topics": [
+      "String",
+      "Greedy",
+      "Queue"
+    ]
+  },
+  {
+    "id": "string-to-integer-atoi",
+    "title": "String to Integer (atoi)",
+    "difficulty": "Medium",
+    "frequency": 88,
+    "acceptance": 0.19229490109096387,
+    "link": "https://leetcode.com/problems/string-to-integer-atoi",
+    "topics": [
+      "String"
+    ]
+  },
+  {
+    "id": "deep-merge-of-two-objects",
+    "title": "Deep Merge of Two Objects",
+    "difficulty": "Medium",
+    "frequency": 66.2,
+    "acceptance": 0.6422558922558923,
+    "link": "https://leetcode.com/problems/deep-merge-of-two-objects",
+    "topics": []
+  },
+  {
+    "id": "design-parking-system",
+    "title": "Design Parking System",
+    "difficulty": "Easy",
+    "frequency": 66.2,
+    "acceptance": 0.8707487022637689,
+    "link": "https://leetcode.com/problems/design-parking-system",
+    "topics": [
+      "Design",
+      "Simulation",
+      "Counting"
+    ]
+  }
+]

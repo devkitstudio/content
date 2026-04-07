@@ -1,0 +1,64 @@
+[
+  {
+    "id": "meeting-rooms-ii",
+    "title": "Meeting Rooms II",
+    "difficulty": "Medium",
+    "frequency": 100,
+    "acceptance": 0.5214168157636228,
+    "link": "https://leetcode.com/problems/meeting-rooms-ii",
+    "topics": [
+      "Array",
+      "Two Pointers",
+      "Greedy",
+      "Sorting",
+      "Heap (Priority Queue)",
+      "Prefix Sum"
+    ]
+  },
+  {
+    "id": "regular-expression-matching",
+    "title": "Regular Expression Matching",
+    "difficulty": "Hard",
+    "frequency": 89.7,
+    "acceptance": 0.2928040486079651,
+    "link": "https://leetcode.com/problems/regular-expression-matching",
+    "topics": [
+      "String",
+      "Dynamic Programming",
+      "Recursion"
+    ]
+  },
+  {
+    "id": "minimum-number-of-visited-cells-in-a-grid",
+    "title": "Minimum Number of Visited Cells in a Grid",
+    "difficulty": "Hard",
+    "frequency": 89.7,
+    "acceptance": 0.22765724304185841,
+    "link": "https://leetcode.com/problems/minimum-number-of-visited-cells-in-a-grid",
+    "topics": [
+      "Array",
+      "Dynamic Programming",
+      "Stack",
+      "Breadth-First Search",
+      "Union Find",
+      "Heap (Priority Queue)",
+      "Matrix",
+      "Monotonic Stack"
+    ]
+  },
+  {
+    "id": "find-median-from-data-stream",
+    "title": "Find Median from Data Stream",
+    "difficulty": "Hard",
+    "frequency": 89.7,
+    "acceptance": 0.5327800099899787,
+    "link": "https://leetcode.com/problems/find-median-from-data-stream",
+    "topics": [
+      "Two Pointers",
+      "Design",
+      "Sorting",
+      "Heap (Priority Queue)",
+      "Data Stream"
+    ]
+  }
+]

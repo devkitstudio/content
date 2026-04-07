@@ -1,0 +1,26 @@
+[
+  {
+    "id": "abbreviating-the-product-of-a-range",
+    "title": "Abbreviating the Product of a Range",
+    "difficulty": "Hard",
+    "frequency": 100,
+    "acceptance": 0.24491490244914899,
+    "link": "https://leetcode.com/problems/abbreviating-the-product-of-a-range",
+    "topics": [
+      "Math"
+    ]
+  },
+  {
+    "id": "integer-to-english-words",
+    "title": "Integer to English Words",
+    "difficulty": "Hard",
+    "frequency": 67,
+    "acceptance": 0.34355110873263656,
+    "link": "https://leetcode.com/problems/integer-to-english-words",
+    "topics": [
+      "Math",
+      "String",
+      "Recursion"
+    ]
+  }
+]

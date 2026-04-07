@@ -1,0 +1,27 @@
+[
+  {
+    "id": "best-time-to-buy-and-sell-stock",
+    "title": "Best Time to Buy and Sell Stock",
+    "difficulty": "Easy",
+    "frequency": 100,
+    "acceptance": 0.5525974554760431,
+    "link": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock",
+    "topics": [
+      "Array",
+      "Dynamic Programming"
+    ]
+  },
+  {
+    "id": "decode-string",
+    "title": "Decode String",
+    "difficulty": "Medium",
+    "frequency": 100,
+    "acceptance": 0.6115271417370257,
+    "link": "https://leetcode.com/problems/decode-string",
+    "topics": [
+      "String",
+      "Stack",
+      "Recursion"
+    ]
+  }
+]

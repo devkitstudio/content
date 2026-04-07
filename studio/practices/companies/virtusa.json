@@ -1,0 +1,54 @@
+[
+  {
+    "id": "apply-operations-to-make-string-empty",
+    "title": "Apply Operations to Make String Empty",
+    "difficulty": "Medium",
+    "frequency": 100,
+    "acceptance": 0.5620840463966533,
+    "link": "https://leetcode.com/problems/apply-operations-to-make-string-empty",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "Sorting",
+      "Counting"
+    ]
+  },
+  {
+    "id": "pascals-triangle",
+    "title": "Pascal's Triangle",
+    "difficulty": "Easy",
+    "frequency": 74.7,
+    "acceptance": 0.7702167530181141,
+    "link": "https://leetcode.com/problems/pascals-triangle",
+    "topics": [
+      "Array",
+      "Dynamic Programming"
+    ]
+  },
+  {
+    "id": "merge-sorted-array",
+    "title": "Merge Sorted Array",
+    "difficulty": "Easy",
+    "frequency": 66.2,
+    "acceptance": 0.529197135097243,
+    "link": "https://leetcode.com/problems/merge-sorted-array",
+    "topics": [
+      "Array",
+      "Two Pointers",
+      "Sorting"
+    ]
+  },
+  {
+    "id": "longest-substring-without-repeating-characters",
+    "title": "Longest Substring Without Repeating Characters",
+    "difficulty": "Medium",
+    "frequency": 66.2,
+    "acceptance": 0.3693619667076727,
+    "link": "https://leetcode.com/problems/longest-substring-without-repeating-characters",
+    "topics": [
+      "Hash Table",
+      "String",
+      "Sliding Window"
+    ]
+  }
+]

@@ -1,0 +1,87 @@
+[
+  {
+    "id": "text-justification",
+    "title": "Text Justification",
+    "difficulty": "Hard",
+    "frequency": 100,
+    "acceptance": 0.4815035316083349,
+    "link": "https://leetcode.com/problems/text-justification",
+    "topics": [
+      "Array",
+      "String",
+      "Simulation"
+    ]
+  },
+  {
+    "id": "shortest-uncommon-substring-in-an-array",
+    "title": "Shortest Uncommon Substring in an Array",
+    "difficulty": "Medium",
+    "frequency": 92.7,
+    "acceptance": 0.4821341799216042,
+    "link": "https://leetcode.com/problems/shortest-uncommon-substring-in-an-array",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "String",
+      "Trie"
+    ]
+  },
+  {
+    "id": "synonymous-sentences",
+    "title": "Synonymous Sentences",
+    "difficulty": "Medium",
+    "frequency": 91.5,
+    "acceptance": 0.5657701813916468,
+    "link": "https://leetcode.com/problems/synonymous-sentences",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "String",
+      "Backtracking",
+      "Union Find"
+    ]
+  },
+  {
+    "id": "word-break-ii",
+    "title": "Word Break II",
+    "difficulty": "Hard",
+    "frequency": 86,
+    "acceptance": 0.5364545782263879,
+    "link": "https://leetcode.com/problems/word-break-ii",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "String",
+      "Dynamic Programming",
+      "Backtracking",
+      "Trie",
+      "Memoization"
+    ]
+  },
+  {
+    "id": "maximum-number-of-removable-characters",
+    "title": "Maximum Number of Removable Characters",
+    "difficulty": "Medium",
+    "frequency": 52,
+    "acceptance": 0.45759683183618277,
+    "link": "https://leetcode.com/problems/maximum-number-of-removable-characters",
+    "topics": [
+      "Array",
+      "Two Pointers",
+      "String",
+      "Binary Search"
+    ]
+  },
+  {
+    "id": "merge-intervals",
+    "title": "Merge Intervals",
+    "difficulty": "Medium",
+    "frequency": 52,
+    "acceptance": 0.4939520668150291,
+    "link": "https://leetcode.com/problems/merge-intervals",
+    "topics": [
+      "Array",
+      "Sorting"
+    ]
+  }
+]

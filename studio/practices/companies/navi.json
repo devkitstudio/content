@@ -1,0 +1,56 @@
+[
+  {
+    "id": "minimize-the-maximum-difference-of-pairs",
+    "title": "Minimize the Maximum Difference of Pairs",
+    "difficulty": "Medium",
+    "frequency": 100,
+    "acceptance": 0.508506695457402,
+    "link": "https://leetcode.com/problems/minimize-the-maximum-difference-of-pairs",
+    "topics": [
+      "Array",
+      "Binary Search",
+      "Dynamic Programming",
+      "Greedy",
+      "Sorting"
+    ]
+  },
+  {
+    "id": "minimum-number-of-days-to-make-m-bouquets",
+    "title": "Minimum Number of Days to Make m Bouquets",
+    "difficulty": "Medium",
+    "frequency": 80.7,
+    "acceptance": 0.554659285502073,
+    "link": "https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets",
+    "topics": [
+      "Array",
+      "Binary Search"
+    ]
+  },
+  {
+    "id": "search-in-rotated-sorted-array",
+    "title": "Search in Rotated Sorted Array",
+    "difficulty": "Medium",
+    "frequency": 66.2,
+    "acceptance": 0.42837405591160826,
+    "link": "https://leetcode.com/problems/search-in-rotated-sorted-array",
+    "topics": [
+      "Array",
+      "Binary Search"
+    ]
+  },
+  {
+    "id": "trapping-rain-water",
+    "title": "Trapping Rain Water",
+    "difficulty": "Hard",
+    "frequency": 66.2,
+    "acceptance": 0.6510221718205077,
+    "link": "https://leetcode.com/problems/trapping-rain-water",
+    "topics": [
+      "Array",
+      "Two Pointers",
+      "Dynamic Programming",
+      "Stack",
+      "Monotonic Stack"
+    ]
+  }
+]

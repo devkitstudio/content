@@ -1,0 +1,105 @@
+[
+  {
+    "id": "maximum-product-of-first-and-last-elements-of-a-subsequence",
+    "title": "Maximum Product of First and Last Elements of a Subsequence",
+    "difficulty": "Medium",
+    "frequency": 100,
+    "acceptance": 0.29763143653998253,
+    "link": "https://leetcode.com/problems/maximum-product-of-first-and-last-elements-of-a-subsequence",
+    "topics": [
+      "Array",
+      "Two Pointers"
+    ]
+  },
+  {
+    "id": "reaching-points",
+    "title": "Reaching Points",
+    "difficulty": "Hard",
+    "frequency": 80.3,
+    "acceptance": 0.336468882434809,
+    "link": "https://leetcode.com/problems/reaching-points",
+    "topics": [
+      "Math"
+    ]
+  },
+  {
+    "id": "lru-cache",
+    "title": "LRU Cache",
+    "difficulty": "Medium",
+    "frequency": 80.3,
+    "acceptance": 0.4521493519744642,
+    "link": "https://leetcode.com/problems/lru-cache",
+    "topics": [
+      "Hash Table",
+      "Linked List",
+      "Design",
+      "Doubly-Linked List"
+    ]
+  },
+  {
+    "id": "roman-to-integer",
+    "title": "Roman to Integer",
+    "difficulty": "Easy",
+    "frequency": 70.9,
+    "acceptance": 0.6486643502043604,
+    "link": "https://leetcode.com/problems/roman-to-integer",
+    "topics": [
+      "Hash Table",
+      "Math",
+      "String"
+    ]
+  },
+  {
+    "id": "lfu-cache",
+    "title": "LFU Cache",
+    "difficulty": "Hard",
+    "frequency": 70.9,
+    "acceptance": 0.46609147192725375,
+    "link": "https://leetcode.com/problems/lfu-cache",
+    "topics": [
+      "Hash Table",
+      "Linked List",
+      "Design",
+      "Doubly-Linked List"
+    ]
+  },
+  {
+    "id": "maximum-swap",
+    "title": "Maximum Swap",
+    "difficulty": "Medium",
+    "frequency": 70.9,
+    "acceptance": 0.5184843217200763,
+    "link": "https://leetcode.com/problems/maximum-swap",
+    "topics": [
+      "Math",
+      "Greedy"
+    ]
+  },
+  {
+    "id": "two-sum",
+    "title": "Two Sum",
+    "difficulty": "Easy",
+    "frequency": 70.9,
+    "acceptance": 0.5577703230564676,
+    "link": "https://leetcode.com/problems/two-sum",
+    "topics": [
+      "Array",
+      "Hash Table"
+    ]
+  },
+  {
+    "id": "find-median-from-data-stream",
+    "title": "Find Median from Data Stream",
+    "difficulty": "Hard",
+    "frequency": 70.9,
+    "acceptance": 0.5327802546186611,
+    "link": "https://leetcode.com/problems/find-median-from-data-stream",
+    "topics": [
+      "Two Pointers",
+      "Design",
+      "Sorting",
+      "Heap (Priority Queue)",
+      "Data Stream"
+    ]
+  }
+]

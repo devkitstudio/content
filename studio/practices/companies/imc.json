@@ -1,0 +1,107 @@
+[
+  {
+    "id": "find-the-safest-path-in-a-grid",
+    "title": "Find the Safest Path in a Grid",
+    "difficulty": "Medium",
+    "frequency": 100,
+    "acceptance": 0.48397269180754227,
+    "link": "https://leetcode.com/problems/find-the-safest-path-in-a-grid",
+    "topics": [
+      "Array",
+      "Binary Search",
+      "Breadth-First Search",
+      "Union Find",
+      "Heap (Priority Queue)",
+      "Matrix"
+    ]
+  },
+  {
+    "id": "time-taken-to-cross-the-door",
+    "title": "Time Taken to Cross the Door",
+    "difficulty": "Hard",
+    "frequency": 88.4,
+    "acceptance": 0.4947985404859871,
+    "link": "https://leetcode.com/problems/time-taken-to-cross-the-door",
+    "topics": [
+      "Array",
+      "Queue",
+      "Simulation"
+    ]
+  },
+  {
+    "id": "asteroid-collision",
+    "title": "Asteroid Collision",
+    "difficulty": "Medium",
+    "frequency": 75.2,
+    "acceptance": 0.45500737161532884,
+    "link": "https://leetcode.com/problems/asteroid-collision",
+    "topics": [
+      "Array",
+      "Stack",
+      "Simulation"
+    ]
+  },
+  {
+    "id": "design-a-stack-with-increment-operation",
+    "title": "Design a Stack With Increment Operation",
+    "difficulty": "Medium",
+    "frequency": 67.5,
+    "acceptance": 0.8013123593723671,
+    "link": "https://leetcode.com/problems/design-a-stack-with-increment-operation",
+    "topics": [
+      "Array",
+      "Stack",
+      "Design"
+    ]
+  },
+  {
+    "id": "maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold",
+    "title": "Maximum Side Length of a Square with Sum Less than or Equal to Threshold",
+    "difficulty": "Medium",
+    "frequency": 67.5,
+    "acceptance": 0.5351934322666932,
+    "link": "https://leetcode.com/problems/maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold",
+    "topics": [
+      "Array",
+      "Binary Search",
+      "Matrix",
+      "Prefix Sum"
+    ]
+  },
+  {
+    "id": "minimum-knight-moves",
+    "title": "Minimum Knight Moves",
+    "difficulty": "Medium",
+    "frequency": 54.3,
+    "acceptance": 0.41329294235617164,
+    "link": "https://leetcode.com/problems/minimum-knight-moves",
+    "topics": [
+      "Breadth-First Search"
+    ]
+  },
+  {
+    "id": "shortest-path-in-a-grid-with-obstacles-elimination",
+    "title": "Shortest Path in a Grid with Obstacles Elimination",
+    "difficulty": "Hard",
+    "frequency": 54.3,
+    "acceptance": 0.45606251689037025,
+    "link": "https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination",
+    "topics": [
+      "Array",
+      "Breadth-First Search",
+      "Matrix"
+    ]
+  },
+  {
+    "id": "min-stack",
+    "title": "Min Stack",
+    "difficulty": "Medium",
+    "frequency": 54.3,
+    "acceptance": 0.564451988879112,
+    "link": "https://leetcode.com/problems/min-stack",
+    "topics": [
+      "Stack",
+      "Design"
+    ]
+  }
+]

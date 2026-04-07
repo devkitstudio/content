@@ -1,0 +1,53 @@
+[
+  {
+    "id": "find-common-characters",
+    "title": "Find Common Characters",
+    "difficulty": "Easy",
+    "frequency": 100,
+    "acceptance": 0.7454225022029736,
+    "link": "https://leetcode.com/problems/find-common-characters",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "String"
+    ]
+  },
+  {
+    "id": "valid-parentheses",
+    "title": "Valid Parentheses",
+    "difficulty": "Easy",
+    "frequency": 89.3,
+    "acceptance": 0.4232292456603913,
+    "link": "https://leetcode.com/problems/valid-parentheses",
+    "topics": [
+      "String",
+      "Stack"
+    ]
+  },
+  {
+    "id": "lru-cache",
+    "title": "LRU Cache",
+    "difficulty": "Medium",
+    "frequency": 74.8,
+    "acceptance": 0.4521511800758668,
+    "link": "https://leetcode.com/problems/lru-cache",
+    "topics": [
+      "Hash Table",
+      "Linked List",
+      "Design",
+      "Doubly-Linked List"
+    ]
+  },
+  {
+    "id": "best-time-to-buy-and-sell-stock",
+    "title": "Best Time to Buy and Sell Stock",
+    "difficulty": "Easy",
+    "frequency": 66.4,
+    "acceptance": 0.5525972597748545,
+    "link": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock",
+    "topics": [
+      "Array",
+      "Dynamic Programming"
+    ]
+  }
+]

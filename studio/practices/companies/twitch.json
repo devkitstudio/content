@@ -1,0 +1,109 @@
+[
+  {
+    "id": "create-a-session-bar-chart",
+    "title": "Create a Session Bar Chart",
+    "difficulty": "Easy",
+    "frequency": 100,
+    "acceptance": 0.750556206088993,
+    "link": "https://leetcode.com/problems/create-a-session-bar-chart",
+    "topics": [
+      "Database"
+    ]
+  },
+  {
+    "id": "design-a-file-sharing-system",
+    "title": "Design a File Sharing System",
+    "difficulty": "Medium",
+    "frequency": 100,
+    "acceptance": 0.42172790768296387,
+    "link": "https://leetcode.com/problems/design-a-file-sharing-system",
+    "topics": [
+      "Hash Table",
+      "Design",
+      "Sorting",
+      "Heap (Priority Queue)",
+      "Data Stream"
+    ]
+  },
+  {
+    "id": "toss-strange-coins",
+    "title": "Toss Strange Coins",
+    "difficulty": "Medium",
+    "frequency": 100,
+    "acceptance": 0.5813783755604213,
+    "link": "https://leetcode.com/problems/toss-strange-coins",
+    "topics": [
+      "Array",
+      "Math",
+      "Dynamic Programming",
+      "Probability and Statistics"
+    ]
+  },
+  {
+    "id": "lru-cache",
+    "title": "LRU Cache",
+    "difficulty": "Medium",
+    "frequency": 92.1,
+    "acceptance": 0.4521484728871755,
+    "link": "https://leetcode.com/problems/lru-cache",
+    "topics": [
+      "Hash Table",
+      "Linked List",
+      "Design",
+      "Doubly-Linked List"
+    ]
+  },
+  {
+    "id": "reverse-vowels-of-a-string",
+    "title": "Reverse Vowels of a String",
+    "difficulty": "Easy",
+    "frequency": 64.4,
+    "acceptance": 0.5818746518118435,
+    "link": "https://leetcode.com/problems/reverse-vowels-of-a-string",
+    "topics": [
+      "Two Pointers",
+      "String"
+    ]
+  },
+  {
+    "id": "letter-combinations-of-a-phone-number",
+    "title": "Letter Combinations of a Phone Number",
+    "difficulty": "Medium",
+    "frequency": 64.4,
+    "acceptance": 0.6385759218994662,
+    "link": "https://leetcode.com/problems/letter-combinations-of-a-phone-number",
+    "topics": [
+      "Hash Table",
+      "String",
+      "Backtracking"
+    ]
+  },
+  {
+    "id": "unique-email-addresses",
+    "title": "Unique Email Addresses",
+    "difficulty": "Easy",
+    "frequency": 64.4,
+    "acceptance": 0.6758621291144098,
+    "link": "https://leetcode.com/problems/unique-email-addresses",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "String"
+    ]
+  },
+  {
+    "id": "find-median-from-data-stream",
+    "title": "Find Median from Data Stream",
+    "difficulty": "Hard",
+    "frequency": 64.4,
+    "acceptance": 0.5327801472952072,
+    "link": "https://leetcode.com/problems/find-median-from-data-stream",
+    "topics": [
+      "Two Pointers",
+      "Design",
+      "Sorting",
+      "Heap (Priority Queue)",
+      "Data Stream"
+    ]
+  }
+]

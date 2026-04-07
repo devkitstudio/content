@@ -1,0 +1,30 @@
+[
+  {
+    "id": "text-justification",
+    "title": "Text Justification",
+    "difficulty": "Hard",
+    "frequency": 100,
+    "acceptance": 0.4815475571977295,
+    "link": "https://leetcode.com/problems/text-justification",
+    "topics": [
+      "Array",
+      "String",
+      "Simulation"
+    ]
+  },
+  {
+    "id": "design-hit-counter",
+    "title": "Design Hit Counter",
+    "difficulty": "Medium",
+    "frequency": 79.8,
+    "acceptance": 0.6920824884300808,
+    "link": "https://leetcode.com/problems/design-hit-counter",
+    "topics": [
+      "Array",
+      "Binary Search",
+      "Design",
+      "Queue",
+      "Data Stream"
+    ]
+  }
+]

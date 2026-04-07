@@ -1,0 +1,56 @@
+[
+  {
+    "id": "number-of-ways-to-earn-points",
+    "title": "Number of Ways to Earn Points",
+    "difficulty": "Hard",
+    "frequency": 100,
+    "acceptance": 0.5859573746396065,
+    "link": "https://leetcode.com/problems/number-of-ways-to-earn-points",
+    "topics": [
+      "Array",
+      "Dynamic Programming"
+    ]
+  },
+  {
+    "id": "count-the-number-of-good-subsequences",
+    "title": "Count the Number of Good Subsequences",
+    "difficulty": "Medium",
+    "frequency": 100,
+    "acceptance": 0.505726872246696,
+    "link": "https://leetcode.com/problems/count-the-number-of-good-subsequences",
+    "topics": [
+      "Hash Table",
+      "Math",
+      "String",
+      "Combinatorics",
+      "Counting"
+    ]
+  },
+  {
+    "id": "intervals-between-identical-elements",
+    "title": "Intervals Between Identical Elements",
+    "difficulty": "Medium",
+    "frequency": 100,
+    "acceptance": 0.4493480629767406,
+    "link": "https://leetcode.com/problems/intervals-between-identical-elements",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "Prefix Sum"
+    ]
+  },
+  {
+    "id": "maximum-good-people-based-on-statements",
+    "title": "Maximum Good People Based on Statements",
+    "difficulty": "Hard",
+    "frequency": 100,
+    "acceptance": 0.510339612716573,
+    "link": "https://leetcode.com/problems/maximum-good-people-based-on-statements",
+    "topics": [
+      "Array",
+      "Backtracking",
+      "Bit Manipulation",
+      "Enumeration"
+    ]
+  }
+]

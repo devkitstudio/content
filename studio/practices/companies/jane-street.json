@@ -1,0 +1,154 @@
+[
+  {
+    "id": "count-common-words-with-one-occurrence",
+    "title": "Count Common Words With One Occurrence",
+    "difficulty": "Easy",
+    "frequency": 100,
+    "acceptance": 0.7239072189776627,
+    "link": "https://leetcode.com/problems/count-common-words-with-one-occurrence",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "String",
+      "Counting"
+    ]
+  },
+  {
+    "id": "walking-robot-simulation",
+    "title": "Walking Robot Simulation",
+    "difficulty": "Medium",
+    "frequency": 93.4,
+    "acceptance": 0.5823045930701047,
+    "link": "https://leetcode.com/problems/walking-robot-simulation",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "Simulation"
+    ]
+  },
+  {
+    "id": "minimum-time-to-make-array-sum-at-most-x",
+    "title": "Minimum Time to Make Array Sum At Most x",
+    "difficulty": "Hard",
+    "frequency": 91.3,
+    "acceptance": 0.2532966511716156,
+    "link": "https://leetcode.com/problems/minimum-time-to-make-array-sum-at-most-x",
+    "topics": [
+      "Array",
+      "Dynamic Programming",
+      "Sorting"
+    ]
+  },
+  {
+    "id": "add-two-integers",
+    "title": "Add Two Integers",
+    "difficulty": "Easy",
+    "frequency": 76.5,
+    "acceptance": 0.8812235205558485,
+    "link": "https://leetcode.com/problems/add-two-integers",
+    "topics": [
+      "Math"
+    ]
+  },
+  {
+    "id": "stream-of-characters",
+    "title": "Stream of Characters",
+    "difficulty": "Hard",
+    "frequency": 65.5,
+    "acceptance": 0.5122860949942819,
+    "link": "https://leetcode.com/problems/stream-of-characters",
+    "topics": [
+      "Array",
+      "String",
+      "Design",
+      "Trie",
+      "Data Stream"
+    ]
+  },
+  {
+    "id": "add-strings",
+    "title": "Add Strings",
+    "difficulty": "Easy",
+    "frequency": 65.5,
+    "acceptance": 0.5190382397212994,
+    "link": "https://leetcode.com/problems/add-strings",
+    "topics": [
+      "Math",
+      "String",
+      "Simulation"
+    ]
+  },
+  {
+    "id": "design-a-text-editor",
+    "title": "Design a Text Editor",
+    "difficulty": "Hard",
+    "frequency": 65.5,
+    "acceptance": 0.47138071447136626,
+    "link": "https://leetcode.com/problems/design-a-text-editor",
+    "topics": [
+      "Linked List",
+      "String",
+      "Stack",
+      "Design",
+      "Simulation",
+      "Doubly-Linked List"
+    ]
+  },
+  {
+    "id": "longest-common-prefix",
+    "title": "Longest Common Prefix",
+    "difficulty": "Easy",
+    "frequency": 56.9,
+    "acceptance": 0.4548310557827226,
+    "link": "https://leetcode.com/problems/longest-common-prefix",
+    "topics": [
+      "String",
+      "Trie"
+    ]
+  },
+  {
+    "id": "evaluate-division",
+    "title": "Evaluate Division",
+    "difficulty": "Medium",
+    "frequency": 56.9,
+    "acceptance": 0.6314703869340609,
+    "link": "https://leetcode.com/problems/evaluate-division",
+    "topics": [
+      "Array",
+      "String",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Union Find",
+      "Graph",
+      "Shortest Path"
+    ]
+  },
+  {
+    "id": "trapping-rain-water",
+    "title": "Trapping Rain Water",
+    "difficulty": "Hard",
+    "frequency": 56.9,
+    "acceptance": 0.6510203426350943,
+    "link": "https://leetcode.com/problems/trapping-rain-water",
+    "topics": [
+      "Array",
+      "Two Pointers",
+      "Dynamic Programming",
+      "Stack",
+      "Monotonic Stack"
+    ]
+  },
+  {
+    "id": "number-of-orders-in-the-backlog",
+    "title": "Number of Orders in the Backlog",
+    "difficulty": "Medium",
+    "frequency": 56.9,
+    "acceptance": 0.5196292359051828,
+    "link": "https://leetcode.com/problems/number-of-orders-in-the-backlog",
+    "topics": [
+      "Array",
+      "Heap (Priority Queue)",
+      "Simulation"
+    ]
+  }
+]

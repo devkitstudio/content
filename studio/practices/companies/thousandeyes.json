@@ -1,0 +1,69 @@
+[
+  {
+    "id": "clone-graph",
+    "title": "Clone Graph",
+    "difficulty": "Medium",
+    "frequency": 100,
+    "acceptance": 0.6238601074675428,
+    "link": "https://leetcode.com/problems/clone-graph",
+    "topics": [
+      "Hash Table",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Graph"
+    ]
+  },
+  {
+    "id": "insert-delete-getrandom-o1",
+    "title": "Insert Delete GetRandom O(1)",
+    "difficulty": "Medium",
+    "frequency": 100,
+    "acceptance": 0.5499172170512081,
+    "link": "https://leetcode.com/problems/insert-delete-getrandom-o1",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "Math",
+      "Design",
+      "Randomized"
+    ]
+  },
+  {
+    "id": "lru-cache",
+    "title": "LRU Cache",
+    "difficulty": "Medium",
+    "frequency": 89.5,
+    "acceptance": 0.4521499177481188,
+    "link": "https://leetcode.com/problems/lru-cache",
+    "topics": [
+      "Hash Table",
+      "Linked List",
+      "Design",
+      "Doubly-Linked List"
+    ]
+  },
+  {
+    "id": "design-in-memory-file-system",
+    "title": "Design In-Memory File System",
+    "difficulty": "Hard",
+    "frequency": 89.5,
+    "acceptance": 0.48168927561926755,
+    "link": "https://leetcode.com/problems/design-in-memory-file-system",
+    "topics": [
+      "Hash Table",
+      "String",
+      "Design",
+      "Trie",
+      "Sorting"
+    ]
+  },
+  {
+    "id": "cache-with-time-limit",
+    "title": "Cache With Time Limit",
+    "difficulty": "Medium",
+    "frequency": 89.5,
+    "acceptance": 0.7578510164111569,
+    "link": "https://leetcode.com/problems/cache-with-time-limit",
+    "topics": []
+  }
+]

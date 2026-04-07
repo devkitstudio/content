@@ -1,0 +1,54 @@
+[
+  {
+    "id": "3sum",
+    "title": "3Sum",
+    "difficulty": "Medium",
+    "frequency": 100,
+    "acceptance": 0.3707497430761235,
+    "link": "https://leetcode.com/problems/3sum",
+    "topics": [
+      "Array",
+      "Two Pointers",
+      "Sorting"
+    ]
+  },
+  {
+    "id": "course-schedule-iii",
+    "title": "Course Schedule III",
+    "difficulty": "Hard",
+    "frequency": 100,
+    "acceptance": 0.4067228094856614,
+    "link": "https://leetcode.com/problems/course-schedule-iii",
+    "topics": [
+      "Array",
+      "Greedy",
+      "Sorting",
+      "Heap (Priority Queue)"
+    ]
+  },
+  {
+    "id": "k-inverse-pairs-array",
+    "title": "K Inverse Pairs Array",
+    "difficulty": "Hard",
+    "frequency": 100,
+    "acceptance": 0.49047494969673283,
+    "link": "https://leetcode.com/problems/k-inverse-pairs-array",
+    "topics": [
+      "Dynamic Programming"
+    ]
+  },
+  {
+    "id": "largest-number",
+    "title": "Largest Number",
+    "difficulty": "Medium",
+    "frequency": 100,
+    "acceptance": 0.4128187673396755,
+    "link": "https://leetcode.com/problems/largest-number",
+    "topics": [
+      "Array",
+      "String",
+      "Greedy",
+      "Sorting"
+    ]
+  }
+]

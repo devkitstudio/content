@@ -1,0 +1,136 @@
+[
+  {
+    "id": "minimum-total-cost-to-make-arrays-unequal",
+    "title": "Minimum Total Cost to Make Arrays Unequal",
+    "difficulty": "Hard",
+    "frequency": 100,
+    "acceptance": 0.40506888676048036,
+    "link": "https://leetcode.com/problems/minimum-total-cost-to-make-arrays-unequal",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "Greedy",
+      "Counting"
+    ]
+  },
+  {
+    "id": "two-best-non-overlapping-events",
+    "title": "Two Best Non-Overlapping Events",
+    "difficulty": "Medium",
+    "frequency": 100,
+    "acceptance": 0.6083218765865931,
+    "link": "https://leetcode.com/problems/two-best-non-overlapping-events",
+    "topics": [
+      "Array",
+      "Binary Search",
+      "Dynamic Programming",
+      "Sorting",
+      "Heap (Priority Queue)"
+    ]
+  },
+  {
+    "id": "most-beautiful-item-for-each-query",
+    "title": "Most Beautiful Item for Each Query",
+    "difficulty": "Medium",
+    "frequency": 100,
+    "acceptance": 0.6204238729375727,
+    "link": "https://leetcode.com/problems/most-beautiful-item-for-each-query",
+    "topics": [
+      "Array",
+      "Binary Search",
+      "Sorting"
+    ]
+  },
+  {
+    "id": "shortest-subarray-to-be-removed-to-make-array-sorted",
+    "title": "Shortest Subarray to be Removed to Make Array Sorted",
+    "difficulty": "Medium",
+    "frequency": 79.1,
+    "acceptance": 0.5143014465781959,
+    "link": "https://leetcode.com/problems/shortest-subarray-to-be-removed-to-make-array-sorted",
+    "topics": [
+      "Array",
+      "Two Pointers",
+      "Binary Search",
+      "Stack",
+      "Monotonic Stack"
+    ]
+  },
+  {
+    "id": "merge-intervals",
+    "title": "Merge Intervals",
+    "difficulty": "Medium",
+    "frequency": 72.6,
+    "acceptance": 0.49395207051009665,
+    "link": "https://leetcode.com/problems/merge-intervals",
+    "topics": [
+      "Array",
+      "Sorting"
+    ]
+  },
+  {
+    "id": "excel-sheet-column-number",
+    "title": "Excel Sheet Column Number",
+    "difficulty": "Easy",
+    "frequency": 63.4,
+    "acceptance": 0.657529430838357,
+    "link": "https://leetcode.com/problems/excel-sheet-column-number",
+    "topics": [
+      "Math",
+      "String"
+    ]
+  },
+  {
+    "id": "decode-string",
+    "title": "Decode String",
+    "difficulty": "Medium",
+    "frequency": 63.4,
+    "acceptance": 0.6115274430176852,
+    "link": "https://leetcode.com/problems/decode-string",
+    "topics": [
+      "String",
+      "Stack",
+      "Recursion"
+    ]
+  },
+  {
+    "id": "container-with-most-water",
+    "title": "Container With Most Water",
+    "difficulty": "Medium",
+    "frequency": 63.4,
+    "acceptance": 0.5778299323068349,
+    "link": "https://leetcode.com/problems/container-with-most-water",
+    "topics": [
+      "Array",
+      "Two Pointers",
+      "Greedy"
+    ]
+  },
+  {
+    "id": "rotate-array",
+    "title": "Rotate Array",
+    "difficulty": "Medium",
+    "frequency": 63.4,
+    "acceptance": 0.43021402627311356,
+    "link": "https://leetcode.com/problems/rotate-array",
+    "topics": [
+      "Array",
+      "Math",
+      "Two Pointers"
+    ]
+  },
+  {
+    "id": "lru-cache",
+    "title": "LRU Cache",
+    "difficulty": "Medium",
+    "frequency": 63.4,
+    "acceptance": 0.4521500890965678,
+    "link": "https://leetcode.com/problems/lru-cache",
+    "topics": [
+      "Hash Table",
+      "Linked List",
+      "Design",
+      "Doubly-Linked List"
+    ]
+  }
+]

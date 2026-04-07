@@ -1,0 +1,127 @@
+[
+  {
+    "id": "count-pairs-in-two-arrays",
+    "title": "Count Pairs in Two Arrays",
+    "difficulty": "Medium",
+    "frequency": 100,
+    "acceptance": 0.6015575998327409,
+    "link": "https://leetcode.com/problems/count-pairs-in-two-arrays",
+    "topics": [
+      "Array",
+      "Two Pointers",
+      "Binary Search",
+      "Sorting"
+    ]
+  },
+  {
+    "id": "lru-cache",
+    "title": "LRU Cache",
+    "difficulty": "Medium",
+    "frequency": 88.4,
+    "acceptance": 0.4521484728871755,
+    "link": "https://leetcode.com/problems/lru-cache",
+    "topics": [
+      "Hash Table",
+      "Linked List",
+      "Design",
+      "Doubly-Linked List"
+    ]
+  },
+  {
+    "id": "jump-game",
+    "title": "Jump Game",
+    "difficulty": "Medium",
+    "frequency": 79.1,
+    "acceptance": 0.3947916759941618,
+    "link": "https://leetcode.com/problems/jump-game",
+    "topics": [
+      "Array",
+      "Dynamic Programming",
+      "Greedy"
+    ]
+  },
+  {
+    "id": "valid-parentheses",
+    "title": "Valid Parentheses",
+    "difficulty": "Easy",
+    "frequency": 72.6,
+    "acceptance": 0.4232289742372698,
+    "link": "https://leetcode.com/problems/valid-parentheses",
+    "topics": [
+      "String",
+      "Stack"
+    ]
+  },
+  {
+    "id": "merge-two-sorted-lists",
+    "title": "Merge Two Sorted Lists",
+    "difficulty": "Easy",
+    "frequency": 72.6,
+    "acceptance": 0.6684093351942102,
+    "link": "https://leetcode.com/problems/merge-two-sorted-lists",
+    "topics": [
+      "Linked List",
+      "Recursion"
+    ]
+  },
+  {
+    "id": "random-pick-with-weight",
+    "title": "Random Pick with Weight",
+    "difficulty": "Medium",
+    "frequency": 63.4,
+    "acceptance": 0.48278491027999254,
+    "link": "https://leetcode.com/problems/random-pick-with-weight",
+    "topics": [
+      "Array",
+      "Math",
+      "Binary Search",
+      "Prefix Sum",
+      "Randomized"
+    ]
+  },
+  {
+    "id": "best-time-to-buy-and-sell-stock",
+    "title": "Best Time to Buy and Sell Stock",
+    "difficulty": "Easy",
+    "frequency": 63.4,
+    "acceptance": 0.5525965264574566,
+    "link": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock",
+    "topics": [
+      "Array",
+      "Dynamic Programming"
+    ]
+  },
+  {
+    "id": "valid-palindrome",
+    "title": "Valid Palindrome",
+    "difficulty": "Easy",
+    "frequency": 63.4,
+    "acceptance": 0.5096357007859084,
+    "link": "https://leetcode.com/problems/valid-palindrome",
+    "topics": [
+      "Two Pointers",
+      "String"
+    ]
+  },
+  {
+    "id": "memoize",
+    "title": "Memoize",
+    "difficulty": "Medium",
+    "frequency": 63.4,
+    "acceptance": 0.6398648816267127,
+    "link": "https://leetcode.com/problems/memoize",
+    "topics": []
+  },
+  {
+    "id": "two-sum",
+    "title": "Two Sum",
+    "difficulty": "Easy",
+    "frequency": 63.4,
+    "acceptance": 0.5577701178825513,
+    "link": "https://leetcode.com/problems/two-sum",
+    "topics": [
+      "Array",
+      "Hash Table"
+    ]
+  }
+]

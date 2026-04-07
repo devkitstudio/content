@@ -1,0 +1,46 @@
+[
+  {
+    "id": "number-of-islands",
+    "title": "Number of Islands",
+    "difficulty": "Medium",
+    "frequency": 100,
+    "acceptance": 0.623246254585838,
+    "link": "https://leetcode.com/problems/number-of-islands",
+    "topics": [
+      "Array",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Union Find",
+      "Matrix"
+    ]
+  },
+  {
+    "id": "kth-smallest-element-in-a-sorted-matrix",
+    "title": "Kth Smallest Element in a Sorted Matrix",
+    "difficulty": "Medium",
+    "frequency": 89.1,
+    "acceptance": 0.6356877520884164,
+    "link": "https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix",
+    "topics": [
+      "Array",
+      "Binary Search",
+      "Sorting",
+      "Heap (Priority Queue)",
+      "Matrix"
+    ]
+  },
+  {
+    "id": "count-subarrays-with-fixed-bounds",
+    "title": "Count Subarrays With Fixed Bounds",
+    "difficulty": "Hard",
+    "frequency": 89.1,
+    "acceptance": 0.6940812070277932,
+    "link": "https://leetcode.com/problems/count-subarrays-with-fixed-bounds",
+    "topics": [
+      "Array",
+      "Queue",
+      "Sliding Window",
+      "Monotonic Queue"
+    ]
+  }
+]

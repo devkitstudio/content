@@ -1,0 +1,40 @@
+[
+  {
+    "id": "count-pairs-in-two-arrays",
+    "title": "Count Pairs in Two Arrays",
+    "difficulty": "Medium",
+    "frequency": 100,
+    "acceptance": 0.6015575998327409,
+    "link": "https://leetcode.com/problems/count-pairs-in-two-arrays",
+    "topics": [
+      "Array",
+      "Two Pointers",
+      "Binary Search",
+      "Sorting"
+    ]
+  },
+  {
+    "id": "candy",
+    "title": "Candy",
+    "difficulty": "Hard",
+    "frequency": 100,
+    "acceptance": 0.4669990512422267,
+    "link": "https://leetcode.com/problems/candy",
+    "topics": [
+      "Array",
+      "Greedy"
+    ]
+  },
+  {
+    "id": "merge-two-sorted-lists",
+    "title": "Merge Two Sorted Lists",
+    "difficulty": "Easy",
+    "frequency": 100,
+    "acceptance": 0.6684110044467867,
+    "link": "https://leetcode.com/problems/merge-two-sorted-lists",
+    "topics": [
+      "Linked List",
+      "Recursion"
+    ]
+  }
+]

@@ -1,0 +1,70 @@
+[
+  {
+    "id": "split-array-with-equal-sum",
+    "title": "Split Array with Equal Sum",
+    "difficulty": "Hard",
+    "frequency": 100,
+    "acceptance": 0.5005901986323673,
+    "link": "https://leetcode.com/problems/split-array-with-equal-sum",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "Prefix Sum"
+    ]
+  },
+  {
+    "id": "split-concatenated-strings",
+    "title": "Split Concatenated Strings",
+    "difficulty": "Medium",
+    "frequency": 100,
+    "acceptance": 0.4331808331326752,
+    "link": "https://leetcode.com/problems/split-concatenated-strings",
+    "topics": [
+      "Array",
+      "String",
+      "Greedy"
+    ]
+  },
+  {
+    "id": "path-sum-iv",
+    "title": "Path Sum IV",
+    "difficulty": "Medium",
+    "frequency": 100,
+    "acceptance": 0.6265683229813664,
+    "link": "https://leetcode.com/problems/path-sum-iv",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "Tree",
+      "Depth-First Search",
+      "Binary Tree"
+    ]
+  },
+  {
+    "id": "valid-parenthesis-string",
+    "title": "Valid Parenthesis String",
+    "difficulty": "Medium",
+    "frequency": 100,
+    "acceptance": 0.38909428484404673,
+    "link": "https://leetcode.com/problems/valid-parenthesis-string",
+    "topics": [
+      "String",
+      "Dynamic Programming",
+      "Stack",
+      "Greedy"
+    ]
+  },
+  {
+    "id": "longest-substring-without-repeating-characters",
+    "title": "Longest Substring Without Repeating Characters",
+    "difficulty": "Medium",
+    "frequency": 63.7,
+    "acceptance": 0.3693614339383895,
+    "link": "https://leetcode.com/problems/longest-substring-without-repeating-characters",
+    "topics": [
+      "Hash Table",
+      "String",
+      "Sliding Window"
+    ]
+  }
+]

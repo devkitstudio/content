@@ -1,0 +1,89 @@
+[
+  {
+    "id": "minimum-penalty-for-a-shop",
+    "title": "Minimum Penalty for a Shop",
+    "difficulty": "Medium",
+    "frequency": 100,
+    "acceptance": 0.6759443878546194,
+    "link": "https://leetcode.com/problems/minimum-penalty-for-a-shop",
+    "topics": [
+      "String",
+      "Prefix Sum"
+    ]
+  },
+  {
+    "id": "evaluate-division",
+    "title": "Evaluate Division",
+    "difficulty": "Medium",
+    "frequency": 68.2,
+    "acceptance": 0.6314704969299972,
+    "link": "https://leetcode.com/problems/evaluate-division",
+    "topics": [
+      "Array",
+      "String",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Union Find",
+      "Graph",
+      "Shortest Path"
+    ]
+  },
+  {
+    "id": "cheapest-flights-within-k-stops",
+    "title": "Cheapest Flights Within K Stops",
+    "difficulty": "Medium",
+    "frequency": 56.4,
+    "acceptance": 0.40398927733184775,
+    "link": "https://leetcode.com/problems/cheapest-flights-within-k-stops",
+    "topics": [
+      "Dynamic Programming",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Graph",
+      "Heap (Priority Queue)",
+      "Shortest Path"
+    ]
+  },
+  {
+    "id": "optimal-account-balancing",
+    "title": "Optimal Account Balancing",
+    "difficulty": "Hard",
+    "frequency": 51.5,
+    "acceptance": 0.4993810266893702,
+    "link": "https://leetcode.com/problems/optimal-account-balancing",
+    "topics": [
+      "Array",
+      "Dynamic Programming",
+      "Backtracking",
+      "Bit Manipulation",
+      "Bitmask"
+    ]
+  },
+  {
+    "id": "brace-expansion",
+    "title": "Brace Expansion",
+    "difficulty": "Medium",
+    "frequency": 51.5,
+    "acceptance": 0.6672212978369384,
+    "link": "https://leetcode.com/problems/brace-expansion",
+    "topics": [
+      "String",
+      "Backtracking",
+      "Breadth-First Search"
+    ]
+  },
+  {
+    "id": "parallel-courses-iii",
+    "title": "Parallel Courses III",
+    "difficulty": "Hard",
+    "frequency": 44.6,
+    "acceptance": 0.6674963944974485,
+    "link": "https://leetcode.com/problems/parallel-courses-iii",
+    "topics": [
+      "Array",
+      "Dynamic Programming",
+      "Graph",
+      "Topological Sort"
+    ]
+  }
+]

@@ -1,0 +1,35 @@
+[
+  {
+    "id": "trapping-rain-water",
+    "title": "Trapping Rain Water",
+    "difficulty": "Hard",
+    "frequency": 100,
+    "acceptance": 0.6510221504452247,
+    "link": "https://leetcode.com/problems/trapping-rain-water",
+    "topics": [
+      "Array",
+      "Two Pointers",
+      "Dynamic Programming",
+      "Stack",
+      "Monotonic Stack"
+    ]
+  },
+  {
+    "id": "sort-an-array",
+    "title": "Sort an Array",
+    "difficulty": "Medium",
+    "frequency": 100,
+    "acceptance": 0.5664710269583224,
+    "link": "https://leetcode.com/problems/sort-an-array",
+    "topics": [
+      "Array",
+      "Divide and Conquer",
+      "Sorting",
+      "Heap (Priority Queue)",
+      "Merge Sort",
+      "Bucket Sort",
+      "Radix Sort",
+      "Counting Sort"
+    ]
+  }
+]

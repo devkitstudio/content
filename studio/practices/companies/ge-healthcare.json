@@ -1,0 +1,97 @@
+[
+  {
+    "id": "concatenation-of-array",
+    "title": "Concatenation of Array",
+    "difficulty": "Easy",
+    "frequency": 100,
+    "acceptance": 0.9048989107329093,
+    "link": "https://leetcode.com/problems/concatenation-of-array",
+    "topics": [
+      "Array",
+      "Simulation"
+    ]
+  },
+  {
+    "id": "evaluate-division",
+    "title": "Evaluate Division",
+    "difficulty": "Medium",
+    "frequency": 95.1,
+    "acceptance": 0.6314724725246107,
+    "link": "https://leetcode.com/problems/evaluate-division",
+    "topics": [
+      "Array",
+      "String",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Union Find",
+      "Graph",
+      "Shortest Path"
+    ]
+  },
+  {
+    "id": "valid-parentheses",
+    "title": "Valid Parentheses",
+    "difficulty": "Easy",
+    "frequency": 84.9,
+    "acceptance": 0.423228968266,
+    "link": "https://leetcode.com/problems/valid-parentheses",
+    "topics": [
+      "String",
+      "Stack"
+    ]
+  },
+  {
+    "id": "lowest-common-ancestor-of-a-binary-tree",
+    "title": "Lowest Common Ancestor of a Binary Tree",
+    "difficulty": "Medium",
+    "frequency": 73.8,
+    "acceptance": 0.6675515631209941,
+    "link": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree",
+    "topics": [
+      "Tree",
+      "Depth-First Search",
+      "Binary Tree"
+    ]
+  },
+  {
+    "id": "number-of-visible-people-in-a-queue",
+    "title": "Number of Visible People in a Queue",
+    "difficulty": "Hard",
+    "frequency": 64.9,
+    "acceptance": 0.7129705142972448,
+    "link": "https://leetcode.com/problems/number-of-visible-people-in-a-queue",
+    "topics": [
+      "Array",
+      "Stack",
+      "Monotonic Stack"
+    ]
+  },
+  {
+    "id": "car-fleet",
+    "title": "Car Fleet",
+    "difficulty": "Medium",
+    "frequency": 64.9,
+    "acceptance": 0.5347444943339748,
+    "link": "https://leetcode.com/problems/car-fleet",
+    "topics": [
+      "Array",
+      "Stack",
+      "Sorting",
+      "Monotonic Stack"
+    ]
+  },
+  {
+    "id": "employee-free-time",
+    "title": "Employee Free Time",
+    "difficulty": "Hard",
+    "frequency": 64.9,
+    "acceptance": 0.7259771560305982,
+    "link": "https://leetcode.com/problems/employee-free-time",
+    "topics": [
+      "Array",
+      "Line Sweep",
+      "Sorting",
+      "Heap (Priority Queue)"
+    ]
+  }
+]

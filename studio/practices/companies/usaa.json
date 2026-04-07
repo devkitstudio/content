@@ -1,0 +1,14 @@
+[
+  {
+    "id": "reverse-vowels-of-a-string",
+    "title": "Reverse Vowels of a String",
+    "difficulty": "Easy",
+    "frequency": 100,
+    "acceptance": 0.5819270943186935,
+    "link": "https://leetcode.com/problems/reverse-vowels-of-a-string",
+    "topics": [
+      "Two Pointers",
+      "String"
+    ]
+  }
+]

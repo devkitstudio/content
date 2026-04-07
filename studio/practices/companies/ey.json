@@ -1,0 +1,41 @@
+[
+  {
+    "id": "two-sum",
+    "title": "Two Sum",
+    "difficulty": "Easy",
+    "frequency": 100,
+    "acceptance": 0.5578040764908396,
+    "link": "https://leetcode.com/problems/two-sum",
+    "topics": [
+      "Array",
+      "Hash Table"
+    ]
+  },
+  {
+    "id": "fibonacci-number",
+    "title": "Fibonacci Number",
+    "difficulty": "Easy",
+    "frequency": 100,
+    "acceptance": 0.7294747086945944,
+    "link": "https://leetcode.com/problems/fibonacci-number",
+    "topics": [
+      "Math",
+      "Dynamic Programming",
+      "Recursion",
+      "Memoization"
+    ]
+  },
+  {
+    "id": "longest-happy-string",
+    "title": "Longest Happy String",
+    "difficulty": "Medium",
+    "frequency": 100,
+    "acceptance": 0.6546298301119122,
+    "link": "https://leetcode.com/problems/longest-happy-string",
+    "topics": [
+      "String",
+      "Greedy",
+      "Heap (Priority Queue)"
+    ]
+  }
+]

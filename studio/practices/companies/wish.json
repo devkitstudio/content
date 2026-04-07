@@ -1,0 +1,52 @@
+[
+  {
+    "id": "find-servers-that-handled-most-number-of-requests",
+    "title": "Find Servers That Handled Most Number of Requests",
+    "difficulty": "Hard",
+    "frequency": 100,
+    "acceptance": 0.4407459914937801,
+    "link": "https://leetcode.com/problems/find-servers-that-handled-most-number-of-requests",
+    "topics": [
+      "Array",
+      "Greedy",
+      "Heap (Priority Queue)",
+      "Ordered Set"
+    ]
+  },
+  {
+    "id": "rabbits-in-forest",
+    "title": "Rabbits in Forest",
+    "difficulty": "Medium",
+    "frequency": 100,
+    "acceptance": 0.5826643792570448,
+    "link": "https://leetcode.com/problems/rabbits-in-forest",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "Math",
+      "Greedy"
+    ]
+  },
+  {
+    "id": "monthly-transactions-i",
+    "title": "Monthly Transactions I",
+    "difficulty": "Medium",
+    "frequency": 100,
+    "acceptance": 0.5830398874655107,
+    "link": "https://leetcode.com/problems/monthly-transactions-i",
+    "topics": [
+      "Database"
+    ]
+  },
+  {
+    "id": "monthly-transactions-ii",
+    "title": "Monthly Transactions II",
+    "difficulty": "Medium",
+    "frequency": 100,
+    "acceptance": 0.41985775068266973,
+    "link": "https://leetcode.com/problems/monthly-transactions-ii",
+    "topics": [
+      "Database"
+    ]
+  }
+]

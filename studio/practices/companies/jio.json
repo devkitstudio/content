@@ -1,0 +1,96 @@
+[
+  {
+    "id": "divide-an-array-into-subarrays-with-minimum-cost-ii",
+    "title": "Divide an Array Into Subarrays With Minimum Cost II",
+    "difficulty": "Hard",
+    "frequency": 100,
+    "acceptance": 0.30406266219978295,
+    "link": "https://leetcode.com/problems/divide-an-array-into-subarrays-with-minimum-cost-ii",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "Sliding Window",
+      "Heap (Priority Queue)"
+    ]
+  },
+  {
+    "id": "find-the-grid-of-region-average",
+    "title": "Find the Grid of Region Average",
+    "difficulty": "Medium",
+    "frequency": 100,
+    "acceptance": 0.42241511165494033,
+    "link": "https://leetcode.com/problems/find-the-grid-of-region-average",
+    "topics": [
+      "Array",
+      "Matrix"
+    ]
+  },
+  {
+    "id": "maximize-the-number-of-target-nodes-after-connecting-trees-i",
+    "title": "Maximize the Number of Target Nodes After Connecting Trees I",
+    "difficulty": "Medium",
+    "frequency": 100,
+    "acceptance": 0.6968516827213042,
+    "link": "https://leetcode.com/problems/maximize-the-number-of-target-nodes-after-connecting-trees-i",
+    "topics": [
+      "Tree",
+      "Depth-First Search",
+      "Breadth-First Search"
+    ]
+  },
+  {
+    "id": "maximize-the-number-of-target-nodes-after-connecting-trees-ii",
+    "title": "Maximize the Number of Target Nodes After Connecting Trees II",
+    "difficulty": "Hard",
+    "frequency": 100,
+    "acceptance": 0.7315660916406779,
+    "link": "https://leetcode.com/problems/maximize-the-number-of-target-nodes-after-connecting-trees-ii",
+    "topics": [
+      "Tree",
+      "Depth-First Search",
+      "Breadth-First Search"
+    ]
+  },
+  {
+    "id": "two-sum",
+    "title": "Two Sum",
+    "difficulty": "Easy",
+    "frequency": 62.6,
+    "acceptance": 0.5577709609989225,
+    "link": "https://leetcode.com/problems/two-sum",
+    "topics": [
+      "Array",
+      "Hash Table"
+    ]
+  },
+  {
+    "id": "making-a-large-island",
+    "title": "Making A Large Island",
+    "difficulty": "Hard",
+    "frequency": 62.6,
+    "acceptance": 0.5489021109141428,
+    "link": "https://leetcode.com/problems/making-a-large-island",
+    "topics": [
+      "Array",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Union Find",
+      "Matrix"
+    ]
+  },
+  {
+    "id": "trapping-rain-water",
+    "title": "Trapping Rain Water",
+    "difficulty": "Hard",
+    "frequency": 62.6,
+    "acceptance": 0.6510222145708986,
+    "link": "https://leetcode.com/problems/trapping-rain-water",
+    "topics": [
+      "Array",
+      "Two Pointers",
+      "Dynamic Programming",
+      "Stack",
+      "Monotonic Stack"
+    ]
+  }
+]

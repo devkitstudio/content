@@ -1,0 +1,28 @@
+[
+  {
+    "id": "valid-parenthesis-string",
+    "title": "Valid Parenthesis String",
+    "difficulty": "Medium",
+    "frequency": 100,
+    "acceptance": 0.3890950919002989,
+    "link": "https://leetcode.com/problems/valid-parenthesis-string",
+    "topics": [
+      "String",
+      "Dynamic Programming",
+      "Stack",
+      "Greedy"
+    ]
+  },
+  {
+    "id": "best-time-to-buy-and-sell-stock",
+    "title": "Best Time to Buy and Sell Stock",
+    "difficulty": "Easy",
+    "frequency": 100,
+    "acceptance": 0.5525969157019779,
+    "link": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock",
+    "topics": [
+      "Array",
+      "Dynamic Programming"
+    ]
+  }
+]

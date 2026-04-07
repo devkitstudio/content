@@ -1,0 +1,236 @@
+[
+  {
+    "id": "mark-elements-on-array-by-performing-queries",
+    "title": "Mark Elements on Array by Performing Queries",
+    "difficulty": "Medium",
+    "frequency": 100,
+    "acceptance": 0.4769432539403733,
+    "link": "https://leetcode.com/problems/mark-elements-on-array-by-performing-queries",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "Sorting",
+      "Heap (Priority Queue)",
+      "Simulation"
+    ]
+  },
+  {
+    "id": "furthest-point-from-origin",
+    "title": "Furthest Point From Origin",
+    "difficulty": "Easy",
+    "frequency": 100,
+    "acceptance": 0.6444120731849435,
+    "link": "https://leetcode.com/problems/furthest-point-from-origin",
+    "topics": [
+      "String",
+      "Counting"
+    ]
+  },
+  {
+    "id": "count-submatrices-with-top-left-element-and-sum-less-than-k",
+    "title": "Count Submatrices with Top-Left Element and Sum Less Than k",
+    "difficulty": "Medium",
+    "frequency": 100,
+    "acceptance": 0.5723915766867506,
+    "link": "https://leetcode.com/problems/count-submatrices-with-top-left-element-and-sum-less-than-k",
+    "topics": [
+      "Array",
+      "Matrix",
+      "Prefix Sum"
+    ]
+  },
+  {
+    "id": "double-modular-exponentiation",
+    "title": "Double Modular Exponentiation",
+    "difficulty": "Medium",
+    "frequency": 100,
+    "acceptance": 0.4710246360582307,
+    "link": "https://leetcode.com/problems/double-modular-exponentiation",
+    "topics": [
+      "Array",
+      "Math",
+      "Simulation"
+    ]
+  },
+  {
+    "id": "lexicographically-smallest-generated-string",
+    "title": "Lexicographically Smallest Generated String",
+    "difficulty": "Hard",
+    "frequency": 77.9,
+    "acceptance": 0.29634433006403504,
+    "link": "https://leetcode.com/problems/lexicographically-smallest-generated-string",
+    "topics": [
+      "String",
+      "Greedy",
+      "String Matching"
+    ]
+  },
+  {
+    "id": "maximum-employees-to-be-invited-to-a-meeting",
+    "title": "Maximum Employees to Be Invited to a Meeting",
+    "difficulty": "Hard",
+    "frequency": 71,
+    "acceptance": 0.6210808912817661,
+    "link": "https://leetcode.com/problems/maximum-employees-to-be-invited-to-a-meeting",
+    "topics": [
+      "Depth-First Search",
+      "Graph",
+      "Topological Sort"
+    ]
+  },
+  {
+    "id": "number-of-islands",
+    "title": "Number of Islands",
+    "difficulty": "Medium",
+    "frequency": 71,
+    "acceptance": 0.6232012377009197,
+    "link": "https://leetcode.com/problems/number-of-islands",
+    "topics": [
+      "Array",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Union Find",
+      "Matrix"
+    ]
+  },
+  {
+    "id": "valid-parentheses",
+    "title": "Valid Parentheses",
+    "difficulty": "Easy",
+    "frequency": 71,
+    "acceptance": 0.4232289742372698,
+    "link": "https://leetcode.com/problems/valid-parentheses",
+    "topics": [
+      "String",
+      "Stack"
+    ]
+  },
+  {
+    "id": "two-sum",
+    "title": "Two Sum",
+    "difficulty": "Easy",
+    "frequency": 71,
+    "acceptance": 0.5577701178825513,
+    "link": "https://leetcode.com/problems/two-sum",
+    "topics": [
+      "Array",
+      "Hash Table"
+    ]
+  },
+  {
+    "id": "minimum-number-of-refueling-stops",
+    "title": "Minimum Number of Refueling Stops",
+    "difficulty": "Hard",
+    "frequency": 71,
+    "acceptance": 0.405574587771098,
+    "link": "https://leetcode.com/problems/minimum-number-of-refueling-stops",
+    "topics": [
+      "Array",
+      "Dynamic Programming",
+      "Greedy",
+      "Heap (Priority Queue)"
+    ]
+  },
+  {
+    "id": "3sum",
+    "title": "3Sum",
+    "difficulty": "Medium",
+    "frequency": 71,
+    "acceptance": 0.37071061122609317,
+    "link": "https://leetcode.com/problems/3sum",
+    "topics": [
+      "Array",
+      "Two Pointers",
+      "Sorting"
+    ]
+  },
+  {
+    "id": "isomorphic-strings",
+    "title": "Isomorphic Strings",
+    "difficulty": "Easy",
+    "frequency": 71,
+    "acceptance": 0.4685800275723814,
+    "link": "https://leetcode.com/problems/isomorphic-strings",
+    "topics": [
+      "Hash Table",
+      "String"
+    ]
+  },
+  {
+    "id": "merge-sorted-array",
+    "title": "Merge Sorted Array",
+    "difficulty": "Easy",
+    "frequency": 61.2,
+    "acceptance": 0.5291962968191866,
+    "link": "https://leetcode.com/problems/merge-sorted-array",
+    "topics": [
+      "Array",
+      "Two Pointers",
+      "Sorting"
+    ]
+  },
+  {
+    "id": "maximum-subarray",
+    "title": "Maximum Subarray",
+    "difficulty": "Medium",
+    "frequency": 61.2,
+    "acceptance": 0.5209982621027541,
+    "link": "https://leetcode.com/problems/maximum-subarray",
+    "topics": [
+      "Array",
+      "Divide and Conquer",
+      "Dynamic Programming"
+    ]
+  },
+  {
+    "id": "palindrome-linked-list",
+    "title": "Palindrome Linked List",
+    "difficulty": "Easy",
+    "frequency": 61.2,
+    "acceptance": 0.5585939012301956,
+    "link": "https://leetcode.com/problems/palindrome-linked-list",
+    "topics": [
+      "Linked List",
+      "Two Pointers",
+      "Stack",
+      "Recursion"
+    ]
+  },
+  {
+    "id": "lexicographical-numbers",
+    "title": "Lexicographical Numbers",
+    "difficulty": "Medium",
+    "frequency": 61.2,
+    "acceptance": 0.7597714941239238,
+    "link": "https://leetcode.com/problems/lexicographical-numbers",
+    "topics": [
+      "Depth-First Search",
+      "Trie"
+    ]
+  },
+  {
+    "id": "permutations",
+    "title": "Permutations",
+    "difficulty": "Medium",
+    "frequency": 61.2,
+    "acceptance": 0.8066019584580677,
+    "link": "https://leetcode.com/problems/permutations",
+    "topics": [
+      "Array",
+      "Backtracking"
+    ]
+  },
+  {
+    "id": "climbing-stairs",
+    "title": "Climbing Stairs",
+    "difficulty": "Easy",
+    "frequency": 61.2,
+    "acceptance": 0.5354078816907156,
+    "link": "https://leetcode.com/problems/climbing-stairs",
+    "topics": [
+      "Math",
+      "Dynamic Programming",
+      "Memoization"
+    ]
+  }
+]

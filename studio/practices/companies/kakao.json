@@ -1,0 +1,29 @@
+[
+  {
+    "id": "maximum-points-in-an-archery-competition",
+    "title": "Maximum Points in an Archery Competition",
+    "difficulty": "Medium",
+    "frequency": 100,
+    "acceptance": 0.5041214995483289,
+    "link": "https://leetcode.com/problems/maximum-points-in-an-archery-competition",
+    "topics": [
+      "Array",
+      "Backtracking",
+      "Bit Manipulation",
+      "Enumeration"
+    ]
+  },
+  {
+    "id": "minimum-moves-to-reach-target-with-rotations",
+    "title": "Minimum Moves to Reach Target with Rotations",
+    "difficulty": "Hard",
+    "frequency": 100,
+    "acceptance": 0.5057383320581484,
+    "link": "https://leetcode.com/problems/minimum-moves-to-reach-target-with-rotations",
+    "topics": [
+      "Array",
+      "Breadth-First Search",
+      "Matrix"
+    ]
+  }
+]

@@ -1,0 +1,80 @@
+[
+  {
+    "id": "count-pairs-with-xor-in-a-range",
+    "title": "Count Pairs With XOR in a Range",
+    "difficulty": "Hard",
+    "frequency": 100,
+    "acceptance": 0.45744370916052773,
+    "link": "https://leetcode.com/problems/count-pairs-with-xor-in-a-range",
+    "topics": [
+      "Array",
+      "Bit Manipulation",
+      "Trie"
+    ]
+  },
+  {
+    "id": "flower-planting-with-no-adjacent",
+    "title": "Flower Planting With No Adjacent",
+    "difficulty": "Medium",
+    "frequency": 66.4,
+    "acceptance": 0.5237790114146059,
+    "link": "https://leetcode.com/problems/flower-planting-with-no-adjacent",
+    "topics": [
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Graph"
+    ]
+  },
+  {
+    "id": "maximum-subarray",
+    "title": "Maximum Subarray",
+    "difficulty": "Medium",
+    "frequency": 66.4,
+    "acceptance": 0.5209994418742664,
+    "link": "https://leetcode.com/problems/maximum-subarray",
+    "topics": [
+      "Array",
+      "Divide and Conquer",
+      "Dynamic Programming"
+    ]
+  },
+  {
+    "id": "3sum",
+    "title": "3Sum",
+    "difficulty": "Medium",
+    "frequency": 66.4,
+    "acceptance": 0.3707128174190882,
+    "link": "https://leetcode.com/problems/3sum",
+    "topics": [
+      "Array",
+      "Two Pointers",
+      "Sorting"
+    ]
+  },
+  {
+    "id": "lru-cache",
+    "title": "LRU Cache",
+    "difficulty": "Medium",
+    "frequency": 66.4,
+    "acceptance": 0.45215170528267107,
+    "link": "https://leetcode.com/problems/lru-cache",
+    "topics": [
+      "Hash Table",
+      "Linked List",
+      "Design",
+      "Doubly-Linked List"
+    ]
+  },
+  {
+    "id": "min-stack",
+    "title": "Min Stack",
+    "difficulty": "Medium",
+    "frequency": 66.4,
+    "acceptance": 0.5644526831800445,
+    "link": "https://leetcode.com/problems/min-stack",
+    "topics": [
+      "Stack",
+      "Design"
+    ]
+  }
+]

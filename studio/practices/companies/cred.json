@@ -1,0 +1,31 @@
+[
+  {
+    "id": "count-elements-with-maximum-frequency",
+    "title": "Count Elements With Maximum Frequency",
+    "difficulty": "Easy",
+    "frequency": 100,
+    "acceptance": 0.7792370150792628,
+    "link": "https://leetcode.com/problems/count-elements-with-maximum-frequency",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "Counting"
+    ]
+  },
+  {
+    "id": "frequency-of-the-most-frequent-element",
+    "title": "Frequency of the Most Frequent Element",
+    "difficulty": "Medium",
+    "frequency": 89.4,
+    "acceptance": 0.4410334035974388,
+    "link": "https://leetcode.com/problems/frequency-of-the-most-frequent-element",
+    "topics": [
+      "Array",
+      "Binary Search",
+      "Greedy",
+      "Sliding Window",
+      "Sorting",
+      "Prefix Sum"
+    ]
+  }
+]

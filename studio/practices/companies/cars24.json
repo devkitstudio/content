@@ -1,0 +1,104 @@
+[
+  {
+    "id": "time-based-key-value-store",
+    "title": "Time Based Key-Value Store",
+    "difficulty": "Medium",
+    "frequency": 100,
+    "acceptance": 0.4936482629369147,
+    "link": "https://leetcode.com/problems/time-based-key-value-store",
+    "topics": [
+      "Hash Table",
+      "String",
+      "Binary Search",
+      "Design"
+    ]
+  },
+  {
+    "id": "online-election",
+    "title": "Online Election",
+    "difficulty": "Medium",
+    "frequency": 94.5,
+    "acceptance": 0.5185121776930864,
+    "link": "https://leetcode.com/problems/online-election",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "Binary Search",
+      "Design"
+    ]
+  },
+  {
+    "id": "rabbits-in-forest",
+    "title": "Rabbits in Forest",
+    "difficulty": "Medium",
+    "frequency": 87.4,
+    "acceptance": 0.5826704796321077,
+    "link": "https://leetcode.com/problems/rabbits-in-forest",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "Math",
+      "Greedy"
+    ]
+  },
+  {
+    "id": "open-the-lock",
+    "title": "Open the Lock",
+    "difficulty": "Medium",
+    "frequency": 87.4,
+    "acceptance": 0.6074135869227004,
+    "link": "https://leetcode.com/problems/open-the-lock",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "String",
+      "Breadth-First Search"
+    ]
+  },
+  {
+    "id": "bulls-and-cows",
+    "title": "Bulls and Cows",
+    "difficulty": "Medium",
+    "frequency": 77.3,
+    "acceptance": 0.5138771783652719,
+    "link": "https://leetcode.com/problems/bulls-and-cows",
+    "topics": [
+      "Hash Table",
+      "String",
+      "Counting"
+    ]
+  },
+  {
+    "id": "counter",
+    "title": "Counter",
+    "difficulty": "Easy",
+    "frequency": 77.3,
+    "acceptance": 0.8224375327236066,
+    "link": "https://leetcode.com/problems/counter",
+    "topics": []
+  },
+  {
+    "id": "house-robber",
+    "title": "House Robber",
+    "difficulty": "Medium",
+    "frequency": 77.3,
+    "acceptance": 0.523059436068384,
+    "link": "https://leetcode.com/problems/house-robber",
+    "topics": [
+      "Array",
+      "Dynamic Programming"
+    ]
+  },
+  {
+    "id": "merge-intervals",
+    "title": "Merge Intervals",
+    "difficulty": "Medium",
+    "frequency": 77.3,
+    "acceptance": 0.493984211255195,
+    "link": "https://leetcode.com/problems/merge-intervals",
+    "topics": [
+      "Array",
+      "Sorting"
+    ]
+  }
+]

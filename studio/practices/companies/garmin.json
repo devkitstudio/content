@@ -1,0 +1,74 @@
+[
+  {
+    "id": "best-time-to-buy-and-sell-stock",
+    "title": "Best Time to Buy and Sell Stock",
+    "difficulty": "Easy",
+    "frequency": 100,
+    "acceptance": 0.5525972417972461,
+    "link": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock",
+    "topics": [
+      "Array",
+      "Dynamic Programming"
+    ]
+  },
+  {
+    "id": "minimum-cost-of-buying-candies-with-discount",
+    "title": "Minimum Cost of Buying Candies With Discount",
+    "difficulty": "Easy",
+    "frequency": 100,
+    "acceptance": 0.6220026757229598,
+    "link": "https://leetcode.com/problems/minimum-cost-of-buying-candies-with-discount",
+    "topics": [
+      "Array",
+      "Greedy",
+      "Sorting"
+    ]
+  },
+  {
+    "id": "reverse-string",
+    "title": "Reverse String",
+    "difficulty": "Easy",
+    "frequency": 89.2,
+    "acceptance": 0.797643473119005,
+    "link": "https://leetcode.com/problems/reverse-string",
+    "topics": [
+      "Two Pointers",
+      "String"
+    ]
+  },
+  {
+    "id": "delete-columns-to-make-sorted",
+    "title": "Delete Columns to Make Sorted",
+    "difficulty": "Easy",
+    "frequency": 89.2,
+    "acceptance": 0.7477537485791238,
+    "link": "https://leetcode.com/problems/delete-columns-to-make-sorted",
+    "topics": [
+      "Array",
+      "String"
+    ]
+  },
+  {
+    "id": "palindrome-number",
+    "title": "Palindrome Number",
+    "difficulty": "Easy",
+    "frequency": 89.2,
+    "acceptance": 0.5922447149521741,
+    "link": "https://leetcode.com/problems/palindrome-number",
+    "topics": [
+      "Math"
+    ]
+  },
+  {
+    "id": "two-sum",
+    "title": "Two Sum",
+    "difficulty": "Easy",
+    "frequency": 89.2,
+    "acceptance": 0.557770943267532,
+    "link": "https://leetcode.com/problems/two-sum",
+    "topics": [
+      "Array",
+      "Hash Table"
+    ]
+  }
+]

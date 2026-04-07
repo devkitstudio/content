@@ -1,0 +1,19 @@
+[
+  {
+    "id": "design-excel-sum-formula",
+    "title": "Design Excel Sum Formula",
+    "difficulty": "Hard",
+    "frequency": 100,
+    "acceptance": 0.4255124603082243,
+    "link": "https://leetcode.com/problems/design-excel-sum-formula",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "String",
+      "Graph",
+      "Design",
+      "Topological Sort",
+      "Matrix"
+    ]
+  }
+]

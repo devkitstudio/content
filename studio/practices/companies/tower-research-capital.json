@@ -1,0 +1,30 @@
+[
+  {
+    "id": "unique-binary-search-trees",
+    "title": "Unique Binary Search Trees",
+    "difficulty": "Medium",
+    "frequency": 100,
+    "acceptance": 0.6244505288303076,
+    "link": "https://leetcode.com/problems/unique-binary-search-trees",
+    "topics": [
+      "Math",
+      "Dynamic Programming",
+      "Tree",
+      "Binary Search Tree",
+      "Binary Tree"
+    ]
+  },
+  {
+    "id": "bricks-falling-when-hit",
+    "title": "Bricks Falling When Hit",
+    "difficulty": "Hard",
+    "frequency": 73.5,
+    "acceptance": 0.3572389298699115,
+    "link": "https://leetcode.com/problems/bricks-falling-when-hit",
+    "topics": [
+      "Array",
+      "Union Find",
+      "Matrix"
+    ]
+  }
+]

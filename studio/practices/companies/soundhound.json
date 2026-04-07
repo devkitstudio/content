@@ -1,0 +1,39 @@
+[
+  {
+    "id": "linked-list-in-binary-tree",
+    "title": "Linked List in Binary Tree",
+    "difficulty": "Medium",
+    "frequency": 100,
+    "acceptance": 0.5190438740859565,
+    "link": "https://leetcode.com/problems/linked-list-in-binary-tree",
+    "topics": [
+      "Linked List",
+      "Tree",
+      "Depth-First Search",
+      "Binary Tree"
+    ]
+  },
+  {
+    "id": "check-if-array-is-sorted-and-rotated",
+    "title": "Check if Array Is Sorted and Rotated",
+    "difficulty": "Easy",
+    "frequency": 100,
+    "acceptance": 0.5507514881863992,
+    "link": "https://leetcode.com/problems/check-if-array-is-sorted-and-rotated",
+    "topics": [
+      "Array"
+    ]
+  },
+  {
+    "id": "first-missing-positive",
+    "title": "First Missing Positive",
+    "difficulty": "Hard",
+    "frequency": 67.1,
+    "acceptance": 0.4108472697598495,
+    "link": "https://leetcode.com/problems/first-missing-positive",
+    "topics": [
+      "Array",
+      "Hash Table"
+    ]
+  }
+]

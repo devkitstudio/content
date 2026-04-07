@@ -1,0 +1,39 @@
+[
+  {
+    "id": "find-pivot-index",
+    "title": "Find Pivot Index",
+    "difficulty": "Easy",
+    "frequency": 100,
+    "acceptance": 0.6057051050431013,
+    "link": "https://leetcode.com/problems/find-pivot-index",
+    "topics": [
+      "Array",
+      "Prefix Sum"
+    ]
+  },
+  {
+    "id": "number-of-visible-people-in-a-queue",
+    "title": "Number of Visible People in a Queue",
+    "difficulty": "Hard",
+    "frequency": 100,
+    "acceptance": 0.7129705142972448,
+    "link": "https://leetcode.com/problems/number-of-visible-people-in-a-queue",
+    "topics": [
+      "Array",
+      "Stack",
+      "Monotonic Stack"
+    ]
+  },
+  {
+    "id": "best-time-to-buy-and-sell-stock",
+    "title": "Best Time to Buy and Sell Stock",
+    "difficulty": "Easy",
+    "frequency": 100,
+    "acceptance": 0.5525969178647564,
+    "link": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock",
+    "topics": [
+      "Array",
+      "Dynamic Programming"
+    ]
+  }
+]

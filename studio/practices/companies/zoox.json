@@ -1,0 +1,118 @@
+[
+  {
+    "id": "best-time-to-buy-and-sell-stock",
+    "title": "Best Time to Buy and Sell Stock",
+    "difficulty": "Easy",
+    "frequency": 100,
+    "acceptance": 0.5525969245782094,
+    "link": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock",
+    "topics": [
+      "Array",
+      "Dynamic Programming"
+    ]
+  },
+  {
+    "id": "minimum-number-of-frogs-croaking",
+    "title": "Minimum Number of Frogs Croaking",
+    "difficulty": "Medium",
+    "frequency": 72.5,
+    "acceptance": 0.5078628152543851,
+    "link": "https://leetcode.com/problems/minimum-number-of-frogs-croaking",
+    "topics": [
+      "String",
+      "Counting"
+    ]
+  },
+  {
+    "id": "basic-calculator-ii",
+    "title": "Basic Calculator II",
+    "difficulty": "Medium",
+    "frequency": 72.5,
+    "acceptance": 0.45811730802423417,
+    "link": "https://leetcode.com/problems/basic-calculator-ii",
+    "topics": [
+      "Math",
+      "String",
+      "Stack"
+    ]
+  },
+  {
+    "id": "h-index",
+    "title": "H-Index",
+    "difficulty": "Medium",
+    "frequency": 58.8,
+    "acceptance": 0.40286801346018286,
+    "link": "https://leetcode.com/problems/h-index",
+    "topics": [
+      "Array",
+      "Sorting",
+      "Counting Sort"
+    ]
+  },
+  {
+    "id": "4sum",
+    "title": "4Sum",
+    "difficulty": "Medium",
+    "frequency": 58.8,
+    "acceptance": 0.38219049581097475,
+    "link": "https://leetcode.com/problems/4sum",
+    "topics": [
+      "Array",
+      "Two Pointers",
+      "Sorting"
+    ]
+  },
+  {
+    "id": "rotting-oranges",
+    "title": "Rotting Oranges",
+    "difficulty": "Medium",
+    "frequency": 58.8,
+    "acceptance": 0.566186375137294,
+    "link": "https://leetcode.com/problems/rotting-oranges",
+    "topics": [
+      "Array",
+      "Breadth-First Search",
+      "Matrix"
+    ]
+  },
+  {
+    "id": "fibonacci-number",
+    "title": "Fibonacci Number",
+    "difficulty": "Easy",
+    "frequency": 58.8,
+    "acceptance": 0.7294495999148303,
+    "link": "https://leetcode.com/problems/fibonacci-number",
+    "topics": [
+      "Math",
+      "Dynamic Programming",
+      "Recursion",
+      "Memoization"
+    ]
+  },
+  {
+    "id": "design-circular-queue",
+    "title": "Design Circular Queue",
+    "difficulty": "Medium",
+    "frequency": 58.8,
+    "acceptance": 0.5264455900606018,
+    "link": "https://leetcode.com/problems/design-circular-queue",
+    "topics": [
+      "Array",
+      "Linked List",
+      "Design",
+      "Queue"
+    ]
+  },
+  {
+    "id": "string-compression",
+    "title": "String Compression",
+    "difficulty": "Medium",
+    "frequency": 58.8,
+    "acceptance": 0.5809147253686685,
+    "link": "https://leetcode.com/problems/string-compression",
+    "topics": [
+      "Two Pointers",
+      "String"
+    ]
+  }
+]

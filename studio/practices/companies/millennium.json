@@ -1,0 +1,92 @@
+[
+  {
+    "id": "powx-n",
+    "title": "Pow(x, n)",
+    "difficulty": "Medium",
+    "frequency": 100,
+    "acceptance": 0.3702313406018087,
+    "link": "https://leetcode.com/problems/powx-n",
+    "topics": [
+      "Math",
+      "Recursion"
+    ]
+  },
+  {
+    "id": "find-the-smallest-divisor-given-a-threshold",
+    "title": "Find the Smallest Divisor Given a Threshold",
+    "difficulty": "Medium",
+    "frequency": 100,
+    "acceptance": 0.6364670242650312,
+    "link": "https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold",
+    "topics": [
+      "Array",
+      "Binary Search"
+    ]
+  },
+  {
+    "id": "broken-calculator",
+    "title": "Broken Calculator",
+    "difficulty": "Medium",
+    "frequency": 100,
+    "acceptance": 0.551297403214314,
+    "link": "https://leetcode.com/problems/broken-calculator",
+    "topics": [
+      "Math",
+      "Greedy"
+    ]
+  },
+  {
+    "id": "partition-array-into-two-arrays-to-minimize-sum-difference",
+    "title": "Partition Array Into Two Arrays to Minimize Sum Difference",
+    "difficulty": "Hard",
+    "frequency": 100,
+    "acceptance": 0.21752771601546653,
+    "link": "https://leetcode.com/problems/partition-array-into-two-arrays-to-minimize-sum-difference",
+    "topics": [
+      "Array",
+      "Two Pointers",
+      "Binary Search",
+      "Dynamic Programming",
+      "Bit Manipulation",
+      "Ordered Set",
+      "Bitmask"
+    ]
+  },
+  {
+    "id": "valid-parentheses",
+    "title": "Valid Parentheses",
+    "difficulty": "Easy",
+    "frequency": 100,
+    "acceptance": 0.4232288415727031,
+    "link": "https://leetcode.com/problems/valid-parentheses",
+    "topics": [
+      "String",
+      "Stack"
+    ]
+  },
+  {
+    "id": "palindromic-substrings",
+    "title": "Palindromic Substrings",
+    "difficulty": "Medium",
+    "frequency": 100,
+    "acceptance": 0.716780342298775,
+    "link": "https://leetcode.com/problems/palindromic-substrings",
+    "topics": [
+      "Two Pointers",
+      "String",
+      "Dynamic Programming"
+    ]
+  },
+  {
+    "id": "best-time-to-buy-and-sell-stock",
+    "title": "Best Time to Buy and Sell Stock",
+    "difficulty": "Easy",
+    "frequency": 100,
+    "acceptance": 0.5525967760941201,
+    "link": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock",
+    "topics": [
+      "Array",
+      "Dynamic Programming"
+    ]
+  }
+]

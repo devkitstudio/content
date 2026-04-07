@@ -1,0 +1,127 @@
+[
+  {
+    "id": "subrectangle-queries",
+    "title": "Subrectangle Queries",
+    "difficulty": "Medium",
+    "frequency": 100,
+    "acceptance": 0.8595828252176626,
+    "link": "https://leetcode.com/problems/subrectangle-queries",
+    "topics": [
+      "Array",
+      "Design",
+      "Matrix"
+    ]
+  },
+  {
+    "id": "maximum-number-of-visible-points",
+    "title": "Maximum Number of Visible Points",
+    "difficulty": "Hard",
+    "frequency": 95.1,
+    "acceptance": 0.3767605072174815,
+    "link": "https://leetcode.com/problems/maximum-number-of-visible-points",
+    "topics": [
+      "Array",
+      "Math",
+      "Geometry",
+      "Sliding Window",
+      "Sorting"
+    ]
+  },
+  {
+    "id": "shortest-path-in-a-grid-with-obstacles-elimination",
+    "title": "Shortest Path in a Grid with Obstacles Elimination",
+    "difficulty": "Hard",
+    "frequency": 73.6,
+    "acceptance": 0.45606251689037025,
+    "link": "https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination",
+    "topics": [
+      "Array",
+      "Breadth-First Search",
+      "Matrix"
+    ]
+  },
+  {
+    "id": "evaluate-division",
+    "title": "Evaluate Division",
+    "difficulty": "Medium",
+    "frequency": 73.6,
+    "acceptance": 0.6314713208125032,
+    "link": "https://leetcode.com/problems/evaluate-division",
+    "topics": [
+      "Array",
+      "String",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Union Find",
+      "Graph",
+      "Shortest Path"
+    ]
+  },
+  {
+    "id": "interleaving-string",
+    "title": "Interleaving String",
+    "difficulty": "Medium",
+    "frequency": 64.8,
+    "acceptance": 0.4217918336772443,
+    "link": "https://leetcode.com/problems/interleaving-string",
+    "topics": [
+      "String",
+      "Dynamic Programming"
+    ]
+  },
+  {
+    "id": "moving-average-from-data-stream",
+    "title": "Moving Average from Data Stream",
+    "difficulty": "Easy",
+    "frequency": 64.8,
+    "acceptance": 0.7993788060358533,
+    "link": "https://leetcode.com/problems/moving-average-from-data-stream",
+    "topics": [
+      "Array",
+      "Design",
+      "Queue",
+      "Data Stream"
+    ]
+  },
+  {
+    "id": "interval-list-intersections",
+    "title": "Interval List Intersections",
+    "difficulty": "Medium",
+    "frequency": 64.8,
+    "acceptance": 0.7267722226057262,
+    "link": "https://leetcode.com/problems/interval-list-intersections",
+    "topics": [
+      "Array",
+      "Two Pointers",
+      "Line Sweep"
+    ]
+  },
+  {
+    "id": "line-reflection",
+    "title": "Line Reflection",
+    "difficulty": "Medium",
+    "frequency": 64.8,
+    "acceptance": 0.3601319248289713,
+    "link": "https://leetcode.com/problems/line-reflection",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "Math"
+    ]
+  },
+  {
+    "id": "sliding-window-maximum",
+    "title": "Sliding Window Maximum",
+    "difficulty": "Hard",
+    "frequency": 64.8,
+    "acceptance": 0.47604117337050583,
+    "link": "https://leetcode.com/problems/sliding-window-maximum",
+    "topics": [
+      "Array",
+      "Queue",
+      "Sliding Window",
+      "Heap (Priority Queue)",
+      "Monotonic Queue"
+    ]
+  }
+]

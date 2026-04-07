@@ -1,0 +1,174 @@
+[
+  {
+    "id": "valid-parentheses",
+    "title": "Valid Parentheses",
+    "difficulty": "Easy",
+    "frequency": 100,
+    "acceptance": 0.4232289179408012,
+    "link": "https://leetcode.com/problems/valid-parentheses",
+    "topics": [
+      "String",
+      "Stack"
+    ]
+  },
+  {
+    "id": "merge-intervals",
+    "title": "Merge Intervals",
+    "difficulty": "Medium",
+    "frequency": 91.8,
+    "acceptance": 0.4939526574581855,
+    "link": "https://leetcode.com/problems/merge-intervals",
+    "topics": [
+      "Array",
+      "Sorting"
+    ]
+  },
+  {
+    "id": "squares-of-a-sorted-array",
+    "title": "Squares of a Sorted Array",
+    "difficulty": "Easy",
+    "frequency": 91.8,
+    "acceptance": 0.7321912907683713,
+    "link": "https://leetcode.com/problems/squares-of-a-sorted-array",
+    "topics": [
+      "Array",
+      "Two Pointers",
+      "Sorting"
+    ]
+  },
+  {
+    "id": "monotonic-array",
+    "title": "Monotonic Array",
+    "difficulty": "Easy",
+    "frequency": 86.4,
+    "acceptance": 0.6169876003093298,
+    "link": "https://leetcode.com/problems/monotonic-array",
+    "topics": [
+      "Array"
+    ]
+  },
+  {
+    "id": "department-top-three-salaries",
+    "title": "Department Top Three Salaries",
+    "difficulty": "Hard",
+    "frequency": 86.4,
+    "acceptance": 0.5777105873664997,
+    "link": "https://leetcode.com/problems/department-top-three-salaries",
+    "topics": [
+      "Database"
+    ]
+  },
+  {
+    "id": "two-sum",
+    "title": "Two Sum",
+    "difficulty": "Easy",
+    "frequency": 79.4,
+    "acceptance": 0.5577704313462045,
+    "link": "https://leetcode.com/problems/two-sum",
+    "topics": [
+      "Array",
+      "Hash Table"
+    ]
+  },
+  {
+    "id": "move-zeroes",
+    "title": "Move Zeroes",
+    "difficulty": "Easy",
+    "frequency": 69.5,
+    "acceptance": 0.6280403967919924,
+    "link": "https://leetcode.com/problems/move-zeroes",
+    "topics": [
+      "Array",
+      "Two Pointers"
+    ]
+  },
+  {
+    "id": "reverse-linked-list",
+    "title": "Reverse Linked List",
+    "difficulty": "Easy",
+    "frequency": 69.5,
+    "acceptance": 0.7920666630113735,
+    "link": "https://leetcode.com/problems/reverse-linked-list",
+    "topics": [
+      "Linked List",
+      "Recursion"
+    ]
+  },
+  {
+    "id": "first-unique-character-in-a-string",
+    "title": "First Unique Character in a String",
+    "difficulty": "Easy",
+    "frequency": 69.5,
+    "acceptance": 0.6369554792501443,
+    "link": "https://leetcode.com/problems/first-unique-character-in-a-string",
+    "topics": [
+      "Hash Table",
+      "String",
+      "Queue",
+      "Counting"
+    ]
+  },
+  {
+    "id": "invert-binary-tree",
+    "title": "Invert Binary Tree",
+    "difficulty": "Easy",
+    "frequency": 69.5,
+    "acceptance": 0.7902177593392995,
+    "link": "https://leetcode.com/problems/invert-binary-tree",
+    "topics": [
+      "Tree",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Binary Tree"
+    ]
+  },
+  {
+    "id": "best-time-to-buy-and-sell-stock",
+    "title": "Best Time to Buy and Sell Stock",
+    "difficulty": "Easy",
+    "frequency": 69.5,
+    "acceptance": 0.5525969358423186,
+    "link": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock",
+    "topics": [
+      "Array",
+      "Dynamic Programming"
+    ]
+  },
+  {
+    "id": "decode-string",
+    "title": "Decode String",
+    "difficulty": "Medium",
+    "frequency": 69.5,
+    "acceptance": 0.6115270128103837,
+    "link": "https://leetcode.com/problems/decode-string",
+    "topics": [
+      "String",
+      "Stack",
+      "Recursion"
+    ]
+  },
+  {
+    "id": "department-highest-salary",
+    "title": "Department Highest Salary",
+    "difficulty": "Medium",
+    "frequency": 69.5,
+    "acceptance": 0.5481318064086517,
+    "link": "https://leetcode.com/problems/department-highest-salary",
+    "topics": [
+      "Database"
+    ]
+  },
+  {
+    "id": "longest-substring-without-repeating-characters",
+    "title": "Longest Substring Without Repeating Characters",
+    "difficulty": "Medium",
+    "frequency": 69.5,
+    "acceptance": 0.369361622666222,
+    "link": "https://leetcode.com/problems/longest-substring-without-repeating-characters",
+    "topics": [
+      "Hash Table",
+      "String",
+      "Sliding Window"
+    ]
+  }
+]

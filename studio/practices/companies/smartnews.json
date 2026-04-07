@@ -1,0 +1,68 @@
+[
+  {
+    "id": "largest-palindromic-number",
+    "title": "Largest Palindromic Number",
+    "difficulty": "Medium",
+    "frequency": 100,
+    "acceptance": 0.36472419055101457,
+    "link": "https://leetcode.com/problems/largest-palindromic-number",
+    "topics": [
+      "Hash Table",
+      "String",
+      "Greedy",
+      "Counting"
+    ]
+  },
+  {
+    "id": "maximal-network-rank",
+    "title": "Maximal Network Rank",
+    "difficulty": "Medium",
+    "frequency": 100,
+    "acceptance": 0.6547542413356314,
+    "link": "https://leetcode.com/problems/maximal-network-rank",
+    "topics": [
+      "Graph"
+    ]
+  },
+  {
+    "id": "lru-cache",
+    "title": "LRU Cache",
+    "difficulty": "Medium",
+    "frequency": 94.8,
+    "acceptance": 0.452152018581584,
+    "link": "https://leetcode.com/problems/lru-cache",
+    "topics": [
+      "Hash Table",
+      "Linked List",
+      "Design",
+      "Doubly-Linked List"
+    ]
+  },
+  {
+    "id": "3sum",
+    "title": "3Sum",
+    "difficulty": "Medium",
+    "frequency": 78.7,
+    "acceptance": 0.3707134146355655,
+    "link": "https://leetcode.com/problems/3sum",
+    "topics": [
+      "Array",
+      "Two Pointers",
+      "Sorting"
+    ]
+  },
+  {
+    "id": "minimum-deletions-to-make-character-frequencies-unique",
+    "title": "Minimum Deletions to Make Character Frequencies Unique",
+    "difficulty": "Medium",
+    "frequency": 78.7,
+    "acceptance": 0.6129466648455774,
+    "link": "https://leetcode.com/problems/minimum-deletions-to-make-character-frequencies-unique",
+    "topics": [
+      "Hash Table",
+      "String",
+      "Greedy",
+      "Sorting"
+    ]
+  }
+]

@@ -1,0 +1,133 @@
+[
+  {
+    "id": "check-if-an-original-string-exists-given-two-encoded-strings",
+    "title": "Check if an Original String Exists Given Two Encoded Strings",
+    "difficulty": "Hard",
+    "frequency": 100,
+    "acceptance": 0.43229333455327323,
+    "link": "https://leetcode.com/problems/check-if-an-original-string-exists-given-two-encoded-strings",
+    "topics": [
+      "String",
+      "Dynamic Programming"
+    ]
+  },
+  {
+    "id": "gas-station",
+    "title": "Gas Station",
+    "difficulty": "Medium",
+    "frequency": 88.6,
+    "acceptance": 0.46383586845548325,
+    "link": "https://leetcode.com/problems/gas-station",
+    "topics": [
+      "Array",
+      "Greedy"
+    ]
+  },
+  {
+    "id": "number-of-islands",
+    "title": "Number of Islands",
+    "difficulty": "Medium",
+    "frequency": 79.6,
+    "acceptance": 0.6232013595165893,
+    "link": "https://leetcode.com/problems/number-of-islands",
+    "topics": [
+      "Array",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Union Find",
+      "Matrix"
+    ]
+  },
+  {
+    "id": "zigzag-conversion",
+    "title": "Zigzag Conversion",
+    "difficulty": "Medium",
+    "frequency": 73.2,
+    "acceptance": 0.5160681481756035,
+    "link": "https://leetcode.com/problems/zigzag-conversion",
+    "topics": [
+      "String"
+    ]
+  },
+  {
+    "id": "longest-substring-with-at-most-k-distinct-characters",
+    "title": "Longest Substring with At Most K Distinct Characters",
+    "difficulty": "Medium",
+    "frequency": 73.2,
+    "acceptance": 0.4949646677725676,
+    "link": "https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters",
+    "topics": [
+      "Hash Table",
+      "String",
+      "Sliding Window"
+    ]
+  },
+  {
+    "id": "bus-routes",
+    "title": "Bus Routes",
+    "difficulty": "Hard",
+    "frequency": 73.2,
+    "acceptance": 0.46953005797985964,
+    "link": "https://leetcode.com/problems/bus-routes",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "Breadth-First Search"
+    ]
+  },
+  {
+    "id": "lru-cache",
+    "title": "LRU Cache",
+    "difficulty": "Medium",
+    "frequency": 73.2,
+    "acceptance": 0.452148771503926,
+    "link": "https://leetcode.com/problems/lru-cache",
+    "topics": [
+      "Hash Table",
+      "Linked List",
+      "Design",
+      "Doubly-Linked List"
+    ]
+  },
+  {
+    "id": "game-of-life",
+    "title": "Game of Life",
+    "difficulty": "Medium",
+    "frequency": 64.1,
+    "acceptance": 0.7141528222609304,
+    "link": "https://leetcode.com/problems/game-of-life",
+    "topics": [
+      "Array",
+      "Matrix",
+      "Simulation"
+    ]
+  },
+  {
+    "id": "trapping-rain-water",
+    "title": "Trapping Rain Water",
+    "difficulty": "Hard",
+    "frequency": 64.1,
+    "acceptance": 0.6510216996606288,
+    "link": "https://leetcode.com/problems/trapping-rain-water",
+    "topics": [
+      "Array",
+      "Two Pointers",
+      "Dynamic Programming",
+      "Stack",
+      "Monotonic Stack"
+    ]
+  },
+  {
+    "id": "lowest-common-ancestor-of-a-binary-tree",
+    "title": "Lowest Common Ancestor of a Binary Tree",
+    "difficulty": "Medium",
+    "frequency": 64.1,
+    "acceptance": 0.6675513590636828,
+    "link": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree",
+    "topics": [
+      "Tree",
+      "Depth-First Search",
+      "Binary Tree"
+    ]
+  }
+]

@@ -1,0 +1,2317 @@
+[
+  {
+    "id": "accenture",
+    "name": "Accenture",
+    "count": 100
+  },
+  {
+    "id": "accolite",
+    "name": "Accolite",
+    "count": 17
+  },
+  {
+    "id": "acko",
+    "name": "Acko",
+    "count": 4
+  },
+  {
+    "id": "activision",
+    "name": "Activision",
+    "count": 3
+  },
+  {
+    "id": "adobe",
+    "name": "Adobe",
+    "count": 100
+  },
+  {
+    "id": "affirm",
+    "name": "Affirm",
+    "count": 11
+  },
+  {
+    "id": "agoda",
+    "name": "Agoda",
+    "count": 40
+  },
+  {
+    "id": "airbnb",
+    "name": "Airbnb",
+    "count": 58
+  },
+  {
+    "id": "airbus-se",
+    "name": "Airbus SE",
+    "count": 5
+  },
+  {
+    "id": "airtel",
+    "name": "Airtel",
+    "count": 6
+  },
+  {
+    "id": "airwallex",
+    "name": "Airwallex",
+    "count": 1
+  },
+  {
+    "id": "akamai",
+    "name": "Akamai",
+    "count": 7
+  },
+  {
+    "id": "akuna-capital",
+    "name": "Akuna Capital",
+    "count": 23
+  },
+  {
+    "id": "alibaba",
+    "name": "Alibaba",
+    "count": 5
+  },
+  {
+    "id": "altimetrik",
+    "name": "Altimetrik",
+    "count": 4
+  },
+  {
+    "id": "amadeus",
+    "name": "Amadeus",
+    "count": 4
+  },
+  {
+    "id": "amazon",
+    "name": "Amazon",
+    "count": 100
+  },
+  {
+    "id": "amd",
+    "name": "AMD",
+    "count": 11
+  },
+  {
+    "id": "amdocs",
+    "name": "Amdocs",
+    "count": 7
+  },
+  {
+    "id": "american-express",
+    "name": "American Express",
+    "count": 23
+  },
+  {
+    "id": "analytics-quotient",
+    "name": "Analytics quotient",
+    "count": 2
+  },
+  {
+    "id": "anduril",
+    "name": "Anduril",
+    "count": 32
+  },
+  {
+    "id": "aon",
+    "name": "Aon",
+    "count": 4
+  },
+  {
+    "id": "apollo-io",
+    "name": "Apollo.io",
+    "count": 4
+  },
+  {
+    "id": "appdynamics",
+    "name": "AppDynamics",
+    "count": 2
+  },
+  {
+    "id": "appfolio",
+    "name": "AppFolio",
+    "count": 4
+  },
+  {
+    "id": "apple",
+    "name": "Apple",
+    "count": 100
+  },
+  {
+    "id": "applied-intuition",
+    "name": "Applied Intuition",
+    "count": 12
+  },
+  {
+    "id": "aqr-capital-management",
+    "name": "AQR Capital Management",
+    "count": 3
+  },
+  {
+    "id": "arcesium",
+    "name": "Arcesium",
+    "count": 20
+  },
+  {
+    "id": "arista-networks",
+    "name": "Arista Networks",
+    "count": 38
+  },
+  {
+    "id": "asana",
+    "name": "Asana",
+    "count": 3
+  },
+  {
+    "id": "athenahealth",
+    "name": "athenahealth",
+    "count": 11
+  },
+  {
+    "id": "atlassian",
+    "name": "Atlassian",
+    "count": 73
+  },
+  {
+    "id": "attentive",
+    "name": "Attentive",
+    "count": 9
+  },
+  {
+    "id": "audible",
+    "name": "Audible",
+    "count": 3
+  },
+  {
+    "id": "aurora",
+    "name": "Aurora",
+    "count": 4
+  },
+  {
+    "id": "autodesk",
+    "name": "Autodesk",
+    "count": 31
+  },
+  {
+    "id": "avalara",
+    "name": "Avalara",
+    "count": 2
+  },
+  {
+    "id": "avito",
+    "name": "Avito",
+    "count": 9
+  },
+  {
+    "id": "axon",
+    "name": "Axon",
+    "count": 7
+  },
+  {
+    "id": "baidu",
+    "name": "Baidu",
+    "count": 10
+  },
+  {
+    "id": "bank-of-america",
+    "name": "Bank of America",
+    "count": 3
+  },
+  {
+    "id": "barclays",
+    "name": "Barclays",
+    "count": 18
+  },
+  {
+    "id": "bentley-systems",
+    "name": "Bentley Systems",
+    "count": 2
+  },
+  {
+    "id": "bharatpe",
+    "name": "BharatPe",
+    "count": 2
+  },
+  {
+    "id": "bill-holdings",
+    "name": "BILL Holdings",
+    "count": 1
+  },
+  {
+    "id": "bitgo",
+    "name": "BitGo",
+    "count": 10
+  },
+  {
+    "id": "blackrock",
+    "name": "BlackRock",
+    "count": 17
+  },
+  {
+    "id": "blackstone",
+    "name": "BlackStone",
+    "count": 2
+  },
+  {
+    "id": "blinkit",
+    "name": "blinkit",
+    "count": 2
+  },
+  {
+    "id": "blizzard",
+    "name": "Blizzard",
+    "count": 2
+  },
+  {
+    "id": "block",
+    "name": "Block",
+    "count": 14
+  },
+  {
+    "id": "bloomberg",
+    "name": "Bloomberg",
+    "count": 100
+  },
+  {
+    "id": "bny-mellon",
+    "name": "BNY Mellon",
+    "count": 21
+  },
+  {
+    "id": "bolt",
+    "name": "Bolt",
+    "count": 7
+  },
+  {
+    "id": "booking-com",
+    "name": "Booking.com",
+    "count": 16
+  },
+  {
+    "id": "bosch",
+    "name": "Bosch",
+    "count": 2
+  },
+  {
+    "id": "box",
+    "name": "Box",
+    "count": 6
+  },
+  {
+    "id": "bp",
+    "name": "BP",
+    "count": 4
+  },
+  {
+    "id": "braze",
+    "name": "Braze",
+    "count": 3
+  },
+  {
+    "id": "bridgewater-associates",
+    "name": "Bridgewater Associates",
+    "count": 2
+  },
+  {
+    "id": "bytedance",
+    "name": "ByteDance",
+    "count": 64
+  },
+  {
+    "id": "cadence",
+    "name": "Cadence",
+    "count": 6
+  },
+  {
+    "id": "canonical",
+    "name": "Canonical",
+    "count": 3
+  },
+  {
+    "id": "capgemini",
+    "name": "Capgemini",
+    "count": 25
+  },
+  {
+    "id": "capital-one",
+    "name": "Capital One",
+    "count": 47
+  },
+  {
+    "id": "careem",
+    "name": "Careem",
+    "count": 3
+  },
+  {
+    "id": "cars24",
+    "name": "CARS24",
+    "count": 8
+  },
+  {
+    "id": "carwale",
+    "name": "carwale",
+    "count": 5
+  },
+  {
+    "id": "cashfree",
+    "name": "Cashfree",
+    "count": 3
+  },
+  {
+    "id": "cedcoss",
+    "name": "CEDCOSS",
+    "count": 4
+  },
+  {
+    "id": "celigo",
+    "name": "Celigo",
+    "count": 2
+  },
+  {
+    "id": "chewy",
+    "name": "Chewy",
+    "count": 6
+  },
+  {
+    "id": "chime",
+    "name": "Chime",
+    "count": 2
+  },
+  {
+    "id": "ciena",
+    "name": "ciena",
+    "count": 2
+  },
+  {
+    "id": "circle",
+    "name": "Circle",
+    "count": 2
+  },
+  {
+    "id": "cisco",
+    "name": "Cisco",
+    "count": 87
+  },
+  {
+    "id": "citadel",
+    "name": "Citadel",
+    "count": 100
+  },
+  {
+    "id": "citigroup",
+    "name": "Citigroup",
+    "count": 3
+  },
+  {
+    "id": "citrix",
+    "name": "Citrix",
+    "count": 7
+  },
+  {
+    "id": "clari",
+    "name": "Clari",
+    "count": 3
+  },
+  {
+    "id": "cleartrip",
+    "name": "Cleartrip",
+    "count": 4
+  },
+  {
+    "id": "cloudera",
+    "name": "Cloudera",
+    "count": 5
+  },
+  {
+    "id": "cloudflare",
+    "name": "Cloudflare",
+    "count": 10
+  },
+  {
+    "id": "cme-group",
+    "name": "CME Group",
+    "count": 2
+  },
+  {
+    "id": "cognizant",
+    "name": "Cognizant",
+    "count": 29
+  },
+  {
+    "id": "cohesity",
+    "name": "Cohesity",
+    "count": 3
+  },
+  {
+    "id": "coinbase",
+    "name": "Coinbase",
+    "count": 12
+  },
+  {
+    "id": "comcast",
+    "name": "Comcast",
+    "count": 4
+  },
+  {
+    "id": "commvault",
+    "name": "Commvault",
+    "count": 11
+  },
+  {
+    "id": "compass",
+    "name": "Compass",
+    "count": 6
+  },
+  {
+    "id": "confluent",
+    "name": "Confluent",
+    "count": 12
+  },
+  {
+    "id": "consultadd",
+    "name": "ConsultAdd",
+    "count": 11
+  },
+  {
+    "id": "coupang",
+    "name": "Coupang",
+    "count": 49
+  },
+  {
+    "id": "coursera",
+    "name": "Coursera",
+    "count": 11
+  },
+  {
+    "id": "coveo",
+    "name": "Coveo",
+    "count": 2
+  },
+  {
+    "id": "cred",
+    "name": "CRED",
+    "count": 2
+  },
+  {
+    "id": "criteo",
+    "name": "Criteo",
+    "count": 8
+  },
+  {
+    "id": "crowdstrike",
+    "name": "CrowdStrike",
+    "count": 11
+  },
+  {
+    "id": "cruise",
+    "name": "Cruise",
+    "count": 6
+  },
+  {
+    "id": "ctc",
+    "name": "CTC",
+    "count": 1
+  },
+  {
+    "id": "curefit",
+    "name": "CureFit",
+    "count": 3
+  },
+  {
+    "id": "cvent",
+    "name": "CVENT",
+    "count": 2
+  },
+  {
+    "id": "darwinbox",
+    "name": "Darwinbox",
+    "count": 5
+  },
+  {
+    "id": "databricks",
+    "name": "Databricks",
+    "count": 34
+  },
+  {
+    "id": "datadog",
+    "name": "Datadog",
+    "count": 20
+  },
+  {
+    "id": "dataminr",
+    "name": "Dataminr",
+    "count": 2
+  },
+  {
+    "id": "de-shaw",
+    "name": "DE Shaw",
+    "count": 100
+  },
+  {
+    "id": "delhivery",
+    "name": "Delhivery",
+    "count": 3
+  },
+  {
+    "id": "deliveroo",
+    "name": "Deliveroo",
+    "count": 5
+  },
+  {
+    "id": "dell",
+    "name": "Dell",
+    "count": 7
+  },
+  {
+    "id": "deloitte",
+    "name": "Deloitte",
+    "count": 27
+  },
+  {
+    "id": "deltax",
+    "name": "DeltaX",
+    "count": 3
+  },
+  {
+    "id": "deutsche-bank",
+    "name": "Deutsche Bank",
+    "count": 30
+  },
+  {
+    "id": "devrev",
+    "name": "DevRev",
+    "count": 4
+  },
+  {
+    "id": "devsinc",
+    "name": "Devsinc",
+    "count": 2
+  },
+  {
+    "id": "devtron",
+    "name": "Devtron",
+    "count": 2
+  },
+  {
+    "id": "directi",
+    "name": "Directi",
+    "count": 9
+  },
+  {
+    "id": "disney",
+    "name": "Disney",
+    "count": 19
+  },
+  {
+    "id": "docusign",
+    "name": "Docusign",
+    "count": 34
+  },
+  {
+    "id": "doordash",
+    "name": "DoorDash",
+    "count": 88
+  },
+  {
+    "id": "dp-world",
+    "name": "DP world",
+    "count": 7
+  },
+  {
+    "id": "dream11",
+    "name": "Dream11",
+    "count": 11
+  },
+  {
+    "id": "dropbox",
+    "name": "Dropbox",
+    "count": 25
+  },
+  {
+    "id": "druva",
+    "name": "Druva",
+    "count": 4
+  },
+  {
+    "id": "drw",
+    "name": "DRW",
+    "count": 9
+  },
+  {
+    "id": "dunzo",
+    "name": "Dunzo",
+    "count": 8
+  },
+  {
+    "id": "duolingo",
+    "name": "Duolingo",
+    "count": 4
+  },
+  {
+    "id": "dxc-technology",
+    "name": "DXC Technology",
+    "count": 3
+  },
+  {
+    "id": "earnin",
+    "name": "EarnIn",
+    "count": 4
+  },
+  {
+    "id": "ebay",
+    "name": "eBay",
+    "count": 78
+  },
+  {
+    "id": "edelweiss-group",
+    "name": "Edelweiss Group",
+    "count": 1
+  },
+  {
+    "id": "electronic-arts",
+    "name": "Electronic Arts",
+    "count": 3
+  },
+  {
+    "id": "epam-systems",
+    "name": "EPAM Systems",
+    "count": 43
+  },
+  {
+    "id": "epic-systems",
+    "name": "Epic Systems",
+    "count": 12
+  },
+  {
+    "id": "expedia",
+    "name": "Expedia",
+    "count": 49
+  },
+  {
+    "id": "ey",
+    "name": "EY",
+    "count": 3
+  },
+  {
+    "id": "factset",
+    "name": "FactSet",
+    "count": 5
+  },
+  {
+    "id": "faire",
+    "name": "Faire",
+    "count": 3
+  },
+  {
+    "id": "fastenal",
+    "name": "Fastenal",
+    "count": 4
+  },
+  {
+    "id": "fidelity",
+    "name": "Fidelity",
+    "count": 3
+  },
+  {
+    "id": "fiverr",
+    "name": "Fiverr",
+    "count": 2
+  },
+  {
+    "id": "flexera",
+    "name": "Flexera",
+    "count": 2
+  },
+  {
+    "id": "flexport",
+    "name": "Flexport",
+    "count": 10
+  },
+  {
+    "id": "flipkart",
+    "name": "Flipkart",
+    "count": 100
+  },
+  {
+    "id": "fortinet",
+    "name": "Fortinet",
+    "count": 4
+  },
+  {
+    "id": "fourkites",
+    "name": "fourkites",
+    "count": 3
+  },
+  {
+    "id": "fpt",
+    "name": "FPT",
+    "count": 4
+  },
+  {
+    "id": "freecharge",
+    "name": "Freecharge",
+    "count": 3
+  },
+  {
+    "id": "freshworks",
+    "name": "FreshWorks",
+    "count": 9
+  },
+  {
+    "id": "gameskraft",
+    "name": "Gameskraft",
+    "count": 4
+  },
+  {
+    "id": "garmin",
+    "name": "Garmin",
+    "count": 6
+  },
+  {
+    "id": "ge-digital",
+    "name": "GE Digital",
+    "count": 3
+  },
+  {
+    "id": "ge-healthcare",
+    "name": "GE Healthcare",
+    "count": 7
+  },
+  {
+    "id": "geico",
+    "name": "Geico",
+    "count": 20
+  },
+  {
+    "id": "general-motors",
+    "name": "General Motors",
+    "count": 8
+  },
+  {
+    "id": "genpact",
+    "name": "Genpact",
+    "count": 3
+  },
+  {
+    "id": "gojek",
+    "name": "Gojek",
+    "count": 5
+  },
+  {
+    "id": "goldman-sachs",
+    "name": "Goldman Sachs",
+    "count": 100
+  },
+  {
+    "id": "google",
+    "name": "Google",
+    "count": 100
+  },
+  {
+    "id": "grab",
+    "name": "Grab",
+    "count": 13
+  },
+  {
+    "id": "grammarly",
+    "name": "Grammarly",
+    "count": 27
+  },
+  {
+    "id": "graviton",
+    "name": "Graviton",
+    "count": 7
+  },
+  {
+    "id": "groupon",
+    "name": "Groupon",
+    "count": 4
+  },
+  {
+    "id": "groww",
+    "name": "Groww",
+    "count": 8
+  },
+  {
+    "id": "grubhub",
+    "name": "Grubhub",
+    "count": 2
+  },
+  {
+    "id": "gsa-capital",
+    "name": "GSA Capital",
+    "count": 2
+  },
+  {
+    "id": "gsn-games",
+    "name": "GSN Games",
+    "count": 5
+  },
+  {
+    "id": "guidewire",
+    "name": "Guidewire",
+    "count": 6
+  },
+  {
+    "id": "gusto",
+    "name": "Gusto",
+    "count": 3
+  },
+  {
+    "id": "harness",
+    "name": "Harness",
+    "count": 1
+  },
+  {
+    "id": "hashedin",
+    "name": "HashedIn",
+    "count": 23
+  },
+  {
+    "id": "hcl",
+    "name": "HCL",
+    "count": 9
+  },
+  {
+    "id": "hertz",
+    "name": "Hertz",
+    "count": 2
+  },
+  {
+    "id": "highspot",
+    "name": "Highspot",
+    "count": 2
+  },
+  {
+    "id": "hilabs",
+    "name": "HiLabs",
+    "count": 3
+  },
+  {
+    "id": "hive",
+    "name": "Hive",
+    "count": 2
+  },
+  {
+    "id": "hiver",
+    "name": "Hiver",
+    "count": 2
+  },
+  {
+    "id": "honeywell",
+    "name": "Honeywell",
+    "count": 4
+  },
+  {
+    "id": "hotstar",
+    "name": "Hotstar",
+    "count": 3
+  },
+  {
+    "id": "houzz",
+    "name": "Houzz",
+    "count": 2
+  },
+  {
+    "id": "hp",
+    "name": "HP",
+    "count": 3
+  },
+  {
+    "id": "hpe",
+    "name": "HPE",
+    "count": 4
+  },
+  {
+    "id": "hsbc",
+    "name": "HSBC",
+    "count": 4
+  },
+  {
+    "id": "huawei",
+    "name": "Huawei",
+    "count": 15
+  },
+  {
+    "id": "hubspot",
+    "name": "Hubspot",
+    "count": 10
+  },
+  {
+    "id": "hudson-river-trading",
+    "name": "Hudson River Trading",
+    "count": 9
+  },
+  {
+    "id": "hulu",
+    "name": "Hulu",
+    "count": 5
+  },
+  {
+    "id": "ibm",
+    "name": "IBM",
+    "count": 100
+  },
+  {
+    "id": "iit-bombay",
+    "name": "IIT Bombay",
+    "count": 2
+  },
+  {
+    "id": "imc",
+    "name": "IMC",
+    "count": 8
+  },
+  {
+    "id": "indeed",
+    "name": "Indeed",
+    "count": 7
+  },
+  {
+    "id": "indmoney",
+    "name": "INDmoney",
+    "count": 2
+  },
+  {
+    "id": "info-edge",
+    "name": "Info Edge",
+    "count": 7
+  },
+  {
+    "id": "informatica",
+    "name": "Informatica",
+    "count": 3
+  },
+  {
+    "id": "infosys",
+    "name": "Infosys",
+    "count": 100
+  },
+  {
+    "id": "inmobi",
+    "name": "InMobi",
+    "count": 6
+  },
+  {
+    "id": "instabase",
+    "name": "instabase",
+    "count": 2
+  },
+  {
+    "id": "instacart",
+    "name": "Instacart",
+    "count": 15
+  },
+  {
+    "id": "intel",
+    "name": "Intel",
+    "count": 25
+  },
+  {
+    "id": "intuit",
+    "name": "Intuit",
+    "count": 73
+  },
+  {
+    "id": "ivp",
+    "name": "IVP",
+    "count": 2
+  },
+  {
+    "id": "ixl",
+    "name": "IXL",
+    "count": 17
+  },
+  {
+    "id": "j-p-morgan",
+    "name": "J.P. Morgan",
+    "count": 79
+  },
+  {
+    "id": "jane-street",
+    "name": "Jane Street",
+    "count": 11
+  },
+  {
+    "id": "jio",
+    "name": "jio",
+    "count": 7
+  },
+  {
+    "id": "josh-technology",
+    "name": "josh technology",
+    "count": 22
+  },
+  {
+    "id": "jump-trading",
+    "name": "Jump Trading",
+    "count": 6
+  },
+  {
+    "id": "juniper-networks",
+    "name": "Juniper Networks",
+    "count": 3
+  },
+  {
+    "id": "juspay",
+    "name": "Juspay",
+    "count": 11
+  },
+  {
+    "id": "kakao",
+    "name": "Kakao",
+    "count": 2
+  },
+  {
+    "id": "karat",
+    "name": "Karat",
+    "count": 15
+  },
+  {
+    "id": "kla",
+    "name": "KLA",
+    "count": 8
+  },
+  {
+    "id": "komprise",
+    "name": "Komprise",
+    "count": 2
+  },
+  {
+    "id": "larsen-toubro",
+    "name": "Larsen & Toubro",
+    "count": 2
+  },
+  {
+    "id": "lendingkart-technologies",
+    "name": "Lendingkart Technologies",
+    "count": 1
+  },
+  {
+    "id": "lenskart",
+    "name": "Lenskart",
+    "count": 2
+  },
+  {
+    "id": "licious",
+    "name": "Licious",
+    "count": 2
+  },
+  {
+    "id": "liftoff",
+    "name": "Liftoff",
+    "count": 4
+  },
+  {
+    "id": "line",
+    "name": "LINE",
+    "count": 4
+  },
+  {
+    "id": "linkedin",
+    "name": "LinkedIn",
+    "count": 100
+  },
+  {
+    "id": "liveramp",
+    "name": "LiveRamp",
+    "count": 6
+  },
+  {
+    "id": "lowe-s",
+    "name": "Lowe's",
+    "count": 4
+  },
+  {
+    "id": "lti",
+    "name": "LTI",
+    "count": 4
+  },
+  {
+    "id": "lucid",
+    "name": "Lucid",
+    "count": 8
+  },
+  {
+    "id": "luxoft",
+    "name": "Luxoft",
+    "count": 2
+  },
+  {
+    "id": "lyft",
+    "name": "Lyft",
+    "count": 26
+  },
+  {
+    "id": "machine-zone",
+    "name": "Machine Zone",
+    "count": 2
+  },
+  {
+    "id": "makemytrip",
+    "name": "MakeMyTrip",
+    "count": 29
+  },
+  {
+    "id": "mapbox",
+    "name": "Mapbox",
+    "count": 2
+  },
+  {
+    "id": "maq-software",
+    "name": "MAQ Software",
+    "count": 5
+  },
+  {
+    "id": "mastercard",
+    "name": "Mastercard",
+    "count": 12
+  },
+  {
+    "id": "mathworks",
+    "name": "MathWorks",
+    "count": 29
+  },
+  {
+    "id": "mckinsey",
+    "name": "McKinsey",
+    "count": 4
+  },
+  {
+    "id": "media-net",
+    "name": "Media.net",
+    "count": 39
+  },
+  {
+    "id": "mercari",
+    "name": "Mercari",
+    "count": 5
+  },
+  {
+    "id": "meta",
+    "name": "Meta",
+    "count": 100
+  },
+  {
+    "id": "microsoft",
+    "name": "Microsoft",
+    "count": 100
+  },
+  {
+    "id": "microstrategy",
+    "name": "Microstrategy",
+    "count": 9
+  },
+  {
+    "id": "millennium",
+    "name": "Millennium",
+    "count": 7
+  },
+  {
+    "id": "mindtickle",
+    "name": "Mindtickle",
+    "count": 4
+  },
+  {
+    "id": "mindtree",
+    "name": "MindTree",
+    "count": 3
+  },
+  {
+    "id": "miro",
+    "name": "Miro",
+    "count": 3
+  },
+  {
+    "id": "mitsogo",
+    "name": "Mitsogo",
+    "count": 16
+  },
+  {
+    "id": "mixpanel",
+    "name": "Mixpanel",
+    "count": 3
+  },
+  {
+    "id": "mobileye",
+    "name": "Mobileye",
+    "count": 2
+  },
+  {
+    "id": "moengage",
+    "name": "Moengage",
+    "count": 2
+  },
+  {
+    "id": "moloco",
+    "name": "Moloco",
+    "count": 7
+  },
+  {
+    "id": "mongodb",
+    "name": "MongoDB",
+    "count": 14
+  },
+  {
+    "id": "morgan-stanley",
+    "name": "Morgan Stanley",
+    "count": 51
+  },
+  {
+    "id": "mountblue",
+    "name": "Mountblue",
+    "count": 2
+  },
+  {
+    "id": "moveworks",
+    "name": "Moveworks",
+    "count": 6
+  },
+  {
+    "id": "msci",
+    "name": "MSCI",
+    "count": 1
+  },
+  {
+    "id": "myntra",
+    "name": "Myntra",
+    "count": 22
+  },
+  {
+    "id": "nagarro",
+    "name": "Nagarro",
+    "count": 9
+  },
+  {
+    "id": "national-instruments",
+    "name": "National Instruments",
+    "count": 4
+  },
+  {
+    "id": "national-payments-corporation-of-india",
+    "name": "National Payments Corporation of India",
+    "count": 2
+  },
+  {
+    "id": "navan",
+    "name": "Navan",
+    "count": 4
+  },
+  {
+    "id": "navi",
+    "name": "Navi",
+    "count": 4
+  },
+  {
+    "id": "ncr",
+    "name": "NCR",
+    "count": 2
+  },
+  {
+    "id": "netapp",
+    "name": "NetApp",
+    "count": 10
+  },
+  {
+    "id": "netease",
+    "name": "NetEase",
+    "count": 2
+  },
+  {
+    "id": "netflix",
+    "name": "Netflix",
+    "count": 38
+  },
+  {
+    "id": "netskope",
+    "name": "Netskope",
+    "count": 3
+  },
+  {
+    "id": "netsuite",
+    "name": "Netsuite",
+    "count": 2
+  },
+  {
+    "id": "nextdoor",
+    "name": "Nextdoor",
+    "count": 8
+  },
+  {
+    "id": "niantic",
+    "name": "Niantic",
+    "count": 5
+  },
+  {
+    "id": "nielsen",
+    "name": "Nielsen",
+    "count": 6
+  },
+  {
+    "id": "nike",
+    "name": "Nike",
+    "count": 10
+  },
+  {
+    "id": "ninjacart",
+    "name": "NinjaCart",
+    "count": 1
+  },
+  {
+    "id": "nokia",
+    "name": "Nokia",
+    "count": 6
+  },
+  {
+    "id": "nordstrom",
+    "name": "Nordstrom",
+    "count": 10
+  },
+  {
+    "id": "notion",
+    "name": "Notion",
+    "count": 3
+  },
+  {
+    "id": "nuro",
+    "name": "Nuro",
+    "count": 9
+  },
+  {
+    "id": "nutanix",
+    "name": "Nutanix",
+    "count": 60
+  },
+  {
+    "id": "nvidia",
+    "name": "Nvidia",
+    "count": 100
+  },
+  {
+    "id": "nykaa",
+    "name": "Nykaa",
+    "count": 5
+  },
+  {
+    "id": "odoo",
+    "name": "Odoo",
+    "count": 5
+  },
+  {
+    "id": "okta",
+    "name": "Okta",
+    "count": 7
+  },
+  {
+    "id": "okx",
+    "name": "OKX",
+    "count": 3
+  },
+  {
+    "id": "ola-cabs",
+    "name": "Ola Cabs",
+    "count": 2
+  },
+  {
+    "id": "openai",
+    "name": "OpenAI",
+    "count": 11
+  },
+  {
+    "id": "opendoor",
+    "name": "Opendoor",
+    "count": 1
+  },
+  {
+    "id": "opentext",
+    "name": "opentext",
+    "count": 4
+  },
+  {
+    "id": "optiver",
+    "name": "Optiver",
+    "count": 3
+  },
+  {
+    "id": "optum",
+    "name": "Optum",
+    "count": 6
+  },
+  {
+    "id": "oracle",
+    "name": "Oracle",
+    "count": 100
+  },
+  {
+    "id": "otter-ai",
+    "name": "Otter.ai",
+    "count": 5
+  },
+  {
+    "id": "oyo",
+    "name": "oyo",
+    "count": 9
+  },
+  {
+    "id": "ozon",
+    "name": "Ozon",
+    "count": 14
+  },
+  {
+    "id": "palantir-technologies",
+    "name": "Palantir Technologies",
+    "count": 29
+  },
+  {
+    "id": "palo-alto-networks",
+    "name": "Palo Alto Networks",
+    "count": 26
+  },
+  {
+    "id": "patreon",
+    "name": "Patreon",
+    "count": 3
+  },
+  {
+    "id": "paycom",
+    "name": "Paycom",
+    "count": 4
+  },
+  {
+    "id": "paypal",
+    "name": "PayPal",
+    "count": 100
+  },
+  {
+    "id": "paypay",
+    "name": "PayPay",
+    "count": 3
+  },
+  {
+    "id": "paytm",
+    "name": "Paytm",
+    "count": 30
+  },
+  {
+    "id": "payu",
+    "name": "PayU",
+    "count": 2
+  },
+  {
+    "id": "peak6",
+    "name": "peak6",
+    "count": 2
+  },
+  {
+    "id": "peloton",
+    "name": "Peloton",
+    "count": 3
+  },
+  {
+    "id": "persistent-systems",
+    "name": "persistent systems",
+    "count": 10
+  },
+  {
+    "id": "phonepe",
+    "name": "PhonePe",
+    "count": 93
+  },
+  {
+    "id": "pinterest",
+    "name": "Pinterest",
+    "count": 49
+  },
+  {
+    "id": "pocket-gems",
+    "name": "Pocket Gems",
+    "count": 15
+  },
+  {
+    "id": "point72",
+    "name": "Point72",
+    "count": 8
+  },
+  {
+    "id": "pony-ai",
+    "name": "Pony.ai",
+    "count": 4
+  },
+  {
+    "id": "pornhub",
+    "name": "PornHub",
+    "count": 9
+  },
+  {
+    "id": "poshmark",
+    "name": "Poshmark",
+    "count": 4
+  },
+  {
+    "id": "postmates",
+    "name": "Postmates",
+    "count": 3
+  },
+  {
+    "id": "publicis-sapient",
+    "name": "Publicis Sapient",
+    "count": 5
+  },
+  {
+    "id": "pubmatic",
+    "name": "PubMatic",
+    "count": 3
+  },
+  {
+    "id": "pure-storage",
+    "name": "Pure Storage",
+    "count": 7
+  },
+  {
+    "id": "pwc",
+    "name": "Pwc",
+    "count": 7
+  },
+  {
+    "id": "qburst",
+    "name": "QBurst",
+    "count": 3
+  },
+  {
+    "id": "qualcomm",
+    "name": "Qualcomm",
+    "count": 48
+  },
+  {
+    "id": "qualtrics",
+    "name": "Qualtrics",
+    "count": 3
+  },
+  {
+    "id": "quora",
+    "name": "Quora",
+    "count": 18
+  },
+  {
+    "id": "rakuten",
+    "name": "Rakuten",
+    "count": 6
+  },
+  {
+    "id": "razorpay",
+    "name": "razorpay",
+    "count": 10
+  },
+  {
+    "id": "rbc",
+    "name": "RBC",
+    "count": 5
+  },
+  {
+    "id": "redbus",
+    "name": "redbus",
+    "count": 2
+  },
+  {
+    "id": "reddit",
+    "name": "Reddit",
+    "count": 6
+  },
+  {
+    "id": "remitly",
+    "name": "Remitly",
+    "count": 8
+  },
+  {
+    "id": "revolut",
+    "name": "Revolut",
+    "count": 11
+  },
+  {
+    "id": "riot-games",
+    "name": "Riot Games",
+    "count": 4
+  },
+  {
+    "id": "ripple",
+    "name": "Ripple",
+    "count": 12
+  },
+  {
+    "id": "rippling",
+    "name": "Rippling",
+    "count": 16
+  },
+  {
+    "id": "rivian",
+    "name": "Rivian",
+    "count": 9
+  },
+  {
+    "id": "robinhood",
+    "name": "Robinhood",
+    "count": 15
+  },
+  {
+    "id": "roblox",
+    "name": "Roblox",
+    "count": 53
+  },
+  {
+    "id": "roche",
+    "name": "Roche",
+    "count": 2
+  },
+  {
+    "id": "rokt",
+    "name": "Rokt",
+    "count": 4
+  },
+  {
+    "id": "roku",
+    "name": "Roku",
+    "count": 15
+  },
+  {
+    "id": "rubrik",
+    "name": "Rubrik",
+    "count": 36
+  },
+  {
+    "id": "salesforce",
+    "name": "Salesforce",
+    "count": 100
+  },
+  {
+    "id": "samsara",
+    "name": "Samsara",
+    "count": 6
+  },
+  {
+    "id": "samsung",
+    "name": "Samsung",
+    "count": 73
+  },
+  {
+    "id": "sap",
+    "name": "SAP",
+    "count": 39
+  },
+  {
+    "id": "scale-ai",
+    "name": "Scale AI",
+    "count": 2
+  },
+  {
+    "id": "sentry",
+    "name": "Sentry",
+    "count": 2
+  },
+  {
+    "id": "servicenow",
+    "name": "ServiceNow",
+    "count": 84
+  },
+  {
+    "id": "sharechat",
+    "name": "ShareChat",
+    "count": 2
+  },
+  {
+    "id": "shopee",
+    "name": "Shopee",
+    "count": 10
+  },
+  {
+    "id": "shopify",
+    "name": "Shopify",
+    "count": 8
+  },
+  {
+    "id": "siemens",
+    "name": "Siemens",
+    "count": 25
+  },
+  {
+    "id": "sig",
+    "name": "SIG",
+    "count": 7
+  },
+  {
+    "id": "sigmoid",
+    "name": "Sigmoid",
+    "count": 6
+  },
+  {
+    "id": "slice",
+    "name": "Slice",
+    "count": 2
+  },
+  {
+    "id": "smartnews",
+    "name": "smartnews",
+    "count": 5
+  },
+  {
+    "id": "smartsheet",
+    "name": "Smartsheet",
+    "count": 4
+  },
+  {
+    "id": "snap",
+    "name": "Snap",
+    "count": 100
+  },
+  {
+    "id": "snapdeal",
+    "name": "Snapdeal",
+    "count": 3
+  },
+  {
+    "id": "snowflake",
+    "name": "Snowflake",
+    "count": 90
+  },
+  {
+    "id": "societe-generale",
+    "name": "Societe Generale",
+    "count": 2
+  },
+  {
+    "id": "sofi",
+    "name": "SoFi",
+    "count": 18
+  },
+  {
+    "id": "softwire",
+    "name": "Softwire",
+    "count": 3
+  },
+  {
+    "id": "sony",
+    "name": "Sony",
+    "count": 4
+  },
+  {
+    "id": "soti",
+    "name": "SOTI",
+    "count": 4
+  },
+  {
+    "id": "soundhound",
+    "name": "SoundHound",
+    "count": 3
+  },
+  {
+    "id": "splunk",
+    "name": "Splunk",
+    "count": 14
+  },
+  {
+    "id": "spotify",
+    "name": "Spotify",
+    "count": 13
+  },
+  {
+    "id": "sprinklr",
+    "name": "Sprinklr",
+    "count": 41
+  },
+  {
+    "id": "squarespace",
+    "name": "Squarespace",
+    "count": 3
+  },
+  {
+    "id": "stackadapt",
+    "name": "StackAdapt",
+    "count": 4
+  },
+  {
+    "id": "stackline",
+    "name": "Stackline",
+    "count": 2
+  },
+  {
+    "id": "stripe",
+    "name": "Stripe",
+    "count": 6
+  },
+  {
+    "id": "sumo-logic",
+    "name": "Sumo Logic",
+    "count": 4
+  },
+  {
+    "id": "swiggy",
+    "name": "Swiggy",
+    "count": 31
+  },
+  {
+    "id": "synopsys",
+    "name": "Synopsys",
+    "count": 2
+  },
+  {
+    "id": "tanium",
+    "name": "Tanium",
+    "count": 1
+  },
+  {
+    "id": "target",
+    "name": "Target",
+    "count": 4
+  },
+  {
+    "id": "tcs",
+    "name": "tcs",
+    "count": 100
+  },
+  {
+    "id": "tech-mahindra",
+    "name": "Tech Mahindra",
+    "count": 5
+  },
+  {
+    "id": "tekion",
+    "name": "Tekion",
+    "count": 20
+  },
+  {
+    "id": "tencent",
+    "name": "Tencent",
+    "count": 15
+  },
+  {
+    "id": "teradata",
+    "name": "Teradata",
+    "count": 3
+  },
+  {
+    "id": "tesco",
+    "name": "Tesco",
+    "count": 4
+  },
+  {
+    "id": "tesla",
+    "name": "Tesla",
+    "count": 46
+  },
+  {
+    "id": "texas-instruments",
+    "name": "Texas Instruments",
+    "count": 4
+  },
+  {
+    "id": "the-trade-desk",
+    "name": "The Trade Desk",
+    "count": 5
+  },
+  {
+    "id": "thomson-reuters",
+    "name": "Thomson Reuters",
+    "count": 3
+  },
+  {
+    "id": "thoughtspot",
+    "name": "thoughtspot",
+    "count": 12
+  },
+  {
+    "id": "thoughtworks",
+    "name": "ThoughtWorks",
+    "count": 8
+  },
+  {
+    "id": "thousandeyes",
+    "name": "ThousandEyes",
+    "count": 5
+  },
+  {
+    "id": "tiger-analytics",
+    "name": "Tiger Analytics",
+    "count": 4
+  },
+  {
+    "id": "tiktok",
+    "name": "TikTok",
+    "count": 100
+  },
+  {
+    "id": "tinder",
+    "name": "Tinder",
+    "count": 2
+  },
+  {
+    "id": "tinkoff",
+    "name": "Tinkoff",
+    "count": 32
+  },
+  {
+    "id": "toast",
+    "name": "Toast",
+    "count": 3
+  },
+  {
+    "id": "toptal",
+    "name": "Toptal",
+    "count": 3
+  },
+  {
+    "id": "tower-research-capital",
+    "name": "Tower Research Capital",
+    "count": 2
+  },
+  {
+    "id": "trexquant",
+    "name": "Trexquant",
+    "count": 5
+  },
+  {
+    "id": "trilogy",
+    "name": "Trilogy",
+    "count": 5
+  },
+  {
+    "id": "tripadvisor",
+    "name": "Tripadvisor",
+    "count": 4
+  },
+  {
+    "id": "turing",
+    "name": "Turing",
+    "count": 41
+  },
+  {
+    "id": "turo",
+    "name": "Turo",
+    "count": 5
+  },
+  {
+    "id": "turvo",
+    "name": "Turvo",
+    "count": 3
+  },
+  {
+    "id": "tusimple",
+    "name": "TuSimple",
+    "count": 4
+  },
+  {
+    "id": "twilio",
+    "name": "Twilio",
+    "count": 13
+  },
+  {
+    "id": "twitch",
+    "name": "Twitch",
+    "count": 8
+  },
+  {
+    "id": "two-sigma",
+    "name": "Two Sigma",
+    "count": 23
+  },
+  {
+    "id": "uber",
+    "name": "Uber",
+    "count": 100
+  },
+  {
+    "id": "ubs",
+    "name": "UBS",
+    "count": 5
+  },
+  {
+    "id": "uipath",
+    "name": "UiPath",
+    "count": 10
+  },
+  {
+    "id": "ukg",
+    "name": "UKG",
+    "count": 11
+  },
+  {
+    "id": "unity",
+    "name": "Unity",
+    "count": 4
+  },
+  {
+    "id": "upstart",
+    "name": "Upstart",
+    "count": 4
+  },
+  {
+    "id": "urban-company",
+    "name": "Urban Company",
+    "count": 5
+  },
+  {
+    "id": "usaa",
+    "name": "USAA",
+    "count": 1
+  },
+  {
+    "id": "valve",
+    "name": "Valve",
+    "count": 4
+  },
+  {
+    "id": "vanguard",
+    "name": "Vanguard",
+    "count": 2
+  },
+  {
+    "id": "veeva-systems",
+    "name": "Veeva Systems",
+    "count": 5
+  },
+  {
+    "id": "verily",
+    "name": "Verily",
+    "count": 12
+  },
+  {
+    "id": "veritas",
+    "name": "Veritas",
+    "count": 2
+  },
+  {
+    "id": "verkada",
+    "name": "Verkada",
+    "count": 15
+  },
+  {
+    "id": "vimeo",
+    "name": "Vimeo",
+    "count": 6
+  },
+  {
+    "id": "virtu-financial",
+    "name": "Virtu Financial",
+    "count": 5
+  },
+  {
+    "id": "virtusa",
+    "name": "Virtusa",
+    "count": 4
+  },
+  {
+    "id": "visa",
+    "name": "Visa",
+    "count": 84
+  },
+  {
+    "id": "vk",
+    "name": "VK",
+    "count": 7
+  },
+  {
+    "id": "vmware",
+    "name": "VMware",
+    "count": 20
+  },
+  {
+    "id": "walmart-labs",
+    "name": "Walmart Labs",
+    "count": 100
+  },
+  {
+    "id": "warnermedia",
+    "name": "Warnermedia",
+    "count": 10
+  },
+  {
+    "id": "watchguard",
+    "name": "WatchGuard",
+    "count": 2
+  },
+  {
+    "id": "wayfair",
+    "name": "Wayfair",
+    "count": 24
+  },
+  {
+    "id": "waymo",
+    "name": "Waymo",
+    "count": 10
+  },
+  {
+    "id": "wealthfront",
+    "name": "Wealthfront",
+    "count": 1
+  },
+  {
+    "id": "wells-fargo",
+    "name": "Wells Fargo",
+    "count": 15
+  },
+  {
+    "id": "weride",
+    "name": "WeRide",
+    "count": 6
+  },
+  {
+    "id": "western-digital",
+    "name": "Western Digital",
+    "count": 1
+  },
+  {
+    "id": "whatnot",
+    "name": "Whatnot",
+    "count": 7
+  },
+  {
+    "id": "winzo",
+    "name": "WinZO",
+    "count": 4
+  },
+  {
+    "id": "wipro",
+    "name": "Wipro",
+    "count": 25
+  },
+  {
+    "id": "wise",
+    "name": "Wise",
+    "count": 5
+  },
+  {
+    "id": "wish",
+    "name": "Wish",
+    "count": 4
+  },
+  {
+    "id": "wissen-technology",
+    "name": "Wissen Technology",
+    "count": 3
+  },
+  {
+    "id": "wix",
+    "name": "Wix",
+    "count": 57
+  },
+  {
+    "id": "workday",
+    "name": "Workday",
+    "count": 8
+  },
+  {
+    "id": "works-applications",
+    "name": "Works Applications",
+    "count": 4
+  },
+  {
+    "id": "worldquant",
+    "name": "WorldQuant",
+    "count": 4
+  },
+  {
+    "id": "x",
+    "name": "X",
+    "count": 52
+  },
+  {
+    "id": "yahoo",
+    "name": "Yahoo",
+    "count": 100
+  },
+  {
+    "id": "yandex",
+    "name": "Yandex",
+    "count": 100
+  },
+  {
+    "id": "yelp",
+    "name": "Yelp",
+    "count": 29
+  },
+  {
+    "id": "yext",
+    "name": "Yext",
+    "count": 4
+  },
+  {
+    "id": "zalando",
+    "name": "Zalando",
+    "count": 6
+  },
+  {
+    "id": "zendesk",
+    "name": "Zendesk",
+    "count": 3
+  },
+  {
+    "id": "zenefits",
+    "name": "Zenefits",
+    "count": 21
+  },
+  {
+    "id": "zepto",
+    "name": "Zepto",
+    "count": 31
+  },
+  {
+    "id": "zeta",
+    "name": "Zeta",
+    "count": 21
+  },
+  {
+    "id": "zeta-suite",
+    "name": "zeta suite",
+    "count": 3
+  },
+  {
+    "id": "zillow",
+    "name": "Zillow",
+    "count": 3
+  },
+  {
+    "id": "ziprecruiter",
+    "name": "ZipRecruiter",
+    "count": 4
+  },
+  {
+    "id": "zluri",
+    "name": "Zluri",
+    "count": 2
+  },
+  {
+    "id": "zoho",
+    "name": "Zoho",
+    "count": 100
+  },
+  {
+    "id": "zomato",
+    "name": "Zomato",
+    "count": 24
+  },
+  {
+    "id": "zoom",
+    "name": "Zoom",
+    "count": 3
+  },
+  {
+    "id": "zoox",
+    "name": "Zoox",
+    "count": 9
+  },
+  {
+    "id": "zopsmart",
+    "name": "Zopsmart",
+    "count": 18
+  },
+  {
+    "id": "zs-associates",
+    "name": "ZS Associates",
+    "count": 9
+  },
+  {
+    "id": "zscaler",
+    "name": "ZScaler",
+    "count": 24
+  },
+  {
+    "id": "zynga",
+    "name": "Zynga",
+    "count": 4
+  }
+]

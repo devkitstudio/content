@@ -1,0 +1,27 @@
+[
+  {
+    "id": "count-operations-to-obtain-zero",
+    "title": "Count Operations to Obtain Zero",
+    "difficulty": "Easy",
+    "frequency": 100,
+    "acceptance": 0.7488972350966917,
+    "link": "https://leetcode.com/problems/count-operations-to-obtain-zero",
+    "topics": [
+      "Math",
+      "Simulation"
+    ]
+  },
+  {
+    "id": "longest-repeating-character-replacement",
+    "title": "Longest Repeating Character Replacement",
+    "difficulty": "Medium",
+    "frequency": 66.6,
+    "acceptance": 0.5721185994601041,
+    "link": "https://leetcode.com/problems/longest-repeating-character-replacement",
+    "topics": [
+      "Hash Table",
+      "String",
+      "Sliding Window"
+    ]
+  }
+]

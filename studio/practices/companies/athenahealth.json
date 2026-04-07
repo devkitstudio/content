@@ -1,0 +1,139 @@
+[
+  {
+    "id": "the-number-of-rich-customers",
+    "title": "The Number of Rich Customers",
+    "difficulty": "Easy",
+    "frequency": 100,
+    "acceptance": 0.7749586938866951,
+    "link": "https://leetcode.com/problems/the-number-of-rich-customers",
+    "topics": [
+      "Database"
+    ]
+  },
+  {
+    "id": "group-anagrams",
+    "title": "Group Anagrams",
+    "difficulty": "Medium",
+    "frequency": 79.6,
+    "acceptance": 0.7092895037238552,
+    "link": "https://leetcode.com/problems/group-anagrams",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "String",
+      "Sorting"
+    ]
+  },
+  {
+    "id": "best-time-to-buy-and-sell-stock",
+    "title": "Best Time to Buy and Sell Stock",
+    "difficulty": "Easy",
+    "frequency": 73.2,
+    "acceptance": 0.5525968886230834,
+    "link": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock",
+    "topics": [
+      "Array",
+      "Dynamic Programming"
+    ]
+  },
+  {
+    "id": "merge-intervals",
+    "title": "Merge Intervals",
+    "difficulty": "Medium",
+    "frequency": 73.2,
+    "acceptance": 0.49395258385849666,
+    "link": "https://leetcode.com/problems/merge-intervals",
+    "topics": [
+      "Array",
+      "Sorting"
+    ]
+  },
+  {
+    "id": "two-sum",
+    "title": "Two Sum",
+    "difficulty": "Easy",
+    "frequency": 64.2,
+    "acceptance": 0.5577703805574933,
+    "link": "https://leetcode.com/problems/two-sum",
+    "topics": [
+      "Array",
+      "Hash Table"
+    ]
+  },
+  {
+    "id": "unique-paths-ii",
+    "title": "Unique Paths II",
+    "difficulty": "Medium",
+    "frequency": 64.2,
+    "acceptance": 0.4315430597653034,
+    "link": "https://leetcode.com/problems/unique-paths-ii",
+    "topics": [
+      "Array",
+      "Dynamic Programming",
+      "Matrix"
+    ]
+  },
+  {
+    "id": "merge-sorted-array",
+    "title": "Merge Sorted Array",
+    "difficulty": "Easy",
+    "frequency": 64.2,
+    "acceptance": 0.5291966721564944,
+    "link": "https://leetcode.com/problems/merge-sorted-array",
+    "topics": [
+      "Array",
+      "Two Pointers",
+      "Sorting"
+    ]
+  },
+  {
+    "id": "first-missing-positive",
+    "title": "First Missing Positive",
+    "difficulty": "Hard",
+    "frequency": 64.2,
+    "acceptance": 0.41084779063097143,
+    "link": "https://leetcode.com/problems/first-missing-positive",
+    "topics": [
+      "Array",
+      "Hash Table"
+    ]
+  },
+  {
+    "id": "longest-substring-without-repeating-characters",
+    "title": "Longest Substring Without Repeating Characters",
+    "difficulty": "Medium",
+    "frequency": 64.2,
+    "acceptance": 0.3693616503140243,
+    "link": "https://leetcode.com/problems/longest-substring-without-repeating-characters",
+    "topics": [
+      "Hash Table",
+      "String",
+      "Sliding Window"
+    ]
+  },
+  {
+    "id": "longest-palindromic-substring",
+    "title": "Longest Palindromic Substring",
+    "difficulty": "Medium",
+    "frequency": 64.2,
+    "acceptance": 0.35846230203907403,
+    "link": "https://leetcode.com/problems/longest-palindromic-substring",
+    "topics": [
+      "Two Pointers",
+      "String",
+      "Dynamic Programming"
+    ]
+  },
+  {
+    "id": "exclusive-time-of-functions",
+    "title": "Exclusive Time of Functions",
+    "difficulty": "Medium",
+    "frequency": 64.2,
+    "acceptance": 0.6479218958904363,
+    "link": "https://leetcode.com/problems/exclusive-time-of-functions",
+    "topics": [
+      "Array",
+      "Stack"
+    ]
+  }
+]

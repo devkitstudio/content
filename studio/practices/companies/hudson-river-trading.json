@@ -1,0 +1,117 @@
+[
+  {
+    "id": "detect-pattern-of-length-m-repeated-k-or-more-times",
+    "title": "Detect Pattern of Length M Repeated K or More Times",
+    "difficulty": "Easy",
+    "frequency": 100,
+    "acceptance": 0.434865494598602,
+    "link": "https://leetcode.com/problems/detect-pattern-of-length-m-repeated-k-or-more-times",
+    "topics": [
+      "Array",
+      "Enumeration"
+    ]
+  },
+  {
+    "id": "add-edges-to-make-degrees-of-all-nodes-even",
+    "title": "Add Edges to Make Degrees of All Nodes Even",
+    "difficulty": "Hard",
+    "frequency": 97.8,
+    "acceptance": 0.33517162875591233,
+    "link": "https://leetcode.com/problems/add-edges-to-make-degrees-of-all-nodes-even",
+    "topics": [
+      "Hash Table",
+      "Graph"
+    ]
+  },
+  {
+    "id": "longest-path-with-different-adjacent-characters",
+    "title": "Longest Path With Different Adjacent Characters",
+    "difficulty": "Hard",
+    "frequency": 97.8,
+    "acceptance": 0.5391662377766341,
+    "link": "https://leetcode.com/problems/longest-path-with-different-adjacent-characters",
+    "topics": [
+      "Array",
+      "String",
+      "Tree",
+      "Depth-First Search",
+      "Graph",
+      "Topological Sort"
+    ]
+  },
+  {
+    "id": "maximum-total-importance-of-roads",
+    "title": "Maximum Total Importance of Roads",
+    "difficulty": "Medium",
+    "frequency": 97.8,
+    "acceptance": 0.6916419857076869,
+    "link": "https://leetcode.com/problems/maximum-total-importance-of-roads",
+    "topics": [
+      "Greedy",
+      "Graph",
+      "Sorting",
+      "Heap (Priority Queue)"
+    ]
+  },
+  {
+    "id": "convert-integer-to-the-sum-of-two-no-zero-integers",
+    "title": "Convert Integer to the Sum of Two No-Zero Integers",
+    "difficulty": "Easy",
+    "frequency": 97.8,
+    "acceptance": 0.5423949493246408,
+    "link": "https://leetcode.com/problems/convert-integer-to-the-sum-of-two-no-zero-integers",
+    "topics": [
+      "Math"
+    ]
+  },
+  {
+    "id": "number-of-steps-to-reduce-a-number-to-zero",
+    "title": "Number of Steps to Reduce a Number to Zero",
+    "difficulty": "Easy",
+    "frequency": 97.8,
+    "acceptance": 0.8563122693677829,
+    "link": "https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero",
+    "topics": [
+      "Math",
+      "Bit Manipulation"
+    ]
+  },
+  {
+    "id": "maximum-69-number",
+    "title": "Maximum 69 Number",
+    "difficulty": "Easy",
+    "frequency": 97.8,
+    "acceptance": 0.8176659980289958,
+    "link": "https://leetcode.com/problems/maximum-69-number",
+    "topics": [
+      "Math",
+      "Greedy"
+    ]
+  },
+  {
+    "id": "maximum-score-from-grid-operations",
+    "title": "Maximum Score From Grid Operations",
+    "difficulty": "Hard",
+    "frequency": 97.8,
+    "acceptance": 0.24225599064874342,
+    "link": "https://leetcode.com/problems/maximum-score-from-grid-operations",
+    "topics": [
+      "Array",
+      "Dynamic Programming",
+      "Matrix",
+      "Prefix Sum"
+    ]
+  },
+  {
+    "id": "remove-comments",
+    "title": "Remove Comments",
+    "difficulty": "Medium",
+    "frequency": 60.9,
+    "acceptance": 0.39407199349545424,
+    "link": "https://leetcode.com/problems/remove-comments",
+    "topics": [
+      "Array",
+      "String"
+    ]
+  }
+]

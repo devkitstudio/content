@@ -1,0 +1,40 @@
+[
+  {
+    "id": "longest-common-prefix",
+    "title": "Longest Common Prefix",
+    "difficulty": "Easy",
+    "frequency": 100,
+    "acceptance": 0.45487227473690034,
+    "link": "https://leetcode.com/problems/longest-common-prefix",
+    "topics": [
+      "String",
+      "Trie"
+    ]
+  },
+  {
+    "id": "sort-array-by-parity",
+    "title": "Sort Array By Parity",
+    "difficulty": "Easy",
+    "frequency": 100,
+    "acceptance": 0.7632307011030572,
+    "link": "https://leetcode.com/problems/sort-array-by-parity",
+    "topics": [
+      "Array",
+      "Two Pointers",
+      "Sorting"
+    ]
+  },
+  {
+    "id": "rotate-array",
+    "title": "Rotate Array",
+    "difficulty": "Medium",
+    "frequency": 100,
+    "acceptance": 0.4302544804233154,
+    "link": "https://leetcode.com/problems/rotate-array",
+    "topics": [
+      "Array",
+      "Math",
+      "Two Pointers"
+    ]
+  }
+]

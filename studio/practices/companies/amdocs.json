@@ -1,0 +1,94 @@
+[
+  {
+    "id": "number-of-divisible-substrings",
+    "title": "Number of Divisible Substrings",
+    "difficulty": "Medium",
+    "frequency": 100,
+    "acceptance": 0.734086999262718,
+    "link": "https://leetcode.com/problems/number-of-divisible-substrings",
+    "topics": [
+      "Hash Table",
+      "String",
+      "Counting",
+      "Prefix Sum"
+    ]
+  },
+  {
+    "id": "design-a-3d-binary-matrix-with-efficient-layer-tracking",
+    "title": "Design a 3D Binary Matrix with Efficient Layer Tracking",
+    "difficulty": "Medium",
+    "frequency": 100,
+    "acceptance": 0.6643356643356644,
+    "link": "https://leetcode.com/problems/design-a-3d-binary-matrix-with-efficient-layer-tracking",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "Design",
+      "Heap (Priority Queue)",
+      "Matrix",
+      "Ordered Set"
+    ]
+  },
+  {
+    "id": "backspace-string-compare",
+    "title": "Backspace String Compare",
+    "difficulty": "Easy",
+    "frequency": 63.4,
+    "acceptance": 0.4948180427260363,
+    "link": "https://leetcode.com/problems/backspace-string-compare",
+    "topics": [
+      "Two Pointers",
+      "String",
+      "Stack",
+      "Simulation"
+    ]
+  },
+  {
+    "id": "second-highest-salary",
+    "title": "Second Highest Salary",
+    "difficulty": "Medium",
+    "frequency": 63.4,
+    "acceptance": 0.4386530976858341,
+    "link": "https://leetcode.com/problems/second-highest-salary",
+    "topics": [
+      "Database"
+    ]
+  },
+  {
+    "id": "build-array-where-you-can-find-the-maximum-exactly-k-comparisons",
+    "title": "Build Array Where You Can Find The Maximum Exactly K Comparisons",
+    "difficulty": "Hard",
+    "frequency": 63.4,
+    "acceptance": 0.6675739518425989,
+    "link": "https://leetcode.com/problems/build-array-where-you-can-find-the-maximum-exactly-k-comparisons",
+    "topics": [
+      "Dynamic Programming",
+      "Prefix Sum"
+    ]
+  },
+  {
+    "id": "generate-parentheses",
+    "title": "Generate Parentheses",
+    "difficulty": "Medium",
+    "frequency": 63.4,
+    "acceptance": 0.7713296329116214,
+    "link": "https://leetcode.com/problems/generate-parentheses",
+    "topics": [
+      "String",
+      "Dynamic Programming",
+      "Backtracking"
+    ]
+  },
+  {
+    "id": "rotate-string",
+    "title": "Rotate String",
+    "difficulty": "Easy",
+    "frequency": 63.4,
+    "acceptance": 0.6393965020022866,
+    "link": "https://leetcode.com/problems/rotate-string",
+    "topics": [
+      "String",
+      "String Matching"
+    ]
+  }
+]

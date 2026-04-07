@@ -1,0 +1,50 @@
+[
+  {
+    "id": "largest-3-same-digit-number-in-string",
+    "title": "Largest 3-Same-Digit Number in String",
+    "difficulty": "Easy",
+    "frequency": 100,
+    "acceptance": 0.6909566734515847,
+    "link": "https://leetcode.com/problems/largest-3-same-digit-number-in-string",
+    "topics": [
+      "String"
+    ]
+  },
+  {
+    "id": "longest-substring-without-repeating-characters",
+    "title": "Longest Substring Without Repeating Characters",
+    "difficulty": "Medium",
+    "frequency": 74.2,
+    "acceptance": 0.3693619526562289,
+    "link": "https://leetcode.com/problems/longest-substring-without-repeating-characters",
+    "topics": [
+      "Hash Table",
+      "String",
+      "Sliding Window"
+    ]
+  },
+  {
+    "id": "best-time-to-buy-and-sell-stock",
+    "title": "Best Time to Buy and Sell Stock",
+    "difficulty": "Easy",
+    "frequency": 65.5,
+    "acceptance": 0.5525972597748545,
+    "link": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock",
+    "topics": [
+      "Array",
+      "Dynamic Programming"
+    ]
+  },
+  {
+    "id": "valid-parentheses",
+    "title": "Valid Parentheses",
+    "difficulty": "Easy",
+    "frequency": 65.5,
+    "acceptance": 0.42322927482455164,
+    "link": "https://leetcode.com/problems/valid-parentheses",
+    "topics": [
+      "String",
+      "Stack"
+    ]
+  }
+]

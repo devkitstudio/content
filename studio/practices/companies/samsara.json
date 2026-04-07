@@ -1,0 +1,84 @@
+[
+  {
+    "id": "alternating-groups-i",
+    "title": "Alternating Groups I",
+    "difficulty": "Easy",
+    "frequency": 100,
+    "acceptance": 0.6768687963612404,
+    "link": "https://leetcode.com/problems/alternating-groups-i",
+    "topics": [
+      "Array",
+      "Sliding Window"
+    ]
+  },
+  {
+    "id": "alternating-groups-ii",
+    "title": "Alternating Groups II",
+    "difficulty": "Medium",
+    "frequency": 100,
+    "acceptance": 0.598796741801174,
+    "link": "https://leetcode.com/problems/alternating-groups-ii",
+    "topics": [
+      "Array",
+      "Sliding Window"
+    ]
+  },
+  {
+    "id": "find-beautiful-indices-in-the-given-array-i",
+    "title": "Find Beautiful Indices in the Given Array I",
+    "difficulty": "Medium",
+    "frequency": 85.1,
+    "acceptance": 0.3843128232097467,
+    "link": "https://leetcode.com/problems/find-beautiful-indices-in-the-given-array-i",
+    "topics": [
+      "Two Pointers",
+      "String",
+      "Binary Search",
+      "Rolling Hash",
+      "String Matching",
+      "Hash Function"
+    ]
+  },
+  {
+    "id": "valid-sudoku",
+    "title": "Valid Sudoku",
+    "difficulty": "Medium",
+    "frequency": 85.1,
+    "acceptance": 0.6227694235472601,
+    "link": "https://leetcode.com/problems/valid-sudoku",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "Matrix"
+    ]
+  },
+  {
+    "id": "text-justification",
+    "title": "Text Justification",
+    "difficulty": "Hard",
+    "frequency": 74.2,
+    "acceptance": 0.4815035316083349,
+    "link": "https://leetcode.com/problems/text-justification",
+    "topics": [
+      "Array",
+      "String",
+      "Simulation"
+    ]
+  },
+  {
+    "id": "number-of-flowers-in-full-bloom",
+    "title": "Number of Flowers in Full Bloom",
+    "difficulty": "Hard",
+    "frequency": 65.5,
+    "acceptance": 0.5717586649550706,
+    "link": "https://leetcode.com/problems/number-of-flowers-in-full-bloom",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "Binary Search",
+      "Sorting",
+      "Prefix Sum",
+      "Ordered Set"
+    ]
+  }
+]

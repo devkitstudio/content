@@ -1,0 +1,164 @@
+[
+  {
+    "id": "count-subarrays-with-median-k",
+    "title": "Count Subarrays With Median K",
+    "difficulty": "Hard",
+    "frequency": 100,
+    "acceptance": 0.4553062885040102,
+    "link": "https://leetcode.com/problems/count-subarrays-with-median-k",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "Prefix Sum"
+    ]
+  },
+  {
+    "id": "count-paths-that-can-form-a-palindrome-in-a-tree",
+    "title": "Count Paths That Can Form a Palindrome in a Tree",
+    "difficulty": "Hard",
+    "frequency": 89.5,
+    "acceptance": 0.4543955137720601,
+    "link": "https://leetcode.com/problems/count-paths-that-can-form-a-palindrome-in-a-tree",
+    "topics": [
+      "Dynamic Programming",
+      "Bit Manipulation",
+      "Tree",
+      "Depth-First Search",
+      "Bitmask"
+    ]
+  },
+  {
+    "id": "lru-cache",
+    "title": "LRU Cache",
+    "difficulty": "Medium",
+    "frequency": 82.1,
+    "acceptance": 0.45215036742533565,
+    "link": "https://leetcode.com/problems/lru-cache",
+    "topics": [
+      "Hash Table",
+      "Linked List",
+      "Design",
+      "Doubly-Linked List"
+    ]
+  },
+  {
+    "id": "minimum-window-substring",
+    "title": "Minimum Window Substring",
+    "difficulty": "Hard",
+    "frequency": 82.1,
+    "acceptance": 0.4535080139186543,
+    "link": "https://leetcode.com/problems/minimum-window-substring",
+    "topics": [
+      "Hash Table",
+      "String",
+      "Sliding Window"
+    ]
+  },
+  {
+    "id": "minimum-number-of-k-consecutive-bit-flips",
+    "title": "Minimum Number of K Consecutive Bit Flips",
+    "difficulty": "Hard",
+    "frequency": 71.6,
+    "acceptance": 0.6217152009183782,
+    "link": "https://leetcode.com/problems/minimum-number-of-k-consecutive-bit-flips",
+    "topics": [
+      "Array",
+      "Bit Manipulation",
+      "Queue",
+      "Sliding Window",
+      "Prefix Sum"
+    ]
+  },
+  {
+    "id": "snakes-and-ladders",
+    "title": "Snakes and Ladders",
+    "difficulty": "Medium",
+    "frequency": 71.6,
+    "acceptance": 0.4779591396819314,
+    "link": "https://leetcode.com/problems/snakes-and-ladders",
+    "topics": [
+      "Array",
+      "Breadth-First Search",
+      "Matrix"
+    ]
+  },
+  {
+    "id": "number-of-islands",
+    "title": "Number of Islands",
+    "difficulty": "Medium",
+    "frequency": 71.6,
+    "acceptance": 0.6232017379911429,
+    "link": "https://leetcode.com/problems/number-of-islands",
+    "topics": [
+      "Array",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Union Find",
+      "Matrix"
+    ]
+  },
+  {
+    "id": "most-stones-removed-with-same-row-or-column",
+    "title": "Most Stones Removed with Same Row or Column",
+    "difficulty": "Medium",
+    "frequency": 71.6,
+    "acceptance": 0.6218985374837238,
+    "link": "https://leetcode.com/problems/most-stones-removed-with-same-row-or-column",
+    "topics": [
+      "Hash Table",
+      "Depth-First Search",
+      "Union Find",
+      "Graph"
+    ]
+  },
+  {
+    "id": "subarray-sums-divisible-by-k",
+    "title": "Subarray Sums Divisible by K",
+    "difficulty": "Medium",
+    "frequency": 71.6,
+    "acceptance": 0.5561796146835698,
+    "link": "https://leetcode.com/problems/subarray-sums-divisible-by-k",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "Prefix Sum"
+    ]
+  },
+  {
+    "id": "interleaving-string",
+    "title": "Interleaving String",
+    "difficulty": "Medium",
+    "frequency": 71.6,
+    "acceptance": 0.42179330938510906,
+    "link": "https://leetcode.com/problems/interleaving-string",
+    "topics": [
+      "String",
+      "Dynamic Programming"
+    ]
+  },
+  {
+    "id": "count-pairs-of-connectable-servers-in-a-weighted-tree-network",
+    "title": "Count Pairs of Connectable Servers in a Weighted Tree Network",
+    "difficulty": "Medium",
+    "frequency": 71.6,
+    "acceptance": 0.5419311727363849,
+    "link": "https://leetcode.com/problems/count-pairs-of-connectable-servers-in-a-weighted-tree-network",
+    "topics": [
+      "Array",
+      "Tree",
+      "Depth-First Search"
+    ]
+  },
+  {
+    "id": "house-robber-ii",
+    "title": "House Robber II",
+    "difficulty": "Medium",
+    "frequency": 71.6,
+    "acceptance": 0.43562808497028127,
+    "link": "https://leetcode.com/problems/house-robber-ii",
+    "topics": [
+      "Array",
+      "Dynamic Programming"
+    ]
+  }
+]

@@ -1,0 +1,53 @@
+[
+  {
+    "id": "decoded-string-at-index",
+    "title": "Decoded String at Index",
+    "difficulty": "Medium",
+    "frequency": 100,
+    "acceptance": 0.36648005898902547,
+    "link": "https://leetcode.com/problems/decoded-string-at-index",
+    "topics": [
+      "String",
+      "Stack"
+    ]
+  },
+  {
+    "id": "champagne-tower",
+    "title": "Champagne Tower",
+    "difficulty": "Medium",
+    "frequency": 85.3,
+    "acceptance": 0.5827900024732158,
+    "link": "https://leetcode.com/problems/champagne-tower",
+    "topics": [
+      "Dynamic Programming"
+    ]
+  },
+  {
+    "id": "trapping-rain-water",
+    "title": "Trapping Rain Water",
+    "difficulty": "Hard",
+    "frequency": 74.6,
+    "acceptance": 0.6510219501353552,
+    "link": "https://leetcode.com/problems/trapping-rain-water",
+    "topics": [
+      "Array",
+      "Two Pointers",
+      "Dynamic Programming",
+      "Stack",
+      "Monotonic Stack"
+    ]
+  },
+  {
+    "id": "snakes-and-ladders",
+    "title": "Snakes and Ladders",
+    "difficulty": "Medium",
+    "frequency": 66,
+    "acceptance": 0.4779591396819314,
+    "link": "https://leetcode.com/problems/snakes-and-ladders",
+    "topics": [
+      "Array",
+      "Breadth-First Search",
+      "Matrix"
+    ]
+  }
+]

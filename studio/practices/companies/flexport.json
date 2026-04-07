@@ -1,0 +1,137 @@
+[
+  {
+    "id": "decode-string",
+    "title": "Decode String",
+    "difficulty": "Medium",
+    "frequency": 100,
+    "acceptance": 0.611527047281157,
+    "link": "https://leetcode.com/problems/decode-string",
+    "topics": [
+      "String",
+      "Stack",
+      "Recursion"
+    ]
+  },
+  {
+    "id": "clone-graph",
+    "title": "Clone Graph",
+    "difficulty": "Medium",
+    "frequency": 98.1,
+    "acceptance": 0.6238596161697385,
+    "link": "https://leetcode.com/problems/clone-graph",
+    "topics": [
+      "Hash Table",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Graph"
+    ]
+  },
+  {
+    "id": "time-based-key-value-store",
+    "title": "Time Based Key-Value Store",
+    "difficulty": "Medium",
+    "frequency": 96.1,
+    "acceptance": 0.49366433435553103,
+    "link": "https://leetcode.com/problems/time-based-key-value-store",
+    "topics": [
+      "Hash Table",
+      "String",
+      "Binary Search",
+      "Design"
+    ]
+  },
+  {
+    "id": "my-calendar-i",
+    "title": "My Calendar I",
+    "difficulty": "Medium",
+    "frequency": 85,
+    "acceptance": 0.5814631853246708,
+    "link": "https://leetcode.com/problems/my-calendar-i",
+    "topics": [
+      "Array",
+      "Binary Search",
+      "Design",
+      "Segment Tree",
+      "Ordered Set"
+    ]
+  },
+  {
+    "id": "letter-combinations-of-a-phone-number",
+    "title": "Letter Combinations of a Phone Number",
+    "difficulty": "Medium",
+    "frequency": 85,
+    "acceptance": 0.6385758051682159,
+    "link": "https://leetcode.com/problems/letter-combinations-of-a-phone-number",
+    "topics": [
+      "Hash Table",
+      "String",
+      "Backtracking"
+    ]
+  },
+  {
+    "id": "bag-of-tokens",
+    "title": "Bag of Tokens",
+    "difficulty": "Medium",
+    "frequency": 70,
+    "acceptance": 0.5918662223280171,
+    "link": "https://leetcode.com/problems/bag-of-tokens",
+    "topics": [
+      "Array",
+      "Two Pointers",
+      "Greedy",
+      "Sorting"
+    ]
+  },
+  {
+    "id": "count-zero-request-servers",
+    "title": "Count Zero Request Servers",
+    "difficulty": "Medium",
+    "frequency": 61.2,
+    "acceptance": 0.34117881058144933,
+    "link": "https://leetcode.com/problems/count-zero-request-servers",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "Sliding Window",
+      "Sorting"
+    ]
+  },
+  {
+    "id": "longest-increasing-subsequence",
+    "title": "Longest Increasing Subsequence",
+    "difficulty": "Medium",
+    "frequency": 61.2,
+    "acceptance": 0.5780848237657387,
+    "link": "https://leetcode.com/problems/longest-increasing-subsequence",
+    "topics": [
+      "Array",
+      "Binary Search",
+      "Dynamic Programming"
+    ]
+  },
+  {
+    "id": "subarray-product-less-than-k",
+    "title": "Subarray Product Less Than K",
+    "difficulty": "Medium",
+    "frequency": 61.2,
+    "acceptance": 0.5285358649789029,
+    "link": "https://leetcode.com/problems/subarray-product-less-than-k",
+    "topics": [
+      "Array",
+      "Binary Search",
+      "Sliding Window",
+      "Prefix Sum"
+    ]
+  },
+  {
+    "id": "validate-ip-address",
+    "title": "Validate IP Address",
+    "difficulty": "Medium",
+    "frequency": 61.2,
+    "acceptance": 0.27817524620453365,
+    "link": "https://leetcode.com/problems/validate-ip-address",
+    "topics": [
+      "String"
+    ]
+  }
+]

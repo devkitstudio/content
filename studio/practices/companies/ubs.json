@@ -1,0 +1,70 @@
+[
+  {
+    "id": "search-suggestions-system",
+    "title": "Search Suggestions System",
+    "difficulty": "Medium",
+    "frequency": 100,
+    "acceptance": 0.6505018082357296,
+    "link": "https://leetcode.com/problems/search-suggestions-system",
+    "topics": [
+      "Array",
+      "String",
+      "Binary Search",
+      "Trie",
+      "Sorting",
+      "Heap (Priority Queue)"
+    ]
+  },
+  {
+    "id": "count-pairs-of-connectable-servers-in-a-weighted-tree-network",
+    "title": "Count Pairs of Connectable Servers in a Weighted Tree Network",
+    "difficulty": "Medium",
+    "frequency": 94.6,
+    "acceptance": 0.5419311727363849,
+    "link": "https://leetcode.com/problems/count-pairs-of-connectable-servers-in-a-weighted-tree-network",
+    "topics": [
+      "Array",
+      "Tree",
+      "Depth-First Search"
+    ]
+  },
+  {
+    "id": "beautiful-arrangement",
+    "title": "Beautiful Arrangement",
+    "difficulty": "Medium",
+    "frequency": 61.7,
+    "acceptance": 0.6452775069853577,
+    "link": "https://leetcode.com/problems/beautiful-arrangement",
+    "topics": [
+      "Array",
+      "Dynamic Programming",
+      "Backtracking",
+      "Bit Manipulation",
+      "Bitmask"
+    ]
+  },
+  {
+    "id": "best-time-to-buy-and-sell-stock",
+    "title": "Best Time to Buy and Sell Stock",
+    "difficulty": "Easy",
+    "frequency": 61.7,
+    "acceptance": 0.5525968841850246,
+    "link": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock",
+    "topics": [
+      "Array",
+      "Dynamic Programming"
+    ]
+  },
+  {
+    "id": "valid-parentheses",
+    "title": "Valid Parentheses",
+    "difficulty": "Easy",
+    "frequency": 61.7,
+    "acceptance": 0.42322907637459456,
+    "link": "https://leetcode.com/problems/valid-parentheses",
+    "topics": [
+      "String",
+      "Stack"
+    ]
+  }
+]

@@ -1,0 +1,136 @@
+[
+  {
+    "id": "design-circular-queue",
+    "title": "Design Circular Queue",
+    "difficulty": "Medium",
+    "frequency": 100,
+    "acceptance": 0.5264449504731188,
+    "link": "https://leetcode.com/problems/design-circular-queue",
+    "topics": [
+      "Array",
+      "Linked List",
+      "Design",
+      "Queue"
+    ]
+  },
+  {
+    "id": "3sum",
+    "title": "3Sum",
+    "difficulty": "Medium",
+    "frequency": 94.4,
+    "acceptance": 0.37071093824309664,
+    "link": "https://leetcode.com/problems/3sum",
+    "topics": [
+      "Array",
+      "Two Pointers",
+      "Sorting"
+    ]
+  },
+  {
+    "id": "4sum",
+    "title": "4Sum",
+    "difficulty": "Medium",
+    "frequency": 94.4,
+    "acceptance": 0.38219049581097475,
+    "link": "https://leetcode.com/problems/4sum",
+    "topics": [
+      "Array",
+      "Two Pointers",
+      "Sorting"
+    ]
+  },
+  {
+    "id": "design-a-stack-with-increment-operation",
+    "title": "Design a Stack With Increment Operation",
+    "difficulty": "Medium",
+    "frequency": 84.3,
+    "acceptance": 0.8013123593723671,
+    "link": "https://leetcode.com/problems/design-a-stack-with-increment-operation",
+    "topics": [
+      "Array",
+      "Stack",
+      "Design"
+    ]
+  },
+  {
+    "id": "reaching-points",
+    "title": "Reaching Points",
+    "difficulty": "Hard",
+    "frequency": 84.3,
+    "acceptance": 0.336468882434809,
+    "link": "https://leetcode.com/problems/reaching-points",
+    "topics": [
+      "Math"
+    ]
+  },
+  {
+    "id": "design-hit-counter",
+    "title": "Design Hit Counter",
+    "difficulty": "Medium",
+    "frequency": 74.5,
+    "acceptance": 0.6920831928267657,
+    "link": "https://leetcode.com/problems/design-hit-counter",
+    "topics": [
+      "Array",
+      "Binary Search",
+      "Design",
+      "Queue",
+      "Data Stream"
+    ]
+  },
+  {
+    "id": "number-of-islands",
+    "title": "Number of Islands",
+    "difficulty": "Medium",
+    "frequency": 69.9,
+    "acceptance": 0.6232012220926494,
+    "link": "https://leetcode.com/problems/number-of-islands",
+    "topics": [
+      "Array",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Union Find",
+      "Matrix"
+    ]
+  },
+  {
+    "id": "lru-cache",
+    "title": "LRU Cache",
+    "difficulty": "Medium",
+    "frequency": 63.9,
+    "acceptance": 0.4521488064776229,
+    "link": "https://leetcode.com/problems/lru-cache",
+    "topics": [
+      "Hash Table",
+      "Linked List",
+      "Design",
+      "Doubly-Linked List"
+    ]
+  },
+  {
+    "id": "game-of-life",
+    "title": "Game of Life",
+    "difficulty": "Medium",
+    "frequency": 55.5,
+    "acceptance": 0.7141524653374356,
+    "link": "https://leetcode.com/problems/game-of-life",
+    "topics": [
+      "Array",
+      "Matrix",
+      "Simulation"
+    ]
+  },
+  {
+    "id": "fizz-buzz",
+    "title": "Fizz Buzz",
+    "difficulty": "Easy",
+    "frequency": 55.5,
+    "acceptance": 0.7437061146887399,
+    "link": "https://leetcode.com/problems/fizz-buzz",
+    "topics": [
+      "Math",
+      "String",
+      "Simulation"
+    ]
+  }
+]

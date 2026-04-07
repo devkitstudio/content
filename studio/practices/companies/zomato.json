@@ -1,0 +1,322 @@
+[
+  {
+    "id": "maximum-spending-after-buying-items",
+    "title": "Maximum Spending After Buying Items",
+    "difficulty": "Hard",
+    "frequency": 100,
+    "acceptance": 0.599903432534457,
+    "link": "https://leetcode.com/problems/maximum-spending-after-buying-items",
+    "topics": [
+      "Array",
+      "Greedy",
+      "Sorting",
+      "Heap (Priority Queue)",
+      "Matrix"
+    ]
+  },
+  {
+    "id": "split-the-array-to-make-coprime-products",
+    "title": "Split the Array to Make Coprime Products",
+    "difficulty": "Hard",
+    "frequency": 100,
+    "acceptance": 0.28023837902264603,
+    "link": "https://leetcode.com/problems/split-the-array-to-make-coprime-products",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "Math",
+      "Number Theory"
+    ]
+  },
+  {
+    "id": "bitwise-or-of-all-subsequence-sums",
+    "title": "Bitwise OR of All Subsequence Sums",
+    "difficulty": "Medium",
+    "frequency": 100,
+    "acceptance": 0.6488039763901833,
+    "link": "https://leetcode.com/problems/bitwise-or-of-all-subsequence-sums",
+    "topics": [
+      "Array",
+      "Math",
+      "Bit Manipulation",
+      "Brainteaser",
+      "Prefix Sum"
+    ]
+  },
+  {
+    "id": "shortest-cycle-in-a-graph",
+    "title": "Shortest Cycle in a Graph",
+    "difficulty": "Hard",
+    "frequency": 100,
+    "acceptance": 0.37407796055677295,
+    "link": "https://leetcode.com/problems/shortest-cycle-in-a-graph",
+    "topics": [
+      "Breadth-First Search",
+      "Graph"
+    ]
+  },
+  {
+    "id": "number-of-ways-to-divide-a-long-corridor",
+    "title": "Number of Ways to Divide a Long Corridor",
+    "difficulty": "Hard",
+    "frequency": 100,
+    "acceptance": 0.48808036963480134,
+    "link": "https://leetcode.com/problems/number-of-ways-to-divide-a-long-corridor",
+    "topics": [
+      "Math",
+      "String",
+      "Dynamic Programming"
+    ]
+  },
+  {
+    "id": "count-the-hidden-sequences",
+    "title": "Count the Hidden Sequences",
+    "difficulty": "Medium",
+    "frequency": 94.3,
+    "acceptance": 0.5672918186355435,
+    "link": "https://leetcode.com/problems/count-the-hidden-sequences",
+    "topics": [
+      "Array",
+      "Prefix Sum"
+    ]
+  },
+  {
+    "id": "find-and-replace-pattern",
+    "title": "Find and Replace Pattern",
+    "difficulty": "Medium",
+    "frequency": 82.2,
+    "acceptance": 0.7681583405018056,
+    "link": "https://leetcode.com/problems/find-and-replace-pattern",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "String"
+    ]
+  },
+  {
+    "id": "total-cost-to-hire-k-workers",
+    "title": "Total Cost to Hire K Workers",
+    "difficulty": "Medium",
+    "frequency": 82.2,
+    "acceptance": 0.43106897558427193,
+    "link": "https://leetcode.com/problems/total-cost-to-hire-k-workers",
+    "topics": [
+      "Array",
+      "Two Pointers",
+      "Heap (Priority Queue)",
+      "Simulation"
+    ]
+  },
+  {
+    "id": "cherry-pickup",
+    "title": "Cherry Pickup",
+    "difficulty": "Hard",
+    "frequency": 76.5,
+    "acceptance": 0.3786948581341589,
+    "link": "https://leetcode.com/problems/cherry-pickup",
+    "topics": [
+      "Array",
+      "Dynamic Programming",
+      "Matrix"
+    ]
+  },
+  {
+    "id": "count-zero-request-servers",
+    "title": "Count Zero Request Servers",
+    "difficulty": "Medium",
+    "frequency": 69.2,
+    "acceptance": 0.341212744090442,
+    "link": "https://leetcode.com/problems/count-zero-request-servers",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "Sliding Window",
+      "Sorting"
+    ]
+  },
+  {
+    "id": "first-missing-positive",
+    "title": "First Missing Positive",
+    "difficulty": "Hard",
+    "frequency": 69.2,
+    "acceptance": 0.410847166412329,
+    "link": "https://leetcode.com/problems/first-missing-positive",
+    "topics": [
+      "Array",
+      "Hash Table"
+    ]
+  },
+  {
+    "id": "frog-jump",
+    "title": "Frog Jump",
+    "difficulty": "Hard",
+    "frequency": 58.9,
+    "acceptance": 0.4655846450889997,
+    "link": "https://leetcode.com/problems/frog-jump",
+    "topics": [
+      "Array",
+      "Dynamic Programming"
+    ]
+  },
+  {
+    "id": "optimal-account-balancing",
+    "title": "Optimal Account Balancing",
+    "difficulty": "Hard",
+    "frequency": 58.9,
+    "acceptance": 0.4993834011592058,
+    "link": "https://leetcode.com/problems/optimal-account-balancing",
+    "topics": [
+      "Array",
+      "Dynamic Programming",
+      "Backtracking",
+      "Bit Manipulation",
+      "Bitmask"
+    ]
+  },
+  {
+    "id": "unique-paths",
+    "title": "Unique Paths",
+    "difficulty": "Medium",
+    "frequency": 58.9,
+    "acceptance": 0.6577290437952823,
+    "link": "https://leetcode.com/problems/unique-paths",
+    "topics": [
+      "Math",
+      "Dynamic Programming",
+      "Combinatorics"
+    ]
+  },
+  {
+    "id": "largest-rectangle-in-histogram",
+    "title": "Largest Rectangle in Histogram",
+    "difficulty": "Hard",
+    "frequency": 58.9,
+    "acceptance": 0.4737761181498828,
+    "link": "https://leetcode.com/problems/largest-rectangle-in-histogram",
+    "topics": [
+      "Array",
+      "Stack",
+      "Monotonic Stack"
+    ]
+  },
+  {
+    "id": "3sum",
+    "title": "3Sum",
+    "difficulty": "Medium",
+    "frequency": 58.9,
+    "acceptance": 0.3707106312873585,
+    "link": "https://leetcode.com/problems/3sum",
+    "topics": [
+      "Array",
+      "Two Pointers",
+      "Sorting"
+    ]
+  },
+  {
+    "id": "lfu-cache",
+    "title": "LFU Cache",
+    "difficulty": "Hard",
+    "frequency": 58.9,
+    "acceptance": 0.46609147192725375,
+    "link": "https://leetcode.com/problems/lfu-cache",
+    "topics": [
+      "Hash Table",
+      "Linked List",
+      "Design",
+      "Doubly-Linked List"
+    ]
+  },
+  {
+    "id": "number-of-islands",
+    "title": "Number of Islands",
+    "difficulty": "Medium",
+    "frequency": 58.9,
+    "acceptance": 0.6232012377009197,
+    "link": "https://leetcode.com/problems/number-of-islands",
+    "topics": [
+      "Array",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Union Find",
+      "Matrix"
+    ]
+  },
+  {
+    "id": "self-crossing",
+    "title": "Self Crossing",
+    "difficulty": "Hard",
+    "frequency": 58.9,
+    "acceptance": 0.3211288425469689,
+    "link": "https://leetcode.com/problems/self-crossing",
+    "topics": [
+      "Array",
+      "Math",
+      "Geometry"
+    ]
+  },
+  {
+    "id": "unique-paths-ii",
+    "title": "Unique Paths II",
+    "difficulty": "Medium",
+    "frequency": 58.9,
+    "acceptance": 0.4315430597653034,
+    "link": "https://leetcode.com/problems/unique-paths-ii",
+    "topics": [
+      "Array",
+      "Dynamic Programming",
+      "Matrix"
+    ]
+  },
+  {
+    "id": "jump-game-ii",
+    "title": "Jump Game II",
+    "difficulty": "Medium",
+    "frequency": 58.9,
+    "acceptance": 0.41503414711178893,
+    "link": "https://leetcode.com/problems/jump-game-ii",
+    "topics": [
+      "Array",
+      "Dynamic Programming",
+      "Greedy"
+    ]
+  },
+  {
+    "id": "two-sum-ii-input-array-is-sorted",
+    "title": "Two Sum II - Input Array Is Sorted",
+    "difficulty": "Medium",
+    "frequency": 58.9,
+    "acceptance": 0.6340229223902094,
+    "link": "https://leetcode.com/problems/two-sum-ii-input-array-is-sorted",
+    "topics": [
+      "Array",
+      "Two Pointers",
+      "Binary Search"
+    ]
+  },
+  {
+    "id": "snakes-and-ladders",
+    "title": "Snakes and Ladders",
+    "difficulty": "Medium",
+    "frequency": 58.9,
+    "acceptance": 0.4779536693986003,
+    "link": "https://leetcode.com/problems/snakes-and-ladders",
+    "topics": [
+      "Array",
+      "Breadth-First Search",
+      "Matrix"
+    ]
+  },
+  {
+    "id": "maximum-subarray",
+    "title": "Maximum Subarray",
+    "difficulty": "Medium",
+    "frequency": 58.9,
+    "acceptance": 0.5209982621027541,
+    "link": "https://leetcode.com/problems/maximum-subarray",
+    "topics": [
+      "Array",
+      "Divide and Conquer",
+      "Dynamic Programming"
+    ]
+  }
+]

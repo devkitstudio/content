@@ -1,0 +1,38 @@
+[
+  {
+    "id": "integer-to-english-words",
+    "title": "Integer to English Words",
+    "difficulty": "Hard",
+    "frequency": 100,
+    "acceptance": 0.34355110873263656,
+    "link": "https://leetcode.com/problems/integer-to-english-words",
+    "topics": [
+      "Math",
+      "String",
+      "Recursion"
+    ]
+  },
+  {
+    "id": "min-stack",
+    "title": "Min Stack",
+    "difficulty": "Medium",
+    "frequency": 100,
+    "acceptance": 0.5644523506962699,
+    "link": "https://leetcode.com/problems/min-stack",
+    "topics": [
+      "Stack",
+      "Design"
+    ]
+  },
+  {
+    "id": "consecutive-numbers",
+    "title": "Consecutive Numbers",
+    "difficulty": "Medium",
+    "frequency": 100,
+    "acceptance": 0.4609716905528051,
+    "link": "https://leetcode.com/problems/consecutive-numbers",
+    "topics": [
+      "Database"
+    ]
+  }
+]

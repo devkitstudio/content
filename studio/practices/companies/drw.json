@@ -1,0 +1,115 @@
+[
+  {
+    "id": "subsequence-of-size-k-with-the-largest-even-sum",
+    "title": "Subsequence of Size K With the Largest Even Sum",
+    "difficulty": "Medium",
+    "frequency": 100,
+    "acceptance": 0.35591489361702133,
+    "link": "https://leetcode.com/problems/subsequence-of-size-k-with-the-largest-even-sum",
+    "topics": [
+      "Array",
+      "Greedy",
+      "Sorting"
+    ]
+  },
+  {
+    "id": "counting-elements",
+    "title": "Counting Elements",
+    "difficulty": "Easy",
+    "frequency": 100,
+    "acceptance": 0.6046223903768713,
+    "link": "https://leetcode.com/problems/counting-elements",
+    "topics": [
+      "Array",
+      "Hash Table"
+    ]
+  },
+  {
+    "id": "maximize-score-after-pair-deletions",
+    "title": "Maximize Score After Pair Deletions",
+    "difficulty": "Medium",
+    "frequency": 100,
+    "acceptance": 0.6062992125984252,
+    "link": "https://leetcode.com/problems/maximize-score-after-pair-deletions",
+    "topics": [
+      "Array",
+      "Greedy"
+    ]
+  },
+  {
+    "id": "best-time-to-buy-and-sell-stock",
+    "title": "Best Time to Buy and Sell Stock",
+    "difficulty": "Easy",
+    "frequency": 79.6,
+    "acceptance": 0.5525966929197105,
+    "link": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock",
+    "topics": [
+      "Array",
+      "Dynamic Programming"
+    ]
+  },
+  {
+    "id": "remove-duplicate-letters",
+    "title": "Remove Duplicate Letters",
+    "difficulty": "Medium",
+    "frequency": 73.2,
+    "acceptance": 0.5135128285840808,
+    "link": "https://leetcode.com/problems/remove-duplicate-letters",
+    "topics": [
+      "String",
+      "Stack",
+      "Greedy",
+      "Monotonic Stack"
+    ]
+  },
+  {
+    "id": "minimum-fuel-cost-to-report-to-the-capital",
+    "title": "Minimum Fuel Cost to Report to the Capital",
+    "difficulty": "Medium",
+    "frequency": 64.2,
+    "acceptance": 0.6435778675036323,
+    "link": "https://leetcode.com/problems/minimum-fuel-cost-to-report-to-the-capital",
+    "topics": [
+      "Tree",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Graph"
+    ]
+  },
+  {
+    "id": "reorder-routes-to-make-all-paths-lead-to-the-city-zero",
+    "title": "Reorder Routes to Make All Paths Lead to the City Zero",
+    "difficulty": "Medium",
+    "frequency": 64.2,
+    "acceptance": 0.6503433212255785,
+    "link": "https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero",
+    "topics": [
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Graph"
+    ]
+  },
+  {
+    "id": "maximal-network-rank",
+    "title": "Maximal Network Rank",
+    "difficulty": "Medium",
+    "frequency": 64.2,
+    "acceptance": 0.6547542413356314,
+    "link": "https://leetcode.com/problems/maximal-network-rank",
+    "topics": [
+      "Graph"
+    ]
+  },
+  {
+    "id": "robot-room-cleaner",
+    "title": "Robot Room Cleaner",
+    "difficulty": "Hard",
+    "frequency": 64.2,
+    "acceptance": 0.7752235506882347,
+    "link": "https://leetcode.com/problems/robot-room-cleaner",
+    "topics": [
+      "Backtracking",
+      "Interactive"
+    ]
+  }
+]

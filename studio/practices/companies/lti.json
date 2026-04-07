@@ -1,0 +1,59 @@
+[
+  {
+    "id": "maximum-white-tiles-covered-by-a-carpet",
+    "title": "Maximum White Tiles Covered by a Carpet",
+    "difficulty": "Medium",
+    "frequency": 100,
+    "acceptance": 0.34957825679475163,
+    "link": "https://leetcode.com/problems/maximum-white-tiles-covered-by-a-carpet",
+    "topics": [
+      "Array",
+      "Binary Search",
+      "Greedy",
+      "Sliding Window",
+      "Sorting",
+      "Prefix Sum"
+    ]
+  },
+  {
+    "id": "reverse-integer",
+    "title": "Reverse Integer",
+    "difficulty": "Medium",
+    "frequency": 88.8,
+    "acceptance": 0.3030900694104915,
+    "link": "https://leetcode.com/problems/reverse-integer",
+    "topics": [
+      "Math"
+    ]
+  },
+  {
+    "id": "closest-subsequence-sum",
+    "title": "Closest Subsequence Sum",
+    "difficulty": "Hard",
+    "frequency": 88.8,
+    "acceptance": 0.4160445423134075,
+    "link": "https://leetcode.com/problems/closest-subsequence-sum",
+    "topics": [
+      "Array",
+      "Two Pointers",
+      "Dynamic Programming",
+      "Bit Manipulation",
+      "Sorting",
+      "Bitmask"
+    ]
+  },
+  {
+    "id": "count-zero-request-servers",
+    "title": "Count Zero Request Servers",
+    "difficulty": "Medium",
+    "frequency": 88.8,
+    "acceptance": 0.3412006497165777,
+    "link": "https://leetcode.com/problems/count-zero-request-servers",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "Sliding Window",
+      "Sorting"
+    ]
+  }
+]

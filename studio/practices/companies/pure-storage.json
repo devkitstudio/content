@@ -1,0 +1,93 @@
+[
+  {
+    "id": "valid-square",
+    "title": "Valid Square",
+    "difficulty": "Medium",
+    "frequency": 100,
+    "acceptance": 0.44270069622707714,
+    "link": "https://leetcode.com/problems/valid-square",
+    "topics": [
+      "Math",
+      "Geometry"
+    ]
+  },
+  {
+    "id": "palindromic-substrings",
+    "title": "Palindromic Substrings",
+    "difficulty": "Medium",
+    "frequency": 85.9,
+    "acceptance": 0.7167801410578343,
+    "link": "https://leetcode.com/problems/palindromic-substrings",
+    "topics": [
+      "Two Pointers",
+      "String",
+      "Dynamic Programming"
+    ]
+  },
+  {
+    "id": "design-skiplist",
+    "title": "Design Skiplist",
+    "difficulty": "Hard",
+    "frequency": 84.1,
+    "acceptance": 0.5807262117036797,
+    "link": "https://leetcode.com/problems/design-skiplist",
+    "topics": [
+      "Linked List",
+      "Design"
+    ]
+  },
+  {
+    "id": "maximum-repeating-substring",
+    "title": "Maximum Repeating Substring",
+    "difficulty": "Easy",
+    "frequency": 70.9,
+    "acceptance": 0.3962144463908421,
+    "link": "https://leetcode.com/problems/maximum-repeating-substring",
+    "topics": [
+      "String",
+      "Dynamic Programming",
+      "String Matching"
+    ]
+  },
+  {
+    "id": "longest-palindromic-substring",
+    "title": "Longest Palindromic Substring",
+    "difficulty": "Medium",
+    "frequency": 66.6,
+    "acceptance": 0.3584616076719246,
+    "link": "https://leetcode.com/problems/longest-palindromic-substring",
+    "topics": [
+      "Two Pointers",
+      "String",
+      "Dynamic Programming"
+    ]
+  },
+  {
+    "id": "longest-increasing-subsequence",
+    "title": "Longest Increasing Subsequence",
+    "difficulty": "Medium",
+    "frequency": 61.2,
+    "acceptance": 0.5780838360568359,
+    "link": "https://leetcode.com/problems/longest-increasing-subsequence",
+    "topics": [
+      "Array",
+      "Binary Search",
+      "Dynamic Programming"
+    ]
+  },
+  {
+    "id": "insert-delete-getrandom-o1",
+    "title": "Insert Delete GetRandom O(1)",
+    "difficulty": "Medium",
+    "frequency": 61.2,
+    "acceptance": 0.5499193187657342,
+    "link": "https://leetcode.com/problems/insert-delete-getrandom-o1",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "Math",
+      "Design",
+      "Randomized"
+    ]
+  }
+]

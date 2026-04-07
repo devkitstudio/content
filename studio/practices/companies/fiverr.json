@@ -1,0 +1,29 @@
+[
+  {
+    "id": "subsets",
+    "title": "Subsets",
+    "difficulty": "Medium",
+    "frequency": 100,
+    "acceptance": 0.8088409592039686,
+    "link": "https://leetcode.com/problems/subsets",
+    "topics": [
+      "Array",
+      "Backtracking",
+      "Bit Manipulation"
+    ]
+  },
+  {
+    "id": "lru-cache",
+    "title": "LRU Cache",
+    "difficulty": "Medium",
+    "frequency": 90.4,
+    "acceptance": 0.4522013852374381,
+    "link": "https://leetcode.com/problems/lru-cache",
+    "topics": [
+      "Hash Table",
+      "Linked List",
+      "Design",
+      "Doubly-Linked List"
+    ]
+  }
+]

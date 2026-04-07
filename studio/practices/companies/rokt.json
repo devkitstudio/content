@@ -1,0 +1,54 @@
+[
+  {
+    "id": "valid-word-abbreviation",
+    "title": "Valid Word Abbreviation",
+    "difficulty": "Easy",
+    "frequency": 100,
+    "acceptance": 0.3685055436012594,
+    "link": "https://leetcode.com/problems/valid-word-abbreviation",
+    "topics": [
+      "Two Pointers",
+      "String"
+    ]
+  },
+  {
+    "id": "basic-calculator-ii",
+    "title": "Basic Calculator II",
+    "difficulty": "Medium",
+    "frequency": 100,
+    "acceptance": 0.45814504533383427,
+    "link": "https://leetcode.com/problems/basic-calculator-ii",
+    "topics": [
+      "Math",
+      "String",
+      "Stack"
+    ]
+  },
+  {
+    "id": "basic-calculator",
+    "title": "Basic Calculator",
+    "difficulty": "Hard",
+    "frequency": 100,
+    "acceptance": 0.4559254553283655,
+    "link": "https://leetcode.com/problems/basic-calculator",
+    "topics": [
+      "Math",
+      "String",
+      "Stack",
+      "Recursion"
+    ]
+  },
+  {
+    "id": "valid-anagram",
+    "title": "Valid Anagram",
+    "difficulty": "Easy",
+    "frequency": 89.8,
+    "acceptance": 0.6666401211137414,
+    "link": "https://leetcode.com/problems/valid-anagram",
+    "topics": [
+      "Hash Table",
+      "String",
+      "Sorting"
+    ]
+  }
+]

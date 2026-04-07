@@ -1,0 +1,68 @@
+[
+  {
+    "id": "find-mirror-score-of-a-string",
+    "title": "Find Mirror Score of a String",
+    "difficulty": "Medium",
+    "frequency": 100,
+    "acceptance": 0.33931992710166825,
+    "link": "https://leetcode.com/problems/find-mirror-score-of-a-string",
+    "topics": [
+      "Hash Table",
+      "String",
+      "Stack",
+      "Simulation"
+    ]
+  },
+  {
+    "id": "zigzag-conversion",
+    "title": "Zigzag Conversion",
+    "difficulty": "Medium",
+    "frequency": 74,
+    "acceptance": 0.516106229324453,
+    "link": "https://leetcode.com/problems/zigzag-conversion",
+    "topics": [
+      "String"
+    ]
+  },
+  {
+    "id": "trapping-rain-water",
+    "title": "Trapping Rain Water",
+    "difficulty": "Hard",
+    "frequency": 74,
+    "acceptance": 0.6510864354564603,
+    "link": "https://leetcode.com/problems/trapping-rain-water",
+    "topics": [
+      "Array",
+      "Two Pointers",
+      "Dynamic Programming",
+      "Stack",
+      "Monotonic Stack"
+    ]
+  },
+  {
+    "id": "best-time-to-buy-and-sell-stock",
+    "title": "Best Time to Buy and Sell Stock",
+    "difficulty": "Easy",
+    "frequency": 65.2,
+    "acceptance": 0.5526330287665571,
+    "link": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock",
+    "topics": [
+      "Array",
+      "Dynamic Programming"
+    ]
+  },
+  {
+    "id": "minimum-time-difference",
+    "title": "Minimum Time Difference",
+    "difficulty": "Medium",
+    "frequency": 65.2,
+    "acceptance": 0.623534335935315,
+    "link": "https://leetcode.com/problems/minimum-time-difference",
+    "topics": [
+      "Array",
+      "Math",
+      "String",
+      "Sorting"
+    ]
+  }
+]

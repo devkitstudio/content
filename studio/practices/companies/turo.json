@@ -1,0 +1,69 @@
+[
+  {
+    "id": "meeting-rooms-ii",
+    "title": "Meeting Rooms II",
+    "difficulty": "Medium",
+    "frequency": 100,
+    "acceptance": 0.5214233389386647,
+    "link": "https://leetcode.com/problems/meeting-rooms-ii",
+    "topics": [
+      "Array",
+      "Two Pointers",
+      "Greedy",
+      "Sorting",
+      "Heap (Priority Queue)",
+      "Prefix Sum"
+    ]
+  },
+  {
+    "id": "lru-cache",
+    "title": "LRU Cache",
+    "difficulty": "Medium",
+    "frequency": 94.8,
+    "acceptance": 0.45220060792334105,
+    "link": "https://leetcode.com/problems/lru-cache",
+    "topics": [
+      "Hash Table",
+      "Linked List",
+      "Design",
+      "Doubly-Linked List"
+    ]
+  },
+  {
+    "id": "meeting-rooms",
+    "title": "Meeting Rooms",
+    "difficulty": "Easy",
+    "frequency": 88.1,
+    "acceptance": 0.5894747413879683,
+    "link": "https://leetcode.com/problems/meeting-rooms",
+    "topics": [
+      "Array",
+      "Sorting"
+    ]
+  },
+  {
+    "id": "longest-palindromic-substring",
+    "title": "Longest Palindromic Substring",
+    "difficulty": "Medium",
+    "frequency": 78.6,
+    "acceptance": 0.3585065915691926,
+    "link": "https://leetcode.com/problems/longest-palindromic-substring",
+    "topics": [
+      "Two Pointers",
+      "String",
+      "Dynamic Programming"
+    ]
+  },
+  {
+    "id": "number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold",
+    "title": "Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold",
+    "difficulty": "Medium",
+    "frequency": 78.6,
+    "acceptance": 0.7023805449487369,
+    "link": "https://leetcode.com/problems/number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold",
+    "topics": [
+      "Array",
+      "Sliding Window"
+    ]
+  }
+]

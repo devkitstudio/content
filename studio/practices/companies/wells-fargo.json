@@ -1,0 +1,196 @@
+[
+  {
+    "id": "shortest-and-lexicographically-smallest-beautiful-string",
+    "title": "Shortest and Lexicographically Smallest Beautiful String",
+    "difficulty": "Medium",
+    "frequency": 100,
+    "acceptance": 0.3966286564204264,
+    "link": "https://leetcode.com/problems/shortest-and-lexicographically-smallest-beautiful-string",
+    "topics": [
+      "String",
+      "Sliding Window"
+    ]
+  },
+  {
+    "id": "verbal-arithmetic-puzzle",
+    "title": "Verbal Arithmetic Puzzle",
+    "difficulty": "Hard",
+    "frequency": 86,
+    "acceptance": 0.3477800583342335,
+    "link": "https://leetcode.com/problems/verbal-arithmetic-puzzle",
+    "topics": [
+      "Array",
+      "Math",
+      "String",
+      "Backtracking"
+    ]
+  },
+  {
+    "id": "find-the-safest-path-in-a-grid",
+    "title": "Find the Safest Path in a Grid",
+    "difficulty": "Medium",
+    "frequency": 70.1,
+    "acceptance": 0.48397269180754227,
+    "link": "https://leetcode.com/problems/find-the-safest-path-in-a-grid",
+    "topics": [
+      "Array",
+      "Binary Search",
+      "Breadth-First Search",
+      "Union Find",
+      "Heap (Priority Queue)",
+      "Matrix"
+    ]
+  },
+  {
+    "id": "minimizing-array-after-replacing-pairs-with-their-product",
+    "title": "Minimizing Array After Replacing Pairs With Their Product",
+    "difficulty": "Medium",
+    "frequency": 70.1,
+    "acceptance": 0.39923224568138194,
+    "link": "https://leetcode.com/problems/minimizing-array-after-replacing-pairs-with-their-product",
+    "topics": [
+      "Array",
+      "Dynamic Programming",
+      "Greedy"
+    ]
+  },
+  {
+    "id": "maximum-number-of-weeks-for-which-you-can-work",
+    "title": "Maximum Number of Weeks for Which You Can Work",
+    "difficulty": "Medium",
+    "frequency": 70.1,
+    "acceptance": 0.4134942369616901,
+    "link": "https://leetcode.com/problems/maximum-number-of-weeks-for-which-you-can-work",
+    "topics": [
+      "Array",
+      "Greedy"
+    ]
+  },
+  {
+    "id": "count-and-say",
+    "title": "Count and Say",
+    "difficulty": "Medium",
+    "frequency": 60.8,
+    "acceptance": 0.6050669323131879,
+    "link": "https://leetcode.com/problems/count-and-say",
+    "topics": [
+      "String"
+    ]
+  },
+  {
+    "id": "best-time-to-buy-and-sell-stock-ii",
+    "title": "Best Time to Buy and Sell Stock II",
+    "difficulty": "Medium",
+    "frequency": 60.8,
+    "acceptance": 0.6950040034164668,
+    "link": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii",
+    "topics": [
+      "Array",
+      "Dynamic Programming",
+      "Greedy"
+    ]
+  },
+  {
+    "id": "water-and-jug-problem",
+    "title": "Water and Jug Problem",
+    "difficulty": "Medium",
+    "frequency": 60.8,
+    "acceptance": 0.4308700875472949,
+    "link": "https://leetcode.com/problems/water-and-jug-problem",
+    "topics": [
+      "Math",
+      "Depth-First Search",
+      "Breadth-First Search"
+    ]
+  },
+  {
+    "id": "product-of-array-except-self",
+    "title": "Product of Array Except Self",
+    "difficulty": "Medium",
+    "frequency": 60.8,
+    "acceptance": 0.6778006914594543,
+    "link": "https://leetcode.com/problems/product-of-array-except-self",
+    "topics": [
+      "Array",
+      "Prefix Sum"
+    ]
+  },
+  {
+    "id": "rotate-string",
+    "title": "Rotate String",
+    "difficulty": "Easy",
+    "frequency": 60.8,
+    "acceptance": 0.6393953917504719,
+    "link": "https://leetcode.com/problems/rotate-string",
+    "topics": [
+      "String",
+      "String Matching"
+    ]
+  },
+  {
+    "id": "merge-strings-alternately",
+    "title": "Merge Strings Alternately",
+    "difficulty": "Easy",
+    "frequency": 60.8,
+    "acceptance": 0.8222980560828816,
+    "link": "https://leetcode.com/problems/merge-strings-alternately",
+    "topics": [
+      "Two Pointers",
+      "String"
+    ]
+  },
+  {
+    "id": "kth-largest-element-in-a-stream",
+    "title": "Kth Largest Element in a Stream",
+    "difficulty": "Easy",
+    "frequency": 60.8,
+    "acceptance": 0.5985294841468605,
+    "link": "https://leetcode.com/problems/kth-largest-element-in-a-stream",
+    "topics": [
+      "Tree",
+      "Design",
+      "Binary Search Tree",
+      "Heap (Priority Queue)",
+      "Binary Tree",
+      "Data Stream"
+    ]
+  },
+  {
+    "id": "spiral-matrix",
+    "title": "Spiral Matrix",
+    "difficulty": "Medium",
+    "frequency": 60.8,
+    "acceptance": 0.539398836789508,
+    "link": "https://leetcode.com/problems/spiral-matrix",
+    "topics": [
+      "Array",
+      "Matrix",
+      "Simulation"
+    ]
+  },
+  {
+    "id": "3sum",
+    "title": "3Sum",
+    "difficulty": "Medium",
+    "frequency": 60.8,
+    "acceptance": 0.37071090682027424,
+    "link": "https://leetcode.com/problems/3sum",
+    "topics": [
+      "Array",
+      "Two Pointers",
+      "Sorting"
+    ]
+  },
+  {
+    "id": "longest-common-prefix",
+    "title": "Longest Common Prefix",
+    "difficulty": "Easy",
+    "frequency": 60.8,
+    "acceptance": 0.4548317594843367,
+    "link": "https://leetcode.com/problems/longest-common-prefix",
+    "topics": [
+      "String",
+      "Trie"
+    ]
+  }
+]

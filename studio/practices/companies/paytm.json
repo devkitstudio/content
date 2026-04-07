@@ -1,0 +1,382 @@
+[
+  {
+    "id": "remove-all-adjacent-duplicates-in-string",
+    "title": "Remove All Adjacent Duplicates In String",
+    "difficulty": "Easy",
+    "frequency": 100,
+    "acceptance": 0.715875534292082,
+    "link": "https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string",
+    "topics": [
+      "String",
+      "Stack"
+    ]
+  },
+  {
+    "id": "minimize-maximum-of-array",
+    "title": "Minimize Maximum of Array",
+    "difficulty": "Medium",
+    "frequency": 97.6,
+    "acceptance": 0.4642315393483405,
+    "link": "https://leetcode.com/problems/minimize-maximum-of-array",
+    "topics": [
+      "Array",
+      "Binary Search",
+      "Dynamic Programming",
+      "Greedy",
+      "Prefix Sum"
+    ]
+  },
+  {
+    "id": "number-of-unequal-triplets-in-array",
+    "title": "Number of Unequal Triplets in Array",
+    "difficulty": "Easy",
+    "frequency": 97.6,
+    "acceptance": 0.7265003738190717,
+    "link": "https://leetcode.com/problems/number-of-unequal-triplets-in-array",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "Sorting"
+    ]
+  },
+  {
+    "id": "find-indices-with-index-and-value-difference-i",
+    "title": "Find Indices With Index and Value Difference I",
+    "difficulty": "Easy",
+    "frequency": 97.6,
+    "acceptance": 0.6026607149574311,
+    "link": "https://leetcode.com/problems/find-indices-with-index-and-value-difference-i",
+    "topics": [
+      "Array",
+      "Two Pointers"
+    ]
+  },
+  {
+    "id": "find-indices-with-index-and-value-difference-ii",
+    "title": "Find Indices With Index and Value Difference II",
+    "difficulty": "Medium",
+    "frequency": 97.6,
+    "acceptance": 0.3175419892149137,
+    "link": "https://leetcode.com/problems/find-indices-with-index-and-value-difference-ii",
+    "topics": [
+      "Array",
+      "Two Pointers"
+    ]
+  },
+  {
+    "id": "longest-nice-subarray",
+    "title": "Longest Nice Subarray",
+    "difficulty": "Medium",
+    "frequency": 97.6,
+    "acceptance": 0.6482945846552078,
+    "link": "https://leetcode.com/problems/longest-nice-subarray",
+    "topics": [
+      "Array",
+      "Bit Manipulation",
+      "Sliding Window"
+    ]
+  },
+  {
+    "id": "min-stack",
+    "title": "Min Stack",
+    "difficulty": "Medium",
+    "frequency": 94.9,
+    "acceptance": 0.5644518859966641,
+    "link": "https://leetcode.com/problems/min-stack",
+    "topics": [
+      "Stack",
+      "Design"
+    ]
+  },
+  {
+    "id": "number-of-divisible-substrings",
+    "title": "Number of Divisible Substrings",
+    "difficulty": "Medium",
+    "frequency": 80.2,
+    "acceptance": 0.734086999262718,
+    "link": "https://leetcode.com/problems/number-of-divisible-substrings",
+    "topics": [
+      "Hash Table",
+      "String",
+      "Counting",
+      "Prefix Sum"
+    ]
+  },
+  {
+    "id": "linked-list-cycle-ii",
+    "title": "Linked List Cycle II",
+    "difficulty": "Medium",
+    "frequency": 80.2,
+    "acceptance": 0.5493371897962611,
+    "link": "https://leetcode.com/problems/linked-list-cycle-ii",
+    "topics": [
+      "Hash Table",
+      "Linked List",
+      "Two Pointers"
+    ]
+  },
+  {
+    "id": "valid-parentheses",
+    "title": "Valid Parentheses",
+    "difficulty": "Easy",
+    "frequency": 74.6,
+    "acceptance": 0.42322863253944365,
+    "link": "https://leetcode.com/problems/valid-parentheses",
+    "topics": [
+      "String",
+      "Stack"
+    ]
+  },
+  {
+    "id": "container-with-most-water",
+    "title": "Container With Most Water",
+    "difficulty": "Medium",
+    "frequency": 74.6,
+    "acceptance": 0.5778288104589794,
+    "link": "https://leetcode.com/problems/container-with-most-water",
+    "topics": [
+      "Array",
+      "Two Pointers",
+      "Greedy"
+    ]
+  },
+  {
+    "id": "two-sum",
+    "title": "Two Sum",
+    "difficulty": "Easy",
+    "frequency": 67.3,
+    "acceptance": 0.5577699822379825,
+    "link": "https://leetcode.com/problems/two-sum",
+    "topics": [
+      "Array",
+      "Hash Table"
+    ]
+  },
+  {
+    "id": "reverse-words-in-a-string",
+    "title": "Reverse Words in a String",
+    "difficulty": "Medium",
+    "frequency": 67.3,
+    "acceptance": 0.5191333530123619,
+    "link": "https://leetcode.com/problems/reverse-words-in-a-string",
+    "topics": [
+      "Two Pointers",
+      "String"
+    ]
+  },
+  {
+    "id": "longest-palindromic-substring",
+    "title": "Longest Palindromic Substring",
+    "difficulty": "Medium",
+    "frequency": 67.3,
+    "acceptance": 0.35846128129286803,
+    "link": "https://leetcode.com/problems/longest-palindromic-substring",
+    "topics": [
+      "Two Pointers",
+      "String",
+      "Dynamic Programming"
+    ]
+  },
+  {
+    "id": "next-permutation",
+    "title": "Next Permutation",
+    "difficulty": "Medium",
+    "frequency": 67.3,
+    "acceptance": 0.43057739636737774,
+    "link": "https://leetcode.com/problems/next-permutation",
+    "topics": [
+      "Array",
+      "Two Pointers"
+    ]
+  },
+  {
+    "id": "longest-substring-without-repeating-characters",
+    "title": "Longest Substring Without Repeating Characters",
+    "difficulty": "Medium",
+    "frequency": 67.3,
+    "acceptance": 0.36936143087114587,
+    "link": "https://leetcode.com/problems/longest-substring-without-repeating-characters",
+    "topics": [
+      "Hash Table",
+      "String",
+      "Sliding Window"
+    ]
+  },
+  {
+    "id": "3sum",
+    "title": "3Sum",
+    "difficulty": "Medium",
+    "frequency": 67.3,
+    "acceptance": 0.37071015514038136,
+    "link": "https://leetcode.com/problems/3sum",
+    "topics": [
+      "Array",
+      "Two Pointers",
+      "Sorting"
+    ]
+  },
+  {
+    "id": "word-search",
+    "title": "Word Search",
+    "difficulty": "Medium",
+    "frequency": 57.2,
+    "acceptance": 0.45267022679743557,
+    "link": "https://leetcode.com/problems/word-search",
+    "topics": [
+      "Array",
+      "String",
+      "Backtracking",
+      "Depth-First Search",
+      "Matrix"
+    ]
+  },
+  {
+    "id": "largest-number",
+    "title": "Largest Number",
+    "difficulty": "Medium",
+    "frequency": 57.2,
+    "acceptance": 0.4128051169745967,
+    "link": "https://leetcode.com/problems/largest-number",
+    "topics": [
+      "Array",
+      "String",
+      "Greedy",
+      "Sorting"
+    ]
+  },
+  {
+    "id": "reverse-linked-list",
+    "title": "Reverse Linked List",
+    "difficulty": "Easy",
+    "frequency": 57.2,
+    "acceptance": 0.7920660065062484,
+    "link": "https://leetcode.com/problems/reverse-linked-list",
+    "topics": [
+      "Linked List",
+      "Recursion"
+    ]
+  },
+  {
+    "id": "trapping-rain-water",
+    "title": "Trapping Rain Water",
+    "difficulty": "Hard",
+    "frequency": 57.2,
+    "acceptance": 0.6510205336424274,
+    "link": "https://leetcode.com/problems/trapping-rain-water",
+    "topics": [
+      "Array",
+      "Two Pointers",
+      "Dynamic Programming",
+      "Stack",
+      "Monotonic Stack"
+    ]
+  },
+  {
+    "id": "execute-asynchronous-functions-in-parallel",
+    "title": "Execute Asynchronous Functions in Parallel",
+    "difficulty": "Medium",
+    "frequency": 57.2,
+    "acceptance": 0.7767537485378044,
+    "link": "https://leetcode.com/problems/execute-asynchronous-functions-in-parallel",
+    "topics": []
+  },
+  {
+    "id": "longest-consecutive-sequence",
+    "title": "Longest Consecutive Sequence",
+    "difficulty": "Medium",
+    "frequency": 57.2,
+    "acceptance": 0.470408901290127,
+    "link": "https://leetcode.com/problems/longest-consecutive-sequence",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "Union Find"
+    ]
+  },
+  {
+    "id": "second-highest-salary",
+    "title": "Second Highest Salary",
+    "difficulty": "Medium",
+    "frequency": 57.2,
+    "acceptance": 0.4386521416285213,
+    "link": "https://leetcode.com/problems/second-highest-salary",
+    "topics": [
+      "Database"
+    ]
+  },
+  {
+    "id": "product-of-array-except-self",
+    "title": "Product of Array Except Self",
+    "difficulty": "Medium",
+    "frequency": 57.2,
+    "acceptance": 0.6778002355055325,
+    "link": "https://leetcode.com/problems/product-of-array-except-self",
+    "topics": [
+      "Array",
+      "Prefix Sum"
+    ]
+  },
+  {
+    "id": "best-time-to-buy-and-sell-stock-ii",
+    "title": "Best Time to Buy and Sell Stock II",
+    "difficulty": "Medium",
+    "frequency": 57.2,
+    "acceptance": 0.6950034213804929,
+    "link": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii",
+    "topics": [
+      "Array",
+      "Dynamic Programming",
+      "Greedy"
+    ]
+  },
+  {
+    "id": "string-compression",
+    "title": "String Compression",
+    "difficulty": "Medium",
+    "frequency": 57.2,
+    "acceptance": 0.580915717497265,
+    "link": "https://leetcode.com/problems/string-compression",
+    "topics": [
+      "Two Pointers",
+      "String"
+    ]
+  },
+  {
+    "id": "sum-of-subarray-minimums",
+    "title": "Sum of Subarray Minimums",
+    "difficulty": "Medium",
+    "frequency": 57.2,
+    "acceptance": 0.3762351166424223,
+    "link": "https://leetcode.com/problems/sum-of-subarray-minimums",
+    "topics": [
+      "Array",
+      "Dynamic Programming",
+      "Stack",
+      "Monotonic Stack"
+    ]
+  },
+  {
+    "id": "search-in-rotated-sorted-array",
+    "title": "Search in Rotated Sorted Array",
+    "difficulty": "Medium",
+    "frequency": 57.2,
+    "acceptance": 0.42837245101359217,
+    "link": "https://leetcode.com/problems/search-in-rotated-sorted-array",
+    "topics": [
+      "Array",
+      "Binary Search"
+    ]
+  },
+  {
+    "id": "find-minimum-in-rotated-sorted-array",
+    "title": "Find Minimum in Rotated Sorted Array",
+    "difficulty": "Medium",
+    "frequency": 57.2,
+    "acceptance": 0.52648304766644,
+    "link": "https://leetcode.com/problems/find-minimum-in-rotated-sorted-array",
+    "topics": [
+      "Array",
+      "Binary Search"
+    ]
+  }
+]

@@ -1,0 +1,86 @@
+[
+  {
+    "id": "distribute-candies",
+    "title": "Distribute Candies",
+    "difficulty": "Easy",
+    "frequency": 100,
+    "acceptance": 0.6959871853952141,
+    "link": "https://leetcode.com/problems/distribute-candies",
+    "topics": [
+      "Array",
+      "Hash Table"
+    ]
+  },
+  {
+    "id": "shortest-unsorted-continuous-subarray",
+    "title": "Shortest Unsorted Continuous Subarray",
+    "difficulty": "Medium",
+    "frequency": 100,
+    "acceptance": 0.374372285365029,
+    "link": "https://leetcode.com/problems/shortest-unsorted-continuous-subarray",
+    "topics": [
+      "Array",
+      "Two Pointers",
+      "Stack",
+      "Greedy",
+      "Sorting",
+      "Monotonic Stack"
+    ]
+  },
+  {
+    "id": "longest-harmonious-subsequence",
+    "title": "Longest Harmonious Subsequence",
+    "difficulty": "Easy",
+    "frequency": 100,
+    "acceptance": 0.5731264149524798,
+    "link": "https://leetcode.com/problems/longest-harmonious-subsequence",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "Sliding Window",
+      "Sorting",
+      "Counting"
+    ]
+  },
+  {
+    "id": "largest-time-for-given-digits",
+    "title": "Largest Time for Given Digits",
+    "difficulty": "Medium",
+    "frequency": 100,
+    "acceptance": 0.3552946699381283,
+    "link": "https://leetcode.com/problems/largest-time-for-given-digits",
+    "topics": [
+      "Array",
+      "String",
+      "Backtracking",
+      "Enumeration"
+    ]
+  },
+  {
+    "id": "longest-palindromic-substring",
+    "title": "Longest Palindromic Substring",
+    "difficulty": "Medium",
+    "frequency": 65.1,
+    "acceptance": 0.35846273258355105,
+    "link": "https://leetcode.com/problems/longest-palindromic-substring",
+    "topics": [
+      "Two Pointers",
+      "String",
+      "Dynamic Programming"
+    ]
+  },
+  {
+    "id": "course-schedule",
+    "title": "Course Schedule",
+    "difficulty": "Medium",
+    "frequency": 65.1,
+    "acceptance": 0.4923459818443362,
+    "link": "https://leetcode.com/problems/course-schedule",
+    "topics": [
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Graph",
+      "Topological Sort"
+    ]
+  }
+]

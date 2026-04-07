@@ -1,0 +1,207 @@
+[
+  {
+    "id": "text-justification",
+    "title": "Text Justification",
+    "difficulty": "Hard",
+    "frequency": 100,
+    "acceptance": 0.48150026993726713,
+    "link": "https://leetcode.com/problems/text-justification",
+    "topics": [
+      "Array",
+      "String",
+      "Simulation"
+    ]
+  },
+  {
+    "id": "check-if-every-row-and-column-contains-all-numbers",
+    "title": "Check if Every Row and Column Contains All Numbers",
+    "difficulty": "Easy",
+    "frequency": 89.6,
+    "acceptance": 0.528410934019593,
+    "link": "https://leetcode.com/problems/check-if-every-row-and-column-contains-all-numbers",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "Matrix"
+    ]
+  },
+  {
+    "id": "find-words-that-can-be-formed-by-characters",
+    "title": "Find Words That Can Be Formed by Characters",
+    "difficulty": "Easy",
+    "frequency": 88.5,
+    "acceptance": 0.7106798822031877,
+    "link": "https://leetcode.com/problems/find-words-that-can-be-formed-by-characters",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "String",
+      "Counting"
+    ]
+  },
+  {
+    "id": "word-search",
+    "title": "Word Search",
+    "difficulty": "Medium",
+    "frequency": 86.1,
+    "acceptance": 0.45267020648967554,
+    "link": "https://leetcode.com/problems/word-search",
+    "topics": [
+      "Array",
+      "String",
+      "Backtracking",
+      "Depth-First Search",
+      "Matrix"
+    ]
+  },
+  {
+    "id": "alert-using-same-key-card-three-or-more-times-in-a-one-hour-period",
+    "title": "Alert Using Same Key-Card Three or More Times in a One Hour Period",
+    "difficulty": "Medium",
+    "frequency": 80.2,
+    "acceptance": 0.4587327987118235,
+    "link": "https://leetcode.com/problems/alert-using-same-key-card-three-or-more-times-in-a-one-hour-period",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "String",
+      "Sorting"
+    ]
+  },
+  {
+    "id": "course-schedule",
+    "title": "Course Schedule",
+    "difficulty": "Medium",
+    "frequency": 60.9,
+    "acceptance": 0.4923436346305696,
+    "link": "https://leetcode.com/problems/course-schedule",
+    "topics": [
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Graph",
+      "Topological Sort"
+    ]
+  },
+  {
+    "id": "ransom-note",
+    "title": "Ransom Note",
+    "difficulty": "Easy",
+    "frequency": 60.9,
+    "acceptance": 0.645236720828959,
+    "link": "https://leetcode.com/problems/ransom-note",
+    "topics": [
+      "Hash Table",
+      "String",
+      "Counting"
+    ]
+  },
+  {
+    "id": "valid-sudoku",
+    "title": "Valid Sudoku",
+    "difficulty": "Medium",
+    "frequency": 55.4,
+    "acceptance": 0.6227680872343923,
+    "link": "https://leetcode.com/problems/valid-sudoku",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "Matrix"
+    ]
+  },
+  {
+    "id": "number-of-islands",
+    "title": "Number of Islands",
+    "difficulty": "Medium",
+    "frequency": 55.4,
+    "acceptance": 0.6232011443676149,
+    "link": "https://leetcode.com/problems/number-of-islands",
+    "topics": [
+      "Array",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Union Find",
+      "Matrix"
+    ]
+  },
+  {
+    "id": "maximal-square",
+    "title": "Maximal Square",
+    "difficulty": "Medium",
+    "frequency": 55.4,
+    "acceptance": 0.48761160727552844,
+    "link": "https://leetcode.com/problems/maximal-square",
+    "topics": [
+      "Array",
+      "Dynamic Programming",
+      "Matrix"
+    ]
+  },
+  {
+    "id": "subdomain-visit-count",
+    "title": "Subdomain Visit Count",
+    "difficulty": "Medium",
+    "frequency": 47.6,
+    "acceptance": 0.7683449765176875,
+    "link": "https://leetcode.com/problems/subdomain-visit-count",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "String",
+      "Counting"
+    ]
+  },
+  {
+    "id": "word-search-ii",
+    "title": "Word Search II",
+    "difficulty": "Hard",
+    "frequency": 47.6,
+    "acceptance": 0.37326320876213087,
+    "link": "https://leetcode.com/problems/word-search-ii",
+    "topics": [
+      "Array",
+      "String",
+      "Backtracking",
+      "Trie",
+      "Matrix"
+    ]
+  },
+  {
+    "id": "course-schedule-ii",
+    "title": "Course Schedule II",
+    "difficulty": "Medium",
+    "frequency": 47.6,
+    "acceptance": 0.5342347455287296,
+    "link": "https://leetcode.com/problems/course-schedule-ii",
+    "topics": [
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Graph",
+      "Topological Sort"
+    ]
+  },
+  {
+    "id": "jump-game",
+    "title": "Jump Game",
+    "difficulty": "Medium",
+    "frequency": 47.6,
+    "acceptance": 0.39479211205555326,
+    "link": "https://leetcode.com/problems/jump-game",
+    "topics": [
+      "Array",
+      "Dynamic Programming",
+      "Greedy"
+    ]
+  },
+  {
+    "id": "two-sum",
+    "title": "Two Sum",
+    "difficulty": "Easy",
+    "frequency": 47.6,
+    "acceptance": 0.5577699688130624,
+    "link": "https://leetcode.com/problems/two-sum",
+    "topics": [
+      "Array",
+      "Hash Table"
+    ]
+  }
+]

@@ -1,0 +1,107 @@
+[
+  {
+    "id": "minimum-number-of-operations-to-make-x-and-y-equal",
+    "title": "Minimum Number of Operations to Make X and Y Equal",
+    "difficulty": "Medium",
+    "frequency": 100,
+    "acceptance": 0.47386300742408916,
+    "link": "https://leetcode.com/problems/minimum-number-of-operations-to-make-x-and-y-equal",
+    "topics": [
+      "Dynamic Programming",
+      "Breadth-First Search",
+      "Memoization"
+    ]
+  },
+  {
+    "id": "best-time-to-buy-and-sell-stock",
+    "title": "Best Time to Buy and Sell Stock",
+    "difficulty": "Easy",
+    "frequency": 73.6,
+    "acceptance": 0.5525969246907348,
+    "link": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock",
+    "topics": [
+      "Array",
+      "Dynamic Programming"
+    ]
+  },
+  {
+    "id": "lru-cache",
+    "title": "LRU Cache",
+    "difficulty": "Medium",
+    "frequency": 64.8,
+    "acceptance": 0.45214965058615664,
+    "link": "https://leetcode.com/problems/lru-cache",
+    "topics": [
+      "Hash Table",
+      "Linked List",
+      "Design",
+      "Doubly-Linked List"
+    ]
+  },
+  {
+    "id": "trapping-rain-water",
+    "title": "Trapping Rain Water",
+    "difficulty": "Hard",
+    "frequency": 64.8,
+    "acceptance": 0.6510220235706903,
+    "link": "https://leetcode.com/problems/trapping-rain-water",
+    "topics": [
+      "Array",
+      "Two Pointers",
+      "Dynamic Programming",
+      "Stack",
+      "Monotonic Stack"
+    ]
+  },
+  {
+    "id": "maximum-good-subarray-sum",
+    "title": "Maximum Good Subarray Sum",
+    "difficulty": "Medium",
+    "frequency": 64.8,
+    "acceptance": 0.20281964321019574,
+    "link": "https://leetcode.com/problems/maximum-good-subarray-sum",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "Prefix Sum"
+    ]
+  },
+  {
+    "id": "best-time-to-buy-and-sell-stock-ii",
+    "title": "Best Time to Buy and Sell Stock II",
+    "difficulty": "Medium",
+    "frequency": 64.8,
+    "acceptance": 0.6950034022729801,
+    "link": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii",
+    "topics": [
+      "Array",
+      "Dynamic Programming",
+      "Greedy"
+    ]
+  },
+  {
+    "id": "best-time-to-buy-and-sell-stock-iii",
+    "title": "Best Time to Buy and Sell Stock III",
+    "difficulty": "Hard",
+    "frequency": 64.8,
+    "acceptance": 0.5112112229150665,
+    "link": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii",
+    "topics": [
+      "Array",
+      "Dynamic Programming"
+    ]
+  },
+  {
+    "id": "sort-colors",
+    "title": "Sort Colors",
+    "difficulty": "Medium",
+    "frequency": 64.8,
+    "acceptance": 0.6758309146279143,
+    "link": "https://leetcode.com/problems/sort-colors",
+    "topics": [
+      "Array",
+      "Two Pointers",
+      "Sorting"
+    ]
+  }
+]

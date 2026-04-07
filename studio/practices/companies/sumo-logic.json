@@ -1,0 +1,55 @@
+[
+  {
+    "id": "satisfiability-of-equality-equations",
+    "title": "Satisfiability of Equality Equations",
+    "difficulty": "Medium",
+    "frequency": 100,
+    "acceptance": 0.5101847530677794,
+    "link": "https://leetcode.com/problems/satisfiability-of-equality-equations",
+    "topics": [
+      "Array",
+      "String",
+      "Union Find",
+      "Graph"
+    ]
+  },
+  {
+    "id": "first-missing-positive",
+    "title": "First Missing Positive",
+    "difficulty": "Hard",
+    "frequency": 66,
+    "acceptance": 0.41084764643539695,
+    "link": "https://leetcode.com/problems/first-missing-positive",
+    "topics": [
+      "Array",
+      "Hash Table"
+    ]
+  },
+  {
+    "id": "flood-fill",
+    "title": "Flood Fill",
+    "difficulty": "Easy",
+    "frequency": 66,
+    "acceptance": 0.6647648139762219,
+    "link": "https://leetcode.com/problems/flood-fill",
+    "topics": [
+      "Array",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Matrix"
+    ]
+  },
+  {
+    "id": "decode-string",
+    "title": "Decode String",
+    "difficulty": "Medium",
+    "frequency": 66,
+    "acceptance": 0.6115276408838193,
+    "link": "https://leetcode.com/problems/decode-string",
+    "topics": [
+      "String",
+      "Stack",
+      "Recursion"
+    ]
+  }
+]

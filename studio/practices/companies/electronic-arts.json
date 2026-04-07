@@ -1,0 +1,41 @@
+[
+  {
+    "id": "wiggle-subsequence",
+    "title": "Wiggle Subsequence",
+    "difficulty": "Medium",
+    "frequency": 100,
+    "acceptance": 0.4884717077094553,
+    "link": "https://leetcode.com/problems/wiggle-subsequence",
+    "topics": [
+      "Array",
+      "Dynamic Programming",
+      "Greedy"
+    ]
+  },
+  {
+    "id": "relative-ranks",
+    "title": "Relative Ranks",
+    "difficulty": "Easy",
+    "frequency": 100,
+    "acceptance": 0.7330859773227,
+    "link": "https://leetcode.com/problems/relative-ranks",
+    "topics": [
+      "Array",
+      "Sorting",
+      "Heap (Priority Queue)"
+    ]
+  },
+  {
+    "id": "is-subsequence",
+    "title": "Is Subsequence",
+    "difficulty": "Easy",
+    "frequency": 100,
+    "acceptance": 0.4838256140732861,
+    "link": "https://leetcode.com/problems/is-subsequence",
+    "topics": [
+      "Two Pointers",
+      "String",
+      "Dynamic Programming"
+    ]
+  }
+]

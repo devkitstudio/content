@@ -1,0 +1,29 @@
+[
+  {
+    "id": "total-cost-to-hire-k-workers",
+    "title": "Total Cost to Hire K Workers",
+    "difficulty": "Medium",
+    "frequency": 100,
+    "acceptance": 0.4310623421785049,
+    "link": "https://leetcode.com/problems/total-cost-to-hire-k-workers",
+    "topics": [
+      "Array",
+      "Two Pointers",
+      "Heap (Priority Queue)",
+      "Simulation"
+    ]
+  },
+  {
+    "id": "maximal-square",
+    "title": "Maximal Square",
+    "difficulty": "Medium",
+    "frequency": 93.3,
+    "acceptance": 0.4876422601899655,
+    "link": "https://leetcode.com/problems/maximal-square",
+    "topics": [
+      "Array",
+      "Dynamic Programming",
+      "Matrix"
+    ]
+  }
+]

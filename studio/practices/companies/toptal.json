@@ -1,0 +1,40 @@
+[
+  {
+    "id": "string-compression-ii",
+    "title": "String Compression II",
+    "difficulty": "Hard",
+    "frequency": 100,
+    "acceptance": 0.5197862858300415,
+    "link": "https://leetcode.com/problems/string-compression-ii",
+    "topics": [
+      "String",
+      "Dynamic Programming"
+    ]
+  },
+  {
+    "id": "airplane-seat-assignment-probability",
+    "title": "Airplane Seat Assignment Probability",
+    "difficulty": "Medium",
+    "frequency": 68.7,
+    "acceptance": 0.6665048936342312,
+    "link": "https://leetcode.com/problems/airplane-seat-assignment-probability",
+    "topics": [
+      "Math",
+      "Dynamic Programming",
+      "Brainteaser",
+      "Probability and Statistics"
+    ]
+  },
+  {
+    "id": "image-smoother",
+    "title": "Image Smoother",
+    "difficulty": "Easy",
+    "frequency": 68.7,
+    "acceptance": 0.6837229689163258,
+    "link": "https://leetcode.com/problems/image-smoother",
+    "topics": [
+      "Array",
+      "Matrix"
+    ]
+  }
+]

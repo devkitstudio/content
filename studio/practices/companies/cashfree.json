@@ -1,0 +1,40 @@
+[
+  {
+    "id": "house-robber-iv",
+    "title": "House Robber IV",
+    "difficulty": "Medium",
+    "frequency": 100,
+    "acceptance": 0.6515789686838721,
+    "link": "https://leetcode.com/problems/house-robber-iv",
+    "topics": [
+      "Array",
+      "Binary Search",
+      "Dynamic Programming",
+      "Greedy"
+    ]
+  },
+  {
+    "id": "maximum-erasure-value",
+    "title": "Maximum Erasure Value",
+    "difficulty": "Medium",
+    "frequency": 100,
+    "acceptance": 0.5942006438410263,
+    "link": "https://leetcode.com/problems/maximum-erasure-value",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "Sliding Window"
+    ]
+  },
+  {
+    "id": "non-decreasing-array",
+    "title": "Non-decreasing Array",
+    "difficulty": "Medium",
+    "frequency": 66.3,
+    "acceptance": 0.25079151841471825,
+    "link": "https://leetcode.com/problems/non-decreasing-array",
+    "topics": [
+      "Array"
+    ]
+  }
+]

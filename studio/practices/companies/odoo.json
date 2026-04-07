@@ -1,0 +1,65 @@
+[
+  {
+    "id": "valid-parentheses",
+    "title": "Valid Parentheses",
+    "difficulty": "Easy",
+    "frequency": 100,
+    "acceptance": 0.4232838963831868,
+    "link": "https://leetcode.com/problems/valid-parentheses",
+    "topics": [
+      "String",
+      "Stack"
+    ]
+  },
+  {
+    "id": "min-stack",
+    "title": "Min Stack",
+    "difficulty": "Medium",
+    "frequency": 94.7,
+    "acceptance": 0.564535276127446,
+    "link": "https://leetcode.com/problems/min-stack",
+    "topics": [
+      "Stack",
+      "Design"
+    ]
+  },
+  {
+    "id": "evaluate-reverse-polish-notation",
+    "title": "Evaluate Reverse Polish Notation",
+    "difficulty": "Medium",
+    "frequency": 78.1,
+    "acceptance": 0.5495723545430139,
+    "link": "https://leetcode.com/problems/evaluate-reverse-polish-notation",
+    "topics": [
+      "Array",
+      "Math",
+      "Stack"
+    ]
+  },
+  {
+    "id": "reverse-string",
+    "title": "Reverse String",
+    "difficulty": "Easy",
+    "frequency": 78.1,
+    "acceptance": 0.7976685574633238,
+    "link": "https://leetcode.com/problems/reverse-string",
+    "topics": [
+      "Two Pointers",
+      "String"
+    ]
+  },
+  {
+    "id": "fair-candy-swap",
+    "title": "Fair Candy Swap",
+    "difficulty": "Easy",
+    "frequency": 78.1,
+    "acceptance": 0.6328457708884947,
+    "link": "https://leetcode.com/problems/fair-candy-swap",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "Binary Search",
+      "Sorting"
+    ]
+  }
+]

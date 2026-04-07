@@ -1,0 +1,295 @@
+[
+  {
+    "id": "maximum-earnings-from-taxi",
+    "title": "Maximum Earnings From Taxi",
+    "difficulty": "Medium",
+    "frequency": 100,
+    "acceptance": 0.4478158965049748,
+    "link": "https://leetcode.com/problems/maximum-earnings-from-taxi",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "Binary Search",
+      "Dynamic Programming",
+      "Sorting"
+    ]
+  },
+  {
+    "id": "asteroid-collision",
+    "title": "Asteroid Collision",
+    "difficulty": "Medium",
+    "frequency": 76.1,
+    "acceptance": 0.4550051349550971,
+    "link": "https://leetcode.com/problems/asteroid-collision",
+    "topics": [
+      "Array",
+      "Stack",
+      "Simulation"
+    ]
+  },
+  {
+    "id": "trapping-rain-water",
+    "title": "Trapping Rain Water",
+    "difficulty": "Hard",
+    "frequency": 69.3,
+    "acceptance": 0.651020475550146,
+    "link": "https://leetcode.com/problems/trapping-rain-water",
+    "topics": [
+      "Array",
+      "Two Pointers",
+      "Dynamic Programming",
+      "Stack",
+      "Monotonic Stack"
+    ]
+  },
+  {
+    "id": "container-with-most-water",
+    "title": "Container With Most Water",
+    "difficulty": "Medium",
+    "frequency": 69.3,
+    "acceptance": 0.5778290777243622,
+    "link": "https://leetcode.com/problems/container-with-most-water",
+    "topics": [
+      "Array",
+      "Two Pointers",
+      "Greedy"
+    ]
+  },
+  {
+    "id": "rotting-oranges",
+    "title": "Rotting Oranges",
+    "difficulty": "Medium",
+    "frequency": 69.3,
+    "acceptance": 0.5661860286407837,
+    "link": "https://leetcode.com/problems/rotting-oranges",
+    "topics": [
+      "Array",
+      "Breadth-First Search",
+      "Matrix"
+    ]
+  },
+  {
+    "id": "3sum",
+    "title": "3Sum",
+    "difficulty": "Medium",
+    "frequency": 69.3,
+    "acceptance": 0.37071055104225953,
+    "link": "https://leetcode.com/problems/3sum",
+    "topics": [
+      "Array",
+      "Two Pointers",
+      "Sorting"
+    ]
+  },
+  {
+    "id": "first-missing-positive",
+    "title": "First Missing Positive",
+    "difficulty": "Hard",
+    "frequency": 69.3,
+    "acceptance": 0.4108465120721653,
+    "link": "https://leetcode.com/problems/first-missing-positive",
+    "topics": [
+      "Array",
+      "Hash Table"
+    ]
+  },
+  {
+    "id": "largest-rectangle-in-histogram",
+    "title": "Largest Rectangle in Histogram",
+    "difficulty": "Hard",
+    "frequency": 69.3,
+    "acceptance": 0.4737757052465067,
+    "link": "https://leetcode.com/problems/largest-rectangle-in-histogram",
+    "topics": [
+      "Array",
+      "Stack",
+      "Monotonic Stack"
+    ]
+  },
+  {
+    "id": "deepest-leaves-sum",
+    "title": "Deepest Leaves Sum",
+    "difficulty": "Medium",
+    "frequency": 69.3,
+    "acceptance": 0.8634979671040474,
+    "link": "https://leetcode.com/problems/deepest-leaves-sum",
+    "topics": [
+      "Tree",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Binary Tree"
+    ]
+  },
+  {
+    "id": "repeated-substring-pattern",
+    "title": "Repeated Substring Pattern",
+    "difficulty": "Easy",
+    "frequency": 69.3,
+    "acceptance": 0.46889762560752873,
+    "link": "https://leetcode.com/problems/repeated-substring-pattern",
+    "topics": [
+      "String",
+      "String Matching"
+    ]
+  },
+  {
+    "id": "largest-number",
+    "title": "Largest Number",
+    "difficulty": "Medium",
+    "frequency": 69.3,
+    "acceptance": 0.41280498079367123,
+    "link": "https://leetcode.com/problems/largest-number",
+    "topics": [
+      "Array",
+      "String",
+      "Greedy",
+      "Sorting"
+    ]
+  },
+  {
+    "id": "lru-cache",
+    "title": "LRU Cache",
+    "difficulty": "Medium",
+    "frequency": 69.3,
+    "acceptance": 0.45214835679238957,
+    "link": "https://leetcode.com/problems/lru-cache",
+    "topics": [
+      "Hash Table",
+      "Linked List",
+      "Design",
+      "Doubly-Linked List"
+    ]
+  },
+  {
+    "id": "lowest-common-ancestor-of-a-binary-tree",
+    "title": "Lowest Common Ancestor of a Binary Tree",
+    "difficulty": "Medium",
+    "frequency": 59.7,
+    "acceptance": 0.6675507493321811,
+    "link": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree",
+    "topics": [
+      "Tree",
+      "Depth-First Search",
+      "Binary Tree"
+    ]
+  },
+  {
+    "id": "group-anagrams",
+    "title": "Group Anagrams",
+    "difficulty": "Medium",
+    "frequency": 59.7,
+    "acceptance": 0.7092889662302778,
+    "link": "https://leetcode.com/problems/group-anagrams",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "String",
+      "Sorting"
+    ]
+  },
+  {
+    "id": "minimum-time-to-collect-all-apples-in-a-tree",
+    "title": "Minimum Time to Collect All Apples in a Tree",
+    "difficulty": "Medium",
+    "frequency": 59.7,
+    "acceptance": 0.6297810592427932,
+    "link": "https://leetcode.com/problems/minimum-time-to-collect-all-apples-in-a-tree",
+    "topics": [
+      "Hash Table",
+      "Tree",
+      "Depth-First Search",
+      "Breadth-First Search"
+    ]
+  },
+  {
+    "id": "maximal-square",
+    "title": "Maximal Square",
+    "difficulty": "Medium",
+    "frequency": 59.7,
+    "acceptance": 0.48761223109412016,
+    "link": "https://leetcode.com/problems/maximal-square",
+    "topics": [
+      "Array",
+      "Dynamic Programming",
+      "Matrix"
+    ]
+  },
+  {
+    "id": "wiggle-sort",
+    "title": "Wiggle Sort",
+    "difficulty": "Medium",
+    "frequency": 59.7,
+    "acceptance": 0.6822006472491909,
+    "link": "https://leetcode.com/problems/wiggle-sort",
+    "topics": [
+      "Array",
+      "Greedy",
+      "Sorting"
+    ]
+  },
+  {
+    "id": "target-sum",
+    "title": "Target Sum",
+    "difficulty": "Medium",
+    "frequency": 59.7,
+    "acceptance": 0.5076670630713648,
+    "link": "https://leetcode.com/problems/target-sum",
+    "topics": [
+      "Array",
+      "Dynamic Programming",
+      "Backtracking"
+    ]
+  },
+  {
+    "id": "minimum-moves-to-equal-array-elements-ii",
+    "title": "Minimum Moves to Equal Array Elements II",
+    "difficulty": "Medium",
+    "frequency": 59.7,
+    "acceptance": 0.6095862132467602,
+    "link": "https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii",
+    "topics": [
+      "Array",
+      "Math",
+      "Sorting"
+    ]
+  },
+  {
+    "id": "two-sum",
+    "title": "Two Sum",
+    "difficulty": "Easy",
+    "frequency": 59.7,
+    "acceptance": 0.557770083053179,
+    "link": "https://leetcode.com/problems/two-sum",
+    "topics": [
+      "Array",
+      "Hash Table"
+    ]
+  },
+  {
+    "id": "flatten-binary-tree-to-linked-list",
+    "title": "Flatten Binary Tree to Linked List",
+    "difficulty": "Medium",
+    "frequency": 59.7,
+    "acceptance": 0.6851019754160277,
+    "link": "https://leetcode.com/problems/flatten-binary-tree-to-linked-list",
+    "topics": [
+      "Linked List",
+      "Stack",
+      "Tree",
+      "Depth-First Search",
+      "Binary Tree"
+    ]
+  },
+  {
+    "id": "best-time-to-buy-and-sell-stock",
+    "title": "Best Time to Buy and Sell Stock",
+    "difficulty": "Easy",
+    "frequency": 59.7,
+    "acceptance": 0.5525965062043136,
+    "link": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock",
+    "topics": [
+      "Array",
+      "Dynamic Programming"
+    ]
+  }
+]

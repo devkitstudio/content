@@ -1,0 +1,81 @@
+[
+  {
+    "id": "minimum-cost-of-buying-candies-with-discount",
+    "title": "Minimum Cost of Buying Candies With Discount",
+    "difficulty": "Easy",
+    "frequency": 100,
+    "acceptance": 0.6220026757229598,
+    "link": "https://leetcode.com/problems/minimum-cost-of-buying-candies-with-discount",
+    "topics": [
+      "Array",
+      "Greedy",
+      "Sorting"
+    ]
+  },
+  {
+    "id": "lru-cache",
+    "title": "LRU Cache",
+    "difficulty": "Medium",
+    "frequency": 88.3,
+    "acceptance": 0.45214995272337516,
+    "link": "https://leetcode.com/problems/lru-cache",
+    "topics": [
+      "Hash Table",
+      "Linked List",
+      "Design",
+      "Doubly-Linked List"
+    ]
+  },
+  {
+    "id": "check-if-it-is-a-good-array",
+    "title": "Check If It Is a Good Array",
+    "difficulty": "Hard",
+    "frequency": 88.3,
+    "acceptance": 0.6136193766034381,
+    "link": "https://leetcode.com/problems/check-if-it-is-a-good-array",
+    "topics": [
+      "Array",
+      "Math",
+      "Number Theory"
+    ]
+  },
+  {
+    "id": "count-primes",
+    "title": "Count Primes",
+    "difficulty": "Medium",
+    "frequency": 88.3,
+    "acceptance": 0.34790674420010553,
+    "link": "https://leetcode.com/problems/count-primes",
+    "topics": [
+      "Array",
+      "Math",
+      "Enumeration",
+      "Number Theory"
+    ]
+  },
+  {
+    "id": "longest-common-prefix",
+    "title": "Longest Common Prefix",
+    "difficulty": "Easy",
+    "frequency": 88.3,
+    "acceptance": 0.4548320746397213,
+    "link": "https://leetcode.com/problems/longest-common-prefix",
+    "topics": [
+      "String",
+      "Trie"
+    ]
+  },
+  {
+    "id": "valid-anagram",
+    "title": "Valid Anagram",
+    "difficulty": "Easy",
+    "frequency": 88.3,
+    "acceptance": 0.6666103435170908,
+    "link": "https://leetcode.com/problems/valid-anagram",
+    "topics": [
+      "Hash Table",
+      "String",
+      "Sorting"
+    ]
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "id": "lexicographically-minimum-string-after-removing-stars",
+    "title": "Lexicographically Minimum String After Removing Stars",
+    "difficulty": "Medium",
+    "frequency": 100,
+    "acceptance": 0.5096873744567401,
+    "link": "https://leetcode.com/problems/lexicographically-minimum-string-after-removing-stars",
+    "topics": [
+      "Hash Table",
+      "String",
+      "Stack",
+      "Greedy",
+      "Heap (Priority Queue)"
+    ]
+  },
+  {
+    "id": "clear-digits",
+    "title": "Clear Digits",
+    "difficulty": "Easy",
+    "frequency": 100,
+    "acceptance": 0.8259289027924613,
+    "link": "https://leetcode.com/problems/clear-digits",
+    "topics": [
+      "String",
+      "Stack",
+      "Simulation"
+    ]
+  }
+]

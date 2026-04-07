@@ -1,0 +1,27 @@
+[
+  {
+    "id": "decode-string",
+    "title": "Decode String",
+    "difficulty": "Medium",
+    "frequency": 100,
+    "acceptance": 0.6115584767364892,
+    "link": "https://leetcode.com/problems/decode-string",
+    "topics": [
+      "String",
+      "Stack",
+      "Recursion"
+    ]
+  },
+  {
+    "id": "score-of-parentheses",
+    "title": "Score of Parentheses",
+    "difficulty": "Medium",
+    "frequency": 93.1,
+    "acceptance": 0.6371775104406139,
+    "link": "https://leetcode.com/problems/score-of-parentheses",
+    "topics": [
+      "String",
+      "Stack"
+    ]
+  }
+]

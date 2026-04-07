@@ -1,0 +1,90 @@
+[
+  {
+    "id": "valid-parentheses",
+    "title": "Valid Parentheses",
+    "difficulty": "Easy",
+    "frequency": 100,
+    "acceptance": 0.42322894737748806,
+    "link": "https://leetcode.com/problems/valid-parentheses",
+    "topics": [
+      "String",
+      "Stack"
+    ]
+  },
+  {
+    "id": "merge-k-sorted-lists",
+    "title": "Merge k Sorted Lists",
+    "difficulty": "Hard",
+    "frequency": 100,
+    "acceptance": 0.5677429108771196,
+    "link": "https://leetcode.com/problems/merge-k-sorted-lists",
+    "topics": [
+      "Linked List",
+      "Divide and Conquer",
+      "Heap (Priority Queue)",
+      "Merge Sort"
+    ]
+  },
+  {
+    "id": "longest-substring-without-repeating-characters",
+    "title": "Longest Substring Without Repeating Characters",
+    "difficulty": "Medium",
+    "frequency": 100,
+    "acceptance": 0.3693615853602407,
+    "link": "https://leetcode.com/problems/longest-substring-without-repeating-characters",
+    "topics": [
+      "Hash Table",
+      "String",
+      "Sliding Window"
+    ]
+  },
+  {
+    "id": "group-anagrams",
+    "title": "Group Anagrams",
+    "difficulty": "Medium",
+    "frequency": 100,
+    "acceptance": 0.709289019979725,
+    "link": "https://leetcode.com/problems/group-anagrams",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "String",
+      "Sorting"
+    ]
+  },
+  {
+    "id": "longest-palindromic-substring",
+    "title": "Longest Palindromic Substring",
+    "difficulty": "Medium",
+    "frequency": 87.6,
+    "acceptance": 0.35846183681613975,
+    "link": "https://leetcode.com/problems/longest-palindromic-substring",
+    "topics": [
+      "Two Pointers",
+      "String",
+      "Dynamic Programming"
+    ]
+  },
+  {
+    "id": "delete-duplicate-emails",
+    "title": "Delete Duplicate Emails",
+    "difficulty": "Easy",
+    "frequency": 87.6,
+    "acceptance": 0.6432529647276789,
+    "link": "https://leetcode.com/problems/delete-duplicate-emails",
+    "topics": [
+      "Database"
+    ]
+  },
+  {
+    "id": "department-top-three-salaries",
+    "title": "Department Top Three Salaries",
+    "difficulty": "Hard",
+    "frequency": 87.6,
+    "acceptance": 0.5777105873664997,
+    "link": "https://leetcode.com/problems/department-top-three-salaries",
+    "topics": [
+      "Database"
+    ]
+  }
+]

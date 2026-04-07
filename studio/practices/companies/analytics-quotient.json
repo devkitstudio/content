@@ -1,0 +1,24 @@
+[
+  {
+    "id": "the-number-of-users-that-are-eligible-for-discount",
+    "title": "The Number of Users That Are Eligible for Discount",
+    "difficulty": "Easy",
+    "frequency": 100,
+    "acceptance": 0.5061860496221494,
+    "link": "https://leetcode.com/problems/the-number-of-users-that-are-eligible-for-discount",
+    "topics": [
+      "Database"
+    ]
+  },
+  {
+    "id": "the-users-that-are-eligible-for-discount",
+    "title": "The Users That Are Eligible for Discount",
+    "difficulty": "Easy",
+    "frequency": 100,
+    "acceptance": 0.508151759865915,
+    "link": "https://leetcode.com/problems/the-users-that-are-eligible-for-discount",
+    "topics": [
+      "Database"
+    ]
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "id": "sort-integers-by-the-number-of-1-bits",
+    "title": "Sort Integers by The Number of 1 Bits",
+    "difficulty": "Easy",
+    "frequency": 100,
+    "acceptance": 0.7868465017725438,
+    "link": "https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits",
+    "topics": [
+      "Array",
+      "Bit Manipulation",
+      "Sorting",
+      "Counting"
+    ]
+  },
+  {
+    "id": "implement-trie-prefix-tree",
+    "title": "Implement Trie (Prefix Tree)",
+    "difficulty": "Medium",
+    "frequency": 72.2,
+    "acceptance": 0.6793870356549373,
+    "link": "https://leetcode.com/problems/implement-trie-prefix-tree",
+    "topics": [
+      "Hash Table",
+      "String",
+      "Design",
+      "Trie"
+    ]
+  }
+]

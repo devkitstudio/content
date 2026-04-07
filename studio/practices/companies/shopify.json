@@ -1,0 +1,113 @@
+[
+  {
+    "id": "walking-robot-simulation",
+    "title": "Walking Robot Simulation",
+    "difficulty": "Medium",
+    "frequency": 100,
+    "acceptance": 0.5823045930701047,
+    "link": "https://leetcode.com/problems/walking-robot-simulation",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "Simulation"
+    ]
+  },
+  {
+    "id": "lru-cache",
+    "title": "LRU Cache",
+    "difficulty": "Medium",
+    "frequency": 88.5,
+    "acceptance": 0.4521475035659106,
+    "link": "https://leetcode.com/problems/lru-cache",
+    "topics": [
+      "Hash Table",
+      "Linked List",
+      "Design",
+      "Doubly-Linked List"
+    ]
+  },
+  {
+    "id": "design-in-memory-file-system",
+    "title": "Design In-Memory File System",
+    "difficulty": "Hard",
+    "frequency": 60.9,
+    "acceptance": 0.4816948941663167,
+    "link": "https://leetcode.com/problems/design-in-memory-file-system",
+    "topics": [
+      "Hash Table",
+      "String",
+      "Design",
+      "Trie",
+      "Sorting"
+    ]
+  },
+  {
+    "id": "encode-and-decode-tinyurl",
+    "title": "Encode and Decode TinyURL",
+    "difficulty": "Medium",
+    "frequency": 60.9,
+    "acceptance": 0.8636236617619221,
+    "link": "https://leetcode.com/problems/encode-and-decode-tinyurl",
+    "topics": [
+      "Hash Table",
+      "String",
+      "Design",
+      "Hash Function"
+    ]
+  },
+  {
+    "id": "design-a-text-editor",
+    "title": "Design a Text Editor",
+    "difficulty": "Hard",
+    "frequency": 53.3,
+    "acceptance": 0.47138071447136626,
+    "link": "https://leetcode.com/problems/design-a-text-editor",
+    "topics": [
+      "Linked List",
+      "String",
+      "Stack",
+      "Design",
+      "Simulation",
+      "Doubly-Linked List"
+    ]
+  },
+  {
+    "id": "find-users-with-valid-e-mails",
+    "title": "Find Users With Valid E-Mails",
+    "difficulty": "Easy",
+    "frequency": 53.3,
+    "acceptance": 0.44116255942563304,
+    "link": "https://leetcode.com/problems/find-users-with-valid-e-mails",
+    "topics": [
+      "Database"
+    ]
+  },
+  {
+    "id": "design-tic-tac-toe",
+    "title": "Design Tic-Tac-Toe",
+    "difficulty": "Medium",
+    "frequency": 53.3,
+    "acceptance": 0.5860157935441853,
+    "link": "https://leetcode.com/problems/design-tic-tac-toe",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "Design",
+      "Matrix",
+      "Simulation"
+    ]
+  },
+  {
+    "id": "walls-and-gates",
+    "title": "Walls and Gates",
+    "difficulty": "Medium",
+    "frequency": 53.3,
+    "acceptance": 0.6296793327762211,
+    "link": "https://leetcode.com/problems/walls-and-gates",
+    "topics": [
+      "Array",
+      "Breadth-First Search",
+      "Matrix"
+    ]
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "id": "shifting-letters-ii",
+    "title": "Shifting Letters II",
+    "difficulty": "Medium",
+    "frequency": 100,
+    "acceptance": 0.5333917702513844,
+    "link": "https://leetcode.com/problems/shifting-letters-ii",
+    "topics": [
+      "Array",
+      "String",
+      "Prefix Sum"
+    ]
+  },
+  {
+    "id": "reformat-date",
+    "title": "Reformat Date",
+    "difficulty": "Easy",
+    "frequency": 74.7,
+    "acceptance": 0.6733470658385863,
+    "link": "https://leetcode.com/problems/reformat-date",
+    "topics": [
+      "String"
+    ]
+  }
+]

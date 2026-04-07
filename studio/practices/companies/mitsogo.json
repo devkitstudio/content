@@ -1,0 +1,205 @@
+[
+  {
+    "id": "find-the-integer-added-to-array-i",
+    "title": "Find the Integer Added to Array I",
+    "difficulty": "Easy",
+    "frequency": 100,
+    "acceptance": 0.820231981072191,
+    "link": "https://leetcode.com/problems/find-the-integer-added-to-array-i",
+    "topics": [
+      "Array"
+    ]
+  },
+  {
+    "id": "find-the-integer-added-to-array-ii",
+    "title": "Find the Integer Added to Array II",
+    "difficulty": "Medium",
+    "frequency": 100,
+    "acceptance": 0.31870439532689165,
+    "link": "https://leetcode.com/problems/find-the-integer-added-to-array-ii",
+    "topics": [
+      "Array",
+      "Two Pointers",
+      "Sorting",
+      "Enumeration"
+    ]
+  },
+  {
+    "id": "minimum-substring-partition-of-equal-character-frequency",
+    "title": "Minimum Substring Partition of Equal Character Frequency",
+    "difficulty": "Medium",
+    "frequency": 100,
+    "acceptance": 0.3900965888250397,
+    "link": "https://leetcode.com/problems/minimum-substring-partition-of-equal-character-frequency",
+    "topics": [
+      "Hash Table",
+      "String",
+      "Dynamic Programming",
+      "Counting"
+    ]
+  },
+  {
+    "id": "construct-string-with-minimum-cost",
+    "title": "Construct String with Minimum Cost",
+    "difficulty": "Hard",
+    "frequency": 100,
+    "acceptance": 0.19178018933271762,
+    "link": "https://leetcode.com/problems/construct-string-with-minimum-cost",
+    "topics": [
+      "Array",
+      "String",
+      "Dynamic Programming",
+      "Suffix Array"
+    ]
+  },
+  {
+    "id": "maximum-total-reward-using-operations-i",
+    "title": "Maximum Total Reward Using Operations I",
+    "difficulty": "Medium",
+    "frequency": 100,
+    "acceptance": 0.2995967272457847,
+    "link": "https://leetcode.com/problems/maximum-total-reward-using-operations-i",
+    "topics": [
+      "Array",
+      "Dynamic Programming"
+    ]
+  },
+  {
+    "id": "maximum-total-reward-using-operations-ii",
+    "title": "Maximum Total Reward Using Operations II",
+    "difficulty": "Hard",
+    "frequency": 100,
+    "acceptance": 0.20666559502759474,
+    "link": "https://leetcode.com/problems/maximum-total-reward-using-operations-ii",
+    "topics": [
+      "Array",
+      "Dynamic Programming",
+      "Bit Manipulation"
+    ]
+  },
+  {
+    "id": "shortest-subarray-with-or-at-least-k-ii",
+    "title": "Shortest Subarray With OR at Least K II",
+    "difficulty": "Medium",
+    "frequency": 100,
+    "acceptance": 0.502326331785915,
+    "link": "https://leetcode.com/problems/shortest-subarray-with-or-at-least-k-ii",
+    "topics": [
+      "Array",
+      "Bit Manipulation",
+      "Sliding Window"
+    ]
+  },
+  {
+    "id": "shortest-subarray-with-or-at-least-k-i",
+    "title": "Shortest Subarray With OR at Least K I",
+    "difficulty": "Easy",
+    "frequency": 100,
+    "acceptance": 0.42786964558186846,
+    "link": "https://leetcode.com/problems/shortest-subarray-with-or-at-least-k-i",
+    "topics": [
+      "Array",
+      "Bit Manipulation",
+      "Sliding Window"
+    ]
+  },
+  {
+    "id": "right-triangles",
+    "title": "Right Triangles",
+    "difficulty": "Medium",
+    "frequency": 100,
+    "acceptance": 0.4706710671067107,
+    "link": "https://leetcode.com/problems/right-triangles",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "Math",
+      "Combinatorics",
+      "Counting"
+    ]
+  },
+  {
+    "id": "symmetric-coordinates",
+    "title": "Symmetric Coordinates",
+    "difficulty": "Medium",
+    "frequency": 100,
+    "acceptance": 0.4074513124470788,
+    "link": "https://leetcode.com/problems/symmetric-coordinates",
+    "topics": [
+      "Database"
+    ]
+  },
+  {
+    "id": "pascals-triangle",
+    "title": "Pascal's Triangle",
+    "difficulty": "Easy",
+    "frequency": 71.1,
+    "acceptance": 0.7702172477643647,
+    "link": "https://leetcode.com/problems/pascals-triangle",
+    "topics": [
+      "Array",
+      "Dynamic Programming"
+    ]
+  },
+  {
+    "id": "next-permutation",
+    "title": "Next Permutation",
+    "difficulty": "Medium",
+    "frequency": 71.1,
+    "acceptance": 0.4305776819997956,
+    "link": "https://leetcode.com/problems/next-permutation",
+    "topics": [
+      "Array",
+      "Two Pointers"
+    ]
+  },
+  {
+    "id": "next-greater-element-iii",
+    "title": "Next Greater Element III",
+    "difficulty": "Medium",
+    "frequency": 61.3,
+    "acceptance": 0.3458662434140706,
+    "link": "https://leetcode.com/problems/next-greater-element-iii",
+    "topics": [
+      "Math",
+      "Two Pointers",
+      "String"
+    ]
+  },
+  {
+    "id": "zigzag-conversion",
+    "title": "Zigzag Conversion",
+    "difficulty": "Medium",
+    "frequency": 61.3,
+    "acceptance": 0.51606829815784,
+    "link": "https://leetcode.com/problems/zigzag-conversion",
+    "topics": [
+      "String"
+    ]
+  },
+  {
+    "id": "jump-game-ii",
+    "title": "Jump Game II",
+    "difficulty": "Medium",
+    "frequency": 61.3,
+    "acceptance": 0.4150350812855576,
+    "link": "https://leetcode.com/problems/jump-game-ii",
+    "topics": [
+      "Array",
+      "Dynamic Programming",
+      "Greedy"
+    ]
+  },
+  {
+    "id": "valid-parentheses",
+    "title": "Valid Parentheses",
+    "difficulty": "Easy",
+    "frequency": 61.3,
+    "acceptance": 0.42322931659980717,
+    "link": "https://leetcode.com/problems/valid-parentheses",
+    "topics": [
+      "String",
+      "Stack"
+    ]
+  }
+]

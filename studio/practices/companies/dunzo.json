@@ -1,0 +1,107 @@
+[
+  {
+    "id": "stone-game-vii",
+    "title": "Stone Game VII",
+    "difficulty": "Medium",
+    "frequency": 100,
+    "acceptance": 0.5832279630840782,
+    "link": "https://leetcode.com/problems/stone-game-vii",
+    "topics": [
+      "Array",
+      "Math",
+      "Dynamic Programming",
+      "Game Theory"
+    ]
+  },
+  {
+    "id": "build-array-where-you-can-find-the-maximum-exactly-k-comparisons",
+    "title": "Build Array Where You Can Find The Maximum Exactly K Comparisons",
+    "difficulty": "Hard",
+    "frequency": 100,
+    "acceptance": 0.6675608950059291,
+    "link": "https://leetcode.com/problems/build-array-where-you-can-find-the-maximum-exactly-k-comparisons",
+    "topics": [
+      "Dynamic Programming",
+      "Prefix Sum"
+    ]
+  },
+  {
+    "id": "number-of-distinct-substrings-in-a-string",
+    "title": "Number of Distinct Substrings in a String",
+    "difficulty": "Medium",
+    "frequency": 100,
+    "acceptance": 0.6454241948153967,
+    "link": "https://leetcode.com/problems/number-of-distinct-substrings-in-a-string",
+    "topics": [
+      "String",
+      "Trie",
+      "Rolling Hash",
+      "Suffix Array",
+      "Hash Function"
+    ]
+  },
+  {
+    "id": "number-of-ways-to-form-a-target-string-given-a-dictionary",
+    "title": "Number of Ways to Form a Target String Given a Dictionary",
+    "difficulty": "Hard",
+    "frequency": 100,
+    "acceptance": 0.5706421937156789,
+    "link": "https://leetcode.com/problems/number-of-ways-to-form-a-target-string-given-a-dictionary",
+    "topics": [
+      "Array",
+      "String",
+      "Dynamic Programming"
+    ]
+  },
+  {
+    "id": "find-all-good-strings",
+    "title": "Find All Good Strings",
+    "difficulty": "Hard",
+    "frequency": 100,
+    "acceptance": 0.4370181344337062,
+    "link": "https://leetcode.com/problems/find-all-good-strings",
+    "topics": [
+      "String",
+      "Dynamic Programming",
+      "String Matching"
+    ]
+  },
+  {
+    "id": "ways-to-make-a-fair-array",
+    "title": "Ways to Make a Fair Array",
+    "difficulty": "Medium",
+    "frequency": 100,
+    "acceptance": 0.6450748112174719,
+    "link": "https://leetcode.com/problems/ways-to-make-a-fair-array",
+    "topics": [
+      "Array",
+      "Prefix Sum"
+    ]
+  },
+  {
+    "id": "arithmetic-slices-ii-subsequence",
+    "title": "Arithmetic Slices II - Subsequence",
+    "difficulty": "Hard",
+    "frequency": 63.4,
+    "acceptance": 0.5454027309965013,
+    "link": "https://leetcode.com/problems/arithmetic-slices-ii-subsequence",
+    "topics": [
+      "Array",
+      "Dynamic Programming"
+    ]
+  },
+  {
+    "id": "count-complete-tree-nodes",
+    "title": "Count Complete Tree Nodes",
+    "difficulty": "Easy",
+    "frequency": 63.4,
+    "acceptance": 0.6996765512992228,
+    "link": "https://leetcode.com/problems/count-complete-tree-nodes",
+    "topics": [
+      "Binary Search",
+      "Bit Manipulation",
+      "Tree",
+      "Binary Tree"
+    ]
+  }
+]

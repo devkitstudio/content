@@ -1,0 +1,27 @@
+[
+  {
+    "id": "time-needed-to-buy-tickets",
+    "title": "Time Needed to Buy Tickets",
+    "difficulty": "Easy",
+    "frequency": 100,
+    "acceptance": 0.7070583253471215,
+    "link": "https://leetcode.com/problems/time-needed-to-buy-tickets",
+    "topics": [
+      "Array",
+      "Queue",
+      "Simulation"
+    ]
+  },
+  {
+    "id": "candy",
+    "title": "Candy",
+    "difficulty": "Hard",
+    "frequency": 100,
+    "acceptance": 0.4670442028101253,
+    "link": "https://leetcode.com/problems/candy",
+    "topics": [
+      "Array",
+      "Greedy"
+    ]
+  }
+]

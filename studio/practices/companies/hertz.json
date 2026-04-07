@@ -1,0 +1,29 @@
+[
+  {
+    "id": "decode-string",
+    "title": "Decode String",
+    "difficulty": "Medium",
+    "frequency": 100,
+    "acceptance": 0.6115583433240551,
+    "link": "https://leetcode.com/problems/decode-string",
+    "topics": [
+      "String",
+      "Stack",
+      "Recursion"
+    ]
+  },
+  {
+    "id": "brightest-position-on-street",
+    "title": "Brightest Position on Street",
+    "difficulty": "Medium",
+    "frequency": 90.3,
+    "acceptance": 0.6059444605148974,
+    "link": "https://leetcode.com/problems/brightest-position-on-street",
+    "topics": [
+      "Array",
+      "Sorting",
+      "Prefix Sum",
+      "Ordered Set"
+    ]
+  }
+]

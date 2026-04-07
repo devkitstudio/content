@@ -1,0 +1,55 @@
+[
+  {
+    "id": "group-anagrams",
+    "title": "Group Anagrams",
+    "difficulty": "Medium",
+    "frequency": 100,
+    "acceptance": 0.7093188765735838,
+    "link": "https://leetcode.com/problems/group-anagrams",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "String",
+      "Sorting"
+    ]
+  },
+  {
+    "id": "longest-common-subsequence",
+    "title": "Longest Common Subsequence",
+    "difficulty": "Medium",
+    "frequency": 92.9,
+    "acceptance": 0.5825142636275151,
+    "link": "https://leetcode.com/problems/longest-common-subsequence",
+    "topics": [
+      "String",
+      "Dynamic Programming"
+    ]
+  },
+  {
+    "id": "lru-cache",
+    "title": "LRU Cache",
+    "difficulty": "Medium",
+    "frequency": 82.8,
+    "acceptance": 0.4522000276675747,
+    "link": "https://leetcode.com/problems/lru-cache",
+    "topics": [
+      "Hash Table",
+      "Linked List",
+      "Design",
+      "Doubly-Linked List"
+    ]
+  },
+  {
+    "id": "diagonal-traverse-ii",
+    "title": "Diagonal Traverse II",
+    "difficulty": "Medium",
+    "frequency": 82.8,
+    "acceptance": 0.5802072894694427,
+    "link": "https://leetcode.com/problems/diagonal-traverse-ii",
+    "topics": [
+      "Array",
+      "Sorting",
+      "Heap (Priority Queue)"
+    ]
+  }
+]

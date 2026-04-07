@@ -1,0 +1,94 @@
+[
+  {
+    "id": "sum-of-even-numbers-after-queries",
+    "title": "Sum of Even Numbers After Queries",
+    "difficulty": "Medium",
+    "frequency": 100,
+    "acceptance": 0.6852833849138529,
+    "link": "https://leetcode.com/problems/sum-of-even-numbers-after-queries",
+    "topics": [
+      "Array",
+      "Simulation"
+    ]
+  },
+  {
+    "id": "binary-tree-tilt",
+    "title": "Binary Tree Tilt",
+    "difficulty": "Easy",
+    "frequency": 100,
+    "acceptance": 0.6409705660933609,
+    "link": "https://leetcode.com/problems/binary-tree-tilt",
+    "topics": [
+      "Tree",
+      "Depth-First Search",
+      "Binary Tree"
+    ]
+  },
+  {
+    "id": "minimum-cost-to-split-an-array",
+    "title": "Minimum Cost to Split an Array",
+    "difficulty": "Hard",
+    "frequency": 100,
+    "acceptance": 0.4233523732204471,
+    "link": "https://leetcode.com/problems/minimum-cost-to-split-an-array",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "Dynamic Programming",
+      "Counting"
+    ]
+  },
+  {
+    "id": "find-players-with-zero-or-one-losses",
+    "title": "Find Players With Zero or One Losses",
+    "difficulty": "Medium",
+    "frequency": 100,
+    "acceptance": 0.7259689291131767,
+    "link": "https://leetcode.com/problems/find-players-with-zero-or-one-losses",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "Sorting",
+      "Counting"
+    ]
+  },
+  {
+    "id": "minimum-moves-to-equal-array-elements",
+    "title": "Minimum Moves to Equal Array Elements",
+    "difficulty": "Medium",
+    "frequency": 100,
+    "acceptance": 0.577054187220996,
+    "link": "https://leetcode.com/problems/minimum-moves-to-equal-array-elements",
+    "topics": [
+      "Array",
+      "Math"
+    ]
+  },
+  {
+    "id": "merge-k-sorted-lists",
+    "title": "Merge k Sorted Lists",
+    "difficulty": "Hard",
+    "frequency": 79.3,
+    "acceptance": 0.5677424791476416,
+    "link": "https://leetcode.com/problems/merge-k-sorted-lists",
+    "topics": [
+      "Linked List",
+      "Divide and Conquer",
+      "Heap (Priority Queue)",
+      "Merge Sort"
+    ]
+  },
+  {
+    "id": "check-if-every-row-and-column-contains-all-numbers",
+    "title": "Check if Every Row and Column Contains All Numbers",
+    "difficulty": "Easy",
+    "frequency": 72.8,
+    "acceptance": 0.528410934019593,
+    "link": "https://leetcode.com/problems/check-if-every-row-and-column-contains-all-numbers",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "Matrix"
+    ]
+  }
+]

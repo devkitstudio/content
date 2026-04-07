@@ -1,0 +1,52 @@
+[
+  {
+    "id": "construct-string-with-repeat-limit",
+    "title": "Construct String With Repeat Limit",
+    "difficulty": "Medium",
+    "frequency": 100,
+    "acceptance": 0.7087778142775636,
+    "link": "https://leetcode.com/problems/construct-string-with-repeat-limit",
+    "topics": [
+      "Hash Table",
+      "String",
+      "Greedy",
+      "Heap (Priority Queue)",
+      "Counting"
+    ]
+  },
+  {
+    "id": "percentage-of-users-attended-a-contest",
+    "title": "Percentage of Users Attended a Contest",
+    "difficulty": "Easy",
+    "frequency": 88.6,
+    "acceptance": 0.5894214941113579,
+    "link": "https://leetcode.com/problems/percentage-of-users-attended-a-contest",
+    "topics": [
+      "Database"
+    ]
+  },
+  {
+    "id": "number-of-ways-to-paint-n-3-grid",
+    "title": "Number of Ways to Paint N × 3 Grid",
+    "difficulty": "Hard",
+    "frequency": 88.6,
+    "acceptance": 0.6503587524201552,
+    "link": "https://leetcode.com/problems/number-of-ways-to-paint-n-3-grid",
+    "topics": [
+      "Dynamic Programming"
+    ]
+  },
+  {
+    "id": "valid-palindrome-ii",
+    "title": "Valid Palindrome II",
+    "difficulty": "Easy",
+    "frequency": 88.6,
+    "acceptance": 0.43027175652195376,
+    "link": "https://leetcode.com/problems/valid-palindrome-ii",
+    "topics": [
+      "Two Pointers",
+      "String",
+      "Greedy"
+    ]
+  }
+]

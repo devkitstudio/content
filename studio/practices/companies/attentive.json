@@ -1,0 +1,122 @@
+[
+  {
+    "id": "remove-all-adjacent-duplicates-in-string-ii",
+    "title": "Remove All Adjacent Duplicates in String II",
+    "difficulty": "Medium",
+    "frequency": 100,
+    "acceptance": 0.5960309289922421,
+    "link": "https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii",
+    "topics": [
+      "String",
+      "Stack"
+    ]
+  },
+  {
+    "id": "parse-lisp-expression",
+    "title": "Parse Lisp Expression",
+    "difficulty": "Hard",
+    "frequency": 93.2,
+    "acceptance": 0.527591606639524,
+    "link": "https://leetcode.com/problems/parse-lisp-expression",
+    "topics": [
+      "Hash Table",
+      "String",
+      "Stack",
+      "Recursion"
+    ]
+  },
+  {
+    "id": "valid-palindrome-ii",
+    "title": "Valid Palindrome II",
+    "difficulty": "Easy",
+    "frequency": 73.6,
+    "acceptance": 0.43029597709633366,
+    "link": "https://leetcode.com/problems/valid-palindrome-ii",
+    "topics": [
+      "Two Pointers",
+      "String",
+      "Greedy"
+    ]
+  },
+  {
+    "id": "find-pivot-index",
+    "title": "Find Pivot Index",
+    "difficulty": "Easy",
+    "frequency": 63.9,
+    "acceptance": 0.6057248574720265,
+    "link": "https://leetcode.com/problems/find-pivot-index",
+    "topics": [
+      "Array",
+      "Prefix Sum"
+    ]
+  },
+  {
+    "id": "valid-sudoku",
+    "title": "Valid Sudoku",
+    "difficulty": "Medium",
+    "frequency": 56.2,
+    "acceptance": 0.6227980977396423,
+    "link": "https://leetcode.com/problems/valid-sudoku",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "Matrix"
+    ]
+  },
+  {
+    "id": "integer-to-english-words",
+    "title": "Integer to English Words",
+    "difficulty": "Hard",
+    "frequency": 56.2,
+    "acceptance": 0.3436121765501456,
+    "link": "https://leetcode.com/problems/integer-to-english-words",
+    "topics": [
+      "Math",
+      "String",
+      "Recursion"
+    ]
+  },
+  {
+    "id": "evaluate-reverse-polish-notation",
+    "title": "Evaluate Reverse Polish Notation",
+    "difficulty": "Medium",
+    "frequency": 56.2,
+    "acceptance": 0.5495718467728048,
+    "link": "https://leetcode.com/problems/evaluate-reverse-polish-notation",
+    "topics": [
+      "Array",
+      "Math",
+      "Stack"
+    ]
+  },
+  {
+    "id": "top-k-frequent-words",
+    "title": "Top K Frequent Words",
+    "difficulty": "Medium",
+    "frequency": 56.2,
+    "acceptance": 0.592789021170677,
+    "link": "https://leetcode.com/problems/top-k-frequent-words",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "String",
+      "Trie",
+      "Sorting",
+      "Heap (Priority Queue)",
+      "Bucket Sort",
+      "Counting"
+    ]
+  },
+  {
+    "id": "find-first-and-last-position-of-element-in-sorted-array",
+    "title": "Find First and Last Position of Element in Sorted Array",
+    "difficulty": "Medium",
+    "frequency": 56.2,
+    "acceptance": 0.46833692586283493,
+    "link": "https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array",
+    "topics": [
+      "Array",
+      "Binary Search"
+    ]
+  }
+]

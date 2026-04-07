@@ -1,0 +1,153 @@
+[
+  {
+    "id": "longest-cycle-in-a-graph",
+    "title": "Longest Cycle in a Graph",
+    "difficulty": "Hard",
+    "frequency": 100,
+    "acceptance": 0.4980014754946761,
+    "link": "https://leetcode.com/problems/longest-cycle-in-a-graph",
+    "topics": [
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Graph",
+      "Topological Sort"
+    ]
+  },
+  {
+    "id": "operations-on-tree",
+    "title": "Operations on Tree",
+    "difficulty": "Medium",
+    "frequency": 100,
+    "acceptance": 0.43368293750912235,
+    "link": "https://leetcode.com/problems/operations-on-tree",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "Tree",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Design"
+    ]
+  },
+  {
+    "id": "find-closest-node-to-given-two-nodes",
+    "title": "Find Closest Node to Given Two Nodes",
+    "difficulty": "Medium",
+    "frequency": 95.8,
+    "acceptance": 0.5285199349714834,
+    "link": "https://leetcode.com/problems/find-closest-node-to-given-two-nodes",
+    "topics": [
+      "Depth-First Search",
+      "Graph"
+    ]
+  },
+  {
+    "id": "node-with-highest-edge-score",
+    "title": "Node With Highest Edge Score",
+    "difficulty": "Medium",
+    "frequency": 90.6,
+    "acceptance": 0.48455738418038136,
+    "link": "https://leetcode.com/problems/node-with-highest-edge-score",
+    "topics": [
+      "Hash Table",
+      "Graph"
+    ]
+  },
+  {
+    "id": "longest-subsequence-with-decreasing-adjacent-difference",
+    "title": "Longest Subsequence With Decreasing Adjacent Difference",
+    "difficulty": "Medium",
+    "frequency": 88.5,
+    "acceptance": 0.14664225321772847,
+    "link": "https://leetcode.com/problems/longest-subsequence-with-decreasing-adjacent-difference",
+    "topics": [
+      "Array",
+      "Dynamic Programming"
+    ]
+  },
+  {
+    "id": "set-matrix-zeroes",
+    "title": "Set Matrix Zeroes",
+    "difficulty": "Medium",
+    "frequency": 68.8,
+    "acceptance": 0.6070892209392098,
+    "link": "https://leetcode.com/problems/set-matrix-zeroes",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "Matrix"
+    ]
+  },
+  {
+    "id": "longest-substring-without-repeating-characters",
+    "title": "Longest Substring Without Repeating Characters",
+    "difficulty": "Medium",
+    "frequency": 62.6,
+    "acceptance": 0.3693615972153291,
+    "link": "https://leetcode.com/problems/longest-substring-without-repeating-characters",
+    "topics": [
+      "Hash Table",
+      "String",
+      "Sliding Window"
+    ]
+  },
+  {
+    "id": "largest-color-value-in-a-directed-graph",
+    "title": "Largest Color Value in a Directed Graph",
+    "difficulty": "Hard",
+    "frequency": 62.6,
+    "acceptance": 0.5767908345021908,
+    "link": "https://leetcode.com/problems/largest-color-value-in-a-directed-graph",
+    "topics": [
+      "Hash Table",
+      "Dynamic Programming",
+      "Graph",
+      "Topological Sort",
+      "Memoization",
+      "Counting"
+    ]
+  },
+  {
+    "id": "shortest-path-in-a-weighted-tree",
+    "title": "Shortest Path in a Weighted Tree",
+    "difficulty": "Hard",
+    "frequency": 62.6,
+    "acceptance": 0.3218752658895601,
+    "link": "https://leetcode.com/problems/shortest-path-in-a-weighted-tree",
+    "topics": [
+      "Array",
+      "Tree",
+      "Depth-First Search",
+      "Binary Indexed Tree",
+      "Segment Tree"
+    ]
+  },
+  {
+    "id": "sliding-window-maximum",
+    "title": "Sliding Window Maximum",
+    "difficulty": "Hard",
+    "frequency": 62.6,
+    "acceptance": 0.47604117337050583,
+    "link": "https://leetcode.com/problems/sliding-window-maximum",
+    "topics": [
+      "Array",
+      "Queue",
+      "Sliding Window",
+      "Heap (Priority Queue)",
+      "Monotonic Queue"
+    ]
+  },
+  {
+    "id": "word-ladder",
+    "title": "Word Ladder",
+    "difficulty": "Hard",
+    "frequency": 53.9,
+    "acceptance": 0.42812118037093305,
+    "link": "https://leetcode.com/problems/word-ladder",
+    "topics": [
+      "Hash Table",
+      "String",
+      "Breadth-First Search"
+    ]
+  }
+]

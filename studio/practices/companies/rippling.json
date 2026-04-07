@@ -1,0 +1,236 @@
+[
+  {
+    "id": "design-excel-sum-formula",
+    "title": "Design Excel Sum Formula",
+    "difficulty": "Hard",
+    "frequency": 100,
+    "acceptance": 0.42568163292465855,
+    "link": "https://leetcode.com/problems/design-excel-sum-formula",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "String",
+      "Graph",
+      "Design",
+      "Topological Sort",
+      "Matrix"
+    ]
+  },
+  {
+    "id": "median-of-two-sorted-arrays",
+    "title": "Median of Two Sorted Arrays",
+    "difficulty": "Hard",
+    "frequency": 88.8,
+    "acceptance": 0.43814619255942167,
+    "link": "https://leetcode.com/problems/median-of-two-sorted-arrays",
+    "topics": [
+      "Array",
+      "Binary Search",
+      "Divide and Conquer"
+    ]
+  },
+  {
+    "id": "design-spreadsheet",
+    "title": "Design Spreadsheet",
+    "difficulty": "Medium",
+    "frequency": 88.8,
+    "acceptance": 0.6762689977153075,
+    "link": "https://leetcode.com/problems/design-spreadsheet",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "String",
+      "Design",
+      "Matrix"
+    ]
+  },
+  {
+    "id": "evaluate-division",
+    "title": "Evaluate Division",
+    "difficulty": "Medium",
+    "frequency": 84.2,
+    "acceptance": 0.6314708808408903,
+    "link": "https://leetcode.com/problems/evaluate-division",
+    "topics": [
+      "Array",
+      "String",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Union Find",
+      "Graph",
+      "Shortest Path"
+    ]
+  },
+  {
+    "id": "synonymous-sentences",
+    "title": "Synonymous Sentences",
+    "difficulty": "Medium",
+    "frequency": 63.5,
+    "acceptance": 0.5657701813916468,
+    "link": "https://leetcode.com/problems/synonymous-sentences",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "String",
+      "Backtracking",
+      "Union Find"
+    ]
+  },
+  {
+    "id": "employee-importance",
+    "title": "Employee Importance",
+    "difficulty": "Medium",
+    "frequency": 63.5,
+    "acceptance": 0.6842114454359709,
+    "link": "https://leetcode.com/problems/employee-importance",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "Tree",
+      "Depth-First Search",
+      "Breadth-First Search"
+    ]
+  },
+  {
+    "id": "maximum-subarray",
+    "title": "Maximum Subarray",
+    "difficulty": "Medium",
+    "frequency": 63.5,
+    "acceptance": 0.5209980357192625,
+    "link": "https://leetcode.com/problems/maximum-subarray",
+    "topics": [
+      "Array",
+      "Divide and Conquer",
+      "Dynamic Programming"
+    ]
+  },
+  {
+    "id": "optimal-account-balancing",
+    "title": "Optimal Account Balancing",
+    "difficulty": "Hard",
+    "frequency": 63.5,
+    "acceptance": 0.4993810266893702,
+    "link": "https://leetcode.com/problems/optimal-account-balancing",
+    "topics": [
+      "Array",
+      "Dynamic Programming",
+      "Backtracking",
+      "Bit Manipulation",
+      "Bitmask"
+    ]
+  },
+  {
+    "id": "last-stone-weight",
+    "title": "Last Stone Weight",
+    "difficulty": "Easy",
+    "frequency": 55.1,
+    "acceptance": 0.6592872235573963,
+    "link": "https://leetcode.com/problems/last-stone-weight",
+    "topics": [
+      "Array",
+      "Heap (Priority Queue)"
+    ]
+  },
+  {
+    "id": "number-of-visible-people-in-a-queue",
+    "title": "Number of Visible People in a Queue",
+    "difficulty": "Hard",
+    "frequency": 55.1,
+    "acceptance": 0.7129705142972448,
+    "link": "https://leetcode.com/problems/number-of-visible-people-in-a-queue",
+    "topics": [
+      "Array",
+      "Stack",
+      "Monotonic Stack"
+    ]
+  },
+  {
+    "id": "accounts-merge",
+    "title": "Accounts Merge",
+    "difficulty": "Medium",
+    "frequency": 55.1,
+    "acceptance": 0.595800382092666,
+    "link": "https://leetcode.com/problems/accounts-merge",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "String",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Union Find",
+      "Sorting"
+    ]
+  },
+  {
+    "id": "insert-delete-getrandom-o1",
+    "title": "Insert Delete GetRandom O(1)",
+    "difficulty": "Medium",
+    "frequency": 55.1,
+    "acceptance": 0.5499186948290465,
+    "link": "https://leetcode.com/problems/insert-delete-getrandom-o1",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "Math",
+      "Design",
+      "Randomized"
+    ]
+  },
+  {
+    "id": "lfu-cache",
+    "title": "LFU Cache",
+    "difficulty": "Hard",
+    "frequency": 55.1,
+    "acceptance": 0.4660898637811462,
+    "link": "https://leetcode.com/problems/lfu-cache",
+    "topics": [
+      "Hash Table",
+      "Linked List",
+      "Design",
+      "Doubly-Linked List"
+    ]
+  },
+  {
+    "id": "merge-two-sorted-lists",
+    "title": "Merge Two Sorted Lists",
+    "difficulty": "Easy",
+    "frequency": 55.1,
+    "acceptance": 0.6684090442432823,
+    "link": "https://leetcode.com/problems/merge-two-sorted-lists",
+    "topics": [
+      "Linked List",
+      "Recursion"
+    ]
+  },
+  {
+    "id": "maximize-amount-after-two-days-of-conversions",
+    "title": "Maximize Amount After Two Days of Conversions",
+    "difficulty": "Medium",
+    "frequency": 55.1,
+    "acceptance": 0.5897915340547422,
+    "link": "https://leetcode.com/problems/maximize-amount-after-two-days-of-conversions",
+    "topics": [
+      "Array",
+      "String",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Graph"
+    ]
+  },
+  {
+    "id": "alien-dictionary",
+    "title": "Alien Dictionary",
+    "difficulty": "Hard",
+    "frequency": 55.1,
+    "acceptance": 0.3667372421638184,
+    "link": "https://leetcode.com/problems/alien-dictionary",
+    "topics": [
+      "Array",
+      "String",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Graph",
+      "Topological Sort"
+    ]
+  }
+]

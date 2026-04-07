@@ -1,0 +1,14 @@
+[
+  {
+    "id": "smallest-string-with-a-given-numeric-value",
+    "title": "Smallest String With A Given Numeric Value",
+    "difficulty": "Medium",
+    "frequency": 100,
+    "acceptance": 0.6708770289225836,
+    "link": "https://leetcode.com/problems/smallest-string-with-a-given-numeric-value",
+    "topics": [
+      "String",
+      "Greedy"
+    ]
+  }
+]

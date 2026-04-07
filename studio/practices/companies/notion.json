@@ -1,0 +1,44 @@
+[
+  {
+    "id": "time-based-key-value-store",
+    "title": "Time Based Key-Value Store",
+    "difficulty": "Medium",
+    "frequency": 100,
+    "acceptance": 0.4936486926116228,
+    "link": "https://leetcode.com/problems/time-based-key-value-store",
+    "topics": [
+      "Hash Table",
+      "String",
+      "Binary Search",
+      "Design"
+    ]
+  },
+  {
+    "id": "text-justification",
+    "title": "Text Justification",
+    "difficulty": "Hard",
+    "frequency": 100,
+    "acceptance": 0.4815475571977295,
+    "link": "https://leetcode.com/problems/text-justification",
+    "topics": [
+      "Array",
+      "String",
+      "Simulation"
+    ]
+  },
+  {
+    "id": "design-a-todo-list",
+    "title": "Design a Todo List",
+    "difficulty": "Medium",
+    "frequency": 100,
+    "acceptance": 0.5843904157857647,
+    "link": "https://leetcode.com/problems/design-a-todo-list",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "String",
+      "Design",
+      "Sorting"
+    ]
+  }
+]

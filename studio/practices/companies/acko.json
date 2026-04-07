@@ -1,0 +1,49 @@
+[
+  {
+    "id": "fill-missing-data",
+    "title": "Fill Missing Data",
+    "difficulty": "Easy",
+    "frequency": 100,
+    "acceptance": 0.7231414467579705,
+    "link": "https://leetcode.com/problems/fill-missing-data",
+    "topics": []
+  },
+  {
+    "id": "count-all-valid-pickup-and-delivery-options",
+    "title": "Count All Valid Pickup and Delivery Options",
+    "difficulty": "Hard",
+    "frequency": 100,
+    "acceptance": 0.6487702325025283,
+    "link": "https://leetcode.com/problems/count-all-valid-pickup-and-delivery-options",
+    "topics": [
+      "Math",
+      "Dynamic Programming",
+      "Combinatorics"
+    ]
+  },
+  {
+    "id": "parallel-courses-iii",
+    "title": "Parallel Courses III",
+    "difficulty": "Hard",
+    "frequency": 89.3,
+    "acceptance": 0.6674963944974485,
+    "link": "https://leetcode.com/problems/parallel-courses-iii",
+    "topics": [
+      "Array",
+      "Dynamic Programming",
+      "Graph",
+      "Topological Sort"
+    ]
+  },
+  {
+    "id": "invalid-tweets",
+    "title": "Invalid Tweets",
+    "difficulty": "Easy",
+    "frequency": 89.3,
+    "acceptance": 0.8551287418798992,
+    "link": "https://leetcode.com/problems/invalid-tweets",
+    "topics": [
+      "Database"
+    ]
+  }
+]

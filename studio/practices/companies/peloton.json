@@ -1,0 +1,46 @@
+[
+  {
+    "id": "insert-delete-getrandom-o1-duplicates-allowed",
+    "title": "Insert Delete GetRandom O(1) - Duplicates allowed",
+    "difficulty": "Hard",
+    "frequency": 100,
+    "acceptance": 0.3577140509982381,
+    "link": "https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "Math",
+      "Design",
+      "Randomized"
+    ]
+  },
+  {
+    "id": "insert-delete-getrandom-o1",
+    "title": "Insert Delete GetRandom O(1)",
+    "difficulty": "Medium",
+    "frequency": 95,
+    "acceptance": 0.5499185337366445,
+    "link": "https://leetcode.com/problems/insert-delete-getrandom-o1",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "Math",
+      "Design",
+      "Randomized"
+    ]
+  },
+  {
+    "id": "subdomain-visit-count",
+    "title": "Subdomain Visit Count",
+    "difficulty": "Medium",
+    "frequency": 79.6,
+    "acceptance": 0.7683456932210888,
+    "link": "https://leetcode.com/problems/subdomain-visit-count",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "String",
+      "Counting"
+    ]
+  }
+]

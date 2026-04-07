@@ -1,0 +1,189 @@
+[
+  {
+    "id": "decode-string",
+    "title": "Decode String",
+    "difficulty": "Medium",
+    "frequency": 100,
+    "acceptance": 0.6115259200424883,
+    "link": "https://leetcode.com/problems/decode-string",
+    "topics": [
+      "String",
+      "Stack",
+      "Recursion"
+    ]
+  },
+  {
+    "id": "remove-boxes",
+    "title": "Remove Boxes",
+    "difficulty": "Hard",
+    "frequency": 97.9,
+    "acceptance": 0.48292462220613513,
+    "link": "https://leetcode.com/problems/remove-boxes",
+    "topics": [
+      "Array",
+      "Dynamic Programming",
+      "Memoization"
+    ]
+  },
+  {
+    "id": "minimum-factorization",
+    "title": "Minimum Factorization",
+    "difficulty": "Medium",
+    "frequency": 97.9,
+    "acceptance": 0.3380261620450853,
+    "link": "https://leetcode.com/problems/minimum-factorization",
+    "topics": [
+      "Math",
+      "Greedy"
+    ]
+  },
+  {
+    "id": "candy",
+    "title": "Candy",
+    "difficulty": "Hard",
+    "frequency": 62.4,
+    "acceptance": 0.4669983592386035,
+    "link": "https://leetcode.com/problems/candy",
+    "topics": [
+      "Array",
+      "Greedy"
+    ]
+  },
+  {
+    "id": "implement-rand10-using-rand7",
+    "title": "Implement Rand10() Using Rand7()",
+    "difficulty": "Medium",
+    "frequency": 62.4,
+    "acceptance": 0.4585972286873645,
+    "link": "https://leetcode.com/problems/implement-rand10-using-rand7",
+    "topics": [
+      "Math",
+      "Rejection Sampling",
+      "Randomized",
+      "Probability and Statistics"
+    ]
+  },
+  {
+    "id": "immediate-food-delivery-ii",
+    "title": "Immediate Food Delivery II",
+    "difficulty": "Medium",
+    "frequency": 62.4,
+    "acceptance": 0.5431581086799343,
+    "link": "https://leetcode.com/problems/immediate-food-delivery-ii",
+    "topics": [
+      "Database"
+    ]
+  },
+  {
+    "id": "alien-dictionary",
+    "title": "Alien Dictionary",
+    "difficulty": "Hard",
+    "frequency": 62.4,
+    "acceptance": 0.3667366393077476,
+    "link": "https://leetcode.com/problems/alien-dictionary",
+    "topics": [
+      "Array",
+      "String",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Graph",
+      "Topological Sort"
+    ]
+  },
+  {
+    "id": "lru-cache",
+    "title": "LRU Cache",
+    "difficulty": "Medium",
+    "frequency": 62.4,
+    "acceptance": 0.45214787213212304,
+    "link": "https://leetcode.com/problems/lru-cache",
+    "topics": [
+      "Hash Table",
+      "Linked List",
+      "Design",
+      "Doubly-Linked List"
+    ]
+  },
+  {
+    "id": "remove-duplicates-from-sorted-list-ii",
+    "title": "Remove Duplicates from Sorted List II",
+    "difficulty": "Medium",
+    "frequency": 62.4,
+    "acceptance": 0.49890970839865334,
+    "link": "https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii",
+    "topics": [
+      "Linked List",
+      "Two Pointers"
+    ]
+  },
+  {
+    "id": "valid-parentheses",
+    "title": "Valid Parentheses",
+    "difficulty": "Easy",
+    "frequency": 62.4,
+    "acceptance": 0.4232286934455142,
+    "link": "https://leetcode.com/problems/valid-parentheses",
+    "topics": [
+      "String",
+      "Stack"
+    ]
+  },
+  {
+    "id": "minimum-remove-to-make-valid-parentheses",
+    "title": "Minimum Remove to Make Valid Parentheses",
+    "difficulty": "Medium",
+    "frequency": 62.4,
+    "acceptance": 0.7074595624352417,
+    "link": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses",
+    "topics": [
+      "String",
+      "Stack"
+    ]
+  },
+  {
+    "id": "department-highest-salary",
+    "title": "Department Highest Salary",
+    "difficulty": "Medium",
+    "frequency": 62.4,
+    "acceptance": 0.5481303192598069,
+    "link": "https://leetcode.com/problems/department-highest-salary",
+    "topics": [
+      "Database"
+    ]
+  },
+  {
+    "id": "next-greater-element-i",
+    "title": "Next Greater Element I",
+    "difficulty": "Easy",
+    "frequency": 62.4,
+    "acceptance": 0.7451231783605773,
+    "link": "https://leetcode.com/problems/next-greater-element-i",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "Stack",
+      "Monotonic Stack"
+    ]
+  },
+  {
+    "id": "debounce",
+    "title": "Debounce",
+    "difficulty": "Medium",
+    "frequency": 62.4,
+    "acceptance": 0.9181616559881715,
+    "link": "https://leetcode.com/problems/debounce",
+    "topics": []
+  },
+  {
+    "id": "merge-intervals",
+    "title": "Merge Intervals",
+    "difficulty": "Medium",
+    "frequency": 62.4,
+    "acceptance": 0.4939524843951094,
+    "link": "https://leetcode.com/problems/merge-intervals",
+    "topics": [
+      "Array",
+      "Sorting"
+    ]
+  }
+]

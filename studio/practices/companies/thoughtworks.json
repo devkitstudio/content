@@ -1,0 +1,105 @@
+[
+  {
+    "id": "number-of-bit-changes-to-make-two-integers-equal",
+    "title": "Number of Bit Changes to Make Two Integers Equal",
+    "difficulty": "Easy",
+    "frequency": 100,
+    "acceptance": 0.6263353274222839,
+    "link": "https://leetcode.com/problems/number-of-bit-changes-to-make-two-integers-equal",
+    "topics": [
+      "Bit Manipulation"
+    ]
+  },
+  {
+    "id": "maximum-gcd-sum-of-a-subarray",
+    "title": "Maximum GCD-Sum of a Subarray",
+    "difficulty": "Hard",
+    "frequency": 100,
+    "acceptance": 0.358179419525066,
+    "link": "https://leetcode.com/problems/maximum-gcd-sum-of-a-subarray",
+    "topics": [
+      "Array",
+      "Math",
+      "Binary Search",
+      "Number Theory"
+    ]
+  },
+  {
+    "id": "maximize-the-number-of-partitions-after-operations",
+    "title": "Maximize the Number of Partitions After Operations",
+    "difficulty": "Hard",
+    "frequency": 100,
+    "acceptance": 0.27458280699421583,
+    "link": "https://leetcode.com/problems/maximize-the-number-of-partitions-after-operations",
+    "topics": [
+      "String",
+      "Dynamic Programming",
+      "Bit Manipulation",
+      "Bitmask"
+    ]
+  },
+  {
+    "id": "number-of-subarrays-that-match-a-pattern-ii",
+    "title": "Number of Subarrays That Match a Pattern II",
+    "difficulty": "Hard",
+    "frequency": 100,
+    "acceptance": 0.322212333121424,
+    "link": "https://leetcode.com/problems/number-of-subarrays-that-match-a-pattern-ii",
+    "topics": [
+      "Array",
+      "Rolling Hash",
+      "String Matching",
+      "Hash Function"
+    ]
+  },
+  {
+    "id": "best-time-to-buy-and-sell-stock",
+    "title": "Best Time to Buy and Sell Stock",
+    "difficulty": "Easy",
+    "frequency": 73,
+    "acceptance": 0.5525968819096688,
+    "link": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock",
+    "topics": [
+      "Array",
+      "Dynamic Programming"
+    ]
+  },
+  {
+    "id": "longest-substring-without-repeating-characters",
+    "title": "Longest Substring Without Repeating Characters",
+    "difficulty": "Medium",
+    "frequency": 63.9,
+    "acceptance": 0.3693618464595322,
+    "link": "https://leetcode.com/problems/longest-substring-without-repeating-characters",
+    "topics": [
+      "Hash Table",
+      "String",
+      "Sliding Window"
+    ]
+  },
+  {
+    "id": "valid-parentheses",
+    "title": "Valid Parentheses",
+    "difficulty": "Easy",
+    "frequency": 63.9,
+    "acceptance": 0.4232290340530288,
+    "link": "https://leetcode.com/problems/valid-parentheses",
+    "topics": [
+      "String",
+      "Stack"
+    ]
+  },
+  {
+    "id": "longest-palindromic-substring",
+    "title": "Longest Palindromic Substring",
+    "difficulty": "Medium",
+    "frequency": 63.9,
+    "acceptance": 0.3584622482553879,
+    "link": "https://leetcode.com/problems/longest-palindromic-substring",
+    "topics": [
+      "Two Pointers",
+      "String",
+      "Dynamic Programming"
+    ]
+  }
+]

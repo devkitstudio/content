@@ -1,0 +1,40 @@
+[
+  {
+    "id": "divide-a-string-into-groups-of-size-k",
+    "title": "Divide a String Into Groups of Size k",
+    "difficulty": "Easy",
+    "frequency": 100,
+    "acceptance": 0.674969740982813,
+    "link": "https://leetcode.com/problems/divide-a-string-into-groups-of-size-k",
+    "topics": [
+      "String",
+      "Simulation"
+    ]
+  },
+  {
+    "id": "evaluate-reverse-polish-notation",
+    "title": "Evaluate Reverse Polish Notation",
+    "difficulty": "Medium",
+    "frequency": 79.6,
+    "acceptance": 0.5495056579293032,
+    "link": "https://leetcode.com/problems/evaluate-reverse-polish-notation",
+    "topics": [
+      "Array",
+      "Math",
+      "Stack"
+    ]
+  },
+  {
+    "id": "merge-sorted-array",
+    "title": "Merge Sorted Array",
+    "difficulty": "Easy",
+    "frequency": 65.6,
+    "acceptance": 0.5291966796314408,
+    "link": "https://leetcode.com/problems/merge-sorted-array",
+    "topics": [
+      "Array",
+      "Two Pointers",
+      "Sorting"
+    ]
+  }
+]

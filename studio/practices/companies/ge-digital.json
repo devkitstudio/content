@@ -1,0 +1,38 @@
+[
+  {
+    "id": "degree-of-an-array",
+    "title": "Degree of an Array",
+    "difficulty": "Easy",
+    "frequency": 100,
+    "acceptance": 0.5741794026709685,
+    "link": "https://leetcode.com/problems/degree-of-an-array",
+    "topics": [
+      "Array",
+      "Hash Table"
+    ]
+  },
+  {
+    "id": "minimum-cost-to-set-cooking-time",
+    "title": "Minimum Cost to Set Cooking Time",
+    "difficulty": "Medium",
+    "frequency": 75.5,
+    "acceptance": 0.40999530001566664,
+    "link": "https://leetcode.com/problems/minimum-cost-to-set-cooking-time",
+    "topics": [
+      "Math",
+      "Enumeration"
+    ]
+  },
+  {
+    "id": "minimum-remove-to-make-valid-parentheses",
+    "title": "Minimum Remove to Make Valid Parentheses",
+    "difficulty": "Medium",
+    "frequency": 67.3,
+    "acceptance": 0.7074808458496666,
+    "link": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses",
+    "topics": [
+      "String",
+      "Stack"
+    ]
+  }
+]

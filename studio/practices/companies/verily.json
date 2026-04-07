@@ -1,0 +1,169 @@
+[
+  {
+    "id": "happy-number",
+    "title": "Happy Number",
+    "difficulty": "Easy",
+    "frequency": 100,
+    "acceptance": 0.5807268469584306,
+    "link": "https://leetcode.com/problems/happy-number",
+    "topics": [
+      "Hash Table",
+      "Math",
+      "Two Pointers"
+    ]
+  },
+  {
+    "id": "jump-game",
+    "title": "Jump Game",
+    "difficulty": "Medium",
+    "frequency": 100,
+    "acceptance": 0.3947926614382257,
+    "link": "https://leetcode.com/problems/jump-game",
+    "topics": [
+      "Array",
+      "Dynamic Programming",
+      "Greedy"
+    ]
+  },
+  {
+    "id": "find-original-array-from-doubled-array",
+    "title": "Find Original Array From Doubled Array",
+    "difficulty": "Medium",
+    "frequency": 92.3,
+    "acceptance": 0.4048045625260815,
+    "link": "https://leetcode.com/problems/find-original-array-from-doubled-array",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "Greedy",
+      "Sorting"
+    ]
+  },
+  {
+    "id": "guess-the-word",
+    "title": "Guess the Word",
+    "difficulty": "Hard",
+    "frequency": 92.3,
+    "acceptance": 0.37651627943192456,
+    "link": "https://leetcode.com/problems/guess-the-word",
+    "topics": [
+      "Array",
+      "Math",
+      "String",
+      "Interactive",
+      "Game Theory"
+    ]
+  },
+  {
+    "id": "longest-string-chain",
+    "title": "Longest String Chain",
+    "difficulty": "Medium",
+    "frequency": 92.3,
+    "acceptance": 0.6201519540251159,
+    "link": "https://leetcode.com/problems/longest-string-chain",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "Two Pointers",
+      "String",
+      "Dynamic Programming",
+      "Sorting"
+    ]
+  },
+  {
+    "id": "minimum-area-rectangle-ii",
+    "title": "Minimum Area Rectangle II",
+    "difficulty": "Medium",
+    "frequency": 92.3,
+    "acceptance": 0.5564209472981988,
+    "link": "https://leetcode.com/problems/minimum-area-rectangle-ii",
+    "topics": [
+      "Array",
+      "Math",
+      "Geometry"
+    ]
+  },
+  {
+    "id": "find-all-possible-recipes-from-given-supplies",
+    "title": "Find All Possible Recipes from Given Supplies",
+    "difficulty": "Medium",
+    "frequency": 92.3,
+    "acceptance": 0.5646084811588118,
+    "link": "https://leetcode.com/problems/find-all-possible-recipes-from-given-supplies",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "String",
+      "Graph",
+      "Topological Sort"
+    ]
+  },
+  {
+    "id": "group-anagrams",
+    "title": "Group Anagrams",
+    "difficulty": "Medium",
+    "frequency": 92.3,
+    "acceptance": 0.7092890050315475,
+    "link": "https://leetcode.com/problems/group-anagrams",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "String",
+      "Sorting"
+    ]
+  },
+  {
+    "id": "minimum-knight-moves",
+    "title": "Minimum Knight Moves",
+    "difficulty": "Medium",
+    "frequency": 92.3,
+    "acceptance": 0.41329294235617164,
+    "link": "https://leetcode.com/problems/minimum-knight-moves",
+    "topics": [
+      "Breadth-First Search"
+    ]
+  },
+  {
+    "id": "kth-largest-element-in-an-array",
+    "title": "Kth Largest Element in an Array",
+    "difficulty": "Medium",
+    "frequency": 92.3,
+    "acceptance": 0.6797709272637654,
+    "link": "https://leetcode.com/problems/kth-largest-element-in-an-array",
+    "topics": [
+      "Array",
+      "Divide and Conquer",
+      "Sorting",
+      "Heap (Priority Queue)",
+      "Quickselect"
+    ]
+  },
+  {
+    "id": "video-stitching",
+    "title": "Video Stitching",
+    "difficulty": "Medium",
+    "frequency": 81.5,
+    "acceptance": 0.5199920692617804,
+    "link": "https://leetcode.com/problems/video-stitching",
+    "topics": [
+      "Array",
+      "Dynamic Programming",
+      "Greedy"
+    ]
+  },
+  {
+    "id": "minimum-area-rectangle",
+    "title": "Minimum Area Rectangle",
+    "difficulty": "Medium",
+    "frequency": 81.5,
+    "acceptance": 0.5500425559774781,
+    "link": "https://leetcode.com/problems/minimum-area-rectangle",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "Math",
+      "Geometry",
+      "Sorting"
+    ]
+  }
+]

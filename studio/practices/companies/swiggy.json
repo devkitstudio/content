@@ -1,0 +1,411 @@
+[
+  {
+    "id": "maximize-area-of-square-hole-in-grid",
+    "title": "Maximize Area of Square Hole in Grid",
+    "difficulty": "Medium",
+    "frequency": 100,
+    "acceptance": 0.3697566883188374,
+    "link": "https://leetcode.com/problems/maximize-area-of-square-hole-in-grid",
+    "topics": [
+      "Array",
+      "Sorting"
+    ]
+  },
+  {
+    "id": "minimum-value-to-get-positive-step-by-step-sum",
+    "title": "Minimum Value to Get Positive Step by Step Sum",
+    "difficulty": "Easy",
+    "frequency": 97.6,
+    "acceptance": 0.6462878389161475,
+    "link": "https://leetcode.com/problems/minimum-value-to-get-positive-step-by-step-sum",
+    "topics": [
+      "Array",
+      "Prefix Sum"
+    ]
+  },
+  {
+    "id": "sort-colors",
+    "title": "Sort Colors",
+    "difficulty": "Medium",
+    "frequency": 80.5,
+    "acceptance": 0.6758309830109738,
+    "link": "https://leetcode.com/problems/sort-colors",
+    "topics": [
+      "Array",
+      "Two Pointers",
+      "Sorting"
+    ]
+  },
+  {
+    "id": "valid-parentheses",
+    "title": "Valid Parentheses",
+    "difficulty": "Easy",
+    "frequency": 75,
+    "acceptance": 0.4232285107271765,
+    "link": "https://leetcode.com/problems/valid-parentheses",
+    "topics": [
+      "String",
+      "Stack"
+    ]
+  },
+  {
+    "id": "merge-sorted-array",
+    "title": "Merge Sorted Array",
+    "difficulty": "Easy",
+    "frequency": 75,
+    "acceptance": 0.5291958949083617,
+    "link": "https://leetcode.com/problems/merge-sorted-array",
+    "topics": [
+      "Array",
+      "Two Pointers",
+      "Sorting"
+    ]
+  },
+  {
+    "id": "next-greater-element-i",
+    "title": "Next Greater Element I",
+    "difficulty": "Easy",
+    "frequency": 75,
+    "acceptance": 0.7451249169659646,
+    "link": "https://leetcode.com/problems/next-greater-element-i",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "Stack",
+      "Monotonic Stack"
+    ]
+  },
+  {
+    "id": "maximum-profit-in-job-scheduling",
+    "title": "Maximum Profit in Job Scheduling",
+    "difficulty": "Hard",
+    "frequency": 75,
+    "acceptance": 0.5441708252506257,
+    "link": "https://leetcode.com/problems/maximum-profit-in-job-scheduling",
+    "topics": [
+      "Array",
+      "Binary Search",
+      "Dynamic Programming",
+      "Sorting"
+    ]
+  },
+  {
+    "id": "happy-number",
+    "title": "Happy Number",
+    "difficulty": "Easy",
+    "frequency": 75,
+    "acceptance": 0.5807271162515536,
+    "link": "https://leetcode.com/problems/happy-number",
+    "topics": [
+      "Hash Table",
+      "Math",
+      "Two Pointers"
+    ]
+  },
+  {
+    "id": "fair-candy-swap",
+    "title": "Fair Candy Swap",
+    "difficulty": "Easy",
+    "frequency": 67.9,
+    "acceptance": 0.6328166847357979,
+    "link": "https://leetcode.com/problems/fair-candy-swap",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "Binary Search",
+      "Sorting"
+    ]
+  },
+  {
+    "id": "count-good-meals",
+    "title": "Count Good Meals",
+    "difficulty": "Medium",
+    "frequency": 67.9,
+    "acceptance": 0.3164606880510123,
+    "link": "https://leetcode.com/problems/count-good-meals",
+    "topics": [
+      "Array",
+      "Hash Table"
+    ]
+  },
+  {
+    "id": "integer-to-roman",
+    "title": "Integer to Roman",
+    "difficulty": "Medium",
+    "frequency": 67.9,
+    "acceptance": 0.6861924193258928,
+    "link": "https://leetcode.com/problems/integer-to-roman",
+    "topics": [
+      "Hash Table",
+      "Math",
+      "String"
+    ]
+  },
+  {
+    "id": "daily-temperatures",
+    "title": "Daily Temperatures",
+    "difficulty": "Medium",
+    "frequency": 67.9,
+    "acceptance": 0.6736502832589849,
+    "link": "https://leetcode.com/problems/daily-temperatures",
+    "topics": [
+      "Array",
+      "Stack",
+      "Monotonic Stack"
+    ]
+  },
+  {
+    "id": "course-schedule",
+    "title": "Course Schedule",
+    "difficulty": "Medium",
+    "frequency": 67.9,
+    "acceptance": 0.492343272648647,
+    "link": "https://leetcode.com/problems/course-schedule",
+    "topics": [
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Graph",
+      "Topological Sort"
+    ]
+  },
+  {
+    "id": "maximum-score-from-removing-substrings",
+    "title": "Maximum Score From Removing Substrings",
+    "difficulty": "Medium",
+    "frequency": 58,
+    "acceptance": 0.6284543200185538,
+    "link": "https://leetcode.com/problems/maximum-score-from-removing-substrings",
+    "topics": [
+      "String",
+      "Stack",
+      "Greedy"
+    ]
+  },
+  {
+    "id": "immediate-food-delivery-ii",
+    "title": "Immediate Food Delivery II",
+    "difficulty": "Medium",
+    "frequency": 58,
+    "acceptance": 0.5431590135558603,
+    "link": "https://leetcode.com/problems/immediate-food-delivery-ii",
+    "topics": [
+      "Database"
+    ]
+  },
+  {
+    "id": "letter-combinations-of-a-phone-number",
+    "title": "Letter Combinations of a Phone Number",
+    "difficulty": "Medium",
+    "frequency": 58,
+    "acceptance": 0.6385757214523419,
+    "link": "https://leetcode.com/problems/letter-combinations-of-a-phone-number",
+    "topics": [
+      "Hash Table",
+      "String",
+      "Backtracking"
+    ]
+  },
+  {
+    "id": "k-closest-points-to-origin",
+    "title": "K Closest Points to Origin",
+    "difficulty": "Medium",
+    "frequency": 58,
+    "acceptance": 0.6793952169635183,
+    "link": "https://leetcode.com/problems/k-closest-points-to-origin",
+    "topics": [
+      "Array",
+      "Math",
+      "Divide and Conquer",
+      "Geometry",
+      "Sorting",
+      "Heap (Priority Queue)",
+      "Quickselect"
+    ]
+  },
+  {
+    "id": "minimum-number-of-work-sessions-to-finish-the-tasks",
+    "title": "Minimum Number of Work Sessions to Finish the Tasks",
+    "difficulty": "Medium",
+    "frequency": 58,
+    "acceptance": 0.3374703973335672,
+    "link": "https://leetcode.com/problems/minimum-number-of-work-sessions-to-finish-the-tasks",
+    "topics": [
+      "Array",
+      "Dynamic Programming",
+      "Backtracking",
+      "Bit Manipulation",
+      "Bitmask"
+    ]
+  },
+  {
+    "id": "two-city-scheduling",
+    "title": "Two City Scheduling",
+    "difficulty": "Medium",
+    "frequency": 58,
+    "acceptance": 0.6769210516989099,
+    "link": "https://leetcode.com/problems/two-city-scheduling",
+    "topics": [
+      "Array",
+      "Greedy",
+      "Sorting"
+    ]
+  },
+  {
+    "id": "best-time-to-buy-and-sell-stock",
+    "title": "Best Time to Buy and Sell Stock",
+    "difficulty": "Easy",
+    "frequency": 58,
+    "acceptance": 0.5525960541487699,
+    "link": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock",
+    "topics": [
+      "Array",
+      "Dynamic Programming"
+    ]
+  },
+  {
+    "id": "median-of-two-sorted-arrays",
+    "title": "Median of Two Sorted Arrays",
+    "difficulty": "Hard",
+    "frequency": 58,
+    "acceptance": 0.4381462083330783,
+    "link": "https://leetcode.com/problems/median-of-two-sorted-arrays",
+    "topics": [
+      "Array",
+      "Binary Search",
+      "Divide and Conquer"
+    ]
+  },
+  {
+    "id": "merge-two-sorted-lists",
+    "title": "Merge Two Sorted Lists",
+    "difficulty": "Easy",
+    "frequency": 58,
+    "acceptance": 0.6684090860904955,
+    "link": "https://leetcode.com/problems/merge-two-sorted-lists",
+    "topics": [
+      "Linked List",
+      "Recursion"
+    ]
+  },
+  {
+    "id": "subarray-sum-equals-k",
+    "title": "Subarray Sum Equals K",
+    "difficulty": "Medium",
+    "frequency": 58,
+    "acceptance": 0.4547627237551225,
+    "link": "https://leetcode.com/problems/subarray-sum-equals-k",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "Prefix Sum"
+    ]
+  },
+  {
+    "id": "first-missing-positive",
+    "title": "First Missing Positive",
+    "difficulty": "Hard",
+    "frequency": 58,
+    "acceptance": 0.4108465766394882,
+    "link": "https://leetcode.com/problems/first-missing-positive",
+    "topics": [
+      "Array",
+      "Hash Table"
+    ]
+  },
+  {
+    "id": "lru-cache",
+    "title": "LRU Cache",
+    "difficulty": "Medium",
+    "frequency": 58,
+    "acceptance": 0.452147387470624,
+    "link": "https://leetcode.com/problems/lru-cache",
+    "topics": [
+      "Hash Table",
+      "Linked List",
+      "Design",
+      "Doubly-Linked List"
+    ]
+  },
+  {
+    "id": "longest-consecutive-sequence",
+    "title": "Longest Consecutive Sequence",
+    "difficulty": "Medium",
+    "frequency": 58,
+    "acceptance": 0.4704085483066707,
+    "link": "https://leetcode.com/problems/longest-consecutive-sequence",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "Union Find"
+    ]
+  },
+  {
+    "id": "majority-element",
+    "title": "Majority Element",
+    "difficulty": "Easy",
+    "frequency": 58,
+    "acceptance": 0.6574031819588328,
+    "link": "https://leetcode.com/problems/majority-element",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "Divide and Conquer",
+      "Sorting",
+      "Counting"
+    ]
+  },
+  {
+    "id": "maximum-length-of-pair-chain",
+    "title": "Maximum Length of Pair Chain",
+    "difficulty": "Medium",
+    "frequency": 58,
+    "acceptance": 0.6087689786906313,
+    "link": "https://leetcode.com/problems/maximum-length-of-pair-chain",
+    "topics": [
+      "Array",
+      "Dynamic Programming",
+      "Greedy",
+      "Sorting"
+    ]
+  },
+  {
+    "id": "subsets-ii",
+    "title": "Subsets II",
+    "difficulty": "Medium",
+    "frequency": 58,
+    "acceptance": 0.5950728535283255,
+    "link": "https://leetcode.com/problems/subsets-ii",
+    "topics": [
+      "Array",
+      "Backtracking",
+      "Bit Manipulation"
+    ]
+  },
+  {
+    "id": "trapping-rain-water",
+    "title": "Trapping Rain Water",
+    "difficulty": "Hard",
+    "frequency": 58,
+    "acceptance": 0.6510208301452317,
+    "link": "https://leetcode.com/problems/trapping-rain-water",
+    "topics": [
+      "Array",
+      "Two Pointers",
+      "Dynamic Programming",
+      "Stack",
+      "Monotonic Stack"
+    ]
+  },
+  {
+    "id": "edit-distance",
+    "title": "Edit Distance",
+    "difficulty": "Medium",
+    "frequency": 58,
+    "acceptance": 0.5878986860189561,
+    "link": "https://leetcode.com/problems/edit-distance",
+    "topics": [
+      "String",
+      "Dynamic Programming"
+    ]
+  }
+]

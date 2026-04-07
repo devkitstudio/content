@@ -1,0 +1,26 @@
+[
+  {
+    "id": "minimum-number-of-swaps-to-make-the-binary-string-alternating",
+    "title": "Minimum Number of Swaps to Make the Binary String Alternating",
+    "difficulty": "Medium",
+    "frequency": 100,
+    "acceptance": 0.43463278052982984,
+    "link": "https://leetcode.com/problems/minimum-number-of-swaps-to-make-the-binary-string-alternating",
+    "topics": [
+      "String",
+      "Greedy"
+    ]
+  },
+  {
+    "id": "best-time-to-buy-and-sell-stock",
+    "title": "Best Time to Buy and Sell Stock",
+    "difficulty": "Easy",
+    "frequency": 66.3,
+    "acceptance": 0.5525974690146599,
+    "link": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock",
+    "topics": [
+      "Array",
+      "Dynamic Programming"
+    ]
+  }
+]

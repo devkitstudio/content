@@ -1,0 +1,29 @@
+[
+  {
+    "id": "online-stock-span",
+    "title": "Online Stock Span",
+    "difficulty": "Medium",
+    "frequency": 100,
+    "acceptance": 0.6738450657310683,
+    "link": "https://leetcode.com/problems/online-stock-span",
+    "topics": [
+      "Stack",
+      "Design",
+      "Monotonic Stack",
+      "Data Stream"
+    ]
+  },
+  {
+    "id": "count-nodes-equal-to-average-of-subtree",
+    "title": "Count Nodes Equal to Average of Subtree",
+    "difficulty": "Medium",
+    "frequency": 100,
+    "acceptance": 0.8641895449417075,
+    "link": "https://leetcode.com/problems/count-nodes-equal-to-average-of-subtree",
+    "topics": [
+      "Tree",
+      "Depth-First Search",
+      "Binary Tree"
+    ]
+  }
+]

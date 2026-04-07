@@ -1,0 +1,43 @@
+[
+  {
+    "id": "minimum-moves-to-make-array-complementary",
+    "title": "Minimum Moves to Make Array Complementary",
+    "difficulty": "Medium",
+    "frequency": 100,
+    "acceptance": 0.4216836919510251,
+    "link": "https://leetcode.com/problems/minimum-moves-to-make-array-complementary",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "Prefix Sum"
+    ]
+  },
+  {
+    "id": "word-break",
+    "title": "Word Break",
+    "difficulty": "Medium",
+    "frequency": 66.4,
+    "acceptance": 0.4827562706373493,
+    "link": "https://leetcode.com/problems/word-break",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "String",
+      "Dynamic Programming",
+      "Trie",
+      "Memoization"
+    ]
+  },
+  {
+    "id": "gas-station",
+    "title": "Gas Station",
+    "difficulty": "Medium",
+    "frequency": 66.4,
+    "acceptance": 0.4638742034359784,
+    "link": "https://leetcode.com/problems/gas-station",
+    "topics": [
+      "Array",
+      "Greedy"
+    ]
+  }
+]

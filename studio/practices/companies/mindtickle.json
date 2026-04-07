@@ -1,0 +1,54 @@
+[
+  {
+    "id": "find-array-given-subset-sums",
+    "title": "Find Array Given Subset Sums",
+    "difficulty": "Hard",
+    "frequency": 100,
+    "acceptance": 0.4868854808657016,
+    "link": "https://leetcode.com/problems/find-array-given-subset-sums",
+    "topics": [
+      "Array",
+      "Divide and Conquer"
+    ]
+  },
+  {
+    "id": "get-the-maximum-score",
+    "title": "Get the Maximum Score",
+    "difficulty": "Hard",
+    "frequency": 100,
+    "acceptance": 0.39985388403935057,
+    "link": "https://leetcode.com/problems/get-the-maximum-score",
+    "topics": [
+      "Array",
+      "Two Pointers",
+      "Dynamic Programming",
+      "Greedy"
+    ]
+  },
+  {
+    "id": "number-of-ways-to-wear-different-hats-to-each-other",
+    "title": "Number of Ways to Wear Different Hats to Each Other",
+    "difficulty": "Hard",
+    "frequency": 100,
+    "acceptance": 0.4443784933471831,
+    "link": "https://leetcode.com/problems/number-of-ways-to-wear-different-hats-to-each-other",
+    "topics": [
+      "Array",
+      "Dynamic Programming",
+      "Bit Manipulation",
+      "Bitmask"
+    ]
+  },
+  {
+    "id": "capacity-to-ship-packages-within-d-days",
+    "title": "Capacity To Ship Packages Within D Days",
+    "difficulty": "Medium",
+    "frequency": 64.6,
+    "acceptance": 0.7213314724109039,
+    "link": "https://leetcode.com/problems/capacity-to-ship-packages-within-d-days",
+    "topics": [
+      "Array",
+      "Binary Search"
+    ]
+  }
+]

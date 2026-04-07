@@ -1,0 +1,68 @@
+[
+  {
+    "id": "string-to-integer-atoi",
+    "title": "String to Integer (atoi)",
+    "difficulty": "Medium",
+    "frequency": 100,
+    "acceptance": 0.1922945791262246,
+    "link": "https://leetcode.com/problems/string-to-integer-atoi",
+    "topics": [
+      "String"
+    ]
+  },
+  {
+    "id": "brace-expansion",
+    "title": "Brace Expansion",
+    "difficulty": "Medium",
+    "frequency": 100,
+    "acceptance": 0.6672212978369384,
+    "link": "https://leetcode.com/problems/brace-expansion",
+    "topics": [
+      "String",
+      "Backtracking",
+      "Breadth-First Search"
+    ]
+  },
+  {
+    "id": "lru-cache",
+    "title": "LRU Cache",
+    "difficulty": "Medium",
+    "frequency": 88.7,
+    "acceptance": 0.4521488470379119,
+    "link": "https://leetcode.com/problems/lru-cache",
+    "topics": [
+      "Hash Table",
+      "Linked List",
+      "Design",
+      "Doubly-Linked List"
+    ]
+  },
+  {
+    "id": "find-the-duplicate-number",
+    "title": "Find the Duplicate Number",
+    "difficulty": "Medium",
+    "frequency": 88.7,
+    "acceptance": 0.6283589472980362,
+    "link": "https://leetcode.com/problems/find-the-duplicate-number",
+    "topics": [
+      "Array",
+      "Two Pointers",
+      "Binary Search",
+      "Bit Manipulation"
+    ]
+  },
+  {
+    "id": "group-anagrams",
+    "title": "Group Anagrams",
+    "difficulty": "Medium",
+    "frequency": 88.7,
+    "acceptance": 0.7092891812279473,
+    "link": "https://leetcode.com/problems/group-anagrams",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "String",
+      "Sorting"
+    ]
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "id": "count-unguarded-cells-in-the-grid",
+    "title": "Count Unguarded Cells in the Grid",
+    "difficulty": "Medium",
+    "frequency": 100,
+    "acceptance": 0.6575999128429539,
+    "link": "https://leetcode.com/problems/count-unguarded-cells-in-the-grid",
+    "topics": [
+      "Array",
+      "Matrix",
+      "Simulation"
+    ]
+  },
+  {
+    "id": "market-analysis-i",
+    "title": "Market Analysis I",
+    "difficulty": "Medium",
+    "frequency": 100,
+    "acceptance": 0.571925862803579,
+    "link": "https://leetcode.com/problems/market-analysis-i",
+    "topics": [
+      "Database"
+    ]
+  },
+  {
+    "id": "market-analysis-ii",
+    "title": "Market Analysis II",
+    "difficulty": "Hard",
+    "frequency": 100,
+    "acceptance": 0.5784402208536844,
+    "link": "https://leetcode.com/problems/market-analysis-ii",
+    "topics": [
+      "Database"
+    ]
+  },
+  {
+    "id": "max-chunks-to-make-sorted",
+    "title": "Max Chunks To Make Sorted",
+    "difficulty": "Medium",
+    "frequency": 66.4,
+    "acceptance": 0.6404048068659659,
+    "link": "https://leetcode.com/problems/max-chunks-to-make-sorted",
+    "topics": [
+      "Array",
+      "Stack",
+      "Greedy",
+      "Sorting",
+      "Monotonic Stack"
+    ]
+  }
+]

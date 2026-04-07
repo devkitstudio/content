@@ -1,0 +1,74 @@
+[
+  {
+    "id": "find-words-containing-character",
+    "title": "Find Words Containing Character",
+    "difficulty": "Easy",
+    "frequency": 100,
+    "acceptance": 0.9064075447850629,
+    "link": "https://leetcode.com/problems/find-words-containing-character",
+    "topics": [
+      "Array",
+      "String"
+    ]
+  },
+  {
+    "id": "search-suggestions-system",
+    "title": "Search Suggestions System",
+    "difficulty": "Medium",
+    "frequency": 85.4,
+    "acceptance": 0.6505018082357296,
+    "link": "https://leetcode.com/problems/search-suggestions-system",
+    "topics": [
+      "Array",
+      "String",
+      "Binary Search",
+      "Trie",
+      "Sorting",
+      "Heap (Priority Queue)"
+    ]
+  },
+  {
+    "id": "vertical-order-traversal-of-a-binary-tree",
+    "title": "Vertical Order Traversal of a Binary Tree",
+    "difficulty": "Hard",
+    "frequency": 66.2,
+    "acceptance": 0.5133055579720943,
+    "link": "https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree",
+    "topics": [
+      "Hash Table",
+      "Tree",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Sorting",
+      "Binary Tree"
+    ]
+  },
+  {
+    "id": "count-number-of-nice-subarrays",
+    "title": "Count Number of Nice Subarrays",
+    "difficulty": "Medium",
+    "frequency": 66.2,
+    "acceptance": 0.7321007455952697,
+    "link": "https://leetcode.com/problems/count-number-of-nice-subarrays",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "Math",
+      "Sliding Window",
+      "Prefix Sum"
+    ]
+  },
+  {
+    "id": "remove-invalid-parentheses",
+    "title": "Remove Invalid Parentheses",
+    "difficulty": "Hard",
+    "frequency": 66.2,
+    "acceptance": 0.49231429833651935,
+    "link": "https://leetcode.com/problems/remove-invalid-parentheses",
+    "topics": [
+      "String",
+      "Backtracking",
+      "Breadth-First Search"
+    ]
+  }
+]

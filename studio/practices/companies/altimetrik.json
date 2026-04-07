@@ -1,0 +1,56 @@
+[
+  {
+    "id": "maximum-number-of-pairs-in-array",
+    "title": "Maximum Number of Pairs in Array",
+    "difficulty": "Easy",
+    "frequency": 100,
+    "acceptance": 0.755399434671643,
+    "link": "https://leetcode.com/problems/maximum-number-of-pairs-in-array",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "Counting"
+    ]
+  },
+  {
+    "id": "two-sum",
+    "title": "Two Sum",
+    "difficulty": "Easy",
+    "frequency": 80.4,
+    "acceptance": 0.5577709811356623,
+    "link": "https://leetcode.com/problems/two-sum",
+    "topics": [
+      "Array",
+      "Hash Table"
+    ]
+  },
+  {
+    "id": "3sum",
+    "title": "3Sum",
+    "difficulty": "Medium",
+    "frequency": 74.3,
+    "acceptance": 0.37071264823321115,
+    "link": "https://leetcode.com/problems/3sum",
+    "topics": [
+      "Array",
+      "Two Pointers",
+      "Sorting"
+    ]
+  },
+  {
+    "id": "design-a-food-rating-system",
+    "title": "Design a Food Rating System",
+    "difficulty": "Medium",
+    "frequency": 65.6,
+    "acceptance": 0.4491788770279475,
+    "link": "https://leetcode.com/problems/design-a-food-rating-system",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "String",
+      "Design",
+      "Heap (Priority Queue)",
+      "Ordered Set"
+    ]
+  }
+]

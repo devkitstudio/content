@@ -1,0 +1,239 @@
+[
+  {
+    "id": "construct-target-array-with-multiple-sums",
+    "title": "Construct Target Array With Multiple Sums",
+    "difficulty": "Hard",
+    "frequency": 100,
+    "acceptance": 0.36258718293560194,
+    "link": "https://leetcode.com/problems/construct-target-array-with-multiple-sums",
+    "topics": [
+      "Array",
+      "Heap (Priority Queue)"
+    ]
+  },
+  {
+    "id": "encode-number",
+    "title": "Encode Number",
+    "difficulty": "Medium",
+    "frequency": 87.2,
+    "acceptance": 0.7006358626536668,
+    "link": "https://leetcode.com/problems/encode-number",
+    "topics": [
+      "Math",
+      "String",
+      "Bit Manipulation"
+    ]
+  },
+  {
+    "id": "find-numbers-with-even-number-of-digits",
+    "title": "Find Numbers with Even Number of Digits",
+    "difficulty": "Easy",
+    "frequency": 87.2,
+    "acceptance": 0.7941578445535484,
+    "link": "https://leetcode.com/problems/find-numbers-with-even-number-of-digits",
+    "topics": [
+      "Array",
+      "Math"
+    ]
+  },
+  {
+    "id": "finding-pairs-with-a-certain-sum",
+    "title": "Finding Pairs With a Certain Sum",
+    "difficulty": "Medium",
+    "frequency": 87.2,
+    "acceptance": 0.491882680060992,
+    "link": "https://leetcode.com/problems/finding-pairs-with-a-certain-sum",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "Design"
+    ]
+  },
+  {
+    "id": "get-biggest-three-rhombus-sums-in-a-grid",
+    "title": "Get Biggest Three Rhombus Sums in a Grid",
+    "difficulty": "Medium",
+    "frequency": 87.2,
+    "acceptance": 0.49266961268520926,
+    "link": "https://leetcode.com/problems/get-biggest-three-rhombus-sums-in-a-grid",
+    "topics": [
+      "Array",
+      "Math",
+      "Sorting",
+      "Heap (Priority Queue)",
+      "Matrix",
+      "Prefix Sum"
+    ]
+  },
+  {
+    "id": "substrings-of-size-three-with-distinct-characters",
+    "title": "Substrings of Size Three with Distinct Characters",
+    "difficulty": "Easy",
+    "frequency": 87.2,
+    "acceptance": 0.7545470598622637,
+    "link": "https://leetcode.com/problems/substrings-of-size-three-with-distinct-characters",
+    "topics": [
+      "Hash Table",
+      "String",
+      "Sliding Window",
+      "Counting"
+    ]
+  },
+  {
+    "id": "3sum-with-multiplicity",
+    "title": "3Sum With Multiplicity",
+    "difficulty": "Medium",
+    "frequency": 87.2,
+    "acceptance": 0.4579874402763626,
+    "link": "https://leetcode.com/problems/3sum-with-multiplicity",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "Two Pointers",
+      "Sorting",
+      "Counting"
+    ]
+  },
+  {
+    "id": "1-bit-and-2-bit-characters",
+    "title": "1-bit and 2-bit Characters",
+    "difficulty": "Easy",
+    "frequency": 87.2,
+    "acceptance": 0.4511727696394956,
+    "link": "https://leetcode.com/problems/1-bit-and-2-bit-characters",
+    "topics": [
+      "Array"
+    ]
+  },
+  {
+    "id": "find-the-k-beauty-of-a-number",
+    "title": "Find the K-Beauty of a Number",
+    "difficulty": "Easy",
+    "frequency": 87.2,
+    "acceptance": 0.6169362019005067,
+    "link": "https://leetcode.com/problems/find-the-k-beauty-of-a-number",
+    "topics": [
+      "Math",
+      "String",
+      "Sliding Window"
+    ]
+  },
+  {
+    "id": "subtract-the-product-and-sum-of-digits-of-an-integer",
+    "title": "Subtract the Product and Sum of Digits of an Integer",
+    "difficulty": "Easy",
+    "frequency": 87.2,
+    "acceptance": 0.8664440229997958,
+    "link": "https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer",
+    "topics": [
+      "Math"
+    ]
+  },
+  {
+    "id": "exam-room",
+    "title": "Exam Room",
+    "difficulty": "Medium",
+    "frequency": 87.2,
+    "acceptance": 0.42867179364939967,
+    "link": "https://leetcode.com/problems/exam-room",
+    "topics": [
+      "Design",
+      "Heap (Priority Queue)",
+      "Ordered Set"
+    ]
+  },
+  {
+    "id": "range-frequency-queries",
+    "title": "Range Frequency Queries",
+    "difficulty": "Medium",
+    "frequency": 87.2,
+    "acceptance": 0.3977062468794972,
+    "link": "https://leetcode.com/problems/range-frequency-queries",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "Binary Search",
+      "Design",
+      "Segment Tree"
+    ]
+  },
+  {
+    "id": "maximum-number-of-words-you-can-type",
+    "title": "Maximum Number of Words You Can Type",
+    "difficulty": "Easy",
+    "frequency": 87.2,
+    "acceptance": 0.7468929476897604,
+    "link": "https://leetcode.com/problems/maximum-number-of-words-you-can-type",
+    "topics": [
+      "Hash Table",
+      "String"
+    ]
+  },
+  {
+    "id": "sort-the-matrix-diagonally",
+    "title": "Sort the Matrix Diagonally",
+    "difficulty": "Medium",
+    "frequency": 87.2,
+    "acceptance": 0.8297868426498654,
+    "link": "https://leetcode.com/problems/sort-the-matrix-diagonally",
+    "topics": [
+      "Array",
+      "Sorting",
+      "Matrix"
+    ]
+  },
+  {
+    "id": "number-of-subarrays-with-bounded-maximum",
+    "title": "Number of Subarrays with Bounded Maximum",
+    "difficulty": "Medium",
+    "frequency": 52.3,
+    "acceptance": 0.5394189202774706,
+    "link": "https://leetcode.com/problems/number-of-subarrays-with-bounded-maximum",
+    "topics": [
+      "Array",
+      "Two Pointers"
+    ]
+  },
+  {
+    "id": "subarray-sum-equals-k",
+    "title": "Subarray Sum Equals K",
+    "difficulty": "Medium",
+    "frequency": 52.3,
+    "acceptance": 0.45476329452244163,
+    "link": "https://leetcode.com/problems/subarray-sum-equals-k",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "Prefix Sum"
+    ]
+  },
+  {
+    "id": "binary-tree-cameras",
+    "title": "Binary Tree Cameras",
+    "difficulty": "Hard",
+    "frequency": 52.3,
+    "acceptance": 0.4718287765270026,
+    "link": "https://leetcode.com/problems/binary-tree-cameras",
+    "topics": [
+      "Dynamic Programming",
+      "Tree",
+      "Depth-First Search",
+      "Binary Tree"
+    ]
+  },
+  {
+    "id": "insert-delete-getrandom-o1",
+    "title": "Insert Delete GetRandom O(1)",
+    "difficulty": "Medium",
+    "frequency": 52.3,
+    "acceptance": 0.5499183718923905,
+    "link": "https://leetcode.com/problems/insert-delete-getrandom-o1",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "Math",
+      "Design",
+      "Randomized"
+    ]
+  }
+]

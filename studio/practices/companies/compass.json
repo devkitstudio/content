@@ -1,0 +1,85 @@
+[
+  {
+    "id": "total-distance-traveled",
+    "title": "Total Distance Traveled",
+    "difficulty": "Easy",
+    "frequency": 100,
+    "acceptance": 0.4016833878179837,
+    "link": "https://leetcode.com/problems/total-distance-traveled",
+    "topics": [
+      "Math",
+      "Simulation"
+    ]
+  },
+  {
+    "id": "camelcase-matching",
+    "title": "Camelcase Matching",
+    "difficulty": "Medium",
+    "frequency": 89.4,
+    "acceptance": 0.63780016867149,
+    "link": "https://leetcode.com/problems/camelcase-matching",
+    "topics": [
+      "Array",
+      "Two Pointers",
+      "String",
+      "Trie",
+      "String Matching"
+    ]
+  },
+  {
+    "id": "group-anagrams",
+    "title": "Group Anagrams",
+    "difficulty": "Medium",
+    "frequency": 89.4,
+    "acceptance": 0.7092899316934461,
+    "link": "https://leetcode.com/problems/group-anagrams",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "String",
+      "Sorting"
+    ]
+  },
+  {
+    "id": "subtree-of-another-tree",
+    "title": "Subtree of Another Tree",
+    "difficulty": "Easy",
+    "frequency": 89.4,
+    "acceptance": 0.4998476418026165,
+    "link": "https://leetcode.com/problems/subtree-of-another-tree",
+    "topics": [
+      "Tree",
+      "Depth-First Search",
+      "String Matching",
+      "Binary Tree",
+      "Hash Function"
+    ]
+  },
+  {
+    "id": "time-based-key-value-store",
+    "title": "Time Based Key-Value Store",
+    "difficulty": "Medium",
+    "frequency": 89.4,
+    "acceptance": 0.4936627725463274,
+    "link": "https://leetcode.com/problems/time-based-key-value-store",
+    "topics": [
+      "Hash Table",
+      "String",
+      "Binary Search",
+      "Design"
+    ]
+  },
+  {
+    "id": "decode-string",
+    "title": "Decode String",
+    "difficulty": "Medium",
+    "frequency": 89.4,
+    "acceptance": 0.6115272751413413,
+    "link": "https://leetcode.com/problems/decode-string",
+    "topics": [
+      "String",
+      "Stack",
+      "Recursion"
+    ]
+  }
+]

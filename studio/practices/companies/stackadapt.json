@@ -1,0 +1,54 @@
+[
+  {
+    "id": "find-median-from-data-stream",
+    "title": "Find Median from Data Stream",
+    "difficulty": "Hard",
+    "frequency": 100,
+    "acceptance": 0.5328274303467472,
+    "link": "https://leetcode.com/problems/find-median-from-data-stream",
+    "topics": [
+      "Two Pointers",
+      "Design",
+      "Sorting",
+      "Heap (Priority Queue)",
+      "Data Stream"
+    ]
+  },
+  {
+    "id": "snapshot-array",
+    "title": "Snapshot Array",
+    "difficulty": "Medium",
+    "frequency": 100,
+    "acceptance": 0.36666006229954134,
+    "link": "https://leetcode.com/problems/snapshot-array",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "Binary Search",
+      "Design"
+    ]
+  },
+  {
+    "id": "restore-ip-addresses",
+    "title": "Restore IP Addresses",
+    "difficulty": "Medium",
+    "frequency": 89.3,
+    "acceptance": 0.5316261155804161,
+    "link": "https://leetcode.com/problems/restore-ip-addresses",
+    "topics": [
+      "String",
+      "Backtracking"
+    ]
+  },
+  {
+    "id": "number-of-dice-rolls-with-target-sum",
+    "title": "Number of Dice Rolls With Target Sum",
+    "difficulty": "Medium",
+    "frequency": 89.3,
+    "acceptance": 0.6162808491826136,
+    "link": "https://leetcode.com/problems/number-of-dice-rolls-with-target-sum",
+    "topics": [
+      "Dynamic Programming"
+    ]
+  }
+]

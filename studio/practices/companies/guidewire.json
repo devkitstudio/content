@@ -1,0 +1,86 @@
+[
+  {
+    "id": "minimum-moves-to-spread-stones-over-grid",
+    "title": "Minimum Moves to Spread Stones Over Grid",
+    "difficulty": "Medium",
+    "frequency": 100,
+    "acceptance": 0.44315093165667885,
+    "link": "https://leetcode.com/problems/minimum-moves-to-spread-stones-over-grid",
+    "topics": [
+      "Array",
+      "Dynamic Programming",
+      "Breadth-First Search",
+      "Matrix"
+    ]
+  },
+  {
+    "id": "minimum-number-of-operations-to-sort-a-binary-tree-by-level",
+    "title": "Minimum Number of Operations to Sort a Binary Tree by Level",
+    "difficulty": "Medium",
+    "frequency": 100,
+    "acceptance": 0.7425819778656343,
+    "link": "https://leetcode.com/problems/minimum-number-of-operations-to-sort-a-binary-tree-by-level",
+    "topics": [
+      "Tree",
+      "Breadth-First Search",
+      "Binary Tree"
+    ]
+  },
+  {
+    "id": "construct-the-longest-new-string",
+    "title": "Construct the Longest New String",
+    "difficulty": "Medium",
+    "frequency": 100,
+    "acceptance": 0.5384322081417517,
+    "link": "https://leetcode.com/problems/construct-the-longest-new-string",
+    "topics": [
+      "Math",
+      "Dynamic Programming",
+      "Greedy",
+      "Brainteaser"
+    ]
+  },
+  {
+    "id": "get-watched-videos-by-your-friends",
+    "title": "Get Watched Videos by Your Friends",
+    "difficulty": "Medium",
+    "frequency": 89.3,
+    "acceptance": 0.49756820603084906,
+    "link": "https://leetcode.com/problems/get-watched-videos-by-your-friends",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "Breadth-First Search",
+      "Graph",
+      "Sorting"
+    ]
+  },
+  {
+    "id": "kth-largest-element-in-an-array",
+    "title": "Kth Largest Element in an Array",
+    "difficulty": "Medium",
+    "frequency": 89.3,
+    "acceptance": 0.679770776384085,
+    "link": "https://leetcode.com/problems/kth-largest-element-in-an-array",
+    "topics": [
+      "Array",
+      "Divide and Conquer",
+      "Sorting",
+      "Heap (Priority Queue)",
+      "Quickselect"
+    ]
+  },
+  {
+    "id": "print-words-vertically",
+    "title": "Print Words Vertically",
+    "difficulty": "Medium",
+    "frequency": 89.3,
+    "acceptance": 0.6622658589234733,
+    "link": "https://leetcode.com/problems/print-words-vertically",
+    "topics": [
+      "Array",
+      "String",
+      "Simulation"
+    ]
+  }
+]

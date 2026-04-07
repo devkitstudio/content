@@ -1,0 +1,26 @@
+[
+  {
+    "id": "maximum-profit-of-operating-a-centennial-wheel",
+    "title": "Maximum Profit of Operating a Centennial Wheel",
+    "difficulty": "Medium",
+    "frequency": 100,
+    "acceptance": 0.4393414211438475,
+    "link": "https://leetcode.com/problems/maximum-profit-of-operating-a-centennial-wheel",
+    "topics": [
+      "Array",
+      "Simulation"
+    ]
+  },
+  {
+    "id": "coordinate-with-maximum-network-quality",
+    "title": "Coordinate With Maximum Network Quality",
+    "difficulty": "Medium",
+    "frequency": 100,
+    "acceptance": 0.38430979431202206,
+    "link": "https://leetcode.com/problems/coordinate-with-maximum-network-quality",
+    "topics": [
+      "Array",
+      "Enumeration"
+    ]
+  }
+]

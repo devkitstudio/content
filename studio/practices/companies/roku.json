@@ -1,0 +1,208 @@
+[
+  {
+    "id": "substring-with-concatenation-of-all-words",
+    "title": "Substring with Concatenation of All Words",
+    "difficulty": "Hard",
+    "frequency": 100,
+    "acceptance": 0.32997463649493386,
+    "link": "https://leetcode.com/problems/substring-with-concatenation-of-all-words",
+    "topics": [
+      "Hash Table",
+      "String",
+      "Sliding Window"
+    ]
+  },
+  {
+    "id": "sliding-window-maximum",
+    "title": "Sliding Window Maximum",
+    "difficulty": "Hard",
+    "frequency": 100,
+    "acceptance": 0.4760419873658764,
+    "link": "https://leetcode.com/problems/sliding-window-maximum",
+    "topics": [
+      "Array",
+      "Queue",
+      "Sliding Window",
+      "Heap (Priority Queue)",
+      "Monotonic Queue"
+    ]
+  },
+  {
+    "id": "lru-cache",
+    "title": "LRU Cache",
+    "difficulty": "Medium",
+    "frequency": 100,
+    "acceptance": 0.4521484931675215,
+    "link": "https://leetcode.com/problems/lru-cache",
+    "topics": [
+      "Hash Table",
+      "Linked List",
+      "Design",
+      "Doubly-Linked List"
+    ]
+  },
+  {
+    "id": "simplify-path",
+    "title": "Simplify Path",
+    "difficulty": "Medium",
+    "frequency": 87.5,
+    "acceptance": 0.4785475875201086,
+    "link": "https://leetcode.com/problems/simplify-path",
+    "topics": [
+      "String",
+      "Stack"
+    ]
+  },
+  {
+    "id": "decode-string",
+    "title": "Decode String",
+    "difficulty": "Medium",
+    "frequency": 87.5,
+    "acceptance": 0.6115258855748797,
+    "link": "https://leetcode.com/problems/decode-string",
+    "topics": [
+      "String",
+      "Stack",
+      "Recursion"
+    ]
+  },
+  {
+    "id": "asteroid-collision",
+    "title": "Asteroid Collision",
+    "difficulty": "Medium",
+    "frequency": 87.5,
+    "acceptance": 0.4550061229796745,
+    "link": "https://leetcode.com/problems/asteroid-collision",
+    "topics": [
+      "Array",
+      "Stack",
+      "Simulation"
+    ]
+  },
+  {
+    "id": "backspace-string-compare",
+    "title": "Backspace String Compare",
+    "difficulty": "Easy",
+    "frequency": 87.5,
+    "acceptance": 0.494817507336685,
+    "link": "https://leetcode.com/problems/backspace-string-compare",
+    "topics": [
+      "Two Pointers",
+      "String",
+      "Stack",
+      "Simulation"
+    ]
+  },
+  {
+    "id": "multiply-strings",
+    "title": "Multiply Strings",
+    "difficulty": "Medium",
+    "frequency": 87.5,
+    "acceptance": 0.42289515404693445,
+    "link": "https://leetcode.com/problems/multiply-strings",
+    "topics": [
+      "Math",
+      "String",
+      "Simulation"
+    ]
+  },
+  {
+    "id": "maximum-product-of-three-numbers",
+    "title": "Maximum Product of Three Numbers",
+    "difficulty": "Easy",
+    "frequency": 87.5,
+    "acceptance": 0.45311794031803265,
+    "link": "https://leetcode.com/problems/maximum-product-of-three-numbers",
+    "topics": [
+      "Array",
+      "Math",
+      "Sorting"
+    ]
+  },
+  {
+    "id": "max-consecutive-ones-iii",
+    "title": "Max Consecutive Ones III",
+    "difficulty": "Medium",
+    "frequency": 87.5,
+    "acceptance": 0.659395885149928,
+    "link": "https://leetcode.com/problems/max-consecutive-ones-iii",
+    "topics": [
+      "Array",
+      "Binary Search",
+      "Sliding Window",
+      "Prefix Sum"
+    ]
+  },
+  {
+    "id": "shortest-path-to-get-all-keys",
+    "title": "Shortest Path to Get All Keys",
+    "difficulty": "Hard",
+    "frequency": 87.5,
+    "acceptance": 0.537030042053839,
+    "link": "https://leetcode.com/problems/shortest-path-to-get-all-keys",
+    "topics": [
+      "Array",
+      "Bit Manipulation",
+      "Breadth-First Search",
+      "Matrix"
+    ]
+  },
+  {
+    "id": "24-game",
+    "title": "24 Game",
+    "difficulty": "Hard",
+    "frequency": 87.5,
+    "acceptance": 0.5000170520428348,
+    "link": "https://leetcode.com/problems/24-game",
+    "topics": [
+      "Array",
+      "Math",
+      "Backtracking"
+    ]
+  },
+  {
+    "id": "valid-palindrome-ii",
+    "title": "Valid Palindrome II",
+    "difficulty": "Easy",
+    "frequency": 87.5,
+    "acceptance": 0.43027201289187367,
+    "link": "https://leetcode.com/problems/valid-palindrome-ii",
+    "topics": [
+      "Two Pointers",
+      "String",
+      "Greedy"
+    ]
+  },
+  {
+    "id": "top-k-frequent-elements",
+    "title": "Top K Frequent Elements",
+    "difficulty": "Medium",
+    "frequency": 87.5,
+    "acceptance": 0.6456597639542642,
+    "link": "https://leetcode.com/problems/top-k-frequent-elements",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "Divide and Conquer",
+      "Sorting",
+      "Heap (Priority Queue)",
+      "Bucket Sort",
+      "Counting",
+      "Quickselect"
+    ]
+  },
+  {
+    "id": "valid-parenthesis-string",
+    "title": "Valid Parenthesis String",
+    "difficulty": "Medium",
+    "frequency": 87.5,
+    "acceptance": 0.3890943290154454,
+    "link": "https://leetcode.com/problems/valid-parenthesis-string",
+    "topics": [
+      "String",
+      "Dynamic Programming",
+      "Stack",
+      "Greedy"
+    ]
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "id": "smallest-range-covering-elements-from-k-lists",
+    "title": "Smallest Range Covering Elements from K Lists",
+    "difficulty": "Hard",
+    "frequency": 100,
+    "acceptance": 0.6974870380867287,
+    "link": "https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "Greedy",
+      "Sliding Window",
+      "Sorting",
+      "Heap (Priority Queue)"
+    ]
+  },
+  {
+    "id": "regular-expression-matching",
+    "title": "Regular Expression Matching",
+    "difficulty": "Hard",
+    "frequency": 83.1,
+    "acceptance": 0.29282683839351215,
+    "link": "https://leetcode.com/problems/regular-expression-matching",
+    "topics": [
+      "String",
+      "Dynamic Programming",
+      "Recursion"
+    ]
+  },
+  {
+    "id": "domino-and-tromino-tiling",
+    "title": "Domino and Tromino Tiling",
+    "difficulty": "Medium",
+    "frequency": 83.1,
+    "acceptance": 0.5197644582417179,
+    "link": "https://leetcode.com/problems/domino-and-tromino-tiling",
+    "topics": [
+      "Dynamic Programming"
+    ]
+  },
+  {
+    "id": "ipo",
+    "title": "IPO",
+    "difficulty": "Hard",
+    "frequency": 83.1,
+    "acceptance": 0.5301837830703748,
+    "link": "https://leetcode.com/problems/ipo",
+    "topics": [
+      "Array",
+      "Greedy",
+      "Sorting",
+      "Heap (Priority Queue)"
+    ]
+  }
+]
