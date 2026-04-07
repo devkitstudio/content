@@ -1,35 +1,40 @@
-# 🚀 DevKit Studio - Community & Feedback
+# 🚀 DevKit Studio Content Engine
 
-Welcome to the official Community and Feedback repository for [DevKit Studio](https://devkitstudio.com)! 
+Welcome to the open-source **"Docs-as-Code" Headless Content Repository** for [DevKit Studio](https://devkitstudio.com).
 
-DevKit Studio is a premium, all-in-one suite of developer tools designed to make your daily coding, debugging, and testing workflows faster and more efficient. Because our core engineering platform is proprietary, we use this publicly accessible repository to transparently track issues, gather feature requests, and communicate our roadmap directly with the community.
+DevKit Studio is a premium, unified ecosystem for modern software engineers. While our core platform engine is proprietary, we believe that technical knowledge, algorithms, and engineering practices belong to the community. 
 
-## 🌟 How to Contribute
+This repository drives our entire knowledge base using a **Decoupled Markdown-first Architecture**.
 
-Our engineering team actively monitors this repository. You can help us improve DevKit Studio in the following ways:
+## 🏗️ Architecture: Headless & Edge Delivery
 
-### 🐛 1. Report a Bug
-Found a glitch in the UI, a tool computing an unexpected result, or something that just feels *off*? 
-1. Please **search existing issues** first to see if it has already been reported.
-2. If it's a new issue, click **New Issue** and describe the bug clearly.
-3. *Pro-tip:* Please include steps to reproduce, your browser version, and screenshots if possible. It helps us ship the fix much faster!
+This repository is **NOT** bundled at build-time. We use a headless content strategy:
 
-### 💡 2. Request a Feature
-Have an amazing idea for a completely new developer tool, or an enhancement to an existing one? We'd love to hear it!
-1. Open a **New Issue** and prefix your title with `[Feature Request]`.
-2. Explain *what* you want to achieve and *why* it would be useful for your engineering workflow. Examples or mockups are highly encouraged.
+1. **Markdown-First**: All data (Algorithms, Cheatsheets, System Design Facts, Changelogs) is written purely in Markdown and YAML Frontmatter.
+2. **Manifest Indexing**: Modules use an `index.md` manifest to declaratively map visual UI boundaries, sort weight, and categorical metadata.
+3. **jsDelivr Edge CDN**: At runtime, the DevKit Studio Next.js application dynamically fetches raw markdown from this repository directly through the [jsDelivr CDN](https://www.jsdelivr.com/).
 
-### 💬 3. Q&A and Discussions
-Want to ask a question, share a cool trick you found in DevKit Studio, or just hang out with other developers? 
-Head over to the [Discussions tab](https://github.com/ngvcanh/devkitstudio-feedback/discussions)!
+This completely decouples our UI deployment lifecycle from our content strategy. A typo fix or a new algorithm added here instantly propagates to production with zero build time.
 
-## 🗺️ Roadmap
-Curious about what we are building next? 
-We maintain a public roadmap in the **Projects** section of this repository so you can see exactly which tools and updates are actively in the pipeline.
+## 📂 Repository Structure
 
-## 📖 Useful Links
-* **Website:** [devkitstudio.com](https://devkitstudio.com)
-* **What's New:** [Changelogs](https://devkitstudio.com/changelog)
+Our knowledge base is structured intelligently to mirror the application routing:
+
+- `/changelog` - Version release histories and bug fix logs.
+- `/studio/cheatsheet` - Quick-reference syntax and usage guides for various DevKit Studio Tools (e.g., Regex, Hashes).
+- `/studio/algorithms` - In-depth breakdown of DSA concepts.
+- `/studio/practices` - Clean Architecture, System Design patterns, and Engineering best practices.
+- `/facts` - Bite-sized engineering trivia and computing fundamentals.
+
+## 🤝 How to Contribute
+
+Because we employ a Docs-as-Code architecture, contributing is as simple as sending a Pull Request to a text file!
+
+1. **Fixing Typos:** Just edit the Markdown file directly on GitHub and submit a PR!
+2. **Adding Cheatsheets:** 
+   - Add a new `.md` file to the respective tool folder inside `/studio/cheatsheet/`.
+   - Open that folder's `index.md` manifest and map your new file in the YAML `sections` array.
+3. **Requesting Tools:** If you have an idea for a brand new application tool, head over to the [Issues tab](https://github.com/devkitstudio/content/issues) and submit a Feature Request.
 
 ---
-*Thank you for helping us build the ultimate toolkit for developers world-wide!* ❤️
+*Programming is the art of architectural thinking. Thank you for helping us curate the ultimate technical library for senior engineers!* ❤️
