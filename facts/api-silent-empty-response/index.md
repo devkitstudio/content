@@ -22,4 +22,4 @@ sections:
     order: 99
 ---
 
-The client receives an HTTP 200 OK, but the response body is strictly 0 bytes. Silent empty responses in Express/Node.js occur when the lifecycle completes without pushing data to the write stream.
+API endpoint returns 200 OK but the response body is empty
