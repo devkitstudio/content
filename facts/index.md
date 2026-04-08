@@ -36,12 +36,12 @@ facts:
     date: '2026-04-06'
   - slug: async-job-processing-at-scale
     category: Backend
-    question: How do you design async job processing that scales reliably?
+    question: Design async job processing that scales reliably.
     tags:
       - queue
       - background-jobs
       - scalability
-      - interview
+      - performance
     date: '2026-04-06'
   - slug: canary-deployment-progressive-rollout
     category: DevOps

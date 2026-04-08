@@ -4,8 +4,9 @@ tags:
   - queue
   - background-jobs
   - scalability
-  - interview
+  - performance
 date: 2026-04-06T00:00:00.000Z
+review: true
 sections:
   - id: solution
     label: Solution
@@ -21,4 +22,4 @@ sections:
     order: 99
 ---
 
-How do you design async job processing that scales reliably?
+Design async job processing that scales reliably.
