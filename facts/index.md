@@ -80,14 +80,12 @@ facts:
     date: '2026-04-06'
   - slug: container-image-tagging-strategy
     category: DevOps
-    question: >-
-      How do you implement proper container image tagging and immutable
-      deployments?
+    question: 'Docker: Silent deployment failures caused by mutable container images.'
     tags:
       - docker
-      - deployment
+      - kubernetes
       - ci-cd
-      - experience
+      - architecture
     date: '2026-04-06'
   - slug: cors-configuration-properly
     category: Security

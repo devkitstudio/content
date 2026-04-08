@@ -2,22 +2,32 @@
 category: DevOps
 tags:
   - docker
-  - deployment
+  - kubernetes
   - ci-cd
-  - experience
+  - architecture
 date: 2026-04-06T00:00:00.000Z
+review: true
 sections:
   - id: solution
-    label: Solution
+    label: Architecture
+    icon: Zap
     order: 1
-  - id: pitfalls
-    label: Why `latest` Is Dangerous
-    icon: AlertTriangle
+  - id: comparison
+    label: Trade-offs & ROI
+    icon: Scale
     order: 2
+  - id: implementation
+    label: Execution
+    icon: Code
+    order: 3
+  - id: pitfalls
+    label: Pitfalls
+    icon: AlertTriangle
+    order: 4
   - id: source
     label: Sources
     icon: BookOpen
     order: 99
 ---
 
-How do you implement proper container image tagging and immutable deployments?
+Docker: Silent deployment failures caused by mutable container images.
