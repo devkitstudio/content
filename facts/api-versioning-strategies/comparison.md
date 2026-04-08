@@ -151,39 +151,4 @@ const url = `/api/${version}/users`;
 fetch('/api/v3/users'); // Always use latest
 ```
 
-## Best Practice: API Gateway Pattern
 
-```javascript
-// Use API gateway to route to correct handler
-const apiGateway = {
-  'v1': require('./handlers/v1'),
-  'v2': require('./handlers/v2'),
-  'v3': require('./handlers/v3')
-};
-
-app.get('/api/:version/users/:id', (req, res, next) => {
-  const { version, id } = req.params;
-  const handler = apiGateway[version];
-
-  if (!handler) {
-    return res.status(404).json({ error: 'API version not found' });
-  }
-
-  handler.getUser(id, (err, user) => {
-    if (err) return next(err);
-    res.json(user);
-  });
-});
-
-// Directory structure:
-// handlers/
-//   v1/
-//     users.js
-//     products.js
-//   v2/
-//     users.js
-//     products.js
-//   v3/
-//     users.js
-//     products.js
-```

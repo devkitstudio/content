@@ -23,7 +23,11 @@ facts:
     date: '2026-04-06'
   - slug: api-versioning-strategies
     category: Backend
-    question: How do you manage API versioning without breaking existing clients?
+    question: >-
+      API schemas evolve rapidly to support new features, but legacy clients
+      deployed in the wild (especially mobile apps) cannot be forced to update
+      instantly. Breaking changes without a versioning strategy will trigger
+      immediate production outages.
     tags:
       - api-design
       - versioning
