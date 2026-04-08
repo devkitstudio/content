@@ -3,22 +3,32 @@ category: Data
 tags:
   - cdc
   - debezium
+  - postgresql
   - kafka
-  - data-engineering
-  - interview
+  - architecture
 date: 2026-04-06T00:00:00.000Z
+review: true
 sections:
   - id: solution
-    label: Solution
+    label: Architecture
+    icon: Zap
     order: 1
-  - id: implementation
-    label: Docker Setup
-    icon: Code
+  - id: comparison
+    label: Alternatives
+    icon: Scale
     order: 2
+  - id: implementation
+    label: Execution
+    icon: Code
+    order: 3
+  - id: pitfalls
+    label: Pitfalls
+    icon: AlertTriangle
+    order: 4
   - id: source
-    label: Official Documentation
+    label: Sources
     icon: BookOpen
     order: 99
 ---
 
-How does Change Data Capture (CDC) with Debezium work?
+Synchronize database state across distributed systems in real-time without application-level polling overhead.

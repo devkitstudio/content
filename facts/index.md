@@ -47,13 +47,15 @@ facts:
     date: '2026-04-06'
   - slug: change-data-capture-debezium
     category: Data
-    question: How does Change Data Capture (CDC) with Debezium work?
+    question: >-
+      Synchronize database state across distributed systems in real-time without
+      application-level polling overhead.
     tags:
       - cdc
       - debezium
+      - postgresql
       - kafka
-      - data-engineering
-      - interview
+      - architecture
     date: '2026-04-06'
   - slug: circuit-breaker-microservices
     category: Architecture
