@@ -486,8 +486,8 @@ total_target: 2000
 - fact: 0072
 - status: DONE
 - category: Frontend
-- slug: complex-form-management-react
-- question: You build a form with 20 fields, complex validation, and conditional logic. useState becomes a nightmare. How do you manage complex forms in React?
+- slug: eliminate-react-form-re-renders
+- question: Eliminate component re-renders in massive React forms.
 ---
 ---
 - fact: 0073

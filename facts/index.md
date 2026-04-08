@@ -78,15 +78,6 @@ facts:
       - tanstack-query
       - zustand
     date: '2026-04-06'
-  - slug: complex-form-management-react
-    category: Frontend
-    question: How do you manage complex forms in React?
-    tags:
-      - react
-      - forms
-      - validation
-      - experience
-    date: '2026-04-06'
   - slug: container-image-tagging-strategy
     category: DevOps
     question: >-
@@ -196,6 +187,15 @@ facts:
       - debugging
       - experience
       - deployment
+    date: '2026-04-06'
+  - slug: eliminate-react-form-re-renders
+    category: Frontend
+    question: Eliminate component re-renders in massive React forms.
+    tags:
+      - react
+      - react-hook-form
+      - performance
+      - architecture
     date: '2026-04-06'
   - slug: environment-config-management
     category: DevOps
