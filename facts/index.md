@@ -38,12 +38,12 @@ facts:
     date: '2026-04-06'
   - slug: canary-deployment-progressive-rollout
     category: DevOps
-    question: How do you implement canary deployments and progressive rollouts?
+    question: Prevent immediate system-wide outages during new version deployments.
     tags:
       - deployment
       - canary
       - reliability
-      - interview
+      - kubernetes
     date: '2026-04-06'
   - slug: centralized-logging-elk-loki
     category: DevOps
