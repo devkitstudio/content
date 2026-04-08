@@ -26,4 +26,4 @@ sections:
     order: 99
 ---
 
-API schemas evolve rapidly to support new features, but legacy clients deployed in the wild (especially mobile apps) cannot be forced to update instantly. Breaking changes without a versioning strategy will trigger immediate production outages.
+Versioning APIs without breaking existing clients.
