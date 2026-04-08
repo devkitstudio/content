@@ -70,12 +70,13 @@ facts:
     date: '2026-04-06'
   - slug: client-vs-server-state
     category: Frontend
-    question: What's the difference and when should you use each?
+    question: Decouple client state from asynchronous server API data.
     tags:
       - react
+      - architecture
       - state-management
       - tanstack-query
-      - interview
+      - zustand
     date: '2026-04-06'
   - slug: complex-form-management-react
     category: Frontend

@@ -2,22 +2,33 @@
 category: Frontend
 tags:
   - react
+  - architecture
   - state-management
   - tanstack-query
-  - interview
+  - zustand
 date: 2026-04-06T00:00:00.000Z
+review: true
 sections:
   - id: solution
-    label: Solution
+    label: Architecture
+    icon: Zap
     order: 1
   - id: comparison
-    label: Comparison Table
-    icon: GitCompare
+    label: State Trade-offs
+    icon: Scale
     order: 2
+  - id: implementation
+    label: Execution
+    icon: Code
+    order: 3
+  - id: pitfalls
+    label: Pitfalls
+    icon: AlertTriangle
+    order: 4
   - id: source
     label: Sources
     icon: BookOpen
     order: 99
 ---
 
-What's the difference and when should you use each?
+Decouple client state from asynchronous server API data.
