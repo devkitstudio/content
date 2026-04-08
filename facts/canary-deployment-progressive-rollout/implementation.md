@@ -1,258 +1,96 @@
-## Complete Canary Implementation
+## Execution: Service Mesh Canary Rollout
+
+Modern canary deployments decouple **Instance Scaling** (Kubernetes Deployments) from **Traffic Routing** (Service Mesh).
+
+### 1. The Infrastructure Definition (Istio)
+
+Define the stable (v1) and canary (v2) deployments independently, then use an Istio `VirtualService` to strictly govern the traffic weights.
 
 ```yaml
-# deployment-v1.yaml - Stable version
-apiVersion: apps/v1
-kind: Deployment
-metadata:
-  name: myapp-v1
-spec:
-  replicas: 5
-  selector:
-    matchLabels:
-      app: myapp
-      version: v1
-  template:
-    metadata:
-      labels:
-        app: myapp
-        version: v1
-    spec:
-      containers:
-      - name: myapp
-        image: myapp:v1.0.0
-        ports:
-        - containerPort: 8080
-        livenessProbe:
-          httpGet:
-            path: /health
-            port: 8080
-          initialDelaySeconds: 10
-          periodSeconds: 10
-        readinessProbe:
-          httpGet:
-            path: /ready
-            port: 8080
-          initialDelaySeconds: 5
-          periodSeconds: 5
----
-# deployment-v2.yaml - Canary version
-apiVersion: apps/v1
-kind: Deployment
-metadata:
-  name: myapp-v2
-spec:
-  replicas: 1  # Start with 1 replica
-  selector:
-    matchLabels:
-      app: myapp
-      version: v2
-  template:
-    metadata:
-      labels:
-        app: myapp
-        version: v2
-    spec:
-      containers:
-      - name: myapp
-        image: myapp:v2.0.0
-        ports:
-        - containerPort: 8080
-        livenessProbe:
-          httpGet:
-            path: /health
-            port: 8080
-          initialDelaySeconds: 10
-          periodSeconds: 10
-        readinessProbe:
-          httpGet:
-            path: /ready
-            port: 8080
-          initialDelaySeconds: 5
-          periodSeconds: 5
----
-# service.yaml
-apiVersion: v1
-kind: Service
-metadata:
-  name: myapp
-spec:
-  selector:
-    app: myapp
-  ports:
-  - port: 80
-    targetPort: 8080
-  type: ClusterIP
----
-# virtualservice.yaml - 95% v1, 5% v2
+# virtualservice.yaml - The Traffic Controller
 apiVersion: networking.istio.io/v1beta1
 kind: VirtualService
 metadata:
   name: myapp-vs
 spec:
   hosts:
-  - myapp.example.com
-  - myapp
+    - myapp.example.com
   http:
-  - match:
-    - uri:
-        prefix: /admin
-    route:
-    - destination:
-        host: myapp
-        port:
-          number: 80
-        subset: v1
-  - route:
-    - destination:
-        host: myapp
-        port:
-          number: 80
-        subset: v1
-      weight: 95
-    - destination:
-        host: myapp
-        port:
-          number: 80
-        subset: v2
-      weight: 5
-    timeout: 30s
----
-# destinationrule.yaml
-apiVersion: networking.istio.io/v1beta1
-kind: DestinationRule
-metadata:
-  name: myapp
-spec:
-  host: myapp
-  trafficPolicy:
-    connectionPool:
-      http:
-        http1MaxPendingRequests: 100
-        http2MaxRequests: 1000
-        maxRequestsPerConnection: 2
-    outlierDetection:
-      consecutive5xxErrors: 3
-      interval: 30s
-      baseEjectionTime: 30s
-      maxEjectionPercent: 50
-  subsets:
-  - name: v1
-    labels:
-      version: v1
-  - name: v2
-    labels:
-      version: v2
+    - route:
+        - destination:
+            host: myapp
+            subset: v1
+          weight: 95 # 95% of traffic remains on the stable version
+        - destination:
+            host: myapp
+            subset: v2
+          weight: 5 # 5% blast radius for the canary version
+      timeout: 30s
 ```
 
-## Manual Canary Steps
+### 2. The Agnostic Observability Contract (Prometheus)
 
-```bash
-# Step 1: Deploy v2 (0% traffic initially)
-kubectl apply -f deployment-v2.yaml
-
-# Step 2: Wait for v2 to be ready
-kubectl wait --for=condition=ready pod \
-  -l version=v2 --timeout=300s
-
-# Step 3: Route 5% traffic to v2
-kubectl patch vs myapp-vs --type merge -p '
-spec:
-  http:
-  - route:
-    - destination: {host: myapp, subset: v1}
-      weight: 95
-    - destination: {host: myapp, subset: v2}
-      weight: 5
-'
-
-# Step 4: Monitor (5-10 minutes)
-kubectl logs -f deployment/myapp-v2 --all-containers
-# Check metrics in Prometheus/Grafana
-
-# Step 5: Increase to 25%
-kubectl patch vs myapp-vs --type merge -p '
-spec:
-  http:
-  - route:
-    - destination: {host: myapp, subset: v1}
-      weight: 75
-    - destination: {host: myapp, subset: v2}
-      weight: 25
-'
-
-# Step 6: Continue to 50%, 75%, 100%
-# ... repeat above
-
-# Step 7: Scale down v1
-kubectl scale deployment myapp-v1 --replicas=0
-
-# Step 8: Remove v1 deployment after retention
-kubectl delete deployment myapp-v1
-```
-
-## Prometheus Queries for Monitoring
+Do not hardcode absolute limits (like `> 500MB` memory). An effective Canary monitor compares the new version's telemetry directly against the stable version's baseline in real-time.
 
 ```yaml
 # prometheus-rules.yaml
-apiVersion: monitoring.coreos.com/v1
+apiVersion: [monitoring.coreos.com/v1](https://monitoring.coreos.com/v1)
 kind: PrometheusRule
 metadata:
   name: canary-alerts
 spec:
   groups:
-  - name: canary
+  - name: canary-evaluation
     interval: 1m
     rules:
-    # Error rate alert
-    - alert: CanaryErrorRateHigh
+    # 1. Relative Error Rate Anomaly
+    - alert: CanaryErrorRateSpike
       expr: |
-        (rate(request_duration_seconds_count{status=~"5.."}[5m]) >
-         rate(request_duration_seconds_count[5m]) * 0.01)
-        and on(job) metric{version="v2"}
+        (rate(http_requests_total{version="v2", status=~"5.."}[5m]) / rate(http_requests_total{version="v2"}[5m]))
+        >
+        (rate(http_requests_total{version="v1", status=~"5.."}[5m]) / rate(http_requests_total{version="v1"}[5m])) * 1.5
       for: 2m
       annotations:
-        summary: "Canary v2 error rate > 1%"
+        summary: "Canary (v2) error rate is 50% higher than Stable (v1)"
 
-    # Latency alert
+    # 2. Relative Latency Degradation
     - alert: CanaryLatencyHigh
       expr: |
-        histogram_quantile(0.95, rate(request_duration_seconds_bucket{version="v2"}[5m])) >
-        histogram_quantile(0.95, rate(request_duration_seconds_bucket{version="v1"}[5m])) * 1.2
+        histogram_quantile(0.95, rate(http_request_duration_seconds_bucket{version="v2"}[5m]))
+        >
+        histogram_quantile(0.95, rate(http_request_duration_seconds_bucket{version="v1"}[5m])) * 1.2
       for: 2m
       annotations:
-        summary: "Canary v2 latency 20% higher than v1"
+        summary: "Canary (v2) p95 latency is 20% slower than Stable (v1)"
 
-    # Memory alert
-    - alert: CanaryMemoryUsageHigh
+    # 3. Relative Memory Leak Detection
+    - alert: CanaryMemoryAnomaly
       expr: |
-        container_memory_usage_bytes{pod=~"myapp-v2.*"} / 1024 / 1024 > 500
-      for: 2m
+        avg(container_memory_usage_bytes{version="v2"})
+        >
+        avg(container_memory_usage_bytes{version="v1"}) * 1.3
+      for: 10m
       annotations:
-        summary: "Canary v2 using > 500MB memory"
+        summary: "Canary (v2) is consuming 30% more memory than Stable (v1). Potential leak."
 ```
 
-## Automatic Rollback Script
+### 3. The Rollback Logic
+
+If any of the Prometheus alerts trigger, the system must immediately patch the `VirtualService` to route 100% of traffic back to `v1`.
+
+_Note: While the bash script below demonstrates the mechanical logic, production environments should use GitOps controllers (like **Flagger** or **Argo Rollouts**) to automate this evaluation and rollback loop natively within the cluster._
 
 ```bash
 #!/bin/bash
-# rollback-canary.sh
+# Concept: Automated Rollback Circuit Breaker
 
-NAMESPACE="production"
-STABLE_VERSION="v1"
-CANARY_VERSION="v2"
+# 1. Query Prometheus for Active Canary Alerts
+ALERTS=$(curl -s http://prometheus:9090/api/v1/alerts | jq '.data.alerts | length')
 
-# Check error rate
-ERROR_RATE=$(kubectl exec -n $NAMESPACE \
-  deployment/myapp-$CANARY_VERSION \
-  -- curl -s http://localhost:8000/metrics | \
-  grep 'request_duration_seconds_count{status="500"}'  | \
-  awk '{print $2}')
+if [ "$ALERTS" -gt 0 ]; then
+  echo "CRITICAL: Canary degradation detected. Executing emergency rollback..."
 
-if (( $(echo "$ERROR_RATE > 0.01" | bc -l) )); then
-  echo "Error rate too high: $ERROR_RATE"
-  echo "Rolling back canary..."
-
+  # 2. Instantly kill canary traffic at the mesh level
   kubectl patch vs myapp-vs --type merge -p '
   spec:
     http:
@@ -263,10 +101,6 @@ if (( $(echo "$ERROR_RATE > 0.01" | bc -l) )); then
         weight: 0
   '
 
-  echo "Rolled back to v1"
-  # Notify team
-  curl -X POST -H 'Content-type: application/json' \
-    --data '{"text":"Canary rollback executed"}' \
-    $SLACK_WEBHOOK_URL
+  echo "Traffic strictly isolated to v1. Paging on-call engineer."
 fi
 ```

@@ -1,91 +1,51 @@
 ## Deployment Strategies
 
-**Bad (All-or-Nothing):**
-```
+**The Anti-Pattern (All-or-Nothing):**
+
+```text
 0% ──────────────────▶ 100%
      │
-     └─ Breaks for 10%
-```
-Result: Immediate outage, rollback takes 10+ minutes.
-
-**Good (Canary):**
-```
-0% ──▶ 5% ──▶ 10% ──▶ 50% ──▶ 100%
-     │    │     │     │
-     ✓    ✓     ✓     ✓  Gradual rollout, automatic rollback if errors
+     └─ Breaks for 100% of users instantly.
 ```
 
-## Canary Deployment Process
+Result: Global outage. MTTR (Mean Time To Recovery) is bound by the time it takes to spin up the old infrastructure and update DNS/Routing.
 
-```
-Step 1: Deploy to 5% of traffic
-→ Monitor: error rate, latency, memory
-→ Wait: 5-10 minutes
-→ If healthy: Continue
-→ If errors: Automatic rollback
+**The Standard (Canary Rollout):**
 
-Step 2: Deploy to 10% of traffic
-→ Same monitoring
-→ Continue...
-
-Step 3: Deploy to 50% of traffic
-→ 30+ minutes
-→ Confident now
-
-Step 4: Deploy to 100%
-→ Complete rollout
+```text
+0% ──▶ Initial Subset ──▶ Expanded Subset ──▶ 100%
+     │                │                 │
+     ✓                ✓                 ✓
 ```
 
-## Using Istio + Kubernetes
+Result: Gradual risk expansion. Automatic rollback at the network tier (instant) if telemetry anomalies are detected.
 
-Istio VirtualService manages traffic splitting:
-
-```yaml
-apiVersion: networking.istio.io/v1beta1
-kind: VirtualService
-metadata:
-  name: myapp-vs
-spec:
-  hosts:
-  - myapp.example.com
-  http:
-  # 5% to new version
-  - match:
-    - headers:
-        x-version:
-          exact: "v2"
-    route:
-    - destination:
-        host: myapp-v2
-  # 95% to stable version
-  - route:
-    - destination:
-        host: myapp-v1
-      weight: 95
-    - destination:
-        host: myapp-v2
-      weight: 5
 ---
-apiVersion: networking.istio.io/v1beta1
-kind: DestinationRule
-metadata:
-  name: myapp-dr
-spec:
-  host: myapp
-  trafficPolicy:
-    connectionPool:
-      http:
-        http1MaxPendingRequests: 1
-        maxRequestsPerConnection: 2
-      tcp:
-        maxConnections: 100
-  outlierDetection:
-    consecutive5xxErrors: 5
-    interval: 30s
-    baseEjectionTime: 30s
+
+## The Abstract Canary Lifecycle
+
+Do not measure rollout stages in arbitrary "minutes". Measure them in **Telemetry Confidence**.
+
+```text
+Phase 1: The Blast Radius Test (e.g., 5% traffic)
+→ Action: Route a minimal traffic subset to the new version.
+→ Wait: "Initial Bake Period" (Sufficient time to accumulate statistically significant metrics).
+→ Gate: If anomalies detected → Instant Auto-Rollback. If baseline matched → Proceed.
+
+Phase 2: The Confidence Expansion (e.g., 25% -> 50% traffic)
+→ Action: Step up traffic weight.
+→ Wait: "Sustained Load Period" (Testing for slow burns like memory leaks or thread exhaustion).
+→ Gate: Continual baseline comparison.
+
+Phase 3: The Full Cutover
+→ Action: Route 100% traffic. Deprecate legacy version.
 ```
 
-## Automated Canary with ArgoCD
+---
+
+## Infrastructure as Code: ArgoCD Rollouts
+
+_Architectural Rule:_ The `pause.duration` and `analysis.interval` values below must be dynamically injected based on the service's SLA and traffic volume, not hardcoded. High-throughput services require very short bake times; low-throughput services require longer accumulation windows.
 
 ```yaml
 apiVersion: argoproj.io/v1alpha1
@@ -93,138 +53,55 @@ kind: Rollout
 metadata:
   name: myapp
 spec:
-  replicas: 10
-  revisionHistoryLimit: 3
-  selector:
-    matchLabels:
-      app: myapp
-  template:
-    metadata:
-      labels:
-        app: myapp
-    spec:
-      containers:
-      - name: myapp
-        image: myapp:v2
-        ports:
-        - containerPort: 8080
   strategy:
     canary:
       steps:
-      - setWeight: 5
-      - pause: {duration: 10m}
-      - setWeight: 25
-      - pause: {duration: 5m}
-      - setWeight: 50
-      - pause: {duration: 5m}
-      - setWeight: 75
-      - pause: {duration: 5m}
+        - setWeight: 5
+        - pause: { duration: "${INITIAL_BAKE_TIME}" } # e.g., 1m for High-RPS, 15m for Low-RPS
+        - setWeight: 50
+        - pause: { duration: "${SUSTAINED_LOAD_TIME}" }
       trafficRouting:
         istio:
           virtualService:
             name: myapp-vs
       analysis:
-        interval: 1m
-        threshold: 5
+        interval: "${SCRAPE_INTERVAL}"
+        # Analysis must evaluate RELATIVE degradation, not absolute values
         metrics:
-        - name: error-rate
-          interval: 1m
-          failureLimit: 1
-          query: |
-            rate(requests_total{status=~"5.."}[5m])
-        - name: latency
-          interval: 1m
-          failureLimit: 2
-          query: |
-            histogram_quantile(0.95, response_duration_seconds_bucket)
-        - name: memory
-          interval: 1m
-          failureLimit: 3
-          query: |
-            container_memory_usage_bytes / 1024 / 1024
+          - name: relative-error-rate
+            query: |
+              (rate(requests_total{status=~"5..", version="v2"}[5m]) / rate(requests_total{version="v2"}[5m]))
+              > 
+              (rate(requests_total{status=~"5..", version="v1"}[5m]) / rate(requests_total{version="v1"}[5m])) * 1.5
 ```
 
-**Rollout behavior:**
-1. Deploy v2, route 5% traffic
-2. Pause 10 minutes
-3. Monitor metrics (error rate, latency, memory)
-4. If all healthy: increase to 25%
-5. Repeat until 100%
-6. If errors detected: automatic rollback
+---
 
-## Metrics to Monitor
+## The Agnostic Metrics Contract
 
-```yaml
+Never alert on absolute numbers during a Canary. Always compare `v2` directly against `v1` (The Baseline).
+
+```text
 Monitoring Setup:
-├─ Error Rate
-│  └─ Alert if > 0.5% (vs baseline)
+├─ Reliability (Error Rate)
+│  └─ Alert if: v2 Error Rate > (v1 Error Rate * Tolerance Multiplier)
 │
-├─ Latency
-│  └─ Alert if p95 > baseline + 20%
+├─ Performance (Latency)
+│  └─ Alert if: v2 p95 Latency > (v1 p95 Latency + Acceptable Overhead Threshold)
 │
-├─ Resource Usage
-│  ├─ CPU: alert if > 80%
-│  └─ Memory: alert if > 85%
-│
-├─ Custom Metrics
-│  ├─ Conversion rate drop
-│  ├─ Feature usage
-│  └─ User complaints (logs)
-│
-└─ Infrastructure
-   ├─ Pod restart count
-   └─ Node disk space
+├─ Resource Saturation
+│  ├─ CPU: Alert if v2 shows a statistically significant deviation from v1 per request.
+│  └─ Memory: Alert if v2 shows an upward growth trend (Memory Leak), regardless of the absolute % used.
 ```
 
-## Rollback Strategy
+---
 
-**Automatic:**
-```yaml
-# If analysis fails, automatic rollback
-spec:
-  strategy:
-    canary:
-      analysis:
-        metrics:
-        - name: error-rate
-          failureLimit: 2  # Rollback after 2 consecutive failures
-```
+## The Incident Timeline (State-Based)
 
-**Manual:**
-```bash
-# If auto-rollback didn't trigger
-kubectl rollout undo deployment/myapp
-
-# Or with Argo Rollouts
-kubectl argo rollouts undo myapp
-
-# Verification
-kubectl get rollout myapp
-```
-
-## Communication During Canary
-
-```
-Team notification:
-- 9:00 AM: Canary deployment starting (v2 → 5% traffic)
-- 9:15 AM: Metrics look good, increasing to 25%
-- 9:25 AM: Error rate elevated, pausing at 25% for investigation
-- 9:35 AM: Found issue, rolling back
-- 9:45 AM: Back to v1, incident investigation begins
-- Next day: Fixed bug, new canary with v2.1
-```
-
-## Cost of Canary
-
-```
-Resources needed:
-├─ 2x deployments (v1 + v2) = 2x cost
-├─ Load balancer routing logic
-└─ Monitoring + alerts
-
-But benefit:
-├─ Catch bugs before 100% impact
-├─ Reduce MTTR (mean time to recovery)
-├─ Confidence in releases
-└─ Happy customers (no mass outage)
+```text
+T+0: Rollout Initiated (v2 receives subset traffic).
+T+1: Initial Bake completed. Metrics align with v1 baseline. Weight increased.
+T+2: Sustained Load triggers anomaly. (e.g., v2 p95 latency degrades by 40%).
+T+3: Automated Circuit Breaker trips. VirtualService patched.
+T+4: Traffic safely isolated 100% to v1. Paging on-call engineer for post-mortem.
 ```

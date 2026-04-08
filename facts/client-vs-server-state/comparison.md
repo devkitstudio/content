@@ -1,15 +1,15 @@
 ## Architectural Trade-offs & Decision Tree
 
-Do not use a 40KB library to toggle a modal, and do not write manual `useEffect` fetches to manage database records.
+Do not use a heavy data-fetching library to toggle a UI modal, and do not write manual `useEffect` fetches to manage remote database records.
 
-| Feature             | Zustand (Client State)                                     | TanStack Query (Server State)                                 |
-| :------------------ | :--------------------------------------------------------- | :------------------------------------------------------------ |
-| **Data Source**     | Browser memory                                             | Remote API / Database                                         |
-| **Persistence**     | Lost on refresh (unless explicitly synced to localStorage) | Survives refresh (persisted on server)                        |
-| **Data Ownership**  | Single browser session only                                | Shared across millions of clients                             |
-| **Synchronization** | Manual updates only                                        | Automatic background refetching & invalidation                |
-| **Bundle Size**     | ~2KB (Ultra-lightweight)                                   | ~40KB (Heavy, but replaces thousands of lines of boilerplate) |
-| **Best Used For**   | Modals, themes, multi-step form drafts                     | User lists, dashboards, paginated data                        |
+| Feature             | Zustand (Client State)                             | TanStack Query (Server State)                                       |
+| :------------------ | :------------------------------------------------- | :------------------------------------------------------------------ |
+| **Data Source**     | Browser memory                                     | Remote API / Database                                               |
+| **Persistence**     | Ephemeral (Lost on refresh unless manually synced) | Persistent (Survives refresh, anchored on server)                   |
+| **Data Ownership**  | Single browser session only                        | Shared across concurrent clients and sessions                       |
+| **Synchronization** | Manual updates only                                | Automatic background refetching & invalidation                      |
+| **Footprint Ratio** | Ultra-lightweight (Minimal impact)                 | Heavy (But eliminates massive boilerplate and manual caching logic) |
+| **Best Used For**   | Modals, themes, multi-step form drafts             | User lists, dashboards, paginated data                              |
 
 ### State Selection Decision Tree
 

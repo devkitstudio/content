@@ -1,25 +1,29 @@
-## The Deadly Trap of Replication Slots
+## The Logical Replication Disk Exhaustion
 
-While Debezium provides real-time syncing, a misconfigured PostgreSQL replication slot can take down your entire production database.
+While Change Data Capture (CDC) provides real-time syncing, a disconnected consumer can cascade into a catastrophic database outage.
 
-### The Disk Exhaustion Scenario
+### The WAL Hoarding Scenario
 
-Debezium creates a `Logical Replication Slot` in PostgreSQL to keep track of which WAL (Write-Ahead Log) segments it has consumed.
+Debezium uses a PostgreSQL `Logical Replication Slot` to track consumed Write-Ahead Log (WAL) segments. If the Debezium connector crashes, the Kafka cluster goes down, or the network partitions, Debezium stops acknowledging offsets.
 
-If the Debezium container crashes, or the Kafka cluster goes down, Debezium stops acknowledging messages. **PostgreSQL will refuse to delete old WAL files**, hoarding them on disk until the Debezium consumer returns. If the outage lasts too long, the disk reaches 100% capacity, and PostgreSQL crashes completely.
+**The architectural flaw:** By default, PostgreSQL prioritizes replication integrity over its own survival. It will indefinitely hoard unacknowledged WAL files on the primary disk. If the outage persists, the disk reaches 100% capacity, and the entire PostgreSQL instance crashes.
 
-### The Fix: Enforce WAL Limits (PostgreSQL 13+)
+### The Fix: Fail-Safe WAL Limits (PostgreSQL 13+)
 
-Never deploy CDC without setting a hard limit on WAL retention. If Debezium is offline for too long, PostgreSQL will automatically drop the slot to save itself.
+Never deploy logical replication without a hard circuit breaker for WAL retention. You must instruct PostgreSQL to drop the slot to save itself if a consumer is dead.
 
 ```ini
-# In postgresql.conf
-# Limit the WAL size the replication slot can retain (e.g., 50GB)
-max_slot_wal_keep_size = 50GB
+# postgresql.conf
+# DO NOT hardcode arbitrary sizes.
+# Calculate: Average WAL Generation Rate per Hour * Maximum Acceptable Outage Hours
+max_slot_wal_keep_size = <Calculated_Fail_Safe_Threshold>
 ```
 
-_Note: If the slot is dropped due to this limit, Debezium will crash upon reconnecting and must be reconfigured to take a fresh full snapshot (`snapshot.mode = initial`)._
+**The Trade-off:** If this limit is breached, PostgreSQL survives, but the replication slot is permanently dropped. The CDC pipeline is broken. Upon recovery, Debezium will fail and must be re-provisioned to perform a highly expensive, full historical snapshot (`snapshot.mode = initial`).
 
-### Monitoring Requirement
+### The Observability Mandate
 
-Always monitor the `pg_replication_slots` view. Trigger a PagerDuty alert if the `active` state becomes `false` or if `restart_lsn` lags significantly.
+Do not wait for standard Disk Space alerts. You must monitor the replication slot directly. Trigger a critical alert if:
+
+1. The `active` state in `pg_replication_slots` becomes `false`.
+2. The replication lag (the delta between `restart_lsn` and `pg_current_wal_lsn()`) exceeds your expected baseline threshold.

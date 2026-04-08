@@ -10,7 +10,7 @@ The modern observability stack decouples data ingestion from hot storage using t
 
 - **Production Default:** Hardcode the default log level to `WARN`.
 - **Smart Sampling:** Drop 95% of routine `INFO` logs (e.g., "request received"), keeping only a small statistical baseline.
-- **On-Demand Debugging:** Expose an internal API to temporarily flip specific services or user sessions to `DEBUG` level for 15 minutes during an incident.
+- **On-Demand Debugging:** Expose an internal API to temporarily flip specific services or user sessions to `DEBUG` level for **a strict time window** during an incident.
 
 ## 2. Distributed Tracing Over Verbose Logging
 
@@ -20,8 +20,8 @@ Replace procedural "step-by-step" log lines with OpenTelemetry distributed traci
 
 Do not send all logs to the same database. Route them at the infrastructure edge (using Fluentd or Vector) based on severity:
 
-| Tier     | Storage                 | Retention | Routing Rules                                           |
-| -------- | ----------------------- | --------- | ------------------------------------------------------- |
-| **Hot**  | Elasticsearch / Datadog | 7 Days    | `ERROR`, `WARN`, and explicitly tagged business events. |
-| **Warm** | S3 + AWS Athena         | 30 Days   | Sampled `INFO` logs, HTTP access logs.                  |
-| **Cold** | S3 Glacier (Compressed) | 1-7 Years | 100% of raw logs (gzip 10:1 ratio) for compliance.      |
+| Tier     | Storage                 | Retention                  | Routing Rules                                                |
+| :------- | :---------------------- | :------------------------- | :----------------------------------------------------------- |
+| **Hot**  | Elasticsearch / Datadog | **Short-term**             | `ERROR`, `WARN`, and explicitly tagged business events.      |
+| **Warm** | S3 + AWS Athena         | **Medium-term**            | Sampled `INFO` logs, HTTP access logs.                       |
+| **Cold** | S3 Glacier (Compressed) | **Long-term (Compliance)** | 100% of raw logs (gzip 10:1 ratio) for audit and compliance. |

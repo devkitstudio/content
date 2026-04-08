@@ -1,24 +1,21 @@
-## Real Numbers: The $84,000/Year Savings
+## The ROI of Tiered Observability
 
-Transitioning from a "Log Everything" approach to a tiered architecture with smart sampling produces immediate, drastic cost reductions.
+Transitioning from a "Log Everything" approach to a tiered architecture with smart sampling produces immediate, drastic cost reductions regardless of your system's scale or cloud provider.
 
-### Before Optimization (1 TB/day)
+### The Baseline (Legacy "Log Everything")
 
-Ingesting and indexing 100% of logs in hot storage (e.g., Datadog or self-hosted Elasticsearch) is financially unsustainable at scale.
+Ingesting and indexing 100% of logs in hot storage (e.g., Datadog, Splunk, or self-hosted Elasticsearch) scales linearly and quickly becomes financially unsustainable.
 
-- **Volume:** 1 TB/day = 30 TB/month
-- **Ingestion Cost:** $0.10/GB = $3,000/month
-- **Indexing Cost:** ~$1.70/Million events = ~$5,000/month
-- **Total Legacy Cost: ~$8,000/month**
+- **Hot Storage Volume:** 100%
+- **Compute & Indexing Load:** 100%
+- **Total Observability Cost:** 100% (The Baseline)
 
-### After Optimization (95% Volume Reduction)
+### The Optimized Architecture (Tiered Routing)
 
-By implementing dynamic log levels (`WARN+`), sampling `INFO` logs at 2%, and replacing verbose procedural logs with distributed traces, the volume drops exponentially.
+By implementing dynamic log levels (`WARN+`), smart sampling for routine `INFO` logs, and replacing verbose procedural logs with distributed traces, the resource utilization shifts drastically.
 
-- **New Hot Volume:** 50 GB/day = 1.5 TB/month
-- **Hot Storage Cost:** ~$400/month
-- **Tracing Infrastructure (OpenTelemetry):** ~$600/month
-- **Cold Storage Archive (S3):** 30 TB raw data compressed at 10:1 ratio (3 TB) = $69/month
-- **Total Optimized Cost: ~$1,069/month**
+- **New Hot Storage Volume:** **Reduced by ~95%** (Only routing critical errors, warnings, and explicit business events to expensive indexes).
+- **Tracing Infrastructure:** **Adds ~10-15%** to baseline costs (OpenTelemetry traces replace the missing context from sampled logs at a fraction of the cost).
+- **Cold Storage Archive:** **10:1 Compression Ratio**. 100% of raw logs are retained for compliance in cheap object storage (S3/GCS/Blob) using aggressive gzip/snappy compression.
 
-**Bottom Line: You save ~$7,000 per month (~$84,000 per year) while retaining exact traceability for every single request.**
+**Bottom Line: You achieve an ~80-85% reduction in your total monthly observability bill, while retaining 100% exact traceability for every single request.**
