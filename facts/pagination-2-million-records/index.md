@@ -33,4 +33,4 @@ sections:
     order: 99
 ---
 
-How do you efficiently paginate through 2 million records in a database?
+Paginate through 2 million records!

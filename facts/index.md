@@ -2,7 +2,7 @@
 facts:
   - slug: pagination-2-million-records
     category: Database
-    question: How do you efficiently paginate through 2 million records in a database?
+    question: Paginate through 2 million records!
     tags:
       - pagination
       - performance
