@@ -749,14 +749,12 @@ facts:
     date: '2026-04-06'
   - slug: reduce-logging-cost-at-scale
     category: Architecture
-    question: >-
-      How do you drastically reduce logging volume and cost while still
-      preserving full traceability of business-critical flows?
+    question: Reduce observability costs at scale without dropping a single log.
     tags:
       - observability
       - logging
       - cost-optimization
-      - senior
+      - opentelemetry
     date: '2026-04-06'
   - slug: reliable-webhook-consumer
     category: Backend

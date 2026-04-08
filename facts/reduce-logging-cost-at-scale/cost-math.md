@@ -1,75 +1,24 @@
-## Real Numbers: Before vs After
+## Real Numbers: The $84,000/Year Savings
 
-### Before Optimization
+Transitioning from a "Log Everything" approach to a tiered architecture with smart sampling produces immediate, drastic cost reductions.
 
-```
-Volume:    1 TB/day = 30 TB/month
-Datadog:   $0.10/GB ingested = $3,000/month ingestion
-           + $1.70/M events indexed = ~$5,000/month
-           Total: ~$8,000/month
+### Before Optimization (1 TB/day)
 
-Elasticsearch (self-hosted):
-           3x replication × 30 TB = 90 TB storage
-           Hot nodes: 6× i3.2xlarge = ~$6,000/month
-           Total: ~$6,000/month + ops time
-```
+Ingesting and indexing 100% of logs in hot storage (e.g., Datadog or self-hosted Elasticsearch) is financially unsustainable at scale.
 
-### After Optimization
+- **Volume:** 1 TB/day = 30 TB/month
+- **Ingestion Cost:** $0.10/GB = $3,000/month
+- **Indexing Cost:** ~$1.70/Million events = ~$5,000/month
+- **Total Legacy Cost: ~$8,000/month**
 
-| Strategy | Volume Reduction |
-|----------|-----------------|
-| Log level WARN+ only | -75% |
-| Sample INFO at 2% | -15% more |
-| Replace verbose logs with traces | -5% more |
-| **Total** | **~95% reduction** |
+### After Optimization (95% Volume Reduction)
 
-```
-New volume: 50 GB/day = 1.5 TB/month
+By implementing dynamic log levels (`WARN+`), sampling `INFO` logs at 2%, and replacing verbose procedural logs with distributed traces, the volume drops exponentially.
 
-Datadog: ~$400/month (vs $8,000)
-  + OpenTelemetry traces: ~$600/month
-  Total: ~$1,000/month
+- **New Hot Volume:** 50 GB/day = 1.5 TB/month
+- **Hot Storage Cost:** ~$400/month
+- **Tracing Infrastructure (OpenTelemetry):** ~$600/month
+- **Cold Storage Archive (S3):** 30 TB raw data compressed at 10:1 ratio (3 TB) = $69/month
+- **Total Optimized Cost: ~$1,069/month**
 
-S3 cold archive (full raw logs):
-  30 TB × gzip 10:1 = 3 TB × $0.023/GB = $69/month
-```
-
-**Monthly savings: $7,000 ($84,000/year)**
-
-## The Traceability Question
-
-"But how do we debug issues without all those logs?"
-
-### Answer: Correlation IDs + On-Demand Debug
-
-Every request gets a `trace_id`. When an error occurs, you have:
-
-1. **The error log** (always captured) with `trace_id`
-2. **The trace** (OpenTelemetry) showing the full request flow
-3. **Cold logs** (S3) searchable via Athena if you need raw DEBUG lines
-
-```typescript
-// Middleware: inject trace_id into every request
-app.use((req, res, next) => {
-  req.traceId = req.headers['x-trace-id'] || crypto.randomUUID();
-  // Attach to all logs automatically
-  req.logger = logger.child({ traceId: req.traceId });
-  next();
-});
-
-// When debugging: query cold storage by trace_id
-// AWS Athena query on S3 raw logs:
-// SELECT * FROM logs WHERE trace_id = 'abc-123' ORDER BY timestamp
-```
-
-### Emergency: Turn On Full Logging Temporarily
-
-```bash
-# Via feature flag or config API
-curl -X POST https://internal-api/config \
-  -d '{"log_level": "debug", "service": "payment", "ttl": "15m"}'
-
-# Automatically reverts to WARN after 15 minutes
-```
-
-You get full DEBUG output for 15 minutes to catch the bug, then costs drop back to normal.
+**Bottom Line: You save ~$7,000 per month (~$84,000 per year) while retaining exact traceability for every single request.**
