@@ -45,16 +45,6 @@ facts:
       - reliability
       - kubernetes
     date: '2026-04-06'
-  - slug: centralized-logging-elk-loki
-    category: DevOps
-    question: How do you set up centralized logging?
-    tags:
-      - logging
-      - elk
-      - loki
-      - observability
-      - experience
-    date: '2026-04-06'
   - slug: change-data-capture-debezium
     category: Data
     question: How does Change Data Capture (CDC) with Debezium work?
@@ -797,6 +787,17 @@ facts:
       - file-upload
       - backend
       - experience
+    date: '2026-04-06'
+  - slug: scale-logging-label-based-indexing
+    category: DevOps
+    question: >-
+      Scale centralized logging using label-based indexing instead of full-text
+      search.
+    tags:
+      - logging
+      - loki
+      - elk
+      - observability
     date: '2026-04-06'
   - slug: search-system-elasticsearch
     category: Architecture

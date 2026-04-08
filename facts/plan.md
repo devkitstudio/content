@@ -918,8 +918,8 @@ total_target: 2000
 - fact: 0138
 - status: DONE
 - category: DevOps
-- slug: centralized-logging-elk-loki
-- question: Your production containers log to stdout but nobody monitors them. An error loop generates 1GB of logs per hour. How do you set up centralized logging with ELK/Loki?
+- slug: scale-logging-label-based-indexing
+- question: Scale centralized logging using label-based indexing instead of full-text search.
 ---
 ---
 - fact: 0139
