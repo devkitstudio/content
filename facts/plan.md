@@ -5,8 +5,14 @@ updated: 2026-04-06
 total_target: 2000
 ---
 
-# DONE — 15 facts đã có
+# DONE — 16 facts đã có
 
+---
+- fact: 016b
+- status: DONE
+- category: Database
+- slug: pagination-2-million-records
+- question: Efficiently paginating through 2 million records
 ---
 - fact: 0001
 - status: DONE
