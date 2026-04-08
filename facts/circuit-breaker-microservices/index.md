@@ -3,25 +3,26 @@ category: Architecture
 tags:
   - microservices
   - resilience
-  - senior
-  - interview
+  - fault-tolerance
+  - service-mesh
 date: 2026-04-06T00:00:00.000Z
+review: true
 sections:
   - id: solution
-    label: Solution
-    icon: Lightbulb
+    label: Architecture
+    icon: Zap
     order: 1
-  - id: patterns
-    label: Related Patterns
-    icon: Layers
+  - id: comparison
+    label: App vs Mesh
+    icon: Scale
     order: 2
-  - id: libraries
-    label: Libraries & Config
-    icon: Package
+  - id: implementation
+    label: Execution
+    icon: Code
     order: 3
-  - id: service-mesh
-    label: Service Mesh
-    icon: Network
+  - id: pitfalls
+    label: Pitfalls
+    icon: AlertTriangle
     order: 4
   - id: source
     label: Sources
@@ -29,4 +30,4 @@ sections:
     order: 99
 ---
 
-How do you prevent one failing microservice from taking down the whole system?
+Isolate microservice failures and prevent cascading system outages using the Circuit Breaker pattern.

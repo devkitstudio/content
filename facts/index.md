@@ -60,13 +60,13 @@ facts:
   - slug: circuit-breaker-microservices
     category: Architecture
     question: >-
-      How do you prevent one failing microservice from taking down the whole
-      system?
+      Isolate microservice failures and prevent cascading system outages using
+      the Circuit Breaker pattern.
     tags:
       - microservices
       - resilience
-      - senior
-      - interview
+      - fault-tolerance
+      - service-mesh
     date: '2026-04-06'
   - slug: client-vs-server-state
     category: Frontend
