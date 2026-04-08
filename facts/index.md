@@ -11,7 +11,10 @@ facts:
     date: '2026-04-08'
   - slug: api-silent-empty-response
     category: Backend
-    question: What are the most common causes of silent empty responses?
+    question: >-
+      The client receives an HTTP 200 OK, but the response body is strictly 0
+      bytes. Silent empty responses in Express/Node.js occur when the lifecycle
+      completes without pushing data to the write stream.
     tags:
       - debugging
       - api
