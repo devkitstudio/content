@@ -21,4 +21,4 @@ sections:
     order: 99
 ---
 
-Your transaction isolation level is READ COMMITTED but you're seeing phantom reads in a report query. What are the 4 isolation levels and when do you need SERIALIZABLE?
+What are the 4 isolation levels and when do you need SERIALIZABLE?

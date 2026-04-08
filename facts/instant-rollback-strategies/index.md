@@ -21,6 +21,4 @@ sections:
     order: 99
 ---
 
-# Instant Rollback Strategies
-
-You deploy to production and the new version has a critical bug. Rolling back takes 20 minutes. How do you implement instant rollback strategies?
+How do you implement instant rollback strategies?

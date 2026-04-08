@@ -20,6 +20,4 @@ sections:
     order: 99
 ---
 
-# HTTP/2 Multiplexing for High-Concurrency APIs
-
-Your API uses HTTP/1.1 with keep-alive. Under high concurrency, connections queue up. How does HTTP/2 multiplexing solve head-of-line blocking?
+How does HTTP/2 multiplexing solve head-of-line blocking?

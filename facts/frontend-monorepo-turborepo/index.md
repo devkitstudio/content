@@ -20,4 +20,4 @@ sections:
     order: 99
 ---
 
-Your monorepo has 3 apps and 20 shared packages. Changing a shared component means rebuilding everything. How do you optimize builds in a monorepo with Turborepo?
+How do you optimize builds in a monorepo with Turborepo?

@@ -20,6 +20,4 @@ sections:
     order: 99
 ---
 
-# Maintainable E2E Tests with Playwright
-
-Your E2E tests with Playwright break whenever the UI changes slightly. Tests are brittle and always red. How do you write maintainable E2E tests?
+How do you write maintainable E2E tests?

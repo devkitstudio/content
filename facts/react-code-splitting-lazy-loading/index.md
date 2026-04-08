@@ -21,6 +21,4 @@ sections:
     order: 99
 ---
 
-# React Code Splitting & Lazy Loading
-
-Your React app bundle is 2.5MB. First load takes 8 seconds on 3G. How do you implement code splitting and lazy loading effectively?
+How do you implement code splitting and lazy loading effectively?

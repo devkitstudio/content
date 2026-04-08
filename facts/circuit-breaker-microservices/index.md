@@ -28,4 +28,5 @@ sections:
     icon: BookOpen
     order: 99
 ---
-Your `Order Service` calls the `Payment Service`, which calls the `Fraud Detection Service`. The Fraud service goes down. Now every order request hangs for 30 seconds waiting for a timeout, your thread pool fills up, and the entire checkout system cascades into failure. How do you prevent one failing microservice from taking down the whole system?
+
+How do you prevent one failing microservice from taking down the whole system?

@@ -21,6 +21,4 @@ sections:
     order: 99
 ---
 
-# Image Processing Pipeline Architecture
-
-Your image upload service receives 1,000 images per minute. Each needs to be resized into 5 formats. How do you design an image processing pipeline?
+How do you design an image processing pipeline?

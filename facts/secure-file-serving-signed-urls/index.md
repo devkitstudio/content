@@ -21,6 +21,4 @@ sections:
     order: 99
 ---
 
-# Secure File Serving with Signed URLs
-
-Your S3 bucket is public because the frontend needs to read files. An attacker enumerates all files. How do you serve private files securely with signed URLs?
+How do you serve private files securely with signed URLs?

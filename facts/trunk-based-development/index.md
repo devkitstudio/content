@@ -20,6 +20,4 @@ sections:
     order: 99
 ---
 
-# Trunk-Based Development
-
-Your team uses long-lived feature branches that diverge for weeks. Merge conflicts are constant. How does trunk-based development reduce integration pain?
+How does trunk-based development reduce integration pain?

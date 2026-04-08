@@ -21,6 +21,4 @@ sections:
     order: 99
 ---
 
-# API Versioning Strategies
-
-You deploy a new API version (v2) but mobile apps on app stores still use v1. You need to support both versions without duplicating code. How do you manage API versioning without breaking existing clients?
+How do you manage API versioning without breaking existing clients?

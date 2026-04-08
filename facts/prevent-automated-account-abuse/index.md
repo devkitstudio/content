@@ -20,6 +20,4 @@ sections:
     order: 99
 ---
 
-# Prevent Automated Account Abuse
-
-Your user registration endpoint allows unlimited attempts. An attacker creates 1 million fake accounts overnight. How do you prevent automated abuse without blocking real users?
+How do you prevent automated abuse without blocking real users?

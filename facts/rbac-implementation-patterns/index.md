@@ -21,6 +21,4 @@ sections:
     order: 99
 ---
 
-# RBAC Implementation Patterns
-
-Your admin panel is accessible to anyone who knows the URL. There's no role-based access. An intern accidentally deletes production data. How do you implement RBAC properly?
+How do you implement RBAC properly?

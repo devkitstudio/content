@@ -28,4 +28,5 @@ sections:
     icon: BookOpen
     order: 99
 ---
-Your public API suddenly gets 50,000 requests/second from a single IP. Your server is choking. The interviewer asks: "Explain the difference between Token Bucket, Sliding Window, and Fixed Window rate limiting. Which one would you pick for a payment API vs a search API, and why?"
+
+Which one would you pick for a payment API vs a search API, and why?

@@ -21,4 +21,4 @@ sections:
     order: 99
 ---
 
-Your Redis cache has a 95% hit rate but during peak traffic, a popular cache key expires and 10,000 requests simultaneously hit the database. How do you prevent cache stampede?
+How do you prevent cache stampede?

@@ -20,4 +20,4 @@ sections:
     order: 99
 ---
 
-Your Node.js server processes a huge CSV file and runs out of memory. How do you handle large file processing with streams?
+How do you handle large file processing with streams?

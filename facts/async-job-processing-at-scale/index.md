@@ -21,6 +21,4 @@ sections:
     order: 99
 ---
 
-# Async Job Processing at Scale
-
-You need to send 100,000 emails after a marketing campaign triggers. Doing it synchronously blocks your API for hours. How do you design async job processing that scales reliably?
+How do you design async job processing that scales reliably?

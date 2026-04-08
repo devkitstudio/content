@@ -21,6 +21,4 @@ sections:
     order: 99
 ---
 
-# Optimizing CI/CD Pipeline Speed
-
-Your CI/CD pipeline takes 45 minutes. Developers push code and wait. How do you optimize build and test times in CI pipelines?
+How do you optimize build and test times in CI pipelines?

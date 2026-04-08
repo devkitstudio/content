@@ -21,6 +21,4 @@ sections:
     order: 99
 ---
 
-# CORS Configuration Done Properly
-
-Your application sets Access-Control-Allow-Origin to * for convenience. Why is this dangerous and how do you configure CORS properly?
+Why is this dangerous and how do you configure CORS properly?

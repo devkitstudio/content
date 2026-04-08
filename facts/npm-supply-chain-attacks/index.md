@@ -21,6 +21,4 @@ sections:
     order: 99
 ---
 
-# NPM Supply Chain Attack Prevention
-
-Your Node.js app uses 200 npm packages. One of them gets compromised (event-stream incident). How do you protect against supply chain attacks?
+How do you protect against supply chain attacks?

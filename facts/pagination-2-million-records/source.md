@@ -1,0 +1,4 @@
+- **Slack Engineering:** [Evolving API Pagination at Slack](https://slack.engineering/evolving-api-pagination-at-slack/)
+- **Use the Index, Luke:** [Pagination Done the PostgreSQL Way](https://use-the-index-luke.com/no-offset)
+- **PlanetScale:** [Deferred joins in MySQL](https://planetscale.com/blog/mysql-pagination#deferred-joins)
+- **Elasticsearch Docs:** [Paginate search results with `search_after`](https://www.elastic.co/guide/en/elasticsearch/reference/current/paginate-search-results.html)

@@ -21,6 +21,4 @@ sections:
     order: 99
 ---
 
-# Kubernetes Resource Tuning
-
-Your Kubernetes pod gets OOMKilled randomly. Memory limits are set to 512Mi but the app sometimes spikes to 600Mi. How do you tune resource requests and limits?
+How do you tune resource requests and limits?

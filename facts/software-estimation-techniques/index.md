@@ -20,6 +20,4 @@ sections:
     order: 99
 ---
 
-# Software Estimation Techniques
-
-Your team lead asks you to estimate a feature. You say "2 weeks." It takes 2 months. Why are software estimates always wrong and how do you estimate better?
+Why are software estimates always wrong and how do you estimate better?

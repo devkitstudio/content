@@ -20,6 +20,4 @@ sections:
     order: 99
 ---
 
-# Offline-First Data Sync with Conflict Resolution
-
-Your app needs to work offline and sync data when connectivity returns. Conflicts arise when two users edit the same record offline. How do you implement offline-first with conflict resolution?
+How do you implement offline-first with conflict resolution?

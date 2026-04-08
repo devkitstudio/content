@@ -20,6 +20,4 @@ sections:
     order: 99
 ---
 
-# Load Balancing Algorithms
-
-Your load balancer uses round-robin but some servers have 10x more load than others. Why does this happen and what's a better load balancing algorithm?
+Why does this happen and what's a better load balancing algorithm?

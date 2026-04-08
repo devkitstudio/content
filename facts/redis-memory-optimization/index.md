@@ -21,4 +21,4 @@ sections:
     order: 99
 ---
 
-Your Redis instance uses 32GB of memory for 10M keys. Most keys are rarely accessed. How do you optimize Redis memory usage?
+How do you optimize Redis memory usage?

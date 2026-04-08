@@ -28,11 +28,5 @@ sections:
     icon: BookOpen
     order: 99
 ---
-During a Flash Sale, User A and User B both view a product page. The database says `stock = 1`. They click "Buy" at the exact same millisecond.
 
-User A reads stock: 1.
-User B reads stock: 1.
-User A bypasses the `if (stock > 0)` check and updates stock to 0. 
-User B also bypasses the `if (stock > 0)` check (because they read 1 earlier) and updates stock to 0.
-
-You just sold 2 iPhones when you only had 1. How do you prevent this classic Database Race Condition (Overselling)?
+How do you prevent this classic Database Race Condition (Overselling)?

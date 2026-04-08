@@ -20,6 +20,4 @@ sections:
     order: 99
 ---
 
-# SQL Injection Beyond the Basics
-
-Your API accepts user input and passes it to a SQL query. Bobby Tables drops your entire database. How do you prevent SQL injection beyond just parameterized queries?
+How do you prevent SQL injection beyond just parameterized queries?

@@ -21,6 +21,4 @@ sections:
     order: 99
 ---
 
-# Event Sourcing: When to Use It
-
-Your system processes user actions and needs to know exactly what happened and when — for compliance, debugging, and analytics. What is Event Sourcing and when should you use it?
+What is Event Sourcing and when should you use it?

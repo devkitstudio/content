@@ -21,6 +21,4 @@ sections:
     order: 99
 ---
 
-# Optimizing Docker Image Size
-
-Your Docker image is 2.3GB. Pulling it takes 5 minutes on every deploy. How do you optimize Docker image size?
+How do you optimize Docker image size?

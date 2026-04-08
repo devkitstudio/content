@@ -20,4 +20,4 @@ sections:
     order: 99
 ---
 
-Your container image uses latest tag. Production mysteriously breaks even though nobody deployed. How do you implement proper container image tagging and immutable deployments?
+How do you implement proper container image tagging and immutable deployments?

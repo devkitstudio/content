@@ -20,6 +20,4 @@ sections:
     order: 99
 ---
 
-# Strategy Pattern for Payment Providers
-
-Your payment module supports Stripe, PayPal, and MoMo. Adding a new provider requires changing 10 files. How does the Strategy pattern simplify payment provider integration?
+How does the Strategy pattern simplify payment provider integration?

@@ -21,6 +21,4 @@ sections:
     order: 99
 ---
 
-# API endpoint returns 200 OK but the response body is empty
-
-The database has data, the endpoint is accessible, but the response body is completely empty. What are the most common causes of silent empty responses?
+What are the most common causes of silent empty responses?

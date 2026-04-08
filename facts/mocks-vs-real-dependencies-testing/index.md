@@ -20,6 +20,4 @@ sections:
     order: 99
 ---
 
-# Mocks vs Real Dependencies: Testing Strategy
-
-Your test suite mocks everything. Tests pass but bugs still reach production. When should you use real dependencies vs mocks?
+When should you use real dependencies vs mocks?

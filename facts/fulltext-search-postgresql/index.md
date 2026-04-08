@@ -21,4 +21,4 @@ sections:
     order: 99
 ---
 
-You need to search products by name, description, and tags with typo tolerance. PostgreSQL LIKE is too slow. How do you implement full-text search — pg_trgm vs tsvector vs Elasticsearch?
+How do you implement full-text search — pg_trgm vs tsvector vs Elasticsearch?

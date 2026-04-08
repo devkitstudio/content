@@ -20,4 +20,4 @@ sections:
     order: 99
 ---
 
-Your orders table has 500M rows and queries are slow. You need to split it. How do you partition a table and what strategy do you choose?
+How do you partition a table and what strategy do you choose?

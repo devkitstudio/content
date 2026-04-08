@@ -21,4 +21,4 @@ sections:
     order: 99
 ---
 
-Your users table has 50M rows. Adding a NOT NULL column with a default value locks the table for 10 minutes. How do you run schema migrations on large tables without downtime?
+How do you run schema migrations on large tables without downtime?

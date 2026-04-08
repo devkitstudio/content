@@ -24,4 +24,5 @@ sections:
     icon: BookOpen
     order: 99
 ---
-Your service already has HPA (Horizontal Pod Autoscaler) with CPU-based scaling and it works fine under normal load. But when traffic spikes suddenly — latency shoots up, requests start timing out, and users see errors. The pods ARE scaling... just not fast enough. What's wrong with CPU-only autoscaling and how do you design an autoscale strategy that actually handles traffic bursts?
+
+What's wrong with CPU-only autoscaling and how do you design an autoscale strategy that actually handles traffic bursts?

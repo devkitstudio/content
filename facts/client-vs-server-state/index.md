@@ -20,4 +20,4 @@ sections:
     order: 99
 ---
 
-Your team debates between client-side state (Zustand/Jotai) and server state (TanStack Query). What's the difference and when should you use each?
+What's the difference and when should you use each?

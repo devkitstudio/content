@@ -20,4 +20,4 @@ sections:
     order: 99
 ---
 
-Your team writes CSS in 5 different ways — global CSS, CSS modules, styled-components, Tailwind, inline styles. How do you choose a CSS architecture for a large project?
+How do you choose a CSS architecture for a large project?

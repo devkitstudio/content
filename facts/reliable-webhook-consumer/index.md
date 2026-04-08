@@ -21,6 +21,4 @@ sections:
     order: 99
 ---
 
-# Building a Reliable Webhook Consumer
-
-Your webhook endpoint receives duplicate events from Stripe or PayPal. Some events arrive out of order. How do you build a reliable webhook consumer that handles these real-world challenges?
+How do you build a reliable webhook consumer that handles these real-world challenges?

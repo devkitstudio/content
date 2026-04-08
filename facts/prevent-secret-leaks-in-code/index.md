@@ -21,6 +21,4 @@ sections:
     order: 99
 ---
 
-# Prevent Secret Leaks in Code
-
-A developer hardcodes an API key in the source code. It gets pushed to GitHub. The key is used to access production data. How do you prevent and detect secret leaks?
+How do you prevent and detect secret leaks?

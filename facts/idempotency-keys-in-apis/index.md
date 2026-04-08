@@ -24,4 +24,5 @@ sections:
     icon: BookOpen
     order: 99
 ---
-A mobile user on a flaky 3G connection hits the "Pay $100" button twice because nothing loaded. Your API receives two identical HTTP POST requests at the exact same millisecond. How do you prevent charging their credit card $200 while maintaining a graceful user experience?
+
+How do you prevent charging their credit card $200 while maintaining a graceful user experience?

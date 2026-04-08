@@ -21,6 +21,4 @@ sections:
     order: 99
 ---
 
-# Prevent Overlapping Cron Jobs
-
-Your cron job runs at midnight but sometimes takes 2 hours to complete. The next execution starts before the first one finishes, causing duplicate work and data corruption. How do you prevent overlapping cron job executions?
+How do you prevent overlapping cron job executions?

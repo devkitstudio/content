@@ -20,4 +20,4 @@ sections:
     order: 99
 ---
 
-Accessibility audit flags 50 issues — missing alt text, no keyboard navigation, screen readers can't read your custom dropdown. How do you make React components accessible?
+How do you make React components accessible?

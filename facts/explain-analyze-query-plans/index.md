@@ -21,4 +21,4 @@ sections:
     order: 99
 ---
 
-Your PostgreSQL query was fast with 1M rows but takes 30 seconds with 100M rows. EXPLAIN shows a sequential scan. How do you read and optimize query execution plans?
+How do you read and optimize query execution plans?

@@ -29,4 +29,5 @@ sections:
   - id: source
     label: Source
 ---
-There is heavy incoming traffic. If I modify the config, is there a way to restart Nginx without dropping connections?
+
+If I modify the config, is there a way to restart Nginx without dropping connections?

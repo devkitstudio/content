@@ -21,6 +21,4 @@ sections:
     order: 99
 ---
 
-# Error Boundaries & Fault Isolation
-
-A third-party script crashes and takes your entire React app down. How do you implement Error Boundaries and fault isolation?
+How do you implement Error Boundaries and fault isolation?

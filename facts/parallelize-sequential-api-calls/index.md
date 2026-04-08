@@ -21,6 +21,4 @@ sections:
     order: 99
 ---
 
-# Parallelize Sequential API Calls Without Breaking Dependencies
-
-Your REST API takes 3 seconds to respond because it calls 5 internal services sequentially. Each call waits for the previous one to finish. How do you parallelize these calls without breaking dependencies between services?
+How do you parallelize these calls without breaking dependencies between services?

@@ -32,4 +32,5 @@ sections:
     icon: BookOpen
     order: 99
 ---
-A user clicks to download a heavy report. Tired of waiting, they angrily hit "Cancel" or "F5" to refresh. The frontend instantly drops the connection. However, the backend is completely unaware! It blindly continues to burn CPU and hammer the database for 10 more seconds to run a giant "zombie" query. If 1,000 users mash F5, the server crashes. How do we make the backend "listen" and instantly slam the brakes on the DB query?
+
+How do we make the backend "listen" and instantly slam the brakes on the DB query?

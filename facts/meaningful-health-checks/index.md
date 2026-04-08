@@ -21,6 +21,4 @@ sections:
     order: 99
 ---
 
-# Design Meaningful Health Checks
-
-Your health check endpoint returns 200 OK but the service is actually broken. It can't reach the database, can't connect to external APIs, but the liveness probe says everything is fine. How do you design health checks that actually reflect service health?
+How do you design health checks that actually reflect service health?

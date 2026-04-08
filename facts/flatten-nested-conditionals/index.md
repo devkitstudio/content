@@ -20,6 +20,4 @@ sections:
     order: 99
 ---
 
-# Flattening Nested Conditionals
-
-Your code has deeply nested if/else blocks — 6 levels deep. It's unreadable. How do you flatten nested conditionals with early returns and guard clauses?
+How do you flatten nested conditionals with early returns and guard clauses?

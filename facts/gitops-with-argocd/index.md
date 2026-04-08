@@ -21,6 +21,4 @@ sections:
     order: 99
 ---
 
-# GitOps with ArgoCD
-
-Your team pushes to main and it auto-deploys. But nobody reviews the infrastructure changes. How do you implement GitOps with ArgoCD?
+How do you implement GitOps with ArgoCD?

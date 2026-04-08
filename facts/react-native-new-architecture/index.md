@@ -20,6 +20,4 @@ sections:
     order: 99
 ---
 
-# React Native New Architecture: Fabric & TurboModules
-
-Your React Native app is slow on Android but smooth on iOS. Profiling shows the JS bridge is the bottleneck. How does the New Architecture (Fabric + TurboModules) solve this?
+How does the New Architecture (Fabric + TurboModules) solve this?

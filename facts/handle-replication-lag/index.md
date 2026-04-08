@@ -21,4 +21,4 @@ sections:
     order: 99
 ---
 
-Your application writes to a primary and reads from a replica. But read-after-write shows stale data because replication lag is 500ms. How do you handle replication lag?
+How do you handle replication lag?

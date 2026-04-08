@@ -21,6 +21,4 @@ sections:
     order: 99
 ---
 
-# Change Data Capture with Debezium
-
-You need to sync data between PostgreSQL and Elasticsearch in real-time. Manual sync scripts often miss updates. How does Change Data Capture (CDC) with Debezium work?
+How does Change Data Capture (CDC) with Debezium work?

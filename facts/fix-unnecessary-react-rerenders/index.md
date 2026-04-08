@@ -21,6 +21,4 @@ sections:
     order: 99
 ---
 
-# Fix Unnecessary React Re-renders
-
-Your React component re-renders 47 times when you type one character in an input. How do you diagnose and fix unnecessary re-renders?
+How do you diagnose and fix unnecessary re-renders?

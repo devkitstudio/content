@@ -20,4 +20,4 @@ sections:
     order: 99
 ---
 
-Your service publishes events to Kafka but sometimes the database write succeeds and the event publish fails. How does the Transactional Outbox pattern solve this?
+How does the Transactional Outbox pattern solve this?

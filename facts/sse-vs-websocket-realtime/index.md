@@ -21,6 +21,4 @@ sections:
     order: 99
 ---
 
-# Server-Sent Events vs WebSockets for Real-Time Updates
-
-You need to notify 10,000 connected clients when a price changes. Polling wastes resources. How do Server-Sent Events (SSE) compare to WebSockets for real-time communication?
+How do Server-Sent Events (SSE) compare to WebSockets for real-time communication?

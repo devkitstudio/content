@@ -21,6 +21,4 @@ sections:
     order: 99
 ---
 
-# Password Hashing Algorithms
-
-You implement password hashing with MD5 because it's fast. A security audit flags this as critical. Why is MD5 dangerous and what hashing algorithm should you use?
+Why is MD5 dangerous and what hashing algorithm should you use?

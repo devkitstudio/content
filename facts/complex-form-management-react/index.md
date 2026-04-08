@@ -21,6 +21,4 @@ sections:
     order: 99
 ---
 
-# Complex Form Management in React
-
-You build a form with 20 fields, complex validation, and conditional logic. useState becomes a nightmare. How do you manage complex forms in React?
+How do you manage complex forms in React?

@@ -21,4 +21,4 @@ sections:
     order: 99
 ---
 
-Your PostgreSQL database runs out of disk space because dead tuples from UPDATE/DELETE aren't cleaned up. What is VACUUM and how do you configure autovacuum properly?
+What is VACUUM and how do you configure autovacuum properly?

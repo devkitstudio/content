@@ -28,5 +28,5 @@ sections:
     icon: BookOpen
     order: 99
 ---
-The Infamous React Infinite Loop: "Why did my component re-render 10,000 times a second and crash the browser?"
-This is a rite of passage for every React developer. You add a `useEffect` to fetch some data, update the state, and suddenly your CPU fans sound like a jet engine taking off.
+
+The Infamous React Infinite Loop: "Why did my component re-render 10,000 times a second and crash the browser?

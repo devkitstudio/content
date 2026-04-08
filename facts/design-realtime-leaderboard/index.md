@@ -21,6 +21,4 @@ sections:
     order: 99
 ---
 
-# Real-Time Leaderboard with Redis Sorted Sets
-
-You need to build a leaderboard that updates in real-time for 1M users. SQL ORDER BY with LIMIT is too slow. How do you design a real-time leaderboard with Redis Sorted Sets?
+How do you design a real-time leaderboard with Redis Sorted Sets?

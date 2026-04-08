@@ -20,4 +20,4 @@ sections:
     order: 99
 ---
 
-Your primary database goes down. Failover to the replica takes 5 minutes and you lose 30 seconds of writes. How do you design a high-availability database setup?
+How do you design a high-availability database setup?

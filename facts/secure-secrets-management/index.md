@@ -21,6 +21,4 @@ sections:
     order: 99
 ---
 
-# Secure Secrets Management
-
-Your secrets are stored in environment variables that anyone with server access can read. How do you manage secrets securely with Vault or Sealed Secrets?
+How do you manage secrets securely with Vault or Sealed Secrets?

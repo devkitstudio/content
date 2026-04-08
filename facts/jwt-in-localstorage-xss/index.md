@@ -29,5 +29,5 @@ sections:
     icon: BookOpen
     order: 99
 ---
-Every tutorial tells you to build your React app, get the JWT token from the login API, and do `localStorage.setItem('token', jwt)`. 
-However, Senior Security Engineers will instantly fail your PR if you do this. Why is putting JWTs in LocalStorage considered a critical security vulnerability, and how should you actually store them?
+
+Why is putting JWTs in LocalStorage considered a critical security vulnerability, and how should you actually store them?

@@ -21,6 +21,4 @@ sections:
     order: 99
 ---
 
-# Image Optimization for Core Web Vitals
-
-Your image-heavy page loads 50 high-res images at once. LCP is 8 seconds. How do you optimize image loading for Core Web Vitals?
+How do you optimize image loading for Core Web Vitals?

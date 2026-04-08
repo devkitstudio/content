@@ -21,6 +21,4 @@ sections:
     order: 99
 ---
 
-# When Over-Engineering is Actually Harmful
-
-Your startup has 3 developers. The CTO wants to use Kubernetes, microservices, event sourcing, and CQRS from day one. When is over-engineering actually harmful?
+When is over-engineering actually harmful?

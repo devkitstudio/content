@@ -20,4 +20,5 @@ sections:
     icon: BookOpen
     order: 99
 ---
-You added an index on `users.email` to speed up login queries. It worked. So you added indexes on every column "just in case." Now your INSERT throughput dropped 60%, your disk usage tripled, and the query planner is ignoring half your indexes anyway. When do indexes actually hurt performance, and what are the most common indexing mistakes?
+
+When do indexes actually hurt performance, and what are the most common indexing mistakes?

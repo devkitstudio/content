@@ -21,6 +21,4 @@ sections:
     order: 99
 ---
 
-# Environment Configuration Management
-
-You need to deploy to 3 environments (dev, staging, prod) with different configs. How do you manage environment-specific configuration without hardcoding?
+How do you manage environment-specific configuration without hardcoding?

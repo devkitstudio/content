@@ -20,4 +20,4 @@ sections:
     order: 99
 ---
 
-Your API returns different error formats — sometimes {error}, sometimes {message}, sometimes plain text. How do you standardize API error handling?
+How do you standardize API error handling?

@@ -21,6 +21,4 @@ sections:
     order: 99
 ---
 
-# Search System Architecture with Elasticsearch
-
-Your e-commerce search needs to be fast, support filters, facets, and fuzzy matching. The database can't handle it. How do you architect a search system with Elasticsearch?
+How do you architect a search system with Elasticsearch?

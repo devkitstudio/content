@@ -20,4 +20,4 @@ sections:
     order: 99
 ---
 
-Your database stores prices as FLOAT and customers see charges like $19.990000000001. Why should you never use floating point for money?
+Why should you never use floating point for money?

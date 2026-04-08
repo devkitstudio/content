@@ -22,6 +22,4 @@ sections:
     order: 99
 ---
 
-# Next.js Rendering Strategies
-
-Your Next.js app has SSR, SSG, ISR, and client-side rendering mixed together. Pages sometimes show stale data. How do you choose the right rendering strategy?
+How do you choose the right rendering strategy?

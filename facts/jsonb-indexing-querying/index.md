@@ -21,4 +21,4 @@ sections:
     order: 99
 ---
 
-You store JSON in a PostgreSQL JSONB column for flexibility. Queries that filter on JSON fields are slow. How do you index and query JSONB efficiently?
+How do you index and query JSONB efficiently?

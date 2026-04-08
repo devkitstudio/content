@@ -21,6 +21,4 @@ sections:
     order: 99
 ---
 
-# Terraform State Management
-
-Your Terraform state file gets corrupted when two people run terraform apply at the same time. How do you manage Terraform state safely in a team?
+How do you manage Terraform state safely in a team?

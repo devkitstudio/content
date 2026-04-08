@@ -20,4 +20,4 @@ sections:
     order: 99
 ---
 
-Your multi-tenant SaaS accidentally shows Company A's data to Company B. How do you implement proper tenant isolation?
+How do you implement proper tenant isolation?

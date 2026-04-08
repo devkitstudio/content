@@ -20,6 +20,4 @@ sections:
     order: 99
 ---
 
-# Becoming a Senior Developer
-
-You're a mid-level developer aiming for senior. What concrete skills and behaviors differentiate a senior engineer from a mid-level one?
+What concrete skills and behaviors differentiate a senior engineer from a mid-level one?

@@ -21,6 +21,4 @@ sections:
     order: 99
 ---
 
-# Choosing the Right State Management
-
-Your team has 200 React components. Some use Redux, some useState, some Context. State management is chaos. How do you choose the right state management approach?
+How do you choose the right state management approach?

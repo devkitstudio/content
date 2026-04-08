@@ -21,4 +21,4 @@ sections:
     order: 99
 ---
 
-Your application uses soft deletes (deleted_at column). After 2 years, 80% of rows are "deleted" but still scanned by every query. How do you manage soft deletes efficiently?
+How do you manage soft deletes efficiently?

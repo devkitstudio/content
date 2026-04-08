@@ -20,4 +20,4 @@ sections:
     order: 99
 ---
 
-You deploy a new feature to 100% of users and it crashes for 10% of them. How do you implement canary deployments and progressive rollouts?
+How do you implement canary deployments and progressive rollouts?

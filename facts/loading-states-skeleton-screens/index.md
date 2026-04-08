@@ -21,6 +21,4 @@ sections:
     order: 99
 ---
 
-# Loading States & Skeleton Screens
-
-You fetch data in useEffect, show a loading spinner, then render. But users see content flash and layout shift. How do you implement proper loading states and skeleton screens?
+How do you implement proper loading states and skeleton screens?

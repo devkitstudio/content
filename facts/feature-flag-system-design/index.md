@@ -20,4 +20,4 @@ sections:
     order: 99
 ---
 
-Feature flags are scattered across if/else blocks everywhere. Removing old flags is terrifying. How do you implement a clean feature flag system?
+How do you implement a clean feature flag system?

@@ -21,6 +21,4 @@ sections:
     order: 99
 ---
 
-# Monolith vs Microservices: When to Scale Out
-
-Your monolith handles 10,000 users fine. CEO says we're growing to 1M users. Do you really need microservices or can the monolith scale?
+Do you really need microservices or can the monolith scale?

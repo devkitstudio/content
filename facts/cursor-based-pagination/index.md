@@ -21,6 +21,4 @@ sections:
     order: 99
 ---
 
-# Implement Efficient Cursor-Based Pagination
-
-Your REST API uses OFFSET/LIMIT pagination. At page 10,000 the query takes 30 seconds because it scans 10M rows. How do you implement efficient cursor-based pagination that stays fast at any offset?
+How do you implement efficient cursor-based pagination that stays fast at any offset?

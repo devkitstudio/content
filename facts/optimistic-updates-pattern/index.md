@@ -21,6 +21,4 @@ sections:
     order: 99
 ---
 
-# Optimistic Updates Pattern
-
-Clicking a button dispatches an action, but sometimes the UI updates before the API confirms, sometimes after. How do you implement optimistic updates correctly?
+How do you implement optimistic updates correctly?

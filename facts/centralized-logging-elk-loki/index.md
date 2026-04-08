@@ -22,6 +22,4 @@ sections:
     order: 99
 ---
 
-# Centralized Logging with ELK and Loki
-
-Your production containers log to stdout but nobody monitors them. An error loop generates 1GB of logs per hour. How do you set up centralized logging?
+How do you set up centralized logging?

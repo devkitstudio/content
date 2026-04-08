@@ -21,6 +21,4 @@ sections:
     order: 99
 ---
 
-# Kubernetes Service Exposure Strategies
-
-You need to expose a Kubernetes service to the internet. Should you use NodePort, LoadBalancer, or Ingress? What are the trade-offs?
+What are the trade-offs?

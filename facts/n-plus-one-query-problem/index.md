@@ -32,5 +32,5 @@ sections:
     icon: BookOpen
     order: 99
 ---
-"What is the N+1 Query Problem?"
-This is one of the most common Backend/Database interview questions. When you test locally, your API responds in 50ms. As soon as you deploy to production with real data, the API takes 5 seconds and crashes the database. Why did your ORM betray you, and how do you fix it?
+
+Why did your ORM betray you, and how do you fix it?

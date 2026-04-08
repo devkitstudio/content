@@ -21,6 +21,4 @@ sections:
     order: 99
 ---
 
-# Virtual List for Large Data
-
-Your table component renders 10,000 rows and the browser freezes. How do you implement virtualization for large lists and tables?
+How do you implement virtualization for large lists and tables?

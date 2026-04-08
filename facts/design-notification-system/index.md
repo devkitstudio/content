@@ -21,6 +21,4 @@ sections:
     order: 99
 ---
 
-# Multi-Channel Notification System Architecture
-
-Your notification system needs to send push, email, SMS, and in-app notifications. Each channel has different delivery guarantees. How do you design a multi-channel notification system?
+How do you design a multi-channel notification system?

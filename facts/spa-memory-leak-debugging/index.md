@@ -20,4 +20,5 @@ sections:
     icon: BookOpen
     order: 99
 ---
-Your React SPA has been running fine for months. Then users start complaining: "The app gets slower the longer I use it." You open Chrome DevTools Memory tab and see heap usage climbing from 50MB to 400MB over 30 minutes without ever dropping. Where do you start hunting for memory leaks in a Single Page Application?
+
+Where do you start hunting for memory leaks in a Single Page Application?

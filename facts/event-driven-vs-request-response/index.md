@@ -21,6 +21,4 @@ sections:
     order: 99
 ---
 
-# Mixing Event-Driven and Request-Response Patterns
-
-Your event-driven system processes events asynchronously. But sometimes you need a synchronous response. How do you mix request/response with event-driven patterns?
+How do you mix request/response with event-driven patterns?

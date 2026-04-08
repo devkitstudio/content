@@ -21,6 +21,4 @@ sections:
     order: 99
 ---
 
-# Linux OOM Killer and Process Protection
-
-Your server's OOM killer randomly kills your database process. How does Linux OOM killer work and how do you protect critical processes?
+How does Linux OOM killer work and how do you protect critical processes?

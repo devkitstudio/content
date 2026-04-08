@@ -20,6 +20,4 @@ sections:
     order: 99
 ---
 
-# RAG: Grounding LLM Responses with Retrieved Context
-
-Your chatbot hallucinates facts about your product. Users get wrong information. How do you implement RAG (Retrieval-Augmented Generation) to ground LLM responses?
+How do you implement RAG (Retrieval-Augmented Generation) to ground LLM responses?

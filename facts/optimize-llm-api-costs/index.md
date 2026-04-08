@@ -20,6 +20,4 @@ sections:
     order: 99
 ---
 
-# Optimizing LLM API Costs
-
-Your GPT-based feature costs $5,000/month in API calls for 10,000 users. How do you optimize LLM API costs with caching, prompt compression, and model routing?
+How do you optimize LLM API costs with caching, prompt compression, and model routing?
