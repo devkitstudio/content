@@ -109,14 +109,12 @@ facts:
     date: '2026-04-06'
   - slug: cursor-based-pagination
     category: Backend
-    question: >-
-      How do you implement efficient cursor-based pagination that stays fast at
-      any offset?
+    question: Cursor-based pagination that stays fast at any offset.
     tags:
       - api-design
       - performance
       - database
-      - interview
+      - architecture
     date: '2026-04-06'
   - slug: database-index-anti-patterns
     category: Database
