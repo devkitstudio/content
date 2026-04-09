@@ -4,20 +4,26 @@ tags:
   - css
   - architecture
   - tailwind
-  - experience
+  - rendering
 date: 2026-04-06T00:00:00.000Z
+review: true
 sections:
   - id: solution
-    label: Solution
+    label: Architecture
+    icon: Zap
     order: 1
-  - id: comparison
-    label: Comparison Table
-    icon: GitCompare
+  - id: implementation
+    label: Execution
+    icon: Code
     order: 2
+  - id: pitfalls
+    label: Pitfalls
+    icon: AlertTriangle
+    order: 3
   - id: source
     label: Sources
     icon: BookOpen
     order: 99
 ---
 
-How do you choose a CSS architecture for a large project?
+CSS: Global scope bleeding and runtime render blocking.

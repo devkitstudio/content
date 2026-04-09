@@ -100,12 +100,12 @@ facts:
     date: '2026-04-06'
   - slug: css-architecture-large-project
     category: Frontend
-    question: How do you choose a CSS architecture for a large project?
+    question: 'CSS: Global scope bleeding and runtime render blocking.'
     tags:
       - css
       - architecture
       - tailwind
-      - experience
+      - rendering
     date: '2026-04-06'
   - slug: cursor-based-pagination
     category: Backend
