@@ -118,13 +118,11 @@ facts:
     date: '2026-04-06'
   - slug: database-index-anti-patterns
     category: Database
-    question: >-
-      When do indexes actually hurt performance, and what are the most common
-      indexing mistakes?
+    question: Performance optimizations actively hurt system throughput.
     tags:
       - sql
       - performance
-      - experience
+      - index
       - optimization
     date: '2026-04-06'
   - slug: database-table-partitioning

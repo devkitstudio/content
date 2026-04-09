@@ -3,9 +3,10 @@ category: Database
 tags:
   - sql
   - performance
-  - experience
+  - index
   - optimization
 date: 2026-04-06T00:00:00.000Z
+review: true
 sections:
   - id: solution
     label: The Anti-Patterns
@@ -21,4 +22,4 @@ sections:
     order: 99
 ---
 
-When do indexes actually hurt performance, and what are the most common indexing mistakes?
+Performance optimizations actively hurt system throughput.

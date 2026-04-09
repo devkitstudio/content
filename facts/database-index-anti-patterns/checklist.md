@@ -1,37 +1,37 @@
-## Before Adding an Index
+## The Execution Checklist: Adding an Index
 
-1. **Run `EXPLAIN ANALYZE`** on the slow query first. Confirm it's doing a Seq Scan.
-2. **Check cardinality**: `SELECT COUNT(DISTINCT col) / COUNT(*) FROM table`. If < 0.1 (less than 10% unique), the index probably won't help.
-3. **Check existing indexes**: make sure you're not creating a duplicate or redundant index.
-4. **Consider the write cost**: high-write tables (logs, events) should have minimal indexes.
+Do not guess. Adding an index must be an evidence-based operation.
 
-## After Adding an Index
+### Before Adding (The Justification Phase)
 
-1. Run `EXPLAIN ANALYZE` again. Confirm the planner actually uses the new index.
-2. Monitor `pg_stat_user_indexes` (PostgreSQL) for unused indexes:
+1.  **Prove the Bottleneck:** Run `EXPLAIN ANALYZE` on the target query. Confirm it is executing a `Seq Scan` (Sequential Scan) and consuming significant relative execution time.
+2.  **Evaluate Selectivity:** Will this index filter out the vast majority of rows? If the query matches a massive chunk of the table, an index will likely be ignored by the planner.
+3.  **Check Prefix Coverage:** Review `\d table_name` (Postgres) or `SHOW INDEXES` (MySQL). Ensure a composite index doesn't already exist where your target column is the leftmost prefix.
+4.  **Assess the Write/Read Ratio:** Is this an immutable log table (append-only, high throughput) or a read-heavy configuration table? High-ingestion tables should have absolute minimal indexing.
+
+### After Adding (The Validation Phase)
+
+1.  **Verify Usage:** Run `EXPLAIN ANALYZE` again. The execution plan **must** shift from a `Seq Scan` to an `Index Scan` or `Index Only Scan`. If it doesn't, drop the index immediately.
+2.  **Monitor Dead Weight:** Unused indexes are pure technical debt. Periodically audit your database for indexes that have never been scanned since the last statistics reset.
 
 ```sql
--- Find indexes that have NEVER been used since last stats reset
+-- PostgreSQL: Detect Dead Weight Indexes
 SELECT
   schemaname, tablename, indexrelname,
-  idx_scan,          -- 0 = never used
+  idx_scan, -- 0 indicates the index has never been used for a read
   pg_size_pretty(pg_relation_size(indexrelid)) AS size
 FROM pg_stat_user_indexes
 WHERE idx_scan = 0
 ORDER BY pg_relation_size(indexrelid) DESC;
 ```
 
-3. Drop unused indexes after confirming they're not needed for constraints.
+### The Architectural Decision Matrix
 
-## Quick Decision Matrix
-
-| Scenario | Index? |
-|----------|--------|
-| `WHERE` on high-cardinality column (email, UUID) | Yes |
-| `WHERE` on low-cardinality column (status, boolean) | Usually no |
-| `JOIN` foreign keys | Yes (always index FK columns) |
-| `ORDER BY` + `LIMIT` on large tables | Yes (covering index) |
-| Write-heavy table (100K+ inserts/day) | Minimal indexes only |
-| Small table (< 10K rows) | Probably not worth it |
-| `LIKE '%keyword%'` (leading wildcard) | No (use full-text search) |
-| `LIKE 'prefix%'` (trailing wildcard) | Yes (B-tree handles this) |
+| Scenario                                                  | Index Requirement      | Strategy                                                                 |
+| :-------------------------------------------------------- | :--------------------- | :----------------------------------------------------------------------- |
+| High-Selectivity `WHERE` clause (UUID, Email)             | **Mandatory**          | Standard B-Tree.                                                         |
+| Foreign Key (`JOIN` conditions)                           | **Mandatory**          | Standard B-Tree (prevents full table locks during cascades).             |
+| Exact match on Minority state (e.g., `status = 'failed'`) | **Highly Recommended** | Partial Index (`WHERE status = 'failed'`).                               |
+| Sorting (`ORDER BY`) with Pagination (`LIMIT`)            | **Highly Recommended** | Composite Index matching the exact sort direction (`ASC`/`DESC`).        |
+| High-Ingestion / Append-Only Tables                       | **Avoid**              | Rely on Partitioning instead of deep B-Trees.                            |
+| Leading Wildcard (`LIKE '%keyword'`)                      | **Useless**            | B-Trees read left-to-right. Use Full-Text Search (GIN) or Elasticsearch. |

@@ -1,83 +1,61 @@
-## Anti-Pattern 1: Indexing Every Column
+# Indexing Anti-Patterns
 
-Every index is a **separate B-tree** that must be updated on every INSERT, UPDATE, DELETE. More indexes = slower writes.
+Indexes are not free performance boosters; they are redundant data structures that trade write performance and storage space for read speed.
 
-```
-Table: orders (1M rows)
-- 0 indexes: INSERT = 0.5ms
-- 3 indexes: INSERT = 1.5ms
-- 10 indexes: INSERT = 5ms   ← 10x slower
-- 20 indexes: INSERT = 12ms  ← production pain
-```
+## Anti-Pattern 1: The "Index Everything" Strategy (Write Amplification)
 
-**Rule**: Only index columns that appear in `WHERE`, `JOIN`, `ORDER BY` of your actual slow queries.
+Every index is a separate B-tree that the database engine must synchronously update during every `INSERT`, `UPDATE`, and `DELETE`.
 
-## Anti-Pattern 2: Low-Cardinality Index
+**The Flaw:** Adding indexes linearly degrades write throughput and bloats memory usage, as index pages compete with raw data pages for space in the RAM (Buffer Pool).
+**The Mandate:** Only index columns that are mathematically proven to be bottlenecks in `WHERE`, `JOIN`, or `ORDER BY` clauses of high-frequency queries.
 
-Indexing a column with very few distinct values (e.g., `status ENUM('active','inactive')`) is almost always useless.
+## Anti-Pattern 2: Low-Selectivity Scans
 
-```sql
--- This index is USELESS: 50% of rows match, full scan is faster
-CREATE INDEX idx_status ON users(status);
-SELECT * FROM users WHERE status = 'active'; -- 500K of 1M rows
+Indexing a column with very few distinct values (e.g., `status ENUM('active', 'inactive')`) when querying for the majority value.
 
--- This index is USEFUL: very few rows match
-CREATE INDEX idx_status ON users(status);
-SELECT * FROM users WHERE status = 'suspended'; -- 50 of 1M rows
-```
+**The Flaw:** The Query Planner evaluates the cost of random IO (Index Scan + Heap Table Fetch) vs. sequential IO (Full Table Scan). If an index returns a large percentage of the table, jumping back and forth between the index and the heap memory is significantly slower than sequentially scanning the entire table. The index becomes dead weight.
+**The Fix:** Create **Partial Indexes** if you only care about the minority value (e.g., `CREATE INDEX idx_suspended ON users(status) WHERE status = 'suspended'`).
 
-The query planner does the math: if the index returns >15-20% of all rows, a sequential scan is cheaper.
+## Anti-Pattern 3: The Range-First Fallacy (Composite Indexes)
 
-## Anti-Pattern 3: Wrong Column Order in Composite Index
+Assuming that the highest cardinality column should always go first in a composite index.
+
+**The Flaw:** B-Trees process composite indexes sequentially. If your query uses a Range operator (`>`, `<`, `BETWEEN`) on the first indexed column, the database **cannot** use the subsequent columns in the index for seeking; it can only use them for filtering.
 
 ```sql
--- You create this composite index:
-CREATE INDEX idx_orders ON orders(status, created_at);
+-- The Query:
+SELECT * FROM orders WHERE created_at > '2026-01-01' AND status = 'paid';
 
--- This query USES the index (leftmost prefix match):
-SELECT * FROM orders WHERE status = 'paid' AND created_at > '2026-01-01';
+-- FATAL (Range First): CREATE INDEX idx_bad ON orders(created_at, status);
+-- Result: Scans ALL dates after Jan 1st, then manually filters 'paid' statuses.
 
--- This query IGNORES the index:
-SELECT * FROM orders WHERE created_at > '2026-01-01';
--- ↑ Skips `status` (the first column), so the index tree can't be traversed
+-- OPTIMAL (Equality First): CREATE INDEX idx_good ON orders(status, created_at);
+-- Result: Instantly jumps to 'paid' branch, then cleanly scans the date range.
 ```
 
-**Rule**: Put the most selective (highest cardinality) column FIRST in composite indexes. Think of it like a phone book: last name first, then first name.
+**The Mandate:** Rule of thumb for composite indexes: **Equality First, Range Second**.
 
-## Anti-Pattern 4: Indexing Expressions Without Expression Index
+## Anti-Pattern 4: Blind String Indexing (Bypassing via Functions)
+
+Wrapping an indexed column in a function entirely blinds the database to the B-Tree.
 
 ```sql
--- Your index on `email` won't help this query:
-CREATE INDEX idx_email ON users(email);
+-- Index: CREATE INDEX idx_email ON users(email);
+-- FATAL:
 SELECT * FROM users WHERE LOWER(email) = 'john@example.com';
--- ↑ LOWER() transforms the column, index is bypassed
+-- The LOWER() function transforms the data, forcing a sequential scan.
 
--- FIX: create a functional/expression index
+-- FIX: Use a Functional Index (Expression Index)
 CREATE INDEX idx_email_lower ON users(LOWER(email));
--- Or better: store normalized email in a separate column
 ```
 
-## Anti-Pattern 5: Duplicate & Redundant Indexes
+## Anti-Pattern 5: Left-Prefix Redundancy
+
+Creating standalone indexes for columns that are already the leading prefix of a composite index.
 
 ```sql
--- These are redundant (idx_a_b covers queries on just `a`):
-CREATE INDEX idx_a ON orders(customer_id);           -- redundant!
-CREATE INDEX idx_a_b ON orders(customer_id, status); -- this covers both
-
--- But NOT the other way around:
-CREATE INDEX idx_b ON orders(status);                -- still needed!
-CREATE INDEX idx_a_b ON orders(customer_id, status); -- doesn't cover WHERE status = ...
+CREATE INDEX idx_customer ON orders(customer_id);                 -- REDUNDANT!
+CREATE INDEX idx_customer_status ON orders(customer_id, status);  -- COVERS BOTH!
 ```
 
-Find duplicates with:
-```sql
--- PostgreSQL: find redundant indexes
-SELECT
-  idx1.indexrelid::regclass AS redundant_index,
-  idx2.indexrelid::regclass AS covering_index
-FROM pg_index idx1
-JOIN pg_index idx2 ON idx1.indrelid = idx2.indrelid
-  AND idx1.indexrelid != idx2.indexrelid
-  AND idx1.indkey <@ idx2.indkey -- idx1 columns are subset of idx2
-WHERE idx1.indisunique = false;
-```
+Because B-Trees read left-to-right, queries filtering solely on `customer_id` will naturally use the `idx_customer_status` index. The standalone `idx_customer` simply wastes disk space and write cycles.
