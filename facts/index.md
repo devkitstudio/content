@@ -89,13 +89,14 @@ facts:
     date: '2026-04-06'
   - slug: cors-configuration-properly
     category: Security
-    question: Why is this dangerous and how do you configure CORS properly?
+    question: >-
+      Secure cross-origin API access and prevent credential hijacking by
+      enforcing strict boundary policies.
     tags:
       - cors
       - api
       - frontend
-      - security
-      - interview
+      - architecture
     date: '2026-04-06'
   - slug: css-architecture-large-project
     category: Frontend

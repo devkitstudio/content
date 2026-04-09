@@ -4,21 +4,26 @@ tags:
   - cors
   - api
   - frontend
-  - security
-  - interview
+  - architecture
 date: 2026-04-06T00:00:00.000Z
+review: true
 sections:
   - id: solution
-    label: Solution
+    label: Architecture
+    icon: Zap
     order: 1
   - id: implementation
-    label: Implementation
+    label: Execution
     icon: Code
     order: 2
+  - id: pitfalls
+    label: Pitfalls
+    icon: AlertTriangle
+    order: 3
   - id: source
-    label: Official Resources
+    label: Sources
     icon: BookOpen
     order: 99
 ---
 
-Why is this dangerous and how do you configure CORS properly?
+Secure cross-origin API access and prevent credential hijacking by enforcing strict boundary policies.
