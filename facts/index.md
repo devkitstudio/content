@@ -127,12 +127,12 @@ facts:
     date: '2026-04-06'
   - slug: database-table-partitioning
     category: Database
-    question: How do you partition a table and what strategy do you choose?
+    question: Table partitioning strategy for massive datasets.
     tags:
       - postgresql
       - partitioning
       - performance
-      - senior
+      - architecture
     date: '2026-04-06'
   - slug: design-image-processing-pipeline
     category: Architecture
